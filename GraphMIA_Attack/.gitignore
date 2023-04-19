@@ -1,0 +1,5 @@
+*.png
+/image
+/rubbish
+ind.pubmed.*
+/saved_data

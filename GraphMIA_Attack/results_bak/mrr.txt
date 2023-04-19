@@ -1,0 +1,405 @@
+current parameters: weight=1e0, lr=1e-4, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.8570141443537883, current final AP=0.006155416165653111, mrr=0.14299926988229328, mrr_all=0.1434067055858615
+current Train AUC=0.810246763700077, current final AP=0.5512223974629502
+current All AUC=0.8006107966150731, current final AP=0.7694495558571636
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.09052734509923847, Gen[attack]-->Citeseer[attack]=0.07788737726928659
+Gen[train]-->Cora[train]=0.16438387640985172, Gen[all]-->Cora[all]=0.27068372522500567
+***************************************
+current parameters: weight=1e0, lr=1e-3, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.817508899706867, current final AP=0.004986402151593753, mrr=0.18250483391578803, mrr_all=0.18286566497591472
+current Train AUC=0.8082589573577739, current final AP=0.5578939471046702
+current All AUC=0.7997179181121652, current final AP=0.7680648907022765
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.08547524655130573, Gen[attack]-->Citeseer[attack]=0.07213971315073613
+Gen[train]-->Cora[train]=0.15850626808625817, Gen[all]-->Cora[all]=0.26320061344424117
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.8762741128878231, current final AP=0.007518122170523112, mrr=0.12373962073483182, mrr_all=0.12416977701215427
+current Train AUC=0.8110383286417546, current final AP=0.539897993415434
+current All AUC=0.7994798473778639, current final AP=0.762942899818677
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.27241080712810645, Gen[attack]-->Citeseer[attack]=0.22796842296327044
+Gen[train]-->Cora[train]=0.18311730464831358, Gen[all]-->Cora[all]=0.2791356947361628
+***************************************
+current parameters: weight=1e0, lr=1e-3, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.8414782232652678, current final AP=0.005900313117220909, mrr=0.15853551035738722, mrr_all=0.15892461798577218
+current Train AUC=0.8119677503991177, current final AP=0.5395875352073424
+current All AUC=0.7926357649785337, current final AP=0.7533929824596766
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.46627525907000617, Gen[attack]-->Citeseer[attack]=0.40152611558906026
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.288055779119418
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.8762741128878231, current final AP=0.8522327697856741, mrr=0.15251487290427257, mrr_all=0.32044348296376435
+current Train AUC=0.8110383286417546, current final AP=0.539897993415434
+current All AUC=0.7994798473778639, current final AP=0.762942899818677
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.27241080712810645, Gen[attack]-->Citeseer[attack]=0.22796842296327044
+Gen[train]-->Cora[train]=0.18311730464831358, Gen[all]-->Cora[all]=0.2791356947361628
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.8762741128878231, current final AP=0.007518122170523112, mrr=0.12373962073483182, mrr_all=0.12416977701215427
+current Train AUC=0.8110383286417546, current final AP=0.008609290837919923
+current All AUC=0.7994798473778639, current final AP=0.007811046979999885
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.27241080712810645, Gen[attack]-->Citeseer[attack]=0.22796842296327044
+Gen[train]-->Cora[train]=0.18311730464831358, Gen[all]-->Cora[all]=0.2791356947361628
+***************************************
+################################## chemeleon #################################################################
+current parameters: weight=1e0, lr=1e-8, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.6840568877425212, current final AP=0.6784228269038216, mrr=0.2726612056290687, mrr_all=0.38558076034446576
+current Train AUC=0.5630240415854451, current final AP=0.6702471550533695
+current All AUC=0.6520222850769342, current final AP=0.6530201009196468
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.23249291702165287, Gen[attack]-->Citeseer[attack]=0.7490683625335177
+Gen[train]-->Cora[train]=0.38030436528708195, Gen[all]-->Cora[all]=0.20815889763221748
+***************************************
+current parameters: weight=1e0, lr=1e-7, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.6875985314252923, current final AP=0.68104298366349, mrr=0.2694097878596923, mrr_all=0.3839676538542327
+current Train AUC=0.5624444444444445, current final AP=0.6698452886311457
+current All AUC=0.6522195276215259, current final AP=0.653067420682679
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.23206415110490297, Gen[attack]-->Citeseer[attack]=0.7112540227288209
+Gen[train]-->Cora[train]=0.38030436528708195, Gen[all]-->Cora[all]=0.20753735471295293
+***************************************
+current parameters: weight=1e0, lr=1e-6, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.6962577229452113, current final AP=0.6867376306469114, mrr=0.2696156269691232, mrr_all=0.384057971014493
+current Train AUC=0.5567602339181287, current final AP=0.6695830614423096
+current All AUC=0.6530303699467618, current final AP=0.6527728429981828
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.21746704479411463, Gen[attack]-->Citeseer[attack]=0.6153333140066275
+Gen[train]-->Cora[train]=0.38030436528708195, Gen[all]-->Cora[all]=0.20532199458567318
+***************************************
+current parameters: weight=1e0, lr=1e-5, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.678498362691429, current final AP=0.6575559586911345, mrr=0.30386053350136427, mrr_all=0.4011930266750693
+current Train AUC=0.5512449642625081, current final AP=0.6781136512404204
+current All AUC=0.6517704011074944, current final AP=0.6514126172523061
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.22570372225644808, Gen[attack]-->Citeseer[attack]=0.6791082148969266
+Gen[train]-->Cora[train]=0.45956858545019863, Gen[all]-->Cora[all]=0.20503893042439428
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.6439294436457689, current final AP=0.6032976523329974, mrr=0.3419533711405162, mrr_all=0.4202394454946448
+current Train AUC=0.5463144899285252, current final AP=0.682420963502679
+current All AUC=0.6480678360973534, current final AP=0.6469477153998024
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.2522134695711218, Gen[attack]-->Citeseer[attack]=0.6929280305006673
+Gen[train]-->Cora[train]=0.45956858545019863, Gen[all]-->Cora[all]=0.20668886882018056
+***************************************
+
+#################### squirrel #########################################################################################
+current parameters: weight=1e0, lr=1e-7, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5735329188213032, current final AP=0.5487218021596676, mrr=0.4496259354345719, mrr_all=0.4746538978580281
+current Train AUC=0.5278689884379185, current final AP=0.6502416315342867
+current All AUC=0.5419116091968085, current final AP=0.5434783888162921
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.2140734450763238, Gen[attack]-->Citeseer[attack]=0.48754492143381867
+Gen[train]-->Cora[train]=0.2286647801900118, Gen[all]-->Cora[all]=0.17808561094224504
+***************************************
+current parameters: weight=1e0, lr=1e-8, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5741218606945165, current final AP=0.5465816422235159, mrr=0.45078722735499, mrr_all=0.4752327227551664
+current Train AUC=0.5268761175254812, current final AP=0.6501966213750193
+current All AUC=0.5420310408507003, current final AP=0.5434501376347647
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.22061030516670574, Gen[attack]-->Citeseer[attack]=0.4498986021766041
+Gen[train]-->Cora[train]=0.2286647801900118, Gen[all]-->Cora[all]=0.17908674460961985
+***************************************
+current parameters: weight=1e0, lr=1e-5, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5713140678919696, current final AP=0.5540759337473067, mrr=0.44930069357008146, mrr_all=0.4744894558627117
+current Train AUC=0.5410993675437235, current final AP=0.6611767537411104
+current All AUC=0.5410408858049366, current final AP=0.5430678909269778
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.23963889578352035, Gen[attack]-->Citeseer[attack]=0.40110518518222776
+Gen[train]-->Cora[train]=0.2286647801900118, Gen[all]-->Cora[all]=0.17581011003721192
+***************************************
+current parameters: weight=1e0, lr=1e-6, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5735355150706263, current final AP=0.5533077521227654, mrr=0.4502800612896984, mrr_all=0.4749825997423553
+current Train AUC=0.5344611024733836, current final AP=0.6550940311718527
+current All AUC=0.5416900466774346, current final AP=0.5436181103411313
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.23857467172939567, Gen[attack]-->Citeseer[attack]=0.41644107373275957
+Gen[train]-->Cora[train]=0.2286647801900118, Gen[all]-->Cora[all]=0.1763403882840481
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5279753479325456, current final AP=0.5291845342050658, mrr=0.4738677449302519, mrr_all=0.486744755065197
+current Train AUC=0.5284595969517866, current final AP=0.6561988803252641
+current All AUC=0.5362067898363018, current final AP=0.5384016260477867
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.3227599592302145, Gen[attack]-->Citeseer[attack]=0.3804232711312524
+Gen[train]-->Cora[train]=0.23338001400466832, Gen[all]-->Cora[all]=0.18966003513391977
+***************************************
+current parameters: weight=1e0, lr=1e1.023292992280754, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8385277301004598, current final AP=0.8706362514986711, mrr=0.14034613304488916, mrr_all=0.3143591130340726
+current Train AUC=0.809695336437335, current final AP=0.5940050255392636
+current All AUC=0.792219035421734, current final AP=0.7513617974418431
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5475071320098982, Gen[attack]-->Citeseer[attack]=0.48058521711213353
+Gen[train]-->Cora[train]=0.18842505260913425, Gen[all]-->Cora[all]=0.2922643297539121
+***************************************
+current parameters: weight=1e0, lr=1e1.023292992280754, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8279630610264701, current final AP=0.8759783229294394, mrr=0.14061654948620878, mrr_all=0.3144943212547323
+current Train AUC=0.8109271537903954, current final AP=0.5420604246367535
+current All AUC=0.7922773830956275, current final AP=0.7523220653520863
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5185854360065474, Gen[attack]-->Citeseer[attack]=0.4797410033575951
+Gen[train]-->Cora[train]=0.17858096836451035, Gen[all]-->Cora[all]=0.2899921556952329
+***************************************
+current parameters: weight=1e0, lr=1e1e-06, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8398212457226153, current final AP=0.8752464961602304, mrr=0.13683071930773388, mrr_all=0.31260140616549487
+current Train AUC=0.8108159789390362, current final AP=0.5403808028581703
+current All AUC=0.794256956940131, current final AP=0.7497567361757016
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5154638084545604, Gen[attack]-->Citeseer[attack]=0.47364738281930485
+Gen[train]-->Cora[train]=0.18657713112710037, Gen[all]-->Cora[all]=0.28685661735193774
+***************************************
+current parameters: weight=1e0, lr=1e0.0001, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8590713132728757, current final AP=0.8842320370166028, mrr=0.1265548945375879, mrr_all=0.3074634937804218
+current Train AUC=0.8112473373623099, current final AP=0.5405434196901509
+current All AUC=0.7980784113075042, current final AP=0.7535435666265418
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.43806854255471483, Gen[attack]-->Citeseer[attack]=0.39452519535359565
+Gen[train]-->Cora[train]=0.18311730464831358, Gen[all]-->Cora[all]=0.27819500582995255
+***************************************
+current parameters: weight=1e0, lr=1e0.0001, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8598902204470007, current final AP=0.8832049560201262, mrr=0.1268253109789075, mrr_all=0.30759870200108164
+current Train AUC=0.8112206553979837, current final AP=0.5402165154730865
+current All AUC=0.798012279628022, current final AP=0.7542688967425679
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.43984856335351374, Gen[attack]-->Citeseer[attack]=0.4169770455154785
+Gen[train]-->Cora[train]=0.18311730464831358, Gen[all]-->Cora[all]=0.2782136880609484
+***************************************
+current parameters: weight=1e0, lr=1e0.0009879864764287245, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8344798246695466, current final AP=0.8729457562333285, mrr=0.14007571660356946, mrr_all=0.3142239048134127
+current Train AUC=0.8116119908747682, current final AP=0.5404793969687693
+current All AUC=0.7895929105012287, current final AP=0.7512953496119286
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.4997962154924157, Gen[attack]-->Citeseer[attack]=0.4703004967007137
+Gen[train]-->Cora[train]=0.18657713112710037, Gen[all]-->Cora[all]=0.2889081920525726
+***************************************
+current parameters: weight=1e0, lr=1e0.0009879864764287245, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.838226229175197, current final AP=0.8775460948162772, mrr=0.1333153055705787, mrr_all=0.3108436992969173
+current Train AUC=0.810019967003304, current final AP=0.5401767002158799
+current All AUC=0.7911827905250374, current final AP=0.7475670264830393
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.4953584111780914, Gen[attack]-->Citeseer[attack]=0.44559693686318536
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.2829269778541189
+***************************************
+current parameters: weight=1e0, lr=1e0.0009879864764287245, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.838226229175197, current final AP=0.8775460948162772, mrr=0.1333153055705787, mrr_all=0.3108436992969173
+current Train AUC=0.810019967003304, current final AP=0.5401767002158799
+current All AUC=0.7911827905250374, current final AP=0.7475670264830393
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.4953584111780914, Gen[attack]-->Citeseer[attack]=0.44559693686318536
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.2829269778541189
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8705925451341137, current final AP=0.8832014654202216, mrr=0.12709572742022718, mrr_all=0.30773391022174146
+current Train AUC=0.8113851941779954, current final AP=0.5394723321202075
+current All AUC=0.798542274763847, current final AP=0.7521040403377339
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.37764027512274967, Gen[attack]-->Citeseer[attack]=0.3346199989420665
+Gen[train]-->Cora[train]=0.17858096836451035, Gen[all]-->Cora[all]=0.2739726536143829
+***************************************
+current parameters: weight=1e0, lr=1e1.023292992280754, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5018540390584229, current final AP=0.5029239766081871, mrr=0.0116279069767442, mrr_all=0.0058139534883721
+current Train AUC=0.5035798302137671, current final AP=0.5054945054945055
+current All AUC=0.5001849042731186, current final AP=0.5000947508053818
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.08425417160057279, Gen[attack]-->Citeseer[attack]=0.07321805347443873
+Gen[train]-->Cora[train]=0.08213423005076353, Gen[all]-->Cora[all]=0.16666666666666666
+***************************************
+current parameters: weight=1e0, lr=1e1.023292992280754, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387219171370699, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8105224773314478, current final AP=0.5388591771592264
+current All AUC=0.7932480508125646, current final AP=0.7535202096070188
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.293135293360404
+***************************************
+current parameters: weight=1e0, lr=1e1.023292992280754, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.5018540390584229, current final AP=0.5029239766081871, mrr=0.0116279069767442, mrr_all=0.0058139534883721
+current Train AUC=0.5035798302137671, current final AP=0.5054945054945055
+current All AUC=0.5001849042731186, current final AP=0.5000947508053818
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.08425417160057279, Gen[attack]-->Citeseer[attack]=0.07321805347443873
+Gen[train]-->Cora[train]=0.08213423005076353, Gen[all]-->Cora[all]=0.16666666666666666
+***************************************
+current parameters: weight=1e0, lr=1e1.023292992280754, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387449129703526, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8105224773314478, current final AP=0.5388591771592264
+current All AUC=0.7932494761182552, current final AP=0.7535354253447653
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.29339628936688866
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387193620444828, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8103890675098167, current final AP=0.5388591771592264
+current All AUC=0.7932639652987461, current final AP=0.7536139770244139
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.2917479264236908
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387219171370699, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8105224773314478, current final AP=0.5388591771592264
+current All AUC=0.7932480508125646, current final AP=0.7535202096070188
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.293135293360404
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8284137154814977, current final AP=0.919125627233147, mrr=0.09356408869659277, mrr_all=0.2852893455922119
+current Train AUC=0.7684405725949545, current final AP=0.5891783898260871
+current All AUC=0.7155974763844765, current final AP=0.5865504668615324
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.17444877194009664, Gen[attack]-->Citeseer[attack]=0.161609759758988
+Gen[train]-->Cora[train]=0.10424862765111866, Gen[all]-->Cora[all]=0.17907509370112631
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387225559102166, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8105269243255021, current final AP=0.5388591771592264
+current All AUC=0.7932508597931284, current final AP=0.7535392299715431
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.29326858695584757
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387219171370699, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8105224773314478, current final AP=0.5388591771592264
+current All AUC=0.7932480508125646, current final AP=0.7535202096070188
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.293135293360404
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8387219171370699, current final AP=0.870667449463237, mrr=0.14061654948620875, mrr_all=0.3144943212547324
+current Train AUC=0.8105224773314478, current final AP=0.5388591771592264
+current All AUC=0.7932480508125646, current final AP=0.7535202096070188
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.5075937881576345, Gen[attack]-->Citeseer[attack]=0.49695258424134997
+Gen[train]-->Cora[train]=0.18391174353957038, Gen[all]-->Cora[all]=0.293135293360404
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8495082404929795, current final AP=0.9052498818145452, mrr=0.11195240670632774, mrr_all=0.3001622498647918
+current Train AUC=0.8131284158473079, current final AP=0.5223891167075858
+current All AUC=0.7922025867984474, current final AP=0.7690196945667788
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.22974738272421483, Gen[attack]-->Citeseer[attack]=0.21358923995451481
+Gen[train]-->Cora[train]=0.12208444001118975, Gen[all]-->Cora[all]=0.17426987865226218
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8388292310257228, current final AP=0.9189774243331932, mrr=0.1068144943212547, mrr_all=0.29597079502433743
+current Train AUC=0.7783040054075447, current final AP=0.7979535228587377
+current All AUC=0.7158640494809064, current final AP=0.6309799306326664
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.1338456341619666, Gen[attack]-->Citeseer[attack]=0.11706743535829729
+Gen[train]-->Cora[train]=0.11037578675684022, Gen[all]-->Cora[all]=0.1704162712319884
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8388292310257228, current final AP=0.9189774243331932, mrr=0.1068144943212547, mrr_all=0.29597079502433743
+current Train AUC=0.7783040054075447, current final AP=0.7979535228587377
+current All AUC=0.7158640494809064, current final AP=0.6309799306326664
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.1338456341619666, Gen[attack]-->Citeseer[attack]=0.11706743535829729
+Gen[train]-->Cora[train]=0.11037578675684022, Gen[all]-->Cora[all]=0.1704162712319884
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8362460324202923, current final AP=0.9148267729741348, mrr=0.1114115738236884, mrr_all=0.29826933477555445
+current Train AUC=0.7755624335730262, current final AP=0.7942036047258794
+current All AUC=0.7146063862804988, current final AP=0.635507935582722
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.14939520774221074, Gen[attack]-->Citeseer[attack]=0.1347988361948985
+Gen[train]-->Cora[train]=0.11320593513522073, Gen[all]-->Cora[all]=0.17147106716500857
+***************************************
+
+
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8362460324202923, current final AP=0.9148267729741348, mrr=0.1114115738236884, mrr_all=0.29826933477555445
+current Train AUC=0.7755624335730262, current final AP=0.7942036047258794
+current All AUC=0.7146063862804988, current final AP=0.635507935582722
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.14939520774221074, Gen[attack]-->Citeseer[attack]=0.1347988361948985
+Gen[train]-->Cora[train]=0.11320593513522073, Gen[all]-->Cora[all]=0.17147106716500857
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8336126901228424, current final AP=0.9131223677475954, mrr=0.11384532179556506, mrr_all=0.3011087074094105
+current Train AUC=0.7761605542733389, current final AP=0.7978703906096926
+current All AUC=0.7139587599443834, current final AP=0.6365953705820954
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.14643688679682043, Gen[attack]-->Citeseer[attack]=0.13225650228854338
+Gen[train]-->Cora[train]=0.11092085568537388, Gen[all]-->Cora[all]=0.17224966321352192
+***************************************
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.833295219868911, current final AP=0.9134767467708588, mrr=0.1133044889129258, mrr_all=0.30083829096809084
+current Train AUC=0.7743884271426729, current final AP=0.7969845734282068
+current All AUC=0.7136981123441342, current final AP=0.6350988300239131
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.1475157324698241, Gen[attack]-->Citeseer[attack]=0.1310205656360083
+Gen[train]-->Cora[train]=0.11092085568537388, Gen[all]-->Cora[all]=0.17266639885898535
+***************************************
+
+
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8328487174393373, current final AP=0.921217082065418, mrr=0.11005949161709029, mrr_all=0.2992157923201731
+current Train AUC=0.6625620911544841, current final AP=0.6635881734622986
+current All AUC=0.6733529136387219, current final AP=0.6322544066140994
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0, Gen[attack]-->Citeseer[attack]=0
+Gen[train]-->Cora[train]=0, Gen[all]-->Cora[all]=0
+***************************************
+
+
+current parameters: weight=1e0, lr=1e0.0005173613624787906, dropout=0
+AUC/AP Metrics: 
+current Attack AUC=0.8328487174393373, current final AP=0.005535267332700326, mrr=0.1643432358075785, mrr_all=0.16472549207260662
+current Train AUC=0.6625620911544841, current final AP=0.007370394078821096
+current All AUC=0.6733529136387219, current final AP=0.003662143524809279
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0, Gen[attack]-->Citeseer[attack]=0
+Gen[train]-->Cora[train]=0, Gen[all]-->Cora[all]=0
+***************************************

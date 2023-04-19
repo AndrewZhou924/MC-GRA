@@ -1,0 +1,40 @@
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5018513337534111	In train graph: AUC=0.9988882712618121	In Whole Graph: AUC=0.5018513337534111
+current density: 3.471256134143181e+17
+image name: (0.0001, 0.0001, 0, 0, 0, 100.0, 100.0, 0, 0.1, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5003175915631771	In train graph: AUC=0.13868816008893825	In Whole Graph: AUC=0.5003175915631771
+current density: 1.1588783837282304e+17
+image name: (0.01, 100.0, 0, 0, 0, 10000, 1.0, 0, 10000, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='DP', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4927996707634382	In train graph: AUC=0.29544191217342963	In Whole Graph: AUC=0.4927996707634382
+current density: 2.310039570219008e+17
+image name: (0, 10.0, 0, 0, 0, 0.0001, 0.0001, 0, 1.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4792538275281904	In train graph: AUC=0.471372984991662	In Whole Graph: AUC=0.4792538275281904
+current density: 2.8534407222945382e+17
+image name: (0.001, 0.0001, 0, 0, 0, 1.0, 10000, 0, 0.01, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5640846991061468	In train graph: AUC=0.9938854919399667	In Whole Graph: AUC=0.5640846991061468
+current density: 5.743891716003418
+image name: (1.0, 0.001, 0, 0, 0, 1000.0, 0.1, 0, 0.001, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.64809549733319	In train graph: AUC=0.7982212340188994	In Whole Graph: AUC=0.64809549733319
+current density: 5.916159152984619
+image name: (1000.0, 10.0, 0, 0, 0, 0.1, 1.0, 0, 0.0001, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='DP', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5490256752844174	In train graph: AUC=0.4847137298499167	In Whole Graph: AUC=0.5490256752844174
+current density: 5.988977909088135
+image name: (100.0, 0.1, 0, 0, 0, 1000.0, 0, 0, 0, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ENZYME', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='enzyme_HA.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5019167452945319	In train graph: AUC=0.50917176209005	In Whole Graph: AUC=0.5019167452945319
+current density: 5.998183727264404
+image name: (1.0, 1000.0, 0, 0, 0, 0.0001, 0.0001, 0, 0, 0)_0_0.01.png
+============================================================================================

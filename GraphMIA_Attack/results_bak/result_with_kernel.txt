@@ -1,0 +1,1999 @@
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8529640032168615, current final AP=0.8444657279376411
+Current Similarity: Gen to Citeseer: 0.08260557218108244, Gen to Cora: 0.09419737260326166, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8528828790272251, current final AP=0.8015948711252795
+Current Similarity: Gen to Citeseer: 0.07814278188561424, Gen to Cora: 0.09419737260326166, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8526203432639137, current final AP=0.799217576958414
+Current Similarity: Gen to Citeseer: 0.07680229691754156, Gen to Cora: 0.09542071510460272, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8495740341270942, current final AP=0.8119403858278043
+Current Similarity: Gen to Citeseer: 0.09535046073306888, Gen to Cora: 0.10785480038555358, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8501610666489514, current final AP=0.8105237561720036
+Current Similarity: Gen to Citeseer: 0.0850331898961851, Gen to Cora: 0.10785480038555358, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8371211516313308, current final AP=0.8299421647203857
+Current Similarity: Gen to Citeseer: 0.11674351079728947, Gen to Cora: 0.1308976476434935, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8696238456570773, current final AP=0.8677339225650438
+Current Similarity: Gen to Citeseer: 0.08053575396560644, Gen to Cora: 0.09175068760057954, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8693108468151729, current final AP=0.8768219753657598
+Current Similarity: Gen to Citeseer: 0.07627761334313957, Gen to Cora: 0.09052734509923847, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8697036923004201, current final AP=0.8850443880013592
+Current Similarity: Gen to Citeseer: 0.07824011776054174, Gen to Cora: 0.09419737260326166, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8645008850201948, current final AP=0.8081227200044158
+Current Similarity: Gen to Citeseer: 0.08335997827517723, Gen to Cora: 0.09682419580066741, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8437024313622284, current final AP=0.7654765426562244
+Current Similarity: Gen to Citeseer: 0.0918780293695182, Gen to Cora: 0.11132416762203651, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8574552172116146, current final AP=0.8065334373867259
+Current Similarity: Gen to Citeseer: 0.1125683791493384, Gen to Cora: 0.12746476409201787, Cora to Citeseer:0.7672033377407481
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8748771160158952, current final AP=0.8379658026650834
+Current Similarity: Gen to Citeseer: 0.07905090560906491, Gen to Cora: 0.09419737260326166, Cora to Citeseer:0.7556079686950027
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8749096934463791, current final AP=0.8704552774738293
+Current Similarity: Gen to Citeseer: 0.08284280282325326, Gen to Cora: 0.0929740301019206, Cora to Citeseer:0.7694106310874271
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8645142992562764, current final AP=0.88093817827987
+Current Similarity: Gen to Citeseer: 0.07674859366167201, Gen to Cora: 0.09192170487405134, Cora to Citeseer:0.731513751010343
+***************************************
+
+
+####################### aux loss only with Similarity #######################################################
+
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8379873280183149, current final AP=0.8467283141791712
+Current Similarity: Gen to Citeseer: 0.4120275593545465, Gen to Cora: 0.4295140794701934, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8361665051635228, current final AP=0.8321800242994155
+Current Similarity: Gen to Citeseer: 0.4370935471834881, Gen to Cora: 0.4524377414982526, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8260920944796586, current final AP=0.8126870100173551
+Current Similarity: Gen to Citeseer: 0.45665659926333585, Gen to Cora: 0.49164901242810116, Cora to Citeseer:0.7817166256821239
+***************************************
+
+
+######################## aux before embedding with kernel Similarity ##############################################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8529640032168615, current final AP=0.8444657279376411
+Current Similarity: Gen to Citeseer: 0.3323064180294045, Gen to Cora: 0.3444596419823959, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8528828790272251, current final AP=0.8015948711252795
+Current Similarity: Gen to Citeseer: 0.33050641937926306, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8526203432639137, current final AP=0.799217576958414
+Current Similarity: Gen to Citeseer: 0.27200799965614353, Gen to Cora: 0.2872806354241158, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8495740341270942, current final AP=0.8119403858278043
+Current Similarity: Gen to Citeseer: 0.33581794558246697, Gen to Cora: 0.39225595508483607, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8501610666489514, current final AP=0.8105237561720036
+Current Similarity: Gen to Citeseer: 0.44011270897724997, Gen to Cora: 0.5340069515407633, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8371211516313308, current final AP=0.8299421647203857
+Current Similarity: Gen to Citeseer: 0.4367985894163543, Gen to Cora: 0.4553412913360821, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8696238456570773, current final AP=0.8677339225650438
+Current Similarity: Gen to Citeseer: 0.2203393960929514, Gen to Cora: 0.2627279051418196, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8693108468151729, current final AP=0.8768219753657598
+Current Similarity: Gen to Citeseer: 0.21569732698350746, Gen to Cora: 0.2386528174486423, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8697036923004201, current final AP=0.8850443880013592
+Current Similarity: Gen to Citeseer: 0.23250661479658588, Gen to Cora: 0.26106267322016063, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8645008850201948, current final AP=0.8081227200044158
+Current Similarity: Gen to Citeseer: 0.31895651086829, Gen to Cora: 0.3653526367557035, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8437024313622284, current final AP=0.7654765426562244
+Current Similarity: Gen to Citeseer: 0.38856499841025605, Gen to Cora: 0.41373140130167513, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8574552172116146, current final AP=0.8065334373867259
+Current Similarity: Gen to Citeseer: 0.41974851244617895, Gen to Cora: 0.4494085057812146, Cora to Citeseer:0.7672033377407481
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8748771160158952, current final AP=0.8379658026650834
+Current Similarity: Gen to Citeseer: 0.2902355603106407, Gen to Cora: 0.3368220283757436, Cora to Citeseer:0.7556079686950027
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8749096934463791, current final AP=0.8704552774738293
+Current Similarity: Gen to Citeseer: 0.2813816309338862, Gen to Cora: 0.334270724440629, Cora to Citeseer:0.7694106310874271
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8645142992562764, current final AP=0.88093817827987
+Current Similarity: Gen to Citeseer: 0.2954741461605662, Gen to Cora: 0.32610728400792405, Cora to Citeseer:0.731513751010343
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8379240894767873, current final AP=0.8853033843326799
+Current Similarity: Gen to Citeseer: 0.46425030564995556, Gen to Cora: 0.4759680069640123, Cora to Citeseer:0.7616260777247624
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8354258476998737, current final AP=0.8182899230399514
+Current Similarity: Gen to Citeseer: 0.4781510610209391, Gen to Cora: 0.5264719158191357, Cora to Citeseer:0.7350499654473943
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8405976744824819, current final AP=0.8095734492776412
+Current Similarity: Gen to Citeseer: 0.40140614366506516, Gen to Cora: 0.4253579393658364, Cora to Citeseer:0.7641212383463285
+***************************************
+
+
+###################################### aux only test2 ##############################################################################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8379509179489504, current final AP=0.846462836850935
+Current Similarity: Gen to Citeseer: 0.41150996528152745, Gen to Cora: 0.42981973593261086, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8366388779055395, current final AP=0.8171347750765336
+Current Similarity: Gen to Citeseer: 0.46445150193039425, Gen to Cora: 0.49800325940380313, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8358461604304309, current final AP=0.8083838176212546
+Current Similarity: Gen to Citeseer: 0.35442893307871315, Gen to Cora: 0.3874671330362163, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8375714866997848, current final AP=0.825549593653653
+Current Similarity: Gen to Citeseer: 0.3851144519096842, Gen to Cora: 0.40457628851778726, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8303942316229757, current final AP=0.7652275487775919
+Current Similarity: Gen to Citeseer: 0.4206302722868253, Gen to Cora: 0.4732163854010217, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8349953145989686, current final AP=0.8254831174902215
+Current Similarity: Gen to Citeseer: 0.4000265173551519, Gen to Cora: 0.4559017637537264, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8258442504987222, current final AP=0.7937159528878259
+Current Similarity: Gen to Citeseer: 0.4025199988050055, Gen to Cora: 0.405772666880447, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8372968142466852, current final AP=0.8162144909774989
+Current Similarity: Gen to Citeseer: 0.3867469634557685, Gen to Cora: 0.42530919954254326, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8370694110064445, current final AP=0.85057218140062
+Current Similarity: Gen to Citeseer: 0.40555509861293276, Gen to Cora: 0.46071573916043196, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8294009393797894, current final AP=0.7388967537506576
+Current Similarity: Gen to Citeseer: 0.39799503928062074, Gen to Cora: 0.43754293467147953, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.828346963687663, current final AP=0.7937443194057326
+Current Similarity: Gen to Citeseer: 0.39749045296636953, Gen to Cora: 0.45188460444259926, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8538174041409107, current final AP=0.8026214597334458
+Current Similarity: Gen to Citeseer: 0.40092862224068515, Gen to Cora: 0.4311853233401682, Cora to Citeseer:0.7672033377407481
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8261470289702786, current final AP=0.7793647525340519
+Current Similarity: Gen to Citeseer: 0.4057352371132398, Gen to Cora: 0.4268390887495308, Cora to Citeseer:0.7556079686950027
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8389854110601015, current final AP=0.7887157456579241
+Current Similarity: Gen to Citeseer: 0.3796266766361047, Gen to Cora: 0.41734484459217014, Cora to Citeseer:0.7694106310874271
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8243961517750549, current final AP=0.811021756576138
+Current Similarity: Gen to Citeseer: 0.47727587959285855, Gen to Cora: 0.5201354375104359, Cora to Citeseer:0.731513751010343
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8467902607535863, current final AP=0.8849457088639768
+Current Similarity: Gen to Citeseer: 0.471864458326023, Gen to Cora: 0.49568410306397126, Cora to Citeseer:0.7616260777247624
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8328592571962585, current final AP=0.7854854951333543
+Current Similarity: Gen to Citeseer: 0.4205889809457962, Gen to Cora: 0.44295820302071487, Cora to Citeseer:0.7350499654473943
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8405162309062721, current final AP=0.8107707733447003
+Current Similarity: Gen to Citeseer: 0.3625847451443445, Gen to Cora: 0.38069651517838604, Cora to Citeseer:0.7641212383463285
+***************************************
+
+####################### baseline ########################################################current parameters: weight=1e0, lr=1e-6
+current AUC=0.8530074397908401, current final AP=0.8442495135744871
+Current Similarity: Gen to Citeseer: 0.3331320253093885, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8696235262705038, current final AP=0.8197068073664115
+Current Similarity: Gen to Citeseer: 0.21842608387192403, Gen to Cora: 0.26211903316426155, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8749231076824607, current final AP=0.830785397501606
+Current Similarity: Gen to Citeseer: 0.28036092552802394, Gen to Cora: 0.3381968121650324, Cora to Citeseer:0.7817166256821239
+***************************************
+
+
+############################## AUX after embedding without supervised #####################################################################
+
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8379509179489504, current final AP=0.846462836850935
+Current Similarity: Gen to Citeseer: 0.41150996528152745, Gen to Cora: 0.42981973593261086, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8366388779055395, current final AP=0.8171347750765336
+Current Similarity: Gen to Citeseer: 0.46445150193039425, Gen to Cora: 0.49800325940380313, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8358461604304309, current final AP=0.8083838176212546
+Current Similarity: Gen to Citeseer: 0.35442893307871315, Gen to Cora: 0.3874671330362163, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8375714866997848, current final AP=0.825549593653653
+Current Similarity: Gen to Citeseer: 0.3851144519096842, Gen to Cora: 0.40457628851778726, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8303942316229757, current final AP=0.7652275487775919
+Current Similarity: Gen to Citeseer: 0.4206302722868253, Gen to Cora: 0.4732163854010217, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8349953145989686, current final AP=0.8254831174902215
+Current Similarity: Gen to Citeseer: 0.4000265173551519, Gen to Cora: 0.4559017637537264, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8258442504987222, current final AP=0.7937159528878259
+Current Similarity: Gen to Citeseer: 0.4025199988050055, Gen to Cora: 0.405772666880447, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8372968142466852, current final AP=0.8162144909774989
+Current Similarity: Gen to Citeseer: 0.3867469634557685, Gen to Cora: 0.42530919954254326, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8370694110064445, current final AP=0.85057218140062
+Current Similarity: Gen to Citeseer: 0.40555509861293276, Gen to Cora: 0.46071573916043196, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8294009393797894, current final AP=0.7388967537506576
+Current Similarity: Gen to Citeseer: 0.39799503928062074, Gen to Cora: 0.43754293467147953, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.828346963687663, current final AP=0.7937443194057326
+Current Similarity: Gen to Citeseer: 0.39749045296636953, Gen to Cora: 0.45188460444259926, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8538174041409107, current final AP=0.8026214597334458
+Current Similarity: Gen to Citeseer: 0.40092862224068515, Gen to Cora: 0.4311853233401682, Cora to Citeseer:0.7672033377407481
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8261470289702786, current final AP=0.7793647525340519
+Current Similarity: Gen to Citeseer: 0.4057352371132398, Gen to Cora: 0.4268390887495308, Cora to Citeseer:0.7556079686950027
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8389854110601015, current final AP=0.7887157456579241
+Current Similarity: Gen to Citeseer: 0.3796266766361047, Gen to Cora: 0.41734484459217014, Cora to Citeseer:0.7694106310874271
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8243961517750549, current final AP=0.811021756576138
+Current Similarity: Gen to Citeseer: 0.47727587959285855, Gen to Cora: 0.5201354375104359, Cora to Citeseer:0.731513751010343
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8467902607535863, current final AP=0.8849457088639768
+Current Similarity: Gen to Citeseer: 0.471864458326023, Gen to Cora: 0.49568410306397126, Cora to Citeseer:0.7616260777247624
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8328592571962585, current final AP=0.7854854951333543
+Current Similarity: Gen to Citeseer: 0.4205889809457962, Gen to Cora: 0.44295820302071487, Cora to Citeseer:0.7350499654473943
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8405162309062721, current final AP=0.8107707733447003
+Current Similarity: Gen to Citeseer: 0.3625847451443445, Gen to Cora: 0.38069651517838604, Cora to Citeseer:0.7641212383463285
+***************************************
+
+####################### aux after with supervised ######################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8529640032168615, current final AP=0.8444657279376411
+Current Similarity: Gen to Citeseer: 0.3323064180294045, Gen to Cora: 0.3444596419823959, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8528828790272251, current final AP=0.8015948711252795
+Current Similarity: Gen to Citeseer: 0.33050641937926306, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8526203432639137, current final AP=0.799217576958414
+Current Similarity: Gen to Citeseer: 0.27200799965614353, Gen to Cora: 0.2872806354241158, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8495740341270942, current final AP=0.8119403858278043
+Current Similarity: Gen to Citeseer: 0.33581794558246697, Gen to Cora: 0.39225595508483607, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8501610666489514, current final AP=0.8105237561720036
+Current Similarity: Gen to Citeseer: 0.44011270897724997, Gen to Cora: 0.5340069515407633, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8371211516313308, current final AP=0.8299421647203857
+Current Similarity: Gen to Citeseer: 0.4367985894163543, Gen to Cora: 0.4553412913360821, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8696238456570773, current final AP=0.8677339225650438
+Current Similarity: Gen to Citeseer: 0.2203393960929514, Gen to Cora: 0.2627279051418196, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8693108468151729, current final AP=0.8768219753657598
+Current Similarity: Gen to Citeseer: 0.21569732698350746, Gen to Cora: 0.2386528174486423, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8697036923004201, current final AP=0.8850443880013592
+Current Similarity: Gen to Citeseer: 0.23250661479658588, Gen to Cora: 0.26106267322016063, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8645008850201948, current final AP=0.8081227200044158
+Current Similarity: Gen to Citeseer: 0.31895651086829, Gen to Cora: 0.3653526367557035, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8437024313622284, current final AP=0.7654765426562244
+Current Similarity: Gen to Citeseer: 0.38856499841025605, Gen to Cora: 0.41373140130167513, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8574552172116146, current final AP=0.8065334373867259
+Current Similarity: Gen to Citeseer: 0.41974851244617895, Gen to Cora: 0.4494085057812146, Cora to Citeseer:0.7672033377407481
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8748771160158952, current final AP=0.8379658026650834
+Current Similarity: Gen to Citeseer: 0.2902355603106407, Gen to Cora: 0.3368220283757436, Cora to Citeseer:0.7556079686950027
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8749096934463791, current final AP=0.8704552774738293
+Current Similarity: Gen to Citeseer: 0.2813816309338862, Gen to Cora: 0.334270724440629, Cora to Citeseer:0.7694106310874271
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8645142992562764, current final AP=0.88093817827987
+Current Similarity: Gen to Citeseer: 0.2954741461605662, Gen to Cora: 0.32610728400792405, Cora to Citeseer:0.731513751010343
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8379240894767873, current final AP=0.8853033843326799
+Current Similarity: Gen to Citeseer: 0.46425030564995556, Gen to Cora: 0.4759680069640123, Cora to Citeseer:0.7616260777247624
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8354258476998737, current final AP=0.8182899230399514
+Current Similarity: Gen to Citeseer: 0.4781510610209391, Gen to Cora: 0.5264719158191357, Cora to Citeseer:0.7350499654473943
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8405976744824819, current final AP=0.8095734492776412
+Current Similarity: Gen to Citeseer: 0.40140614366506516, Gen to Cora: 0.4253579393658364, Cora to Citeseer:0.7641212383463285
+***************************************
+
+########################################## AUX Before Only ###############################################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8394456471123302, current final AP=0.8347123116858467
+Current Similarity: Gen to Citeseer: 0.48112960804702054, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8383418471147575, current final AP=0.8202481517942232
+Current Similarity: Gen to Citeseer: 0.4872487557403534, Gen to Cora: 0.5170234316812264, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8385852196836667, current final AP=0.8073726732726196
+Current Similarity: Gen to Citeseer: 0.4657993202699549, Gen to Cora: 0.5170234316812264, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8385373116976609, current final AP=0.8277797969925894
+Current Similarity: Gen to Citeseer: 0.48393078864388217, Gen to Cora: 0.5170234316812264, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8391074167311294, current final AP=0.7917959388868994
+Current Similarity: Gen to Citeseer: 0.46241707867346926, Gen to Cora: 0.5170425680731213, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8393731463601748, current final AP=0.8302407453326006
+Current Similarity: Gen to Citeseer: 0.45323385782327746, Gen to Cora: 0.48890735382544975, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8383204482143416, current final AP=0.8269699547793687
+Current Similarity: Gen to Citeseer: 0.476850149389323, Gen to Cora: 0.5123302898621315, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8384517160959973, current final AP=0.8201726523675831
+Current Similarity: Gen to Citeseer: 0.47884077708139755, Gen to Cora: 0.49989085590666943, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8379081201481187, current final AP=0.8029483444480713
+Current Similarity: Gen to Citeseer: 0.4712972361310646, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8360563167957095, current final AP=0.8258293085280557
+Current Similarity: Gen to Citeseer: 0.4901974669014047, Gen to Cora: 0.5263391404220843, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8374034893621913, current final AP=0.8247995297130704
+Current Similarity: Gen to Citeseer: 0.4696168822720509, Gen to Cora: 0.4935291783075578, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8326213141990966, current final AP=0.8274066982923765
+Current Similarity: Gen to Citeseer: 0.4399073336678092, Gen to Cora: 0.49203136247609164, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.83400841008725, current final AP=0.788240363650068
+Current Similarity: Gen to Citeseer: 0.46183681353542994, Gen to Cora: 0.5201286216654387, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8371300944553852, current final AP=0.8430299495911762
+Current Similarity: Gen to Citeseer: 0.4656469919955938, Gen to Cora: 0.5030054406786736, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8367953773264917, current final AP=0.8265117165261444
+Current Similarity: Gen to Citeseer: 0.42268696305242387, Gen to Cora: 0.4752344757239814, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8377988899400255, current final AP=0.7611051953206727
+Current Similarity: Gen to Citeseer: 0.4565187444941465, Gen to Cora: 0.5030054406786736, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8380384298700544, current final AP=0.7822654840583534
+Current Similarity: Gen to Citeseer: 0.45974622290065215, Gen to Cora: 0.5030054406786736, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8359892456153013, current final AP=0.7926845717748763
+Current Similarity: Gen to Citeseer: 0.4608251714868728, Gen to Cora: 0.4814264558637075, Cora to Citeseer:0.7672033377407481
+***************************************
+
+######################################## aux before with supervised #############################################################
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8749320505065152, current final AP=0.8673547220619253
+Current Similarity: Gen to Citeseer: 0.28503083988301225, Gen to Cora: 0.3381968121650324, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8751677577976635, current final AP=0.8213576308754196
+Current Similarity: Gen to Citeseer: 0.2874849329414523, Gen to Cora: 0.34346200099269125, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8755011973802636, current final AP=0.8310593334949945
+Current Similarity: Gen to Citeseer: 0.27990362552800424, Gen to Cora: 0.34094637974360986, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8734628722690052, current final AP=0.839769182313133
+Current Similarity: Gen to Citeseer: 0.2852409309203072, Gen to Cora: 0.30657678501139113, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.871075777019625, current final AP=0.8282987036041581
+Current Similarity: Gen to Citeseer: 0.32013253835445055, Gen to Cora: 0.3542197303723791, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8657196641841813, current final AP=0.8681486502537298
+Current Similarity: Gen to Citeseer: 0.25995303016196136, Gen to Cora: 0.29352859636443357, Cora to Citeseer:0.761662428688226
+***************************************
+
+
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8530071204042667, current final AP=0.8442495135744871
+Current Similarity: Gen to Citeseer: 0.3331320253093885, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8530000938996526, current final AP=0.8012203444149681
+Current Similarity: Gen to Citeseer: 0.3040693323203362, Gen to Cora: 0.31763696494278315, Cora to Citeseer:0.792181767523842
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8530476824990849, current final AP=0.7991055073132065
+Current Similarity: Gen to Citeseer: 0.32393925849876537, Gen to Cora: 0.3444596419823959, Cora to Citeseer:0.7817166256821239
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8531288066887214, current final AP=0.8206004371216353
+Current Similarity: Gen to Citeseer: 0.3057173994422443, Gen to Cora: 0.31763696494278315, Cora to Citeseer:0.7661181808032423
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8506791116709602, current final AP=0.7936032966851218
+Current Similarity: Gen to Citeseer: 0.2852907866376238, Gen to Cora: 0.3014433995833284, Cora to Citeseer:0.7698647329045183
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8474475583215852, current final AP=0.8340728761442063
+Current Similarity: Gen to Citeseer: 0.337320555038232, Gen to Cora: 0.3589465038032723, Cora to Citeseer:0.761662428688226
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8696206517913435, current final AP=0.8679957197260659
+Current Similarity: Gen to Citeseer: 0.2198287594943737, Gen to Cora: 0.26211903316426155, Cora to Citeseer:0.7643105237525611
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8696378986663056, current final AP=0.8767653072608366
+Current Similarity: Gen to Citeseer: 0.2133232454560726, Gen to Cora: 0.2627279051418196, Cora to Citeseer:0.7640033916599583
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8694746921273125, current final AP=0.8744311074707471
+Current Similarity: Gen to Citeseer: 0.21327777286273641, Gen to Cora: 0.26546465415371356, Cora to Citeseer:0.740748943257412
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8696500353560938, current final AP=0.8081807333564163
+Current Similarity: Gen to Citeseer: 0.22133711517055624, Gen to Cora: 0.2392123793362424, Cora to Citeseer:0.7551960700665468
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8690853598943724, current final AP=0.7857968201721146
+Current Similarity: Gen to Citeseer: 0.22066732942979844, Gen to Cora: 0.2436841177365109, Cora to Citeseer:0.7464922690622378
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8642607063170192, current final AP=0.7986832432460795
+Current Similarity: Gen to Citeseer: 0.22280466011670547, Gen to Cora: 0.24863111735253396, Cora to Citeseer:0.7672033377407481
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8749058608074987, current final AP=0.8380235378960337
+Current Similarity: Gen to Citeseer: 0.29085590793921107, Gen to Cora: 0.3381968121650324, Cora to Citeseer:0.7556079686950027
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8748522038631723, current final AP=0.8702258824899605
+Current Similarity: Gen to Citeseer: 0.28889752050658635, Gen to Cora: 0.3381968121650324, Cora to Citeseer:0.7694106310874271
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8752693227279957, current final AP=0.9063795822204095
+Current Similarity: Gen to Citeseer: 0.2884823562150699, Gen to Cora: 0.3428919790928769, Cora to Citeseer:0.731513751010343
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8741629676378361, current final AP=0.9157255450087416
+Current Similarity: Gen to Citeseer: 0.31670881886614816, Gen to Cora: 0.3330905432971315, Cora to Citeseer:0.7616260777247624
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8729422721544093, current final AP=0.8372475541140757
+Current Similarity: Gen to Citeseer: 0.32282459298237026, Gen to Cora: 0.32974794414514325, Cora to Citeseer:0.7350499654473943
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8731613713437424, current final AP=0.8278793560449778
+Current Similarity: Gen to Citeseer: 0.2666004007628746, Gen to Cora: 0.28518111421495373, Cora to Citeseer:0.7641212383463285
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8403507886612657, current final AP=0.7863197726799658
+Current Similarity: Gen to Citeseer: 0.43028442306205694, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.730438457644427
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8403507886612657, current final AP=0.7843416190692516
+Current Similarity: Gen to Citeseer: 0.44077429680766045, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7675348736408708
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8530074397908401, current final AP=0.8442495135744871
+Current Similarity: Gen to Citeseer: 0.3310908973095304, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7461012310990476
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8387219171370699, current final AP=0.8358625599078737
+Current Similarity: Gen to Citeseer: 0.47431897807979057, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.792977211758798
+***************************************
+current parameters: weight=1e3, lr=1e0
+current AUC=0.8387219171370699, current final AP=0.8358625599078737
+Current Similarity: Gen to Citeseer: 0.46625911685340327, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8063691062740759
+***************************************
+current parameters: weight=1e3, lr=1e0
+current AUC=0.8387219171370699, current final AP=0.8358625599078737
+Current Similarity: Gen to Citeseer: 0.46625911685340327, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8063691062740759
+***************************************
+current parameters: weight=1e3, lr=1e0
+current AUC=0.8387219171370699, current final AP=0.8461598153940055
+Current Similarity: Gen to Citeseer: 0.46625911685340327, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8063691062740759
+***************************************
+current parameters: weight=1e3, lr=1e0
+current AUC=0.8387219171370699, current final AP=0.8461598153940055
+Current Similarity: Gen to Citeseer: 0.46625911685340327, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8063691062740759
+***************************************
+
+
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8530074397908401, current final AP=0.8849982922245925
+Current Similarity: Gen to Citeseer: 0.3248360747243001, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.8063691062740759
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.8696235262705038, current final AP=0.8753147331390565
+Current Similarity: Gen to Citeseer: 0.2081248545516448, Gen to Cora: 0.26211903316426155, Cora to Citeseer:0.7127672440789368
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.8749231076824607, current final AP=0.8563904118457482
+Current Similarity: Gen to Citeseer: 0.29199793489473247, Gen to Cora: 0.3381968121650324, Cora to Citeseer:0.7610740340899637
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8387212783639231, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.46625911685340327, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8063691062740759
+***************************************
+current parameters: weight=1e4, lr=1e-9
+current AUC=0.8387634373916082, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.48481778916918356, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7127672440789368
+***************************************
+current parameters: weight=1e4, lr=1e-8
+current AUC=0.8390853790575667, current final AP=0.8736281269949466
+Current Similarity: Gen to Citeseer: 0.48151496208684, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7610740340899637
+***************************************
+current parameters: weight=1e4, lr=1e-7
+current AUC=0.8404370230360759, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.45361856264495726, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7832943896565183
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8387212783639231, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.46788275172161453, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7900588170192329
+***************************************
+
+
+
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8363913533111764, current final AP=0.7557720301494262
+Current Similarity: Gen to Citeseer: 0.3656713984867077, Gen to Cora: 0.3869166284488862, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8328781010040875, current final AP=0.788578306394444
+Current Similarity: Gen to Citeseer: 0.4332330126522656, Gen to Cora: 0.47776654295295456, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.835716489481642, current final AP=0.794625226561334
+Current Similarity: Gen to Citeseer: 0.37485602169494703, Gen to Cora: 0.40046692808292794, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8396986012784405, current final AP=0.7803097351298165
+Current Similarity: Gen to Citeseer: 0.406478712879035, Gen to Cora: 0.4310351926303727, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8326618762939146, current final AP=0.8549850122300389
+Current Similarity: Gen to Citeseer: 0.45961211238035904, Gen to Cora: 0.48320333940396754, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8358321074212026, current final AP=0.7312902617127699
+Current Similarity: Gen to Citeseer: 0.43673858359992695, Gen to Cora: 0.46253957742229057, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8283929553542284, current final AP=0.8523774056318495
+Current Similarity: Gen to Citeseer: 0.3236296779432997, Gen to Cora: 0.3408364319286836, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.834892472122343, current final AP=0.7630973189626094
+Current Similarity: Gen to Citeseer: 0.40200566041826596, Gen to Cora: 0.4277148098816927, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8406062979199631, current final AP=0.8605164188800076
+Current Similarity: Gen to Citeseer: 0.4334253582201802, Gen to Cora: 0.4667982877575365, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8369403788308024, current final AP=0.8571477946495638
+Current Similarity: Gen to Citeseer: 0.39376757196649775, Gen to Cora: 0.4142761324995806, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8413258758697695, current final AP=0.8689569410696234
+Current Similarity: Gen to Citeseer: 0.4310254312712651, Gen to Cora: 0.4514027331903672, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.835298093070525, current final AP=0.8263989698477092
+Current Similarity: Gen to Citeseer: 0.4061678222581914, Gen to Cora: 0.4506964470310564, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.7862032665581178, current final AP=0.7489822933678434
+Current Similarity: Gen to Citeseer: 0.42958216601843685, Gen to Cora: 0.4627572732796665, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8208535159032155, current final AP=0.6840641983654423
+Current Similarity: Gen to Citeseer: 0.35185844308053366, Gen to Cora: 0.39709989444293115, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8306165246780423, current final AP=0.8177709303977029
+Current Similarity: Gen to Citeseer: 0.4176660365266479, Gen to Cora: 0.3997427685796695, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.838634405215966, current final AP=0.8819088917176763
+Current Similarity: Gen to Citeseer: 0.44526972107324525, Gen to Cora: 0.49434818170236916, Cora to Citeseer:0.8017977624787994
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8402383645874388, current final AP=0.8682829534045007
+Current Similarity: Gen to Citeseer: 0.45729627264930867, Gen to Cora: 0.4941542138569837, Cora to Citeseer:0.7533758555732775
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8314833398381731, current final AP=0.8329180412344726
+Current Similarity: Gen to Citeseer: 0.4498081848600016, Gen to Cora: 0.48094453072441584, Cora to Citeseer:0.7203779017587323
+***************************************
+
+
+############################################ AUX After with SUP ##############################################################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8363913533111764, current final AP=0.7557720301494262
+Current Similarity: Gen to Citeseer: 0.3656713984867077, Gen to Cora: 0.3869166284488862, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8328781010040875, current final AP=0.788578306394444
+Current Similarity: Gen to Citeseer: 0.4332330126522656, Gen to Cora: 0.47776654295295456, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.835716489481642, current final AP=0.794625226561334
+Current Similarity: Gen to Citeseer: 0.37485602169494703, Gen to Cora: 0.40046692808292794, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8396986012784405, current final AP=0.7803097351298165
+Current Similarity: Gen to Citeseer: 0.406478712879035, Gen to Cora: 0.4310351926303727, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8326618762939146, current final AP=0.8549850122300389
+Current Similarity: Gen to Citeseer: 0.45961211238035904, Gen to Cora: 0.48320333940396754, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8358321074212026, current final AP=0.7312902617127699
+Current Similarity: Gen to Citeseer: 0.43673858359992695, Gen to Cora: 0.46253957742229057, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8283929553542284, current final AP=0.8523774056318495
+Current Similarity: Gen to Citeseer: 0.3236296779432997, Gen to Cora: 0.3408364319286836, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.834892472122343, current final AP=0.7630973189626094
+Current Similarity: Gen to Citeseer: 0.40200566041826596, Gen to Cora: 0.4277148098816927, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8406062979199631, current final AP=0.8605164188800076
+Current Similarity: Gen to Citeseer: 0.4334253582201802, Gen to Cora: 0.4667982877575365, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8369403788308024, current final AP=0.8571477946495638
+Current Similarity: Gen to Citeseer: 0.39376757196649775, Gen to Cora: 0.4142761324995806, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8413258758697695, current final AP=0.8689569410696234
+Current Similarity: Gen to Citeseer: 0.4310254312712651, Gen to Cora: 0.4514027331903672, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.835298093070525, current final AP=0.8263989698477092
+Current Similarity: Gen to Citeseer: 0.4061678222581914, Gen to Cora: 0.4506964470310564, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.7862032665581178, current final AP=0.7489822933678434
+Current Similarity: Gen to Citeseer: 0.42958216601843685, Gen to Cora: 0.4627572732796665, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8208535159032155, current final AP=0.6840641983654423
+Current Similarity: Gen to Citeseer: 0.35185844308053366, Gen to Cora: 0.39709989444293115, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8529774174529432, current final AP=0.8847022348915586
+Current Similarity: Gen to Citeseer: 0.3188516591756303, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8529180115502961, current final AP=0.885066517691582
+Current Similarity: Gen to Citeseer: 0.30460704280282974, Gen to Cora: 0.31763696494278315, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8527353224303275, current final AP=0.8828080508613886
+Current Similarity: Gen to Citeseer: 0.2764987498755246, Gen to Cora: 0.2908142879031703, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.850348865954094, current final AP=0.8509299097573075
+Current Similarity: Gen to Citeseer: 0.3399026813973554, Gen to Cora: 0.3783962650539202, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8487845105177193, current final AP=0.869732809673744
+Current Similarity: Gen to Citeseer: 0.42791900377723974, Gen to Cora: 0.4606156273164305, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8375510459590892, current final AP=0.7420360668763087
+Current Similarity: Gen to Citeseer: 0.41627662617002886, Gen to Cora: 0.4360597382827627, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8695510255183485, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.22274126641604902, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8693421466993634, current final AP=0.8705816744342801
+Current Similarity: Gen to Citeseer: 0.22795843172395439, Gen to Cora: 0.24220228755261497, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8689991255195622, current final AP=0.876875455225014
+Current Similarity: Gen to Citeseer: 0.23278947445336562, Gen to Cora: 0.2553694165278008, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8651997028427321, current final AP=0.887556550418397
+Current Similarity: Gen to Citeseer: 0.340909842903096, Gen to Cora: 0.3876312502755047, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8581661717239402, current final AP=0.8815739025398879
+Current Similarity: Gen to Citeseer: 0.4058978706878916, Gen to Cora: 0.42989886716350595, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8414769457189744, current final AP=0.8415064337162456
+Current Similarity: Gen to Citeseer: 0.43082909448314205, Gen to Cora: 0.46958865901739993, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8762511170545404, current final AP=0.8511487730302398
+Current Similarity: Gen to Citeseer: 0.22968089774625292, Gen to Cora: 0.28875545555579285, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8760186036291258, current final AP=0.84515959523288
+Current Similarity: Gen to Citeseer: 0.23128734249276167, Gen to Cora: 0.27857992588085645, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8730035943764967, current final AP=0.8582676997805501
+Current Similarity: Gen to Citeseer: 0.30823634044199444, Gen to Cora: 0.37423535734611213, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8351332895986652, current final AP=0.8793091849126757
+Current Similarity: Gen to Citeseer: 0.4701557669018405, Gen to Cora: 0.503333549098909, Cora to Citeseer:0.8017977624787994
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.843001697220251, current final AP=0.8791032427891985
+Current Similarity: Gen to Citeseer: 0.4907247862737016, Gen to Cora: 0.5387601230869122, Cora to Citeseer:0.7533758555732775
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8361316920270252, current final AP=0.839900037116081
+Current Similarity: Gen to Citeseer: 0.42962560481569606, Gen to Cora: 0.497785448400123, Cora to Citeseer:0.7203779017587323
+***************************************
+
+
+current parameters: weight=1e-3, lr=1e-7
+current AUC=0.8387193620444828, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.46788275172161453, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7900588170192329
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8387155294056023, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4721481851715438, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7728886614234665
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8387148906324557, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.48620679050741017, Gen to Cora: 0.5060247155065895, Cora to Citeseer:0.8077546415938105
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8387171263384693, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.48119676471723344, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7729814005449855
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8387474680629396, current final AP=0.870611129523796
+Current Similarity: Gen to Citeseer: 0.4833164328459182, Gen to Cora: 0.507613220327107, Cora to Citeseer:0.7212959204478495
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8394149860012865, current final AP=0.8702304425298124
+Current Similarity: Gen to Citeseer: 0.4660017395280362, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7861390693994416
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8385692503549982, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4708943508781835, Gen to Cora: 0.5060247155065895, Cora to Citeseer:0.7713034073688343
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8385692503549982, current final AP=0.8712208585207849
+Current Similarity: Gen to Citeseer: 0.46893969257116586, Gen to Cora: 0.5060247155065895, Cora to Citeseer:0.7512727921725395
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8381061398236093, current final AP=0.7514185361460641
+Current Similarity: Gen to Citeseer: 0.4775507611349517, Gen to Cora: 0.4903956597151289, Cora to Citeseer:0.789224662716892
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8347289461967766, current final AP=0.872857555056382
+Current Similarity: Gen to Citeseer: 0.4976289355639727, Gen to Cora: 0.5401406466454527, Cora to Citeseer:0.7761130118670712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8393868799828297, current final AP=0.8768488768313742
+Current Similarity: Gen to Citeseer: 0.44894163475764454, Gen to Cora: 0.4905471015906569, Cora to Citeseer:0.7344928042288209
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8279764752625516, current final AP=0.8626019285632884
+Current Similarity: Gen to Citeseer: 0.40892368007444657, Gen to Cora: 0.4733313512624499, Cora to Citeseer:0.7312687106699542
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8209205870836238, current final AP=0.8631110426572786
+Current Similarity: Gen to Citeseer: 0.4517000684876482, Gen to Cora: 0.4904693581507707, Cora to Citeseer:0.7740161119318183
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.820245403867516, current final AP=0.5910336424245495
+Current Similarity: Gen to Citeseer: 0.4247300951770644, Gen to Cora: 0.46259935111317824, Cora to Citeseer:0.7710136228130011
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8262415673959965, current final AP=0.8672244908151746
+Current Similarity: Gen to Citeseer: 0.3768265369529563, Gen to Cora: 0.4105602036653582, Cora to Citeseer:0.7695142137760014
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.831356862755118, current final AP=0.8959465316271482
+Current Similarity: Gen to Citeseer: 0.36403567440331525, Gen to Cora: 0.38717547127500146, Cora to Citeseer:0.7668450419006969
+***************************************
+
+
+
+########################################## HSIC -- aux before embedding & supervised loss ###################################
+
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8404351067166357, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.42502229245707673, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8530310743972696, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.3188516591756303, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8530310743972697, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.3188516591756303, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8404351067166357, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.42502229245707673, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8761897948324531, current final AP=0.853523507279119
+Current Similarity: Gen to Citeseer: 0.23039215158465912, Gen to Cora: 0.2914795636270739, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8696097926478488, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.216561098565026, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8696097926478488, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.216561098565026, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8761763805963714, current final AP=0.853523507279119
+Current Similarity: Gen to Citeseer: 0.23039215158465912, Gen to Cora: 0.2914795636270739, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4381803064987338, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8530310743972697, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.3256756620611749, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8530310743972697, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.3256756620611749, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4381803064987338, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8696097926478489, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.21617727305727916, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8696104314209957, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.21617727305727916, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8762798618461438, current final AP=0.8525167620863273
+Current Similarity: Gen to Citeseer: 0.2354937167033999, Gen to Cora: 0.29011750959143334, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8762064029342683, current final AP=0.853523507279119
+Current Similarity: Gen to Citeseer: 0.2354937167033999, Gen to Cora: 0.29011750959143334, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8530310743972697, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.3279533672495969, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8404351067166357, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.42502229245707673, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8695666754604436, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.22151231016813006, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8762143875986026, current final AP=0.853523507279119
+Current Similarity: Gen to Citeseer: 0.2429035841394668, Gen to Cora: 0.29011750959143334, Cora to Citeseer:0.7465679628610492
+***************************************
+
+
+
+
+############################# HSIC -- Aux Before Only --1000 epochs ########################################################
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4672466146708419, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8387206395907764, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4672466146708419, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8387059478084011, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4622257746442105, Gen to Cora: 0.5060247155065895, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8386625112344226, current final AP=0.8708522572631252
+Current Similarity: Gen to Citeseer: 0.468109957637158, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8387085029009882, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.4672466146708419, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.826212822604393, current final AP=0.8795678796920441
+Current Similarity: Gen to Citeseer: 0.3724799511515069, Gen to Cora: 0.4519823168253348, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8386248236187648, current final AP=0.8708522572631252
+Current Similarity: Gen to Citeseer: 0.4731091829068158, Gen to Cora: 0.5170425680731213, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8384801415010275, current final AP=0.8728453349660484
+Current Similarity: Gen to Citeseer: 0.4721225234974125, Gen to Cora: 0.5216929493106987, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8387225559102166, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4674692951758631, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8387168069518959, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4674692951758631, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.838689339706586, current final AP=0.8715540391065717
+Current Similarity: Gen to Citeseer: 0.46924176776764287, Gen to Cora: 0.5060247155065895, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8385935237345744, current final AP=0.8725370369902417
+Current Similarity: Gen to Citeseer: 0.4611812972018008, Gen to Cora: 0.504527397078659, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.838704031488961, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.4674692951758631, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8244779147378378, current final AP=0.895476157276411
+Current Similarity: Gen to Citeseer: 0.3187415585636335, Gen to Cora: 0.33295526204595927, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8383776184109751, current final AP=0.8741499847380372
+Current Similarity: Gen to Citeseer: 0.45207210412387555, Gen to Cora: 0.4918976407504163, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8342581703876267, current final AP=0.8806846018291528
+Current Similarity: Gen to Citeseer: 0.47176028562595584, Gen to Cora: 0.5094062073698546, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8386136450886968, current final AP=0.8724282035949202
+Current Similarity: Gen to Citeseer: 0.48858528934139506, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8388796941043155, current final AP=0.8737322536094404
+Current Similarity: Gen to Citeseer: 0.49541365126388365, Gen to Cora: 0.5248075340827028, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8087896462538191, current final AP=0.8717182679399805
+Current Similarity: Gen to Citeseer: 0.4358840405536494, Gen to Cora: 0.4537620616309762, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8150477067724645, current final AP=0.8383929030961148
+Current Similarity: Gen to Citeseer: 0.3972470963163552, Gen to Cora: 0.4261634048552174, Cora to Citeseer:0.7465679628610492
+***************************************
+
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8360978370502479, current final AP=0.8777391833392252
+Current Similarity: Gen to Citeseer: 0.4568910112553423, Gen to Cora: 0.5109022640635051, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8361246655224112, current final AP=0.8777391833392252
+Current Similarity: Gen to Citeseer: 0.4568910112553423, Gen to Cora: 0.5109022640635051, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8161757801496135, current final AP=0.8915541313252819
+Current Similarity: Gen to Citeseer: 0.3659826018528585, Gen to Cora: 0.38649121907093914, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8165041095470396, current final AP=0.8910680609788311
+Current Similarity: Gen to Citeseer: 0.36647420399475245, Gen to Cora: 0.39091669104503385, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8116174949744522, current final AP=0.8716650534682953
+Current Similarity: Gen to Citeseer: 0.3924417431541173, Gen to Cora: 0.44136528253749135, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8113357960167384, current final AP=0.8724054220148645
+Current Similarity: Gen to Citeseer: 0.40314033623420764, Gen to Cora: 0.4509296156932584, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8110425991423831, current final AP=0.8704077679715746
+Current Similarity: Gen to Citeseer: 0.4329232858438946, Gen to Cora: 0.4803852109940956, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8109943717698039, current final AP=0.8704077679715746
+Current Similarity: Gen to Citeseer: 0.4329232858438946, Gen to Cora: 0.4803852109940956, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8394501185243572, current final AP=0.8801216856092101
+Current Similarity: Gen to Citeseer: 0.43282870712406485, Gen to Cora: 0.49528668376001445, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8394664072395993, current final AP=0.8801216856092101
+Current Similarity: Gen to Citeseer: 0.43282870712406485, Gen to Cora: 0.49528668376001445, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8362211202675692, current final AP=0.9035402283613132
+Current Similarity: Gen to Citeseer: 0.39481537055260396, Gen to Cora: 0.42156073471811945, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8359905231615947, current final AP=0.9035402283613132
+Current Similarity: Gen to Citeseer: 0.40700148916443, Gen to Cora: 0.431057645584406, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8246631589503934, current final AP=0.8841464565258548
+Current Similarity: Gen to Citeseer: 0.4288496510064904, Gen to Cora: 0.4722194283916575, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8236727411863678, current final AP=0.8834468769909769
+Current Similarity: Gen to Citeseer: 0.416573575797518, Gen to Cora: 0.46319612721219905, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8227596149730981, current final AP=0.8824640975962457
+Current Similarity: Gen to Citeseer: 0.4276627331941323, Gen to Cora: 0.4671495086651111, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8222913942565351, current final AP=0.8833388715566304
+Current Similarity: Gen to Citeseer: 0.4281977402231221, Gen to Cora: 0.46088461247943957, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8376545272088616, current final AP=0.8742792520280911
+Current Similarity: Gen to Citeseer: 0.45868671736090105, Gen to Cora: 0.5077813546822829, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8215874662488238, current final AP=0.900371116586457
+Current Similarity: Gen to Citeseer: 0.3193670478188041, Gen to Cora: 0.35095531453474277, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8096590165065368, current final AP=0.8785312494445983
+Current Similarity: Gen to Citeseer: 0.40558754845318334, Gen to Cora: 0.42961969296252805, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8147091570046905, current final AP=0.867011724426155
+Current Similarity: Gen to Citeseer: 0.4595865143267875, Gen to Cora: 0.48441832392829, Cora to Citeseer:0.7465679628610492
+***************************************
+
+################################# with supervised loss #######################################################################
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8395440181769287, current final AP=0.8871597057496197
+Current Similarity: Gen to Citeseer: 0.42024563590234676, Gen to Cora: 0.4926243246499961, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4133026689630701, Gen to Cora: 0.4659465055143922, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8536136355070996, current final AP=0.8883796326797069
+Current Similarity: Gen to Citeseer: 0.2807781669682841, Gen to Cora: 0.32205872080372655, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8423329017356105, current final AP=0.8983445298009708
+Current Similarity: Gen to Citeseer: 0.36218815951468564, Gen to Cora: 0.38784706843417205, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8695529418377888, current final AP=0.8837830004641831
+Current Similarity: Gen to Citeseer: 0.2758977393148378, Gen to Cora: 0.2949364154549285, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8355772369356518, current final AP=0.8927453593313524
+Current Similarity: Gen to Citeseer: 0.4021158883840334, Gen to Cora: 0.42504044267973196, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8302805300028553, current final AP=0.8794429313534788
+Current Similarity: Gen to Citeseer: 0.38778025698007734, Gen to Cora: 0.4286545841857354, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.832696370043839, current final AP=0.8885987860030863
+Current Similarity: Gen to Citeseer: 0.3886866839136759, Gen to Cora: 0.445419094041089, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8396986012784406, current final AP=0.8813560728911258
+Current Similarity: Gen to Citeseer: 0.40696898616820176, Gen to Cora: 0.45628666909861104, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8391719328189506, current final AP=0.8837244768689886
+Current Similarity: Gen to Citeseer: 0.4090869024749235, Gen to Cora: 0.46765273698702653, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8520991043761709, current final AP=0.8916926796050846
+Current Similarity: Gen to Citeseer: 0.3106802229926896, Gen to Cora: 0.3426253747753525, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8489052386424537, current final AP=0.9013810238674284
+Current Similarity: Gen to Citeseer: 0.2933135240889497, Gen to Cora: 0.3407613420052937, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8503744168799637, current final AP=0.8907801842323011
+Current Similarity: Gen to Citeseer: 0.36988818200278084, Gen to Cora: 0.39386055988558566, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8274022182036295, current final AP=0.8832013019008172
+Current Similarity: Gen to Citeseer: 0.4374291432055964, Gen to Cora: 0.4655141084668069, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8242431656064096, current final AP=0.8825696613723957
+Current Similarity: Gen to Citeseer: 0.4005698712886935, Gen to Cora: 0.442882001721469, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8413070320619405, current final AP=0.8893533304963511
+Current Similarity: Gen to Citeseer: 0.4191981970293134, Gen to Cora: 0.4549184900993236, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8386318501233792, current final AP=0.8780132517306137
+Current Similarity: Gen to Citeseer: 0.43003307407100194, Gen to Cora: 0.466109328614132, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.83267656807629, current final AP=0.8992850505642787
+Current Similarity: Gen to Citeseer: 0.36948538453898855, Gen to Cora: 0.380920029682232, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8396871033617993, current final AP=0.8853931821168002
+Current Similarity: Gen to Citeseer: 0.4230533592078839, Gen to Cora: 0.47169966621704407, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8391665032472032, current final AP=0.8813778816569153
+Current Similarity: Gen to Citeseer: 0.4378224280342364, Gen to Cora: 0.47073955373281545, Cora to Citeseer:0.7465679628610492
+***************************************
+
+new data, same topic.
+
+
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8388598921367665, current final AP=0.8753173615835359
+Current Similarity: Gen to Citeseer: 0.451899269201734, Gen to Cora: 0.49341350764349684, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8362000407537267, current final AP=0.878426046130214
+Current Similarity: Gen to Citeseer: 0.3951745890044466, Gen to Cora: 0.4352411611562425, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8389818978077944, current final AP=0.8753173615835359
+Current Similarity: Gen to Citeseer: 0.451899269201734, Gen to Cora: 0.49341350764349684, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8207423693756823, current final AP=0.8699715648824455
+Current Similarity: Gen to Citeseer: 0.4053179733227846, Gen to Cora: 0.44427457502535067, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.836684869572105, current final AP=0.8790091211528864
+Current Similarity: Gen to Citeseer: 0.3963042007374681, Gen to Cora: 0.43628701610208165, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8404485209527174, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.42502229245707673, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8404485209527174, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.42502229245707673, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8403207663233687, current final AP=0.8819923951628525
+Current Similarity: Gen to Citeseer: 0.41224855916347697, Gen to Cora: 0.466109328614132, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8530202152537749, current final AP=0.8852976895873805
+Current Similarity: Gen to Citeseer: 0.3188516591756303, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.86085540667173, current final AP=0.8880258086518615
+Current Similarity: Gen to Citeseer: 0.3236753880638604, Gen to Cora: 0.3645283179371551, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8502651866718706, current final AP=0.8904430618093364
+Current Similarity: Gen to Citeseer: 0.3092971953061423, Gen to Cora: 0.3450698182392266, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8696749475088166, current final AP=0.8766250507284439
+Current Similarity: Gen to Citeseer: 0.2171449664330276, Gen to Cora: 0.24139595328138533, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8763619441955004, current final AP=0.860994887506641
+Current Similarity: Gen to Citeseer: 0.2716675888291091, Gen to Cora: 0.32369002826367577, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8271914230652041, current final AP=0.8812015929703775
+Current Similarity: Gen to Citeseer: 0.36287771530086926, Gen to Cora: 0.39656517244824163, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8538525366639818, current final AP=0.889601018752911
+Current Similarity: Gen to Citeseer: 0.32536212191149205, Gen to Cora: 0.3467306708822322, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8381623518605226, current final AP=0.8806584866153082
+Current Similarity: Gen to Citeseer: 0.42180974579430347, Gen to Cora: 0.4518132444331166, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8406075754662565, current final AP=0.8812903855272242
+Current Similarity: Gen to Citeseer: 0.4367178417796513, Gen to Cora: 0.47691318722439335, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8405481695636094, current final AP=0.8811964881771134
+Current Similarity: Gen to Citeseer: 0.32887664884539236, Gen to Cora: 0.37021708981844487, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8455989488349096, current final AP=0.8844105103107753
+Current Similarity: Gen to Citeseer: 0.33873465651418705, Gen to Cora: 0.36645844333669936, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8710987728529078, current final AP=0.8854247026367952
+Current Similarity: Gen to Citeseer: 0.27476437087200184, Gen to Cora: 0.3011693662311564, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8733795123733553, current final AP=0.8802069501239146
+Current Similarity: Gen to Citeseer: 0.2788447169950853, Gen to Cora: 0.32791639521095045, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8451383933961077, current final AP=0.8780028740874882
+Current Similarity: Gen to Citeseer: 0.28921306974011796, Gen to Cora: 0.335939889314176, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8399975471111165, current final AP=0.8832987915062831
+Current Similarity: Gen to Citeseer: 0.43087896590568125, Gen to Cora: 0.466109328614132, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8396066179453094, current final AP=0.8976911635488969
+Current Similarity: Gen to Citeseer: 0.4020085608330361, Gen to Cora: 0.4192170519104654, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8516264122475807, current final AP=0.890029267505082
+Current Similarity: Gen to Citeseer: 0.4010516473055211, Gen to Cora: 0.4079121044112288, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8607985558616699, current final AP=0.8881108756841742
+Current Similarity: Gen to Citeseer: 0.43395425061236714, Gen to Cora: 0.46018836015237957, Cora to Citeseer:0.7465679628610492
+***************************************
+
+##################### aux before only #############################################################################
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.838522619915286, current final AP=0.8776159586146289
+Current Similarity: Gen to Citeseer: 0.46795661194884997, Gen to Cora: 0.5247588467841221, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8385104832254977, current final AP=0.8776159586146289
+Current Similarity: Gen to Citeseer: 0.46795661194884997, Gen to Cora: 0.5247588467841221, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8179649837336418, current final AP=0.88528442378754
+Current Similarity: Gen to Citeseer: 0.35620718674820073, Gen to Cora: 0.404193106967318, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8149627499439477, current final AP=0.8777582938175378
+Current Similarity: Gen to Citeseer: 0.397204867374362, Gen to Cora: 0.43859721355371256, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8191895118559489, current final AP=0.8842670419277465
+Current Similarity: Gen to Citeseer: 0.37747625560643916, Gen to Cora: 0.41564409282733883, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.814685522398261, current final AP=0.876880008398169
+Current Similarity: Gen to Citeseer: 0.3843349791887209, Gen to Cora: 0.4246813715137374, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8091147817855114, current final AP=0.8657343311656116
+Current Similarity: Gen to Citeseer: 0.4257358737824547, Gen to Cora: 0.4737233119215672, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8154213890633094, current final AP=0.8778392557723862
+Current Similarity: Gen to Citeseer: 0.44096175364919155, Gen to Cora: 0.48336129473390493, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8378838467685424, current final AP=0.8752929637968212
+Current Similarity: Gen to Citeseer: 0.4358425822229471, Gen to Cora: 0.5014033884280171, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8379058844421051, current final AP=0.8751524556370669
+Current Similarity: Gen to Citeseer: 0.4358425822229471, Gen to Cora: 0.5014033884280171, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8248608592393107, current final AP=0.8941396654352617
+Current Similarity: Gen to Citeseer: 0.408022255659808, Gen to Cora: 0.4217240816631477, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8248151869593184, current final AP=0.8928710067508446
+Current Similarity: Gen to Citeseer: 0.41553342605590415, Gen to Cora: 0.4318339055386341, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8286126933167082, current final AP=0.8888341334898475
+Current Similarity: Gen to Citeseer: 0.3323970979359419, Gen to Cora: 0.378539577053538, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.828097842160433, current final AP=0.8877788440410075
+Current Similarity: Gen to Citeseer: 0.3249430658628627, Gen to Cora: 0.36647457061358457, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8233734759671185, current final AP=0.876508289363094
+Current Similarity: Gen to Citeseer: 0.3890633520081141, Gen to Cora: 0.43833184416953613, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.824253705363331, current final AP=0.8789412073454672
+Current Similarity: Gen to Citeseer: 0.3874833804391835, Gen to Cora: 0.43406000099970865, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8372271879736901, current final AP=0.875868447144384
+Current Similarity: Gen to Citeseer: 0.45425141247190093, Gen to Cora: 0.49677627113466527, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8219221833777173, current final AP=0.8979553691268001
+Current Similarity: Gen to Citeseer: 0.3466033961251144, Gen to Cora: 0.373622711105944, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8109809575337223, current final AP=0.881125036961354
+Current Similarity: Gen to Citeseer: 0.3923473609560519, Gen to Cora: 0.4194088772768037, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8174775998226765, current final AP=0.8722731273650048
+Current Similarity: Gen to Citeseer: 0.42166193351873443, Gen to Cora: 0.46049665130325723, Cora to Citeseer:0.7465679628610492
+***************************************
+
+##################### large scale for before #####################################################################################
+current parameters: weight=1e3, lr=1e-8
+current AUC=0.8392578478071876, current final AP=0.8736186124321577
+Current Similarity: Gen to Citeseer: 0.46775314799555356, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-5, lr=1e-10
+current AUC=0.8387212783639231, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4672466146708419, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-1, lr=1e-9
+current AUC=0.8387589659795809, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.468109957637158, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8530329907167098, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.3188516591756303, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.86085540667173, current final AP=0.8880258086518615
+Current Similarity: Gen to Citeseer: 0.3236753880638604, Gen to Cora: 0.3645283179371551, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.826755779779125, current final AP=0.8770885421063974
+Current Similarity: Gen to Citeseer: 0.42909460549499834, Gen to Cora: 0.47104730621248614, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e-3, lr=1e-2
+current AUC=0.8339368674948148, current final AP=0.8734326965063736
+Current Similarity: Gen to Citeseer: 0.4604773720283221, Gen to Cora: 0.49804659997083917, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e1, lr=1e-1
+current AUC=0.8220026687942071, current final AP=0.852855627348733
+Current Similarity: Gen to Citeseer: 0.46911321133691686, Gen to Cora: 0.5262840980216325, Cora to Citeseer:0.7567770292617475
+***************************************
+current parameters: weight=1e4, lr=1e-8
+current AUC=0.8387417191046188, current final AP=0.8732151443310917
+Current Similarity: Gen to Citeseer: 0.4701993421868308, Gen to Cora: 0.5170234316812264, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-4, lr=1e-10
+current AUC=0.8387212783639231, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4674692951758631, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e0, lr=1e-9
+current AUC=0.8387493843823798, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.4739298886931794, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8530467243393648, current final AP=0.8859580297204377
+Current Similarity: Gen to Citeseer: 0.3256756620611749, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8455989488349096, current final AP=0.8844105103107753
+Current Similarity: Gen to Citeseer: 0.33873465651418705, Gen to Cora: 0.36645844333669936, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e5, lr=1e-4
+current AUC=0.8300869817393919, current final AP=0.8789597851689106
+Current Similarity: Gen to Citeseer: 0.4018566419344662, Gen to Cora: 0.4495663215643597, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e-2, lr=1e-2
+current AUC=0.8371134863535699, current final AP=0.8740823651877716
+Current Similarity: Gen to Citeseer: 0.4661304732263238, Gen to Cora: 0.5076773178366799, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e2, lr=1e-1
+current AUC=0.8366439880907135, current final AP=0.8732564958475981
+Current Similarity: Gen to Citeseer: 0.432192389688942, Gen to Cora: 0.47136749648894033, Cora to Citeseer:0.7830806933912712
+***************************************
+current parameters: weight=1e5, lr=1e-8
+current AUC=0.8388253983868422, current final AP=0.8723570684266121
+Current Similarity: Gen to Citeseer: 0.49344077239660455, Gen to Cora: 0.5263391404220843, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-3, lr=1e-10
+current AUC=0.8387212783639231, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.48223500602327374, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e1, lr=1e-9
+current AUC=0.8387423578777656, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.48858528934139506, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8529461175687527, current final AP=0.8847022348915586
+Current Similarity: Gen to Citeseer: 0.32775659637014265, Gen to Cora: 0.3444596419823959, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8516264122475807, current final AP=0.890029267505082
+Current Similarity: Gen to Citeseer: 0.4010516473055211, Gen to Cora: 0.4079121044112288, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-5, lr=1e-3
+current AUC=0.841704348959215, current final AP=0.8707622743271755
+Current Similarity: Gen to Citeseer: 0.4360508708498102, Gen to Cora: 0.48000000397018233, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-1, lr=1e-2
+current AUC=0.8347506644837659, current final AP=0.8747760549566491
+Current Similarity: Gen to Citeseer: 0.44412928580333827, Gen to Cora: 0.46360959751237324, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e3, lr=1e-1
+current AUC=0.8427736552068634, current final AP=0.8779430232204215
+Current Similarity: Gen to Citeseer: 0.4629635335112384, Gen to Cora: 0.482211758830358, Cora to Citeseer:0.7465679628610492
+***************************************
+current parameters: weight=1e-5, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.44568491937525667, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-2, lr=1e-10
+current AUC=0.8387212783639232, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.47159668763258705, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e2, lr=1e-9
+current AUC=0.838764076164755, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.47450208029331675, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8530719558786611, current final AP=0.8860805105162263
+Current Similarity: Gen to Citeseer: 0.3319989468582938, Gen to Cora: 0.3444596419823959, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.846890548137625, current final AP=0.8871020619452933
+Current Similarity: Gen to Citeseer: 0.4363601713377051, Gen to Cora: 0.44454507717401315, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-4, lr=1e-3
+current AUC=0.8404523535915979, current final AP=0.8742551362268549
+Current Similarity: Gen to Citeseer: 0.4346137611150002, Gen to Cora: 0.45046655516507683, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8488394450083392, current final AP=0.8862226275778153
+Current Similarity: Gen to Citeseer: 0.43589678819599, Gen to Cora: 0.4808022997804043, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e4, lr=1e-1
+current AUC=0.8210026694329802, current final AP=0.8574871217585506
+Current Similarity: Gen to Citeseer: 0.44802856218885917, Gen to Cora: 0.4621939923832684, Cora to Citeseer:0.7868686584541343
+***************************************
+current parameters: weight=1e-4, lr=1e-7
+current AUC=0.840434467943489, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4473171152333726, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e-1, lr=1e-10
+current AUC=0.8387200008176295, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4834441059529876, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e3, lr=1e-9
+current AUC=0.8387043508755345, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.4962321811053023, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8509799738230764, current final AP=0.8858946858942581
+Current Similarity: Gen to Citeseer: 0.3314051687044725, Gen to Cora: 0.35399173466886896, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.8259905295493264, current final AP=0.8723462407657682
+Current Similarity: Gen to Citeseer: 0.4488115689777886, Gen to Cora: 0.4753697788514989, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e-3, lr=1e-3
+current AUC=0.8405283675960603, current final AP=0.8740109187909265
+Current Similarity: Gen to Citeseer: 0.4580397259955326, Gen to Cora: 0.47885532178710805, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e5, lr=1e-1
+current AUC=0.8311205166908229, current final AP=0.8693863037804321
+Current Similarity: Gen to Citeseer: 0.4658916167612251, Gen to Cora: 0.4980239801372835, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e1, lr=1e-2
+current AUC=0.8345526448082754, current final AP=0.8653162004939753
+Current Similarity: Gen to Citeseer: 0.48348655148497377, Gen to Cora: 0.5202123243525686, Cora to Citeseer:0.745650203723845
+***************************************
+current parameters: weight=1e-3, lr=1e-7
+current AUC=0.8404338291703423, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4359292017574748, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8387193620444828, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4678575600529899, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e4, lr=1e-9
+current AUC=0.8387308599611243, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.4803351447085807, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8488266695454043, current final AP=0.8957241158545115
+Current Similarity: Gen to Citeseer: 0.341797870127805, Gen to Cora: 0.3740704607027883, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e5, lr=1e-5
+current AUC=0.835960500823698, current final AP=0.8781282368163796
+Current Similarity: Gen to Citeseer: 0.4599107360015994, Gen to Cora: 0.5015503913178175, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e-2, lr=1e-3
+current AUC=0.8397177644728429, current final AP=0.8758191582577357
+Current Similarity: Gen to Citeseer: 0.4352657483331801, Gen to Cora: 0.4878193304461781, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e2, lr=1e-2
+current AUC=0.8382038721150609, current final AP=0.8848612984642998
+Current Similarity: Gen to Citeseer: 0.4196176098685802, Gen to Cora: 0.49203136247609164, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e-5, lr=1e0
+current AUC=0.8364874886697613, current final AP=0.8723551045906625
+Current Similarity: Gen to Citeseer: 0.45596773260795487, Gen to Cora: 0.49341350764349684, Cora to Citeseer:0.7569393351848452
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8404357454897824, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4365576693104489, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e1, lr=1e-10
+current AUC=0.8387235140699367, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.4646979881101444, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e5, lr=1e-9
+current AUC=0.8387774904008365, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.4738168771574194, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8540032871266132, current final AP=0.9112630772447691
+Current Similarity: Gen to Citeseer: 0.3180342113861807, Gen to Cora: 0.3755077439466384, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8762194977837765, current final AP=0.853523507279119
+Current Similarity: Gen to Citeseer: 0.23844606096818083, Gen to Cora: 0.29011750959143334, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8404600188693587, current final AP=0.8815111952228438
+Current Similarity: Gen to Citeseer: 0.44659534246006416, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e-1, lr=1e-3
+current AUC=0.8276519785040062, current final AP=0.8660723774889096
+Current Similarity: Gen to Citeseer: 0.4640623197097858, Gen to Cora: 0.5109405634161495, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e3, lr=1e-2
+current AUC=0.8592405881567626, current final AP=0.8824196972219263
+Current Similarity: Gen to Citeseer: 0.3138306813121715, Gen to Cora: 0.3770050501851047, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e-4, lr=1e0
+current AUC=0.838788988317478, current final AP=0.8717625308854741
+Current Similarity: Gen to Citeseer: 0.4572519767039152, Gen to Cora: 0.49804659997083917, Cora to Citeseer:0.7539509346507772
+***************************************
+current parameters: weight=1e2, lr=1e-10
+current AUC=0.8387171263384693, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.47802788011572195, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e-5, lr=1e-8
+current AUC=0.8390866566038604, current final AP=0.8736281269949466
+Current Similarity: Gen to Citeseer: 0.4855801503176199, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8311109350936218, current final AP=0.8976684468615551
+Current Similarity: Gen to Citeseer: 0.4243985935075651, Gen to Cora: 0.45151055743701113, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8394961101909229, current final AP=0.8704503255800038
+Current Similarity: Gen to Citeseer: 0.44293618635931875, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8761945856310536, current final AP=0.853523507279119
+Current Similarity: Gen to Citeseer: 0.2477090108202872, Gen to Cora: 0.29284161766271444, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.8370221417935856, current final AP=0.8714308034006167
+Current Similarity: Gen to Citeseer: 0.49118132115238644, Gen to Cora: 0.5403127459200158, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e4, lr=1e-2
+current AUC=0.8297081892633731, current final AP=0.8765693532171358
+Current Similarity: Gen to Citeseer: 0.47180579254604443, Gen to Cora: 0.5032687831846757, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e-3, lr=1e0
+current AUC=0.8371569229275484, current final AP=0.8700247615387278
+Current Similarity: Gen to Citeseer: 0.49699037634714205, Gen to Cora: 0.546609627486732, Cora to Citeseer:0.7373642978800159
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.838716806951896, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.47607327671351385, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e-4, lr=1e-8
+current AUC=0.8390860178307136, current final AP=0.8736281269949466
+Current Similarity: Gen to Citeseer: 0.48734585925880125, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8155574477435658, current final AP=0.7240351630936984
+Current Similarity: Gen to Citeseer: 0.4456783037955857, Gen to Cora: 0.4772446348892332, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8435203810154066, current final AP=0.8696638543792881
+Current Similarity: Gen to Citeseer: 0.43300679463731856, Gen to Cora: 0.4925282908606125, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8761770193695182, current final AP=0.8531999236608914
+Current Similarity: Gen to Citeseer: 0.23664874955523488, Gen to Cora: 0.29420367169835493, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e1, lr=1e-3
+current AUC=0.8343674005957198, current final AP=0.8706261425780641
+Current Similarity: Gen to Citeseer: 0.4447200782547531, Gen to Cora: 0.46391528462031495, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8387212783639231, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.47171998351299005, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-2, lr=1e0
+current AUC=0.8331811988622173, current final AP=0.8696439742029329
+Current Similarity: Gen to Citeseer: 0.4816625743027978, Gen to Cora: 0.5140804087921452, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e5, lr=1e-2
+current AUC=0.8401885402819927, current final AP=0.8894312023179344
+Current Similarity: Gen to Citeseer: 0.4031670918918972, Gen to Cora: 0.4339591520057483, Cora to Citeseer:0.8002466389461805
+***************************************
+current parameters: weight=1e-3, lr=1e-8
+current AUC=0.8390876147635804, current final AP=0.8736281269949466
+Current Similarity: Gen to Citeseer: 0.47465437239327724, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.8371492576497876, current final AP=0.8727141108128389
+Current Similarity: Gen to Citeseer: 0.45712435775190413, Gen to Cora: 0.49026070567772373, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8400550366943234, current final AP=0.8798331599305131
+Current Similarity: Gen to Citeseer: 0.442847338898508, Gen to Cora: 0.484221340849487, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e2, lr=1e-3
+current AUC=0.8562274952235738, current final AP=0.8753696637186904
+Current Similarity: Gen to Citeseer: 0.31326891579826627, Gen to Cora: 0.31566765461418267, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8745877517804204, current final AP=0.8568381262325903
+Current Similarity: Gen to Citeseer: 0.2520776047388998, Gen to Cora: 0.28117142285615904, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8387184038847627, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.48178718399482073, Gen to Cora: 0.5075937881576345, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e-2, lr=1e-8
+current AUC=0.8390898504695941, current final AP=0.8736281269949466
+Current Similarity: Gen to Citeseer: 0.48889279327911117, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e-1, lr=1e0
+current AUC=0.8381866252400988, current final AP=0.870667449463237
+Current Similarity: Gen to Citeseer: 0.47471528150751574, Gen to Cora: 0.5044188793028087, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e-5, lr=1e-1
+current AUC=0.8355746818430648, current final AP=0.8746562198230818
+Current Similarity: Gen to Citeseer: 0.4536785451041213, Gen to Cora: 0.5014971750924284, Cora to Citeseer:0.8101549659114609
+***************************************
+current parameters: weight=1e3, lr=1e-7
+current AUC=0.840715528128056, current final AP=0.872386519272115
+Current Similarity: Gen to Citeseer: 0.4257172652121374, Gen to Cora: 0.4888289004189144, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8696097926478489, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.22389602961350877, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e-5, lr=1e-9
+current AUC=0.8387634373916082, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.48169741608063876, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e3, lr=1e-3
+current AUC=0.8633603555666844, current final AP=0.8765170429758182
+Current Similarity: Gen to Citeseer: 0.37720585141966245, Gen to Cora: 0.3885974538438225, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e-1, lr=1e-8
+current AUC=0.8391128463028769, current final AP=0.8734577547315511
+Current Similarity: Gen to Citeseer: 0.48169741608063876, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8659956141835745, current final AP=0.8763346400575487
+Current Similarity: Gen to Citeseer: 0.2891259003970939, Gen to Cora: 0.3283327169170525, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e0, lr=1e0
+current AUC=0.8334660916856649, current final AP=0.8709220120903356
+Current Similarity: Gen to Citeseer: 0.481308563232957, Gen to Cora: 0.5108166694166716, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e-4, lr=1e-1
+current AUC=0.8359585845042578, current final AP=0.8735680026790071
+Current Similarity: Gen to Citeseer: 0.47002430259253136, Gen to Cora: 0.49032608279274725, Cora to Citeseer:0.7652240607974635
+***************************************
+current parameters: weight=1e4, lr=1e-7
+current AUC=0.84210741481481, current final AP=0.8830066954521609
+Current Similarity: Gen to Citeseer: 0.4579961140147238, Gen to Cora: 0.5247865175889808, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8695650785275769, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.21562501168747494, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-4, lr=1e-9
+current AUC=0.8387634373916082, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.47745016193305057, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e0, lr=1e-8
+current AUC=0.8391709746592304, current final AP=0.8753237282846975
+Current Similarity: Gen to Citeseer: 0.47745016193305057, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e4, lr=1e-3
+current AUC=0.837579151977546, current final AP=0.8823450177933108
+Current Similarity: Gen to Citeseer: 0.40173647634182164, Gen to Cora: 0.42934256528228293, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.828359100377451, current final AP=0.8915329514001928
+Current Similarity: Gen to Citeseer: 0.395070651812536, Gen to Cora: 0.45205355328960695, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e5, lr=1e-7
+current AUC=0.8388145392433475, current final AP=0.8718727022162069
+Current Similarity: Gen to Citeseer: 0.4781951084235949, Gen to Cora: 0.5232714489825101, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e1, lr=1e0
+current AUC=0.838091448041234, current final AP=0.8704799445802974
+Current Similarity: Gen to Citeseer: 0.47292497142321344, Gen to Cora: 0.5060247155065895, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-3, lr=1e-1
+current AUC=0.8347666338124344, current final AP=0.8727741979573373
+Current Similarity: Gen to Citeseer: 0.4622487693706291, Gen to Cora: 0.5061200254506778, Cora to Citeseer:0.789258679699378
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.869644286397773, current final AP=0.8753147331390565
+Current Similarity: Gen to Citeseer: 0.20854139745884867, Gen to Cora: 0.23672878952882706, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-3, lr=1e-9
+current AUC=0.8387624792318881, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.48071591235709343, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e1, lr=1e-8
+current AUC=0.8389723162105933, current final AP=0.872741537351612
+Current Similarity: Gen to Citeseer: 0.48071591235709343, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e5, lr=1e-3
+current AUC=0.8544836445329642, current final AP=0.8892507631749547
+Current Similarity: Gen to Citeseer: 0.4643183095117659, Gen to Cora: 0.4950407566657545, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8530329907167098, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.33590161774720545, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8613753680131792, current final AP=0.8929042172619734
+Current Similarity: Gen to Citeseer: 0.3748391701843173, Gen to Cora: 0.4090286451815229, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e2, lr=1e0
+current AUC=0.8450642957110854, current final AP=0.8778904134447799
+Current Similarity: Gen to Citeseer: 0.4509654010468117, Gen to Cora: 0.4899612618047313, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-2, lr=1e-1
+current AUC=0.8449505940909652, current final AP=0.8841002983849997
+Current Similarity: Gen to Citeseer: 0.4512578170895859, Gen to Cora: 0.4949434756801856, Cora to Citeseer:0.7590632333856732
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8694328524862008, current final AP=0.8747710907349489
+Current Similarity: Gen to Citeseer: 0.23045161591425725, Gen to Cora: 0.2551116324451004, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-2, lr=1e-9
+current AUC=0.8387583272064343, current final AP=0.8708055761287583
+Current Similarity: Gen to Citeseer: 0.49334086340547956, Gen to Cora: 0.5154638084545604, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e2, lr=1e-8
+current AUC=0.8392961741959922, current final AP=0.8740766692948407
+Current Similarity: Gen to Citeseer: 0.4918436190924849, Gen to Cora: 0.5138994230305846, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.836903968761438, current final AP=0.8733733026169404
+Current Similarity: Gen to Citeseer: 0.4735303244498317, Gen to Cora: 0.5123491949946861, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8658020659201111, current final AP=0.8754387506138523
+Current Similarity: Gen to Citeseer: 0.23105777852841322, Gen to Cora: 0.23839787334465112, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8551466910592839, current final AP=0.876491424372683
+Current Similarity: Gen to Citeseer: 0.3307972408121578, Gen to Cora: 0.3580084087743484, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e3, lr=1e0
+current AUC=0.8340502497283617, current final AP=0.8721992306776148
+Current Similarity: Gen to Citeseer: 0.4661834692983374, Gen to Cora: 0.4857833451748079, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-1, lr=1e-1
+current AUC=0.8368739464235411, current final AP=0.8708853276554328
+Current Similarity: Gen to Citeseer: 0.4695909564324743, Gen to Cora: 0.49032608279274725, Cora to Citeseer:0.7902251687759337
+***************************************
+current parameters: weight=1e-4, lr=1e-2
+current AUC=0.8367225571877628, current final AP=0.8767784763829778
+Current Similarity: Gen to Citeseer: 0.48221472160867024, Gen to Cora: 0.49336218662050446, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.8371313720016786, current final AP=0.8746700221144897
+Current Similarity: Gen to Citeseer: 0.4685425511312987, Gen to Cora: 0.4903956597151289, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e4, lr=1e0
+current AUC=0.8375944825330677, current final AP=0.8684417528089478
+Current Similarity: Gen to Citeseer: 0.47552492909420396, Gen to Cora: 0.5029297340848446, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e0, lr=1e-1
+current AUC=0.8356679427224895, current final AP=0.8709555585250179
+Current Similarity: Gen to Citeseer: 0.45563828879508284, Gen to Cora: 0.4802534424902546, Cora to Citeseer:0.7887765298071436
+***************************************
+current parameters: weight=1e5, lr=1e0
+current AUC=0.8274731220229179, current final AP=0.8555380087646558
+Current Similarity: Gen to Citeseer: 0.457386913597991, Gen to Cora: 0.48265933652416604, Cora to Citeseer:0.8017977624787994
+***************************************
+
+
+
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8281901448801374, current final AP=0.8904189061783376
+Current Similarity: Gen to Citeseer: 0.3830781201123144, Gen to Cora: 0.41373140130167513, Cora to Citeseer:0.7826409152486169
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8299106803508909, current final AP=0.8888919512929876
+Current Similarity: Gen to Citeseer: 0.3774367328892388, Gen to Cora: 0.4210272784173059, Cora to Citeseer:0.7804321752414898
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8261572493406264, current final AP=0.8841907960558928
+Current Similarity: Gen to Citeseer: 0.43160306787695346, Gen to Cora: 0.47169966621704407, Cora to Citeseer:0.7543531492965956
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8095344557429219, current final AP=0.8937059763725006
+Current Similarity: Gen to Citeseer: 0.37174682229960704, Gen to Cora: 0.3955213683662609, Cora to Citeseer:0.7691001093746089
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8223207778212853, current final AP=0.8991954889359
+Current Similarity: Gen to Citeseer: 0.31884385191226744, Gen to Cora: 0.3398776777596006, Cora to Citeseer:0.7895575262549844
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.7922524482577782, current final AP=0.8652415596317575
+Current Similarity: Gen to Citeseer: 0.39225624122534863, Gen to Cora: 0.432838035198495, Cora to Citeseer:0.7885875331513359
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.839336416904237, current final AP=0.8672495915101004
+Current Similarity: Gen to Citeseer: 0.4412696211807032, Gen to Cora: 0.4877170458346547, Cora to Citeseer:0.7543531492965956
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8297401279207102, current final AP=0.8337101567618266
+Current Similarity: Gen to Citeseer: 0.32422061737801955, Gen to Cora: 0.354945662895507, Cora to Citeseer:0.7691001093746089
+***************************************
+
+
+
+################## whole graph ###################################################
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.4333966252101081, Gen to Cora: 0.4783304657938445, Cora to Citeseer:0.7543531492965956
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8530329907167099, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.32465080302192034, Gen to Cora: 0.3453154436541414, Cora to Citeseer:0.7691001093746089
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8696129865135825, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.2219415700552668, Gen to Cora: 0.2372812495322708, Cora to Citeseer:0.7895575262549844
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8762741128878231, current final AP=0.8522327697856741
+Current Similarity: Gen to Citeseer: 0.230414832943783, Gen to Cora: 0.27241080712810645, Cora to Citeseer:0.7885875331513359
+***************************************
+
+
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8813578026275908
+Current Similarity: Gen to Citeseer: 0.16585480011169687, Gen to Cora: 0.18124635595204036, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8530329907167099, current final AP=0.8853625750246158
+Current Similarity: Gen to Citeseer: 0.16585480011169687, Gen to Cora: 0.18124635595204036, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8696129865135825, current final AP=0.8750746631315446
+Current Similarity: Gen to Citeseer: 0.16889150591664184, Gen to Cora: 0.18311730464831358, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8762741128878231, current final AP=0.8522327697856741
+Current Similarity: Gen to Citeseer: 0.16889150591664184, Gen to Cora: 0.18311730464831358, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8261572493406264, current final AP=0.8841907960558928
+Current Similarity: Gen to Citeseer: 0.16889150591664184, Gen to Cora: 0.18577117862872392, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8076998992654747, current final AP=0.8965560227459575
+Current Similarity: Gen to Citeseer: 0.16962422738696276, Gen to Cora: 0.18391174353957038, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8196267520748948, current final AP=0.898871380171319
+Current Similarity: Gen to Citeseer: 0.16585480011169687, Gen to Cora: 0.18124635595204036, Cora to Citeseer:0.4852693596378267
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8102406194566467, current final AP=0.8844439795603719
+Current Similarity: Gen to Citeseer: 0.16962422738696276, Gen to Cora: 0.17325019318945034, Cora to Citeseer:0.4852693596378267
+***************************************

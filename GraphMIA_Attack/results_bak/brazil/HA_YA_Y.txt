@@ -1,0 +1,500 @@
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7929873561849182	In train graph: AUC=0.7691083286947417	In Whole Graph: AUC=0.7929873561849182
+current density: 352071040.0
+image name: (0.01, 0.01, 0, 0, 0, 0.01, 100.0, 0, 0.1, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964927524463548	In train graph: AUC=0.895144054211791	In Whole Graph: AUC=0.8964927524463548
+current density: 2727598.0
+image name: (10.0, 0, 0, 0, 0, 100.0, 0, 0, 10.0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.641045644311611	In train graph: AUC=0.6508577818848538	In Whole Graph: AUC=0.641045644311611
+current density: 321333824.0
+image name: (0.001, 0.01, 0, 0, 0, 100.0, 10.0, 0, 100.0, 10000)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8883553975445738	In train graph: AUC=0.8883931656268365	In Whole Graph: AUC=0.8883553975445738
+current density: 11944831.0
+image name: (0.1, 0.01, 0, 0, 0, 10000, 0, 0, 10.0, 1.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8553038628041816	In train graph: AUC=0.8386050097596776	In Whole Graph: AUC=0.8553038628041816
+current density: 54259380.0
+image name: (0.0001, 0.1, 0, 0, 0, 0.0001, 0.01, 0, 0, 10.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965443651963704	In train graph: AUC=0.8951513067330997	In Whole Graph: AUC=0.8965443651963704
+current density: 20924486.0
+image name: (100.0, 100.0, 0, 0, 0, 10.0, 0, 0, 0.001, 0.1)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5318011145289796	In train graph: AUC=0.45453827528193674	In Whole Graph: AUC=0.5318011145289796
+current density: 462947008.0
+image name: (0.1, 0.0001, 0, 0, 0, 100.0, 0.001, 0, 0.1, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964937738489527	In train graph: AUC=0.8951472775545949	In Whole Graph: AUC=0.8964937738489527
+current density: 8298243.5
+image name: (0.001, 0.001, 0, 0, 0, 0, 10.0, 0, 0.01, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7572873564275014	In train graph: AUC=0.751428696333105	In Whole Graph: AUC=0.7572873564275014
+current density: 201668000.0
+image name: (10.0, 0.01, 0, 0, 0, 100.0, 0, 0, 10.0, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8976572471642353	In train graph: AUC=0.8950580312507114	In Whole Graph: AUC=0.8976572471642353
+current density: 15082151.0
+image name: (0.1, 1000.0, 0, 0, 0, 0, 1.0, 0, 1.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6757373920297658	In train graph: AUC=0.6942218155438052	In Whole Graph: AUC=0.6757373920297658
+current density: 375762304.0
+image name: (0.1, 0.0001, 0, 0, 0, 100.0, 0.1, 0, 10.0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965018173944097	In train graph: AUC=0.8951613796793619	In Whole Graph: AUC=0.8965018173944097
+current density: 3192198.75
+image name: (0.0001, 0.01, 0, 0, 0, 0.1, 1.0, 0, 10.0, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8975770670603151	In train graph: AUC=0.8958044365687436	In Whole Graph: AUC=0.8975770670603151
+current density: 93249288.0
+image name: (100.0, 10000, 0, 0, 0, 1000.0, 0.0001, 0, 1000.0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6917628476806564	In train graph: AUC=0.6811833939019593	In Whole Graph: AUC=0.6917628476806564
+current density: 1086738560.0
+image name: (0, 10.0, 0, 0, 0, 0, 10000, 0, 100.0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964932631476539	In train graph: AUC=0.8951464717188939	In Whole Graph: AUC=0.8964932631476539
+current density: 7949478.5
+image name: (0.1, 0, 0, 0, 0, 1000.0, 10000, 0, 0.0001, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7904350306874026	In train graph: AUC=0.7800594344121258	In Whole Graph: AUC=0.7904350306874026
+current density: 35136032.0
+image name: (100.0, 1.0, 0, 0, 0, 0.0001, 0.001, 0, 0.01, 1.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8116381995378918	In train graph: AUC=0.7889254402532258	In Whole Graph: AUC=0.8116381995378918
+current density: 49997328.0
+image name: (0.0001, 0.0001, 0, 0, 0, 0.0001, 10000, 0, 0.01, 10.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7972287943095618	In train graph: AUC=0.7883518866930538	In Whole Graph: AUC=0.7972287943095618
+current density: 593563648.0
+image name: (1.0, 1.0, 0, 0, 0, 10000, 1.0, 0, 1000.0, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964936461736281	In train graph: AUC=0.8951492921438473	In Whole Graph: AUC=0.8964936461736281
+current density: 2843531.25
+image name: (0.1, 1.0, 0, 0, 0, 10000, 0.1, 0, 10.0, 0.01)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7196920483935445	In train graph: AUC=0.7178372336788554	In Whole Graph: AUC=0.7196920483935445
+current density: 527295136.0
+image name: (0.01, 100.0, 0, 0, 0, 0, 0.001, 0, 1.0, 1.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8932337440265503	In train graph: AUC=0.8905262127273288	In Whole Graph: AUC=0.8932337440265503
+current density: 19647428.0
+image name: (1000.0, 1000.0, 0, 0, 0, 1000.0, 0.0001, 0, 1.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964931993099914	In train graph: AUC=0.8951464717188939	In Whole Graph: AUC=0.8964931993099914
+current density: 5338447.5
+image name: (10000, 10000, 0, 0, 0, 0.001, 1000.0, 0, 10000, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8970821017452322	In train graph: AUC=0.895404943519983	In Whole Graph: AUC=0.8970821017452322
+current density: 415307744.0
+image name: (100.0, 10000, 0, 0, 0, 1.0, 0.0001, 0, 1000.0, 0.0001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964921140697314	In train graph: AUC=0.8951492921438473	In Whole Graph: AUC=0.8964921140697314
+current density: 5803445.5
+image name: (1.0, 1000.0, 0, 0, 0, 1000.0, 0.0001, 0, 1.0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965606118814402	In train graph: AUC=0.8944951550135772	In Whole Graph: AUC=0.8965606118814402
+current density: 787534976.0
+image name: (10000, 1000.0, 0, 0, 0, 0.01, 1.0, 0, 1000.0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.800907886466505	In train graph: AUC=0.8001670497408131	In Whole Graph: AUC=0.800907886466505
+current density: 1116721024.0
+image name: (0, 10000, 0, 0, 0, 1.0, 0.01, 0, 0.001, 0.001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8798041511589025	In train graph: AUC=0.8741619056886158	In Whole Graph: AUC=0.8798041511589025
+current density: 13293410.0
+image name: (100.0, 10.0, 0, 0, 0, 1000.0, 0.0001, 0, 10000, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8990338105964646	In train graph: AUC=0.8945225534274106	In Whole Graph: AUC=0.8990338105964646
+current density: 786316928.0
+image name: (1000.0, 1000.0, 0, 0, 0, 0, 1000.0, 0, 1000.0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8952278410855875	In train graph: AUC=0.8951108134891256	In Whole Graph: AUC=0.8952278410855875
+current density: 21174154.0
+image name: (1000.0, 1000.0, 0, 0, 0, 0, 1000.0, 0, 1.0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8970591201867839	In train graph: AUC=0.8954047420610578	In Whole Graph: AUC=0.8970591201867839
+current density: 397929344.0
+image name: (1000.0, 1000.0, 0, 0, 0, 0, 100.0, 0, 0, 0.0001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6276054543920121	In train graph: AUC=0.6093735614573619	In Whole Graph: AUC=0.6276054543920121
+current density: 605611584.0
+image name: (1000.0, 0.1, 0, 0, 0, 0.1, 1000.0, 0, 0.0001, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7621187183899835	In train graph: AUC=0.748999706071428	In Whole Graph: AUC=0.7621187183899835
+current density: 51029780.0
+image name: (10.0, 1000.0, 0, 0, 0, 0, 1.0, 0, 0.1, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4483128471891064	In train graph: AUC=0.438603680130771	In Whole Graph: AUC=0.4483128471891064
+current density: 1285582080.0
+image name: (0.01, 0.001, 0, 0, 0, 0.001, 1000.0, 0, 1.0, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964956251411611	In train graph: AUC=0.8951492921438473	In Whole Graph: AUC=0.8964956251411611
+current density: 2959983.0
+image name: (0.001, 0, 0, 0, 0, 10.0, 100.0, 0, 100.0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965243840080528	In train graph: AUC=0.8950394970295888	In Whole Graph: AUC=0.8965243840080528
+current density: 20665332.0
+image name: (1000.0, 1000.0, 0, 0, 0, 0, 10.0, 0, 1000.0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964928801216797	In train graph: AUC=0.8951480833902958	In Whole Graph: AUC=0.8964928801216797
+current density: 13171781.0
+image name: (0.1, 0.1, 0, 0, 0, 0.01, 1.0, 0, 0, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964933908229785	In train graph: AUC=0.8951464717188939	In Whole Graph: AUC=0.8964933908229785
+current density: 5338394.0
+image name: (1000.0, 100.0, 0, 0, 0, 0, 1000.0, 0, 0.001, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8987494776483277	In train graph: AUC=0.8974535793307978	In Whole Graph: AUC=0.8987494776483277
+current density: 22858002.0
+image name: (0, 1000.0, 0, 0, 0, 10.0, 0.01, 0, 0.1, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5916941838910255	In train graph: AUC=0.5726971582808382	In Whole Graph: AUC=0.5916941838910255
+current density: 325682368.0
+image name: (0, 0.001, 0, 0, 0, 10.0, 0.01, 0, 0.1, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4931154911408008	In train graph: AUC=0.5446945691307309	In Whole Graph: AUC=0.4931154911408008
+current density: 1028964096.0
+image name: (0, 1000.0, 0, 0, 0, 10.0, 0.01, 0, 0.1, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964933908229784	In train graph: AUC=0.8951440542117908	In Whole Graph: AUC=0.8964933908229784
+current density: 2727675.25
+image name: (0, 10.0, 0, 0, 0, 10.0, 0.01, 0, 0.1, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48758855400927964	In train graph: AUC=0.42753794428492253	In Whole Graph: AUC=0.48758855400927964
+current density: 1330777344.0
+image name: (0.001, 0.01, 0, 0, 0, 10.0, 0, 0, 0.1, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964969657320705	In train graph: AUC=0.8951436512939405	In Whole Graph: AUC=0.8964969657320705
+current density: 2727501.25
+image name: (10.0, 0.0001, 0, 0, 0, 0.1, 0.01, 0, 1000.0, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5875201264189995	In train graph: AUC=0.530433493271574	In Whole Graph: AUC=0.5875201264189995
+current density: 434256480.0
+image name: (0, 0, 0, 0, 0, 100.0, 0.1, 0, 0.0001, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.896494731413888	In train graph: AUC=0.8951468746367444	In Whole Graph: AUC=0.896494731413888
+current density: 5454775.0
+image name: (0.0001, 1000.0, 0, 0, 0, 1.0, 1000.0, 0, 10000, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7386341510810206	In train graph: AUC=0.7334801163062667	In Whole Graph: AUC=0.7386341510810206
+current density: 463031744.0
+image name: (10000, 0.1, 0, 0, 0, 0.001, 10.0, 0, 100.0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6370708880214628	In train graph: AUC=0.5588863431196036	In Whole Graph: AUC=0.6370708880214628
+current density: 437900960.0
+image name: (1.0, 100.0, 0, 0, 0, 0.0001, 0, 0, 0.01, 0.1)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7222446930793718	In train graph: AUC=0.7201399091944041	In Whole Graph: AUC=0.7222446930793718
+current density: 519693408.0
+image name: (0.01, 0.01, 0, 0, 0, 10000, 100.0, 0, 0.1, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965163085437645	In train graph: AUC=0.8951418381636133	In Whole Graph: AUC=0.8965163085437645
+current density: 23303012.0
+image name: (0, 0.001, 0, 0, 0, 0.01, 0.001, 0, 0, 10000)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8875112082975682	In train graph: AUC=0.8832366229762696	In Whole Graph: AUC=0.8875112082975682
+current density: 21215932.0
+image name: (10.0, 1.0, 0, 0, 0, 10.0, 0.01, 0, 1000.0, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964923694203808	In train graph: AUC=0.895144054211791	In Whole Graph: AUC=0.8964923694203808
+current density: 5338601.0
+image name: (0.0001, 1000.0, 0, 0, 0, 100.0, 0.1, 0, 0.001, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7807303334994389	In train graph: AUC=0.7369266755993554	In Whole Graph: AUC=0.7807303334994389
+current density: 307854400.0
+image name: (1000.0, 0.0001, 0, 0, 0, 0.1, 10000, 0, 10.0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5858501331717474	In train graph: AUC=0.5887318785178506	In Whole Graph: AUC=0.5858501331717474
+current density: 420527872.0
+image name: (0.001, 10.0, 0, 0, 0, 0.0001, 10.0, 0, 1000.0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8554734794730635	In train graph: AUC=0.8451677357084534	In Whole Graph: AUC=0.8554734794730635
+current density: 549896768.0
+image name: (1.0, 1000.0, 0, 0, 0, 10000, 1000.0, 0, 0.01, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8893903975643633	In train graph: AUC=0.8861938385399386	In Whole Graph: AUC=0.8893903975643633
+current density: 14254877.0
+image name: (10000, 0, 0, 0, 0, 10.0, 0.01, 0, 0.0001, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.896842965862044	In train graph: AUC=0.8950191496781392	In Whole Graph: AUC=0.896842965862044
+current density: 25338448.0
+image name: (0, 1.0, 0, 0, 0, 1.0, 0.001, 0, 100.0, 1.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964933908229786	In train graph: AUC=0.8951464717188937	In Whole Graph: AUC=0.8964933908229786
+current density: 7949566.0
+image name: (0.01, 100.0, 0, 0, 0, 0.001, 10000, 0, 0.1, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964919863944066	In train graph: AUC=0.8951472775545948	In Whole Graph: AUC=0.8964919863944066
+current density: 8065788.5
+image name: (1000.0, 10000, 0, 0, 0, 0, 0, 0, 10000, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964968380567457	In train graph: AUC=0.8951553359116046	In Whole Graph: AUC=0.8964968380567457
+current density: 3076170.5
+image name: (100.0, 1000.0, 0, 0, 0, 0.01, 1000.0, 0, 1000.0, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7054189046555146	In train graph: AUC=0.7079647390472322	In Whole Graph: AUC=0.7054189046555146
+current density: 317663456.0
+image name: (0.1, 0.01, 0, 0, 0, 100.0, 100.0, 0, 10.0, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8425353089302378	In train graph: AUC=0.8316925511166767	In Whole Graph: AUC=0.8425353089302378
+current density: 21543078.0
+image name: (0.0001, 1000.0, 0, 0, 0, 1000.0, 0.1, 0, 0.001, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8931832484356262	In train graph: AUC=0.884975616418983	In Whole Graph: AUC=0.8931832484356262
+current density: 10162781.0
+image name: (1000.0, 0.0001, 0, 0, 0, 0, 0.01, 0, 0, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964916033684324	In train graph: AUC=0.8951452629653422	In Whole Graph: AUC=0.8964916033684324
+current density: 2727646.25
+image name: (0, 0.1, 0, 0, 0, 10.0, 0.0001, 0, 0.1, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8876894111320371	In train graph: AUC=0.8779864019254638	In Whole Graph: AUC=0.8876894111320371
+current density: 451499136.0
+image name: (10.0, 0.001, 0, 0, 0, 0.0001, 1000.0, 0, 1000.0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.869453129558408	In train graph: AUC=0.8612665198836937	In Whole Graph: AUC=0.869453129558408
+current density: 13534603.0
+image name: (1.0, 10.0, 0, 0, 0, 10000, 0.001, 0, 0.0001, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.896495625141161	In train graph: AUC=0.8951545300759037	In Whole Graph: AUC=0.896495625141161
+current density: 3076137.0
+image name: (0.1, 1000.0, 0, 0, 0, 0, 1.0, 0, 1.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8876103801060394	In train graph: AUC=0.8855749567215865	In Whole Graph: AUC=0.8876103801060394
+current density: 26503648.0
+image name: (0.1, 1000.0, 0, 0, 0, 0, 1.0, 0, 1.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.751231907289329	In train graph: AUC=0.7450208922978424	In Whole Graph: AUC=0.751231907289329
+current density: 175907904.0
+image name: (0.1, 1000.0, 0, 0, 0, 0, 1.0, 0, 1.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7531887231535499	In train graph: AUC=0.7470407194823472	In Whole Graph: AUC=0.7531887231535499
+current density: 168775440.0
+image name: (0.1, 1000.0, 0, 0, 0, 0, 1.0, 0, 1.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7574858596385997	In train graph: AUC=0.7740676430574938	In Whole Graph: AUC=0.7574858596385997
+current density: 311580768.0
+image name: (100.0, 1000.0, 0, 0, 0, 0, 1.0, 0, 0.01, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.665469359390335	In train graph: AUC=0.6240498441614484	In Whole Graph: AUC=0.665469359390335
+current density: 188549040.0
+image name: (0.001, 10000, 0, 0, 0, 0.1, 10000, 0, 1.0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8960093417481586	In train graph: AUC=0.8956640196978478	In Whole Graph: AUC=0.8960093417481586
+current density: 40123312.0
+image name: (1000.0, 1000.0, 0, 0, 0, 1.0, 10.0, 0, 10000, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8885600291712581	In train graph: AUC=0.8884646835452984	In Whole Graph: AUC=0.8885600291712581
+current density: 11747781.0
+image name: (0.1, 0, 0, 0, 0, 0, 1000.0, 0, 0.1, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8925944736757101	In train graph: AUC=0.8863326437394322	In Whole Graph: AUC=0.8925944736757101
+current density: 52692280.0
+image name: (10000, 1.0, 0, 0, 0, 10.0, 0.01, 0, 100.0, 0.0001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.739042233337636	In train graph: AUC=0.7358095858588728	In Whole Graph: AUC=0.739042233337636
+current density: 182946048.0
+image name: (0, 1000.0, 0, 0, 0, 1000.0, 0.0001, 0, 1000.0, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8645073705049827	In train graph: AUC=0.8630828735537011	In Whole Graph: AUC=0.8645073705049827
+current density: 159228496.0
+image name: (0.01, 100.0, 0, 0, 0, 0.001, 0, 0, 10.0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8900776738372959	In train graph: AUC=0.8901176540269323	In Whole Graph: AUC=0.8900776738372959
+current density: 14765500.0
+image name: (1000.0, 0.01, 0, 0, 0, 0.01, 100.0, 0, 1.0, 100.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6126554718388451	In train graph: AUC=0.6003592818472817	In Whole Graph: AUC=0.6126554718388451
+current density: 294941088.0
+image name: (0.1, 1000.0, 0, 0, 0, 0, 1.0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965776884561206	In train graph: AUC=0.8951553359116047	In Whole Graph: AUC=0.8965776884561206
+current density: 20551094.0
+image name: (0, 0.1, 0, 0, 0, 10.0, 0.01, 0, 0.001, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964944760632387	In train graph: AUC=0.8951468746367442	In Whole Graph: AUC=0.8964944760632387
+current density: 2727308.0
+image name: (0.0001, 0.001, 0, 0, 0, 100.0, 0.1, 0, 0.1, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964944122255762	In train graph: AUC=0.8951492921438473	In Whole Graph: AUC=0.8964944122255762
+current density: 5803406.5
+image name: (10.0, 0.0001, 0, 0, 0, 0.1, 1000.0, 0, 1000.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8959250441150166	In train graph: AUC=0.8955377049517195	In Whole Graph: AUC=0.8959250441150166
+current density: 22191246.0
+image name: (0.001, 10.0, 0, 0, 0, 0.0001, 10.0, 0, 0.0001, 1000.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965020727450591	In train graph: AUC=0.8949051239264505	In Whole Graph: AUC=0.8965020727450591
+current density: 395406752.0
+image name: (100.0, 1000.0, 0, 0, 0, 10000, 1.0, 0, 0.01, 0.01)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7460138486871211	In train graph: AUC=0.7427337291195379	In Whole Graph: AUC=0.7460138486871211
+current density: 527084288.0
+image name: (1.0, 10000, 0, 0, 0, 0, 0.001, 0, 1.0, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8869527564272716	In train graph: AUC=0.8888778758009755	In Whole Graph: AUC=0.8869527564272716
+current density: 14929098.0
+image name: (1000.0, 0, 0, 0, 0, 1.0, 0.01, 0, 0.1, 1.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8848049382772794	In train graph: AUC=0.8773433450360822	In Whole Graph: AUC=0.8848049382772794
+current density: 23577068.0
+image name: (10000, 1000.0, 0, 0, 0, 10.0, 10000, 0, 100.0, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.667353017293495	In train graph: AUC=0.6953522015733538	In Whole Graph: AUC=0.667353017293495
+current density: 338403968.0
+image name: (0, 1.0, 0, 0, 0, 0.001, 1000.0, 0, 10000, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.896577752293783	In train graph: AUC=0.8951762876398301	In Whole Graph: AUC=0.896577752293783
+current density: 20324100.0
+image name: (0.01, 100.0, 0, 0, 0, 1000.0, 0, 0, 1000.0, 0.0001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8729782133549157	In train graph: AUC=0.8654145591544848	In Whole Graph: AUC=0.8729782133549157
+current density: 17894048.0
+image name: (0.1, 1000.0, 0, 0, 0, 0.01, 0.0001, 0, 10.0, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8863725678329423	In train graph: AUC=0.8834761576383857	In Whole Graph: AUC=0.8863725678329423
+current density: 11284551.0
+image name: (1000.0, 0.01, 0, 0, 0, 0, 100.0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965430884431232	In train graph: AUC=0.8949697922414542	In Whole Graph: AUC=0.8965430884431232
+current density: 413370496.0
+image name: (0, 0.1, 0, 0, 0, 10.0, 0.01, 0, 0.001, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964933908229786	In train graph: AUC=0.8951464717188939	In Whole Graph: AUC=0.8964933908229786
+current density: 5338394.0
+image name: (0.0001, 0.0001, 0, 0, 0, 100.0, 0.1, 0, 0.1, 10.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964933269853163	In train graph: AUC=0.8951472775545949	In Whole Graph: AUC=0.8964933269853163
+current density: 5338478.5
+image name: (10.0, 0.001, 0, 0, 0, 0, 1000.0, 0, 1000.0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.897767239456476	In train graph: AUC=0.8958902580708978	In Whole Graph: AUC=0.897767239456476
+current density: 22570996.0
+image name: (0.001, 1000.0, 0, 0, 0, 0.1, 1.0, 0, 1.0, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8977980092097319	In train graph: AUC=0.8959005324760853	In Whole Graph: AUC=0.8977980092097319
+current density: 44793324.0
+image name: (0.001, 1000.0, 0, 0, 0, 0.1, 1.0, 0, 1.0, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8965206495048048	In train graph: AUC=0.8951460688010433	In Whole Graph: AUC=0.8965206495048048
+current density: 23185366.0
+image name: (0.001, 10.0, 0, 0, 0, 0.1, 10.0, 0, 0.0001, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8957743553130234	In train graph: AUC=0.893934696283546	In Whole Graph: AUC=0.8957743553130234
+current density: 875599872.0
+image name: (0.001, 1000.0, 0, 0, 0, 0.1, 0.001, 0, 0.01, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8964932631476538	In train graph: AUC=0.8951464717188938	In Whole Graph: AUC=0.8964932631476538
+current density: 5338490.0
+image name: (0.001, 10000, 0, 0, 0, 0.1, 0.01, 0, 0.1, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6530891300165071	In train graph: AUC=0.5855032977818768	In Whole Graph: AUC=0.6530891300165071
+current density: 192708752.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 1000.0, 0, 100.0, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='brazil', defense=False, density=10000000.0, device='cuda:3', dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='brazil/HA_YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5789737636144987	In train graph: AUC=0.5026500914321332	In Whole Graph: AUC=0.5789737636144987
+current density: 194172736.0
+image name: (1.0, 1000.0, 0, 0, 0, 10000, 10000, 0, 10000, 0.01)_1.0_0.1.png
+============================================================================================

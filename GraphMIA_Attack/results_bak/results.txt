@@ -1,0 +1,1568 @@
+***************************************
+current parameters: weight=1e0, lr=1e-1
+current AUC=0.8474117870253675, current final AP=0.8524639458265719
+***************************************
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e0, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8143707535098308
+***************************************
+current parameters: weight=1e0, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.8009335418483698
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.8129781962264115
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8711332666028319, current final AP=0.8231164714581811
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8729550476173442, current final AP=0.8516099512729975
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8707167865111552, current final AP=0.8658810087970059
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.8512552850493229, current final AP=0.8276009362147653
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.847317836742902
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8424555461797852, current final AP=0.8258969452639062
+***************************************
+current parameters: weight=1e-5, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e-5, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e-4, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.8194694669210774
+***************************************
+current parameters: weight=1e-3, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.8064950861866766
+***************************************
+current parameters: weight=1e-2, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.8277394148935724
+***************************************
+current parameters: weight=1e-1, lr=1e-10
+current AUC=0.8390157527845719, current final AP=0.79174133785921
+***************************************
+current parameters: weight=1e-5, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8243385189807115
+***************************************
+current parameters: weight=1e-4, lr=1e-9
+current AUC=0.8408892744239703, current final AP=0.8288475497190112
+***************************************
+current parameters: weight=1e-3, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8387131624880351
+***************************************
+current parameters: weight=1e-2, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8483399795499428
+***************************************
+current parameters: weight=1e-1, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.7635332692133642
+***************************************
+current parameters: weight=1e-5, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.7838222339596732
+***************************************
+current parameters: weight=1e-4, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.8040782667420308
+***************************************
+current parameters: weight=1e-3, lr=1e-8
+current AUC=0.8461661793892179, current final AP=0.8060781286202281
+***************************************
+current parameters: weight=1e-2, lr=1e-8
+current AUC=0.8461668181623647, current final AP=0.8169263468043866
+***************************************
+current parameters: weight=1e-1, lr=1e-8
+current AUC=0.8461680957086581, current final AP=0.8545903592126498
+***************************************
+current parameters: weight=1e-5, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.9132663981908523
+***************************************
+current parameters: weight=1e-4, lr=1e-7
+current AUC=0.863024041504924, current final AP=0.8436044574755021
+***************************************
+current parameters: weight=1e-3, lr=1e-7
+current AUC=0.8630237221183505, current final AP=0.8406588750457069
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8630285129169513, current final AP=0.8197669078913854
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8630170150003098, current final AP=0.8037491895515031
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8711332666028319, current final AP=0.8793388426066028
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8711345441491255, current final AP=0.8282205746205236
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.871133266602832, current final AP=0.9088776373659992
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8711364604685656, current final AP=0.791310012736103
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8711172972741633, current final AP=0.902376030021563
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8728566765527458, current final AP=0.807531754947183
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8728538020735854, current final AP=0.8224239742434745
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8729524925247573, current final AP=0.8639095875765608
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8728617867379196, current final AP=0.8842268868979766
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.872853482687012, current final AP=0.8445391842486931
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.870717425284302, current final AP=0.8411702502851184
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8707314782935303, current final AP=0.8476879544133493
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8707321170666771, current final AP=0.8661875122511021
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8707468088490521, current final AP=0.810044285745626
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.870654825515921, current final AP=0.7703813653168357
+***************************************
+current parameters: weight=1e-5, lr=1e-3
+current AUC=0.8510885652580228, current final AP=0.8306020461529047
+***************************************
+current parameters: weight=1e-4, lr=1e-3
+current AUC=0.8512482585447088, current final AP=0.8067099758114098
+***************************************
+current parameters: weight=1e-3, lr=1e-3
+current AUC=0.8512559238224695, current final AP=0.8553499842981567
+***************************************
+current parameters: weight=1e-2, lr=1e-3
+current AUC=0.8512559238224696, current final AP=0.8127444484324854
+***************************************
+current parameters: weight=1e-1, lr=1e-3
+current AUC=0.8510917591237566, current final AP=0.8065525590520133
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.787415714901394
+***************************************
+current parameters: weight=1e-4, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.8433435419764991
+***************************************
+current parameters: weight=1e-3, lr=1e-2
+current AUC=0.8424721542816006, current final AP=0.8674159848082417
+***************************************
+current parameters: weight=1e-2, lr=1e-2
+current AUC=0.8424721542816006, current final AP=0.7803337946559018
+***************************************
+current parameters: weight=1e-1, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.8410293484168281
+***************************************
+
+
+current parameters: weight=1e-5, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e-4, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.8194694669210774
+***************************************
+current parameters: weight=1e-3, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.8064950861866766
+***************************************
+current parameters: weight=1e-2, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.8277394148935724
+***************************************
+current parameters: weight=1e-1, lr=1e-10
+current AUC=0.8390157527845717, current final AP=0.79174133785921
+***************************************
+current parameters: weight=1e-5, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8243385189807115
+***************************************
+current parameters: weight=1e-4, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8288475497190112
+***************************************
+current parameters: weight=1e-3, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8387131624880351
+***************************************
+current parameters: weight=1e-2, lr=1e-9
+current AUC=0.8408892744239704, current final AP=0.8483399795499428
+***************************************
+current parameters: weight=1e-1, lr=1e-9
+current AUC=0.8408892744239703, current final AP=0.7635332692133642
+***************************************
+current parameters: weight=1e-5, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.7838222339596732
+***************************************
+current parameters: weight=1e-4, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.8040782667420308
+***************************************
+current parameters: weight=1e-3, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.8060781286202281
+***************************************
+current parameters: weight=1e-2, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.8169263468043866
+***************************************
+current parameters: weight=1e-1, lr=1e-8
+current AUC=0.8461658600026445, current final AP=0.8545903592126498
+***************************************
+current parameters: weight=1e-5, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.9132663981908523
+***************************************
+current parameters: weight=1e-4, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.8436044574755021
+***************************************
+current parameters: weight=1e-3, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.8406588750457069
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.8197669078913854
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8630234027317772, current final AP=0.8037491895515031
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.871133266602832, current final AP=0.8793388426066028
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8711342247625521, current final AP=0.8277711869112775
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.871133266602832, current final AP=0.9088776373659992
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8711339053759787, current final AP=0.791310012736103
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8711345441491254, current final AP=0.902376030021563
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8729550476173442, current final AP=0.8086465515654591
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8729550476173442, current final AP=0.8223965657174824
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8728566765527457, current final AP=0.8629865258701452
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.872953131297904, current final AP=0.8841016262824621
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8728541214601588, current final AP=0.8445391842486931
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8707314782935303, current final AP=0.8411702502851184
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8707308395203837, current final AP=0.8476879544133493
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8707308395203835, current final AP=0.8661875122511021
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8707314782935304, current final AP=0.8102644354474233
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8707321170666771, current final AP=0.7703813653168357
+***************************************
+current parameters: weight=1e-5, lr=1e-3
+current AUC=0.8512552850493229, current final AP=0.8306020461529047
+***************************************
+current parameters: weight=1e-4, lr=1e-3
+current AUC=0.8512552850493229, current final AP=0.8067099758114098
+***************************************
+current parameters: weight=1e-3, lr=1e-3
+current AUC=0.8512482585447086, current final AP=0.8553499842981567
+***************************************
+current parameters: weight=1e-2, lr=1e-3
+current AUC=0.8512482585447086, current final AP=0.8127444484324854
+***************************************
+current parameters: weight=1e-1, lr=1e-3
+current AUC=0.8512482585447086, current final AP=0.8083573633972096
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.787415714901394
+***************************************
+current parameters: weight=1e-4, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.8433435419764991
+***************************************
+current parameters: weight=1e-3, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.8674159848082417
+***************************************
+current parameters: weight=1e-2, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.7803337946559018
+***************************************
+current parameters: weight=1e-1, lr=1e-2
+current AUC=0.8424721542816005, current final AP=0.8410293484168281
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8390135170785582, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8390135170785582, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e6, lr=1e-10
+current AUC=0.8390246956086262, current final AP=0.8194694669210774
+***************************************
+current parameters: weight=1e7, lr=1e-10
+current AUC=0.839094960654768, current final AP=0.8060452955698825
+***************************************
+current parameters: weight=1e8, lr=1e-10
+current AUC=0.8392201601915298, current final AP=0.8188114032234308
+***************************************
+current parameters: weight=1e9, lr=1e-10
+current AUC=0.8392415590919458, current final AP=0.795596063508684
+***************************************
+current parameters: weight=1e5, lr=1e-9
+current AUC=0.8409371824099761, current final AP=0.8244223061612729
+***************************************
+current parameters: weight=1e6, lr=1e-9
+current AUC=0.8411824712983255, current final AP=0.8300234127945706
+***************************************
+current parameters: weight=1e7, lr=1e-9
+current AUC=0.8415510434039966, current final AP=0.8284041549450052
+***************************************
+current parameters: weight=1e8, lr=1e-9
+current AUC=0.839627697459152, current final AP=0.8470403054384865
+***************************************
+current parameters: weight=1e9, lr=1e-9
+current AUC=0.8395753180611191, current final AP=0.7675158604341243
+***************************************
+current parameters: weight=1e5, lr=1e-8
+current AUC=0.8460856939727283, current final AP=0.7846814497242195
+***************************************
+current parameters: weight=1e6, lr=1e-8
+current AUC=0.8489585762002069, current final AP=0.8137096706622647
+***************************************
+current parameters: weight=1e7, lr=1e-8
+current AUC=0.8431224253449854, current final AP=0.7814951502539005
+***************************************
+current parameters: weight=1e8, lr=1e-8
+current AUC=0.8384306365821548, current final AP=0.8175959189202032
+***************************************
+current parameters: weight=1e9, lr=1e-8
+current AUC=0.8330330034921727, current final AP=0.8339936959069136
+***************************************
+current parameters: weight=1e5, lr=1e-7
+current AUC=0.8637643795819997, current final AP=0.9129897843386422
+***************************************
+current parameters: weight=1e6, lr=1e-7
+current AUC=0.8534060342344082, current final AP=0.8357159058163706
+***************************************
+current parameters: weight=1e7, lr=1e-7
+current AUC=0.8408055951417469, current final AP=0.7947146535911804
+***************************************
+current parameters: weight=1e8, lr=1e-7
+current AUC=0.8390413037104416, current final AP=0.7973562652486734
+***************************************
+current parameters: weight=1e9, lr=1e-7
+current AUC=0.8346625137895153, current final AP=0.7817027857137677
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.868471498900352, current final AP=0.8720530333245784
+***************************************
+current parameters: weight=1e6, lr=1e-6
+current AUC=0.8625915920845786, current final AP=0.8011581190926336
+***************************************
+current parameters: weight=1e7, lr=1e-6
+current AUC=0.8411163582776375, current final AP=0.8791551859271421
+***************************************
+current parameters: weight=1e8, lr=1e-6
+current AUC=0.8365175110076583, current final AP=0.7903314027520467
+***************************************
+current parameters: weight=1e9, lr=1e-6
+current AUC=0.837855101976939, current final AP=0.8830212279127313
+***************************************
+
+
+#################### New Experiment ########################################################
+
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8390157527845719, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e1, lr=1e-10
+current AUC=0.8390157527845719, current final AP=0.8194694669210774
+***************************************
+current parameters: weight=1e2, lr=1e-10
+current AUC=0.8390157527845719, current final AP=0.8064950861866766
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.8390157527845719, current final AP=0.8277394148935724
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8390163915577186, current final AP=0.79174133785921
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8389902018587021, current final AP=0.8263015232697286
+***************************************
+current parameters: weight=1e0, lr=1e-9
+current AUC=0.8408905519702639, current final AP=0.8288475497190112
+***************************************
+current parameters: weight=1e1, lr=1e-9
+current AUC=0.8408905519702639, current final AP=0.8387131624880351
+***************************************
+current parameters: weight=1e2, lr=1e-9
+current AUC=0.8408905519702639, current final AP=0.8483399795499428
+***************************************
+current parameters: weight=1e3, lr=1e-9
+current AUC=0.8408918295165573, current final AP=0.7635332692133642
+***************************************
+current parameters: weight=1e4, lr=1e-9
+current AUC=0.8409007723406117, current final AP=0.7845394285069905
+***************************************
+current parameters: weight=1e5, lr=1e-9
+current AUC=0.8394590613484119, current final AP=0.7999034806093017
+***************************************
+current parameters: weight=1e0, lr=1e-8
+current AUC=0.8461610692040439, current final AP=0.8060781286202281
+***************************************
+current parameters: weight=1e1, lr=1e-8
+current AUC=0.846161069204044, current final AP=0.8169263468043866
+***************************************
+current parameters: weight=1e2, lr=1e-8
+current AUC=0.846162027363764, current final AP=0.8545903592126498
+***************************************
+current parameters: weight=1e3, lr=1e-8
+current AUC=0.8461732058938322, current final AP=0.8919593487083493
+***************************************
+current parameters: weight=1e4, lr=1e-8
+current AUC=0.8444817346012554, current final AP=0.8332366606690755
+***************************************
+current parameters: weight=1e5, lr=1e-8
+current AUC=0.8368362588078833, current final AP=0.7914378452407145
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8629524989124887, current final AP=0.8197119175076555
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8629563315513691, current final AP=0.8034289013459498
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8630642842131688, current final AP=0.8667971528249454
+***************************************
+current parameters: weight=1e3, lr=1e-7
+current AUC=0.8621808609512227, current final AP=0.8157255805591992
+***************************************
+current parameters: weight=1e4, lr=1e-7
+current AUC=0.8571862937168357, current final AP=0.8891833560737554
+***************************************
+current parameters: weight=1e5, lr=1e-7
+current AUC=0.8372655143624949, current final AP=0.7886433906976893
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8710943014408806, current final AP=0.902376030021563
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8710700280613044, current final AP=0.8167174123485652
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8715523017870956, current final AP=0.8233513347988586
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8691875635978514, current final AP=0.8691001079851097
+***************************************
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8542856248574737, current final AP=0.8323140019950216
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.8389090776690656, current final AP=0.8002000876390868
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.872856037779599, current final AP=0.8425785033915729
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8729314130109147, current final AP=0.8464120695241875
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8724900207665149, current final AP=0.8660501732981629
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.8678461399896902, current final AP=0.8208560440260393
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.8369327135530416, current final AP=0.7788714764299984
+***************************************
+current parameters: weight=1e5, lr=1e-5
+current AUC=0.8390010610021967, current final AP=0.8042730569742291
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8705155729699311, current final AP=0.8239897199258845
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8707340333861173, current final AP=0.8254645628328408
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8712731579219688, current final AP=0.892329791447189
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.8653255411526406, current final AP=0.8417695858669167
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.8387231946833633, current final AP=0.7867092130121031
+***************************************
+current parameters: weight=1e5, lr=1e-4
+current AUC=0.8387500231555265, current final AP=0.820139131004308
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.8511294467394144, current final AP=0.8477147709168102
+***************************************
+current parameters: weight=1e1, lr=1e-3
+current AUC=0.8508563712191816, current final AP=0.7622737319236159
+***************************************
+current parameters: weight=1e2, lr=1e-3
+current AUC=0.8512565625956163, current final AP=0.8346111719443339
+***************************************
+current parameters: weight=1e3, lr=1e-3
+current AUC=0.8693811118613147, current final AP=0.8162517885034886
+***************************************
+current parameters: weight=1e4, lr=1e-3
+current AUC=0.8386114093826832, current final AP=0.8361638394178307
+***************************************
+current parameters: weight=1e5, lr=1e-3
+current AUC=0.8384229713043938, current final AP=0.783486945993502
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8424753481473344, current final AP=0.8492928007080083
+***************************************
+current parameters: weight=1e1, lr=1e-2
+current AUC=0.8424753481473344, current final AP=0.8677471567712436
+***************************************
+current parameters: weight=1e2, lr=1e-2
+current AUC=0.8424753481473344, current final AP=0.8565392711039164
+***************************************
+current parameters: weight=1e3, lr=1e-2
+current AUC=0.8459675209405808, current final AP=0.8512617857670248
+***************************************
+current parameters: weight=1e4, lr=1e-2
+current AUC=0.8677535178834124, current final AP=0.8215009233713768
+***************************************
+
+
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8390157527845719, current final AP=0.834689592935509
+***************************************
+current parameters: weight=1e1, lr=1e-10
+current AUC=0.8390154333979984, current final AP=0.8194694669210774
+***************************************
+current parameters: weight=1e2, lr=1e-10
+current AUC=0.8390131976919848, current final AP=0.8064950861866766
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.8390176691040121, current final AP=0.8277394148935724
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8389972283633164, current final AP=0.79174133785921
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8389697611180063, current final AP=0.8266251068879562
+***************************************
+current parameters: weight=1e0, lr=1e-9
+current AUC=0.8408905519702639, current final AP=0.8288475497190112
+***************************************
+current parameters: weight=1e1, lr=1e-9
+current AUC=0.840889913197117, current final AP=0.8387131624880351
+***************************************
+current parameters: weight=1e2, lr=1e-9
+current AUC=0.8408905519702639, current final AP=0.8483399795499428
+***************************************
+current parameters: weight=1e3, lr=1e-9
+current AUC=0.8409007723406117, current final AP=0.7635332692133642
+***************************************
+current parameters: weight=1e4, lr=1e-9
+current AUC=0.8408257164958692, current final AP=0.7846793174248075
+***************************************
+current parameters: weight=1e5, lr=1e-9
+current AUC=0.8413006443304731, current final AP=0.8021988637270592
+***************************************
+current parameters: weight=1e0, lr=1e-8
+current AUC=0.8461617079771907, current final AP=0.8060781286202281
+***************************************
+current parameters: weight=1e1, lr=1e-8
+current AUC=0.8461591528846037, current final AP=0.8169263468043866
+***************************************
+current parameters: weight=1e2, lr=1e-8
+current AUC=0.8461923690882345, current final AP=0.8540238714368595
+***************************************
+current parameters: weight=1e3, lr=1e-8
+current AUC=0.8462415546205336, current final AP=0.8917282611261557
+***************************************
+current parameters: weight=1e4, lr=1e-8
+current AUC=0.8457503380706879, current final AP=0.8302230953008547
+***************************************
+current parameters: weight=1e5, lr=1e-8
+current AUC=0.8448867167762907, current final AP=0.7965539372244421
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8629933803938803, current final AP=0.8197669078913854
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8629869926624129, current final AP=0.8039496707062745
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8629678294680105, current final AP=0.8684604187259828
+***************************************
+current parameters: weight=1e3, lr=1e-7
+current AUC=0.8628777624543197, current final AP=0.8209228980659102
+***************************************
+current parameters: weight=1e4, lr=1e-7
+current AUC=0.8632539998377516, current final AP=0.8939281945342255
+***************************************
+current parameters: weight=1e5, lr=1e-7
+current AUC=0.8665666773767631, current final AP=0.7946471491264628
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8710923851214404, current final AP=0.902376030021563
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.871075777019625, current final AP=0.8167174123485652
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8710987728529078, current final AP=0.8245228832781721
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8715823241249926, current final AP=0.857255616618281
+***************************************
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8707589455388403, current final AP=0.8799871220137581
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.8705424014420943, current final AP=0.8380098144955068
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8728592316453327, current final AP=0.8427483926719397
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.872858592872186, current final AP=0.8462487072212823
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8724440290999494, current final AP=0.8712319384787734
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.8725321797942001, current final AP=0.8157730467032829
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.8724516943777104, current final AP=0.766892234479805
+***************************************
+current parameters: weight=1e5, lr=1e-5
+current AUC=0.8721335853506321, current final AP=0.8666543352695686
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8705570932244694, current final AP=0.8242551972541206
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8705570932244694, current final AP=0.8247680833619488
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8712948762089581, current final AP=0.8765324679603077
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.8709563264411841, current final AP=0.8140500762034175
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.8709697406772656, current final AP=0.758595333664422
+***************************************
+current parameters: weight=1e5, lr=1e-4
+current AUC=0.8712571885933003, current final AP=0.8511184260825726
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.8512572013687632, current final AP=0.8479627867898258
+***************************************
+current parameters: weight=1e1, lr=1e-3
+current AUC=0.8512460228386951, current final AP=0.762541205642634
+***************************************
+current parameters: weight=1e2, lr=1e-3
+current AUC=0.8482913776484333, current final AP=0.831259989951233
+***************************************
+current parameters: weight=1e3, lr=1e-3
+current AUC=0.8590559827173537, current final AP=0.7834369991159225
+***************************************
+current parameters: weight=1e4, lr=1e-3
+current AUC=0.857090477744824, current final AP=0.8249948848055518
+***************************************
+current parameters: weight=1e5, lr=1e-3
+current AUC=0.8642185472893342, current final AP=0.8533950735228647
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8424753481473343, current final AP=0.8492928007080083
+***************************************
+current parameters: weight=1e1, lr=1e-2
+current AUC=0.843061103122898, current final AP=0.8685017089785665
+***************************************
+current parameters: weight=1e2, lr=1e-2
+current AUC=0.8428126203688149, current final AP=0.8530599115563797
+***************************************
+current parameters: weight=1e3, lr=1e-2
+current AUC=0.8441923703657805, current final AP=0.8006003278647906
+***************************************
+current parameters: weight=1e4, lr=1e-2
+current AUC=0.8304836598635197, current final AP=0.780420183245688
+***************************************
+current parameters: weight=1e5, lr=1e-2
+current AUC=0.8662255725164021, current final AP=0.8333482550518441
+***************************************
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8387219171370699, current final AP=0.8358625599078737
+***************************************
+current parameters: weight=1e1, lr=1e-10
+current AUC=0.8387219171370699, current final AP=0.8201664924768952
+***************************************
+current parameters: weight=1e2, lr=1e-10
+current AUC=0.8387219171370699, current final AP=0.8069414585399821
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.8387219171370699, current final AP=0.8275538443241136
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8387219171370699, current final AP=0.7914590592525532
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8387219171370699, current final AP=0.8262600189886128
+***************************************
+current parameters: weight=1e0, lr=1e-9
+current AUC=0.8387219171370699, current final AP=0.8252895858730114
+***************************************
+current parameters: weight=1e1, lr=1e-9
+current AUC=0.8387219171370699, current final AP=0.8320091323035443
+***************************************
+current parameters: weight=1e2, lr=1e-9
+current AUC=0.8387219171370699, current final AP=0.8439798038994402
+***************************************
+current parameters: weight=1e3, lr=1e-9
+current AUC=0.8387219171370699, current final AP=0.7596739430973247
+***************************************
+current parameters: weight=1e4, lr=1e-9
+current AUC=0.8387219171370699, current final AP=0.7872658814143014
+***************************************
+current parameters: weight=1e5, lr=1e-9
+current AUC=0.8387219171370699, current final AP=0.7993820641095557
+***************************************
+current parameters: weight=1e0, lr=1e-8
+current AUC=0.8387219171370699, current final AP=0.7813068550974369
+***************************************
+current parameters: weight=1e1, lr=1e-8
+current AUC=0.8387219171370699, current final AP=0.8142801740281713
+***************************************
+current parameters: weight=1e2, lr=1e-8
+current AUC=0.8387219171370699, current final AP=0.839350493771984
+***************************************
+current parameters: weight=1e3, lr=1e-8
+current AUC=0.8387219171370699, current final AP=0.8806265520447498
+***************************************
+current parameters: weight=1e4, lr=1e-8
+current AUC=0.8387219171370699, current final AP=0.8212542237944177
+***************************************
+current parameters: weight=1e5, lr=1e-8
+current AUC=0.8387219171370699, current final AP=0.7866543973106785
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.7851512662965947
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.7701686534173857
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.8037027737420288
+***************************************
+current parameters: weight=1e3, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.7643734683849804
+***************************************
+current parameters: weight=1e4, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.8672259409830845
+***************************************
+current parameters: weight=1e5, lr=1e-7
+current AUC=0.8387219171370699, current final AP=0.7855159887798122
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8387219171370699, current final AP=0.8820378776747996
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8387219171370699, current final AP=0.808475979476223
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8387219171370699, current final AP=0.8299210297622628
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8387219171370699, current final AP=0.843833961186899
+***************************************
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8387219171370699, current final AP=0.7939655015997396
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.8387219171370699, current final AP=0.8099094798123228
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8387219171370699, current final AP=0.8591540228040869
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8387219171370699, current final AP=0.8238613199373278
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8387219171370699, current final AP=0.8065177336352876
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.8387219171370699, current final AP=0.7732374167732656
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.8387219171370699, current final AP=0.7821010006221742
+***************************************
+current parameters: weight=1e5, lr=1e-5
+current AUC=0.8387219171370699, current final AP=0.8023668079911126
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.8387219171370699, current final AP=0.798549679506753
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.8387219171370699, current final AP=0.7953792034801868
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8387219171370699, current final AP=0.8540013169949285
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.8387219171370699, current final AP=0.8323117922186822
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.8387219171370699, current final AP=0.7853934321037983
+***************************************
+current parameters: weight=1e5, lr=1e-4
+current AUC=0.8387219171370699, current final AP=0.8204571434660723
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.8387219171370699, current final AP=0.8352832715065646
+***************************************
+current parameters: weight=1e1, lr=1e-3
+current AUC=0.8387219171370699, current final AP=0.7834386274611032
+***************************************
+current parameters: weight=1e2, lr=1e-3
+current AUC=0.8387219171370699, current final AP=0.8403882609467814
+***************************************
+current parameters: weight=1e3, lr=1e-3
+current AUC=0.8387219171370699, current final AP=0.8137326607966278
+***************************************
+current parameters: weight=1e4, lr=1e-3
+current AUC=0.8387219171370699, current final AP=0.8363005883369271
+***************************************
+current parameters: weight=1e5, lr=1e-3
+current AUC=0.8387219171370699, current final AP=0.7827038596407363
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.8387219171370699, current final AP=0.8399559021576344
+***************************************
+current parameters: weight=1e1, lr=1e-2
+current AUC=0.8387219171370699, current final AP=0.835640696116462
+***************************************
+current parameters: weight=1e2, lr=1e-2
+current AUC=0.8387219171370699, current final AP=0.8628002494468816
+***************************************
+
+######################################################## grad ensured(before embedding model) #######################################################
+current parameters: weight=1e-5, lr=1e-7
+current AUC=0.8394609776678521, current final AP=0.8413104210342414
+***************************************
+
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8394609776678521, current final AP=0.8413104210342414
+***************************************
+current parameters: weight=1e1, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8223455964902004
+***************************************
+current parameters: weight=1e2, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8099191304975397
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8234018284537508
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8394603388947052, current final AP=0.7965059133554776
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8304455824013844
+***************************************
+current parameters: weight=1e0, lr=1e-9
+current AUC=0.8394609776678521, current final AP=0.8250662003805778
+***************************************
+current parameters: weight=1e1, lr=1e-9
+current AUC=0.8394616164409988, current final AP=0.8374662246826912
+***************************************
+current parameters: weight=1e2, lr=1e-9
+current AUC=0.8394616164409988, current final AP=0.846685436308042
+***************************************
+current parameters: weight=1e3, lr=1e-9
+current AUC=0.8394609776678521, current final AP=0.7525201573294211
+***************************************
+current parameters: weight=1e4, lr=1e-9
+current AUC=0.8394616164409988, current final AP=0.7845668545803155
+***************************************
+current parameters: weight=1e5, lr=1e-9
+current AUC=0.8394692817187597, current final AP=0.796458804227484
+***************************************
+current parameters: weight=1e0, lr=1e-8
+current AUC=0.839460977667852, current final AP=0.7850126657533003
+***************************************
+current parameters: weight=1e1, lr=1e-8
+current AUC=0.8394616164409987, current final AP=0.8197313785773681
+***************************************
+current parameters: weight=1e2, lr=1e-8
+current AUC=0.8394603388947053, current final AP=0.8412280778963228
+***************************************
+current parameters: weight=1e3, lr=1e-8
+current AUC=0.8394577838021183, current final AP=0.8778077171410762
+***************************************
+current parameters: weight=1e4, lr=1e-8
+current AUC=0.8394718368113465, current final AP=0.8227464573890888
+***************************************
+current parameters: weight=1e5, lr=1e-8
+current AUC=0.8394597001215585, current final AP=0.7888577235433132
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8394616164409987, current final AP=0.7882399944939922
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8394603388947053, current final AP=0.774413681692471
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8394590613484118, current final AP=0.804834395334741
+***************************************
+current parameters: weight=1e3, lr=1e-7
+current AUC=0.8394775857696672, current final AP=0.7710316685410057
+***************************************
+current parameters: weight=1e4, lr=1e-7
+current AUC=0.8390023385484903, current final AP=0.8689922602008496
+***************************************
+current parameters: weight=1e5, lr=1e-7
+current AUC=0.8394411757003029, current final AP=0.7925886742031532
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8394622552141455, current final AP=0.878022876074062
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.839460977667852, current final AP=0.8025460112701093
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8394597001215585, current final AP=0.8216437036807201
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8394763082233738, current final AP=0.8463530569674802
+***************************************
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8394430920197432, current final AP=0.7949507629838211
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.8391205115806377, current final AP=0.8110252117309953
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8394622552141455, current final AP=0.8571066075167277
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.8394124309086995, current final AP=0.8259974419585321
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.8394328716493953, current final AP=0.8065161882577203
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.8394542705498113, current final AP=0.77394651608265
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.8394322328762486, current final AP=0.7878986283002468
+***************************************
+current parameters: weight=1e5, lr=1e-5
+current AUC=0.8394335104225421, current final AP=0.8049723585752793
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.839473753130787, current final AP=0.8057121066982111
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.839438620607716, current final AP=0.800996926626764
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.8394993040566565, current final AP=0.8505935082759357
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.8405417818321419, current final AP=0.8401284031979612
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.8378467979260313, current final AP=0.7862091096168449
+***************************************
+current parameters: weight=1e5, lr=1e-4
+current AUC=0.8377675900558351, current final AP=0.8191412100042099
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.8394609776678519, current final AP=0.8345207344348817
+***************************************
+current parameters: weight=1e1, lr=1e-3
+current AUC=0.8394699204919064, current final AP=0.787589107288222
+***************************************
+current parameters: weight=1e2, lr=1e-3
+current AUC=0.8378934283657435, current final AP=0.8404196702172964
+***************************************
+current parameters: weight=1e3, lr=1e-3
+current AUC=0.8384731149964132, current final AP=0.8111853124793129
+***************************************
+current parameters: weight=1e4, lr=1e-3
+current AUC=0.8381668232725498, current final AP=0.8369101157187726
+***************************************
+current parameters: weight=1e0, lr=1e-10
+current AUC=0.8394609776678521, current final AP=0.8413104210342414
+***************************************
+current parameters: weight=1e1, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8223455964902004
+***************************************
+current parameters: weight=1e2, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8099191304975397
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8234018284537508
+***************************************
+current parameters: weight=1e4, lr=1e-10
+current AUC=0.8394603388947052, current final AP=0.7965059133554776
+***************************************
+current parameters: weight=1e5, lr=1e-10
+current AUC=0.8394616164409987, current final AP=0.8304455824013844
+***************************************
+current parameters: weight=1e3, lr=1e-10
+current AUC=0.5018540390584229, current final AP=0.5
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.8418285903362566, current final AP=0.862595942900069
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.8387219171370699, current final AP=0.8358625599078737
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.7366006153940496, current final AP=0.6970361070698718
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.5902810026949838, current final AP=0.613306851907546
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.7992783140988093, current final AP=0.730515453481819
+***************************************
+
+
+
+
+
+
+
+
+
+
+
+##################### full loss ################################################################
+
+
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8510949529894902, current final AP=0.8482817677194086
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8431677782384042, current final AP=0.7973464069056174
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8301770487530828, current final AP=0.8137259889372972
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8279560345218557, current final AP=0.8390012012408361
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8351626731634156, current final AP=0.7616381335014488
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8292597705143594, current final AP=0.8647001606854404
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.8083712498427023, current final AP=0.7881400488680076
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.8239605084889756, current final AP=0.7985405441424505
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8142715973991712, current final AP=0.7977846790655219
+***************************************
+current parameters: weight=1e4, lr=1e-6
+current AUC=0.8046800992142451, current final AP=0.7602097738635858
+***************************************
+current parameters: weight=1e5, lr=1e-6
+current AUC=0.8349735963119793, current final AP=0.8000074957935135
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8618685008824651, current final AP=0.8006392675275853
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8438014411999736, current final AP=0.8375118469544294
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8277822882259418, current final AP=0.7841418939094225
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.7123214868594783, current final AP=0.7054468364684077
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.7350886393557079, current final AP=0.7261929808035503
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.7482793048359598, current final AP=0.7214148116686736
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.6974134797742064, current final AP=0.7320510569207175
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.7410381724444762, current final AP=0.7520747075643271
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.6936099050719227, current final AP=0.6435989697667448
+***************************************
+current parameters: weight=1e4, lr=1e-5
+current AUC=0.6815307048670043, current final AP=0.6448875753339085
+***************************************
+current parameters: weight=1e5, lr=1e-5
+current AUC=0.7251525230581137, current final AP=0.6956060559038793
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8424996215269107, current final AP=0.8373954516091588
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.823813910051798, current final AP=0.7393484847876085
+***************************************
+current parameters: weight=1e-8, lr=1e-4
+current AUC=0.8570495962634326, current final AP=0.8364105144020993
+***************************************
+current parameters: weight=1e-7, lr=1e-4
+current AUC=0.8566458916346908, current final AP=0.8246950514573229
+***************************************
+current parameters: weight=1e-6, lr=1e-4
+current AUC=0.8599202427848975, current final AP=0.7977641463957998
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8382396434112787, current final AP=0.83222665826797
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8121959040588285, current final AP=0.785871416424967
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.7206779171651758, current final AP=0.7609899851924666
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.6515479709051608, current final AP=0.6050472357880856
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.6559395362890218, current final AP=0.6161862262932575
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.6114681498127437, current final AP=0.6186184365557188
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.6387961425767213, current final AP=0.6224232309713176
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.6919963641032487, current final AP=0.6756149841025451
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.6424825024065778, current final AP=0.6074400068301533
+***************************************
+current parameters: weight=1e4, lr=1e-4
+current AUC=0.6741343506008619, current final AP=0.6509363033466413
+***************************************
+current parameters: weight=1e5, lr=1e-4
+current AUC=0.6596137594290901, current final AP=0.611434357839109
+***************************************
+current parameters: weight=1e-8, lr=1e-3
+current AUC=0.8172712760962784, current final AP=0.8706765399324241
+***************************************
+current parameters: weight=1e-7, lr=1e-3
+current AUC=0.8184277748784574, current final AP=0.7824483445383831
+***************************************
+current parameters: weight=1e-6, lr=1e-3
+current AUC=0.8317394878700173, current final AP=0.7751157753298106
+***************************************
+current parameters: weight=1e-5, lr=1e-3
+current AUC=0.7824287560340109, current final AP=0.7636499236874471
+***************************************
+current parameters: weight=1e-4, lr=1e-3
+current AUC=0.7577826523266354, current final AP=0.7413247945773598
+***************************************
+current parameters: weight=1e-3, lr=1e-3
+current AUC=0.6378482032269541, current final AP=0.640068846904801
+***************************************
+current parameters: weight=1e-2, lr=1e-3
+current AUC=0.6165907910630526, current final AP=0.5717068940325611
+***************************************
+current parameters: weight=1e-1, lr=1e-3
+current AUC=0.6471659871185006, current final AP=0.6626316541363823
+***************************************
+current parameters: weight=1e0, lr=1e-3
+current AUC=0.5662053234076503, current final AP=0.5451231129441751
+***************************************
+current parameters: weight=1e1, lr=1e-3
+current AUC=0.5559897438583559, current final AP=0.5406342336774814
+***************************************
+current parameters: weight=1e2, lr=1e-3
+current AUC=0.6043471067728479, current final AP=0.5986988003105267
+***************************************
+current parameters: weight=1e3, lr=1e-3
+current AUC=0.6308376679414449, current final AP=0.6023702807959476
+***************************************
+current parameters: weight=1e4, lr=1e-3
+current AUC=0.5590172091873464, current final AP=0.6056827141206123
+***************************************
+current parameters: weight=1e5, lr=1e-3
+current AUC=0.5602768698327245, current final AP=0.529208136640134
+***************************************
+current parameters: weight=1e-8, lr=1e-2
+current AUC=0.7810598651805397, current final AP=0.7949012427743514
+***************************************
+current parameters: weight=1e-7, lr=1e-2
+current AUC=0.7815389450405972, current final AP=0.8057146104415303
+***************************************
+current parameters: weight=1e-6, lr=1e-2
+current AUC=0.7687832840732776, current final AP=0.8291043563132344
+***************************************
+current parameters: weight=1e-5, lr=1e-2
+current AUC=0.8020620874723171, current final AP=0.7613672831833627
+***************************************
+current parameters: weight=1e-4, lr=1e-2
+current AUC=0.7380832078676411, current final AP=0.782644622753574
+***************************************
+current parameters: weight=1e-3, lr=1e-2
+current AUC=0.5646863208646945, current final AP=0.6178690157700109
+***************************************
+current parameters: weight=1e-2, lr=1e-2
+current AUC=0.6398539509077286, current final AP=0.607432342115052
+***************************************
+current parameters: weight=1e-1, lr=1e-2
+current AUC=0.5743892849637273, current final AP=0.5882149886766668
+***************************************
+current parameters: weight=1e0, lr=1e-2
+current AUC=0.5903956624748243, current final AP=0.6043745884860664
+***************************************
+current parameters: weight=1e1, lr=1e-2
+current AUC=0.5925598258959911, current final AP=0.530479341844709
+***************************************
+current parameters: weight=1e2, lr=1e-2
+current AUC=0.6135671583729426, current final AP=0.5956757045221771
+***************************************
+current parameters: weight=1e3, lr=1e-2
+current AUC=0.6288957975753449, current final AP=0.6423647176549787
+***************************************
+current parameters: weight=1e4, lr=1e-2
+current AUC=0.5826102953623153, current final AP=0.5997040604495749
+***************************************
+current parameters: weight=1e5, lr=1e-2
+current AUC=0.5649744075538756, current final AP=0.5856576574262762
+***************************************
+
+
+
+
+############################################### Supervised with aux before embedding only. ########################################
+current parameters: weight=1e-8, lr=1e-7
+current AUC=0.8404351067166358, current final AP=0.8311306276623133
+***************************************
+current parameters: weight=1e-7, lr=1e-7
+current AUC=0.8404363842629292, current final AP=0.8088098004730819
+***************************************
+current parameters: weight=1e-6, lr=1e-7
+current AUC=0.8404293577583151, current final AP=0.8020891966854764
+***************************************
+current parameters: weight=1e-5, lr=1e-7
+current AUC=0.840424247573141, current final AP=0.8197558698765569
+***************************************
+current parameters: weight=1e-4, lr=1e-7
+current AUC=0.840493873846136, current final AP=0.7923471380887925
+***************************************
+current parameters: weight=1e-3, lr=1e-7
+current AUC=0.8431077335626105, current final AP=0.831429550493261
+***************************************
+current parameters: weight=1e-2, lr=1e-7
+current AUC=0.8407465086256732, current final AP=0.8309586721234397
+***************************************
+current parameters: weight=1e-1, lr=1e-7
+current AUC=0.8429882829841694, current final AP=0.8433792847432673
+***************************************
+current parameters: weight=1e0, lr=1e-7
+current AUC=0.8396257811397119, current final AP=0.8462644023496992
+***************************************
+current parameters: weight=1e1, lr=1e-7
+current AUC=0.8361910979296723, current final AP=0.7530770100675495
+***************************************
+current parameters: weight=1e2, lr=1e-7
+current AUC=0.8417867506951449, current final AP=0.800852966537313
+***************************************
+current parameters: weight=1e3, lr=1e-7
+current AUC=0.8379662485044723, current final AP=0.7988745589702062
+***************************************
+current parameters: weight=1e-8, lr=1e-6
+current AUC=0.852157552119098, current final AP=0.8160111848627027
+***************************************
+current parameters: weight=1e-7, lr=1e-6
+current AUC=0.8521419021770027, current final AP=0.8402897952515544
+***************************************
+current parameters: weight=1e-6, lr=1e-6
+current AUC=0.8520400178600971, current final AP=0.8694117498359868
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8534440412366393, current final AP=0.8962594214720485
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8569576129303016, current final AP=0.8262442300249973
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8460978306625163, current final AP=0.82632443204335
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8285577588260884, current final AP=0.810617579751284
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8069704203318937, current final AP=0.7474736913782112
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.789305148958704, current final AP=0.7418049459753986
+***************************************
+current parameters: weight=1e1, lr=1e-6
+current AUC=0.816652304917084, current final AP=0.7421082328996738
+***************************************
+current parameters: weight=1e2, lr=1e-6
+current AUC=0.7985430862069075, current final AP=0.7934116189571476
+***************************************
+current parameters: weight=1e3, lr=1e-6
+current AUC=0.8176807296833408, current final AP=0.778269208968819
+***************************************
+current parameters: weight=1e-8, lr=1e-5
+current AUC=0.8658771217648535, current final AP=0.9097063775764587
+***************************************
+current parameters: weight=1e-7, lr=1e-5
+current AUC=0.8659700632577048, current final AP=0.8365633130152055
+***************************************
+current parameters: weight=1e-6, lr=1e-5
+current AUC=0.8666382199691984, current final AP=0.8201750149743006
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.867467986286818, current final AP=0.8607149670587877
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8552156785591323, current final AP=0.8761575523275568
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8224772772422375, current final AP=0.8208047630646187
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.7845788664459493, current final AP=0.8068437712800651
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.7385124634222527, current final AP=0.7318633550868967
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.7334182475769737, current final AP=0.6938379577035426
+***************************************
+current parameters: weight=1e1, lr=1e-5
+current AUC=0.7455523822725122, current final AP=0.690512482984825
+***************************************
+current parameters: weight=1e2, lr=1e-5
+current AUC=0.7534865835282123, current final AP=0.7242008512810343
+***************************************
+current parameters: weight=1e3, lr=1e-5
+current AUC=0.671106565885298, current final AP=0.617074709041147
+***************************************
+current parameters: weight=1e-8, lr=1e-4
+current AUC=0.8569697496200896, current final AP=0.8002989490823951
+***************************************
+current parameters: weight=1e-7, lr=1e-4
+current AUC=0.8564293475379448, current final AP=0.8074721546306614
+***************************************
+current parameters: weight=1e-6, lr=1e-4
+current AUC=0.8587979183660694, current final AP=0.8800232962226628
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8679368457765276, current final AP=0.851689732810421
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8098001853719673, current final AP=0.8003803765992501
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.7704801849376015, current final AP=0.771811067740194
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.6794869501839986, current final AP=0.7240454705336214
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.5983145331750027, current final AP=0.6499491425804573
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.5933646800608878, current final AP=0.5959382998820075
+***************************************
+current parameters: weight=1e1, lr=1e-4
+current AUC=0.6781496786012912, current final AP=0.6793952206721618
+***************************************
+current parameters: weight=1e2, lr=1e-4
+current AUC=0.6321714262718453, current final AP=0.6444176434095538
+***************************************
+current parameters: weight=1e3, lr=1e-4
+current AUC=0.6220462331228149, current final AP=0.634834352638862
+***************************************
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8521709663551796, current final AP=0.8519684659315073
+***************************************
+
+
+###################################################### sample per 10 round #################################################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8521700081954595, current final AP=0.8519684659315073
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8521173094108532, current final AP=0.8013940770371459
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8514961025256452, current final AP=0.8012287036257679
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8487033863280828, current final AP=0.8096771854408452
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8523935787968198, current final AP=0.819228421494792
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.8402006769717809, current final AP=0.8362037885088758
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.8662460132570978, current final AP=0.851759841890875
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.8667072074690466, current final AP=0.8592534784370689
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.8679285417256202, current final AP=0.8578135456302469
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8683712115163134, current final AP=0.8260576290348202
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8597362761186356, current final AP=0.7350294753220106
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8186155741836001, current final AP=0.82136787482137
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8602172722981333, current final AP=0.8556100992694512
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8604711846239639, current final AP=0.8521611672353013
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.8588889435394802, current final AP=0.9322630008672315
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8615331449804249, current final AP=0.8882298594039549
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.8214309668278719, current final AP=0.7485657212904688
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.7855574669067602, current final AP=0.6947978145936973
+***************************************
+
+######################### sample per 100 ###################################################################
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8521709663551796, current final AP=0.8519684659315073
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8520856901400894, current final AP=0.8021500019491099
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8518480665295007, current final AP=0.8011641460540682
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8489052386424538, current final AP=0.8079663372462991
+***************************************
+current parameters: weight=1e-1, lr=1e-6
+current AUC=0.8452929764976196, current final AP=0.8119576252267308
+***************************************
+current parameters: weight=1e0, lr=1e-6
+current AUC=0.837008727557504, current final AP=0.8467082605001044
+***************************************
+current parameters: weight=1e-5, lr=1e-5
+current AUC=0.866286575351916, current final AP=0.8510151976017238
+***************************************
+current parameters: weight=1e-4, lr=1e-5
+current AUC=0.866741062445824, current final AP=0.8593394565979201
+***************************************
+current parameters: weight=1e-3, lr=1e-5
+current AUC=0.867901713253457, current final AP=0.860687426798106
+***************************************
+current parameters: weight=1e-2, lr=1e-5
+current AUC=0.8650636441624757, current final AP=0.8065588678256284
+***************************************
+current parameters: weight=1e-1, lr=1e-5
+current AUC=0.8553351291375733, current final AP=0.7602326373767456
+***************************************
+current parameters: weight=1e0, lr=1e-5
+current AUC=0.8074635532011796, current final AP=0.7758696232534608
+***************************************
+current parameters: weight=1e-5, lr=1e-4
+current AUC=0.8602945638488892, current final AP=0.8567387692640843
+***************************************
+current parameters: weight=1e-4, lr=1e-4
+current AUC=0.8611272046456694, current final AP=0.8559080772184717
+***************************************
+current parameters: weight=1e-3, lr=1e-4
+current AUC=0.869935566952688, current final AP=0.9169136048186722
+***************************************
+current parameters: weight=1e-2, lr=1e-4
+current AUC=0.8598550879239298, current final AP=0.8899605655845688
+***************************************
+current parameters: weight=1e-1, lr=1e-4
+current AUC=0.801853208653332, current final AP=0.7983758756418378
+***************************************
+current parameters: weight=1e0, lr=1e-4
+current AUC=0.7591473911546528, current final AP=0.7073436805772906
+***************************************
+
+
+current parameters: weight=1e-5, lr=1e-6
+current AUC=0.8403539825269994, current final AP=0.7863197726799658
+***************************************
+current parameters: weight=1e-4, lr=1e-6
+current AUC=0.8403654804436407, current final AP=0.7843416190692516
+***************************************
+current parameters: weight=1e-3, lr=1e-6
+current AUC=0.8402358094948518, current final AP=0.841885844933318
+***************************************
+current parameters: weight=1e-2, lr=1e-6
+current AUC=0.8390757974603656, current final AP=0.8380881574053026
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.6129329845197585, current final AP=0.6055009747057363
+current Train AUC=0.5567758284600389, current final AP=0.6319892954809527
+current All AUC=0.6006439077950184, current final AP=0.6143770603273503
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.309573171426607, Gen[attack]-->Citeseer[attack]=0.33035986935085526
+Gen[train]-->Cora[train]=0.4339181726299345, Gen[all]-->Cora[all]=0.2706978601085573
+***************************************
+current parameters: weight=1e0, lr=1e-3, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.6135950632445535, current final AP=0.6075900920565394
+current Train AUC=0.557651721897336, current final AP=0.6292278624884531
+current All AUC=0.6016367527115535, current final AP=0.6143958608218733
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.31659021752060507, Gen[attack]-->Citeseer[attack]=0.3235643607959647
+Gen[train]-->Cora[train]=0.42480921058090565, Gen[all]-->Cora[all]=0.2696312047715483
+***************************************
+current parameters: weight=1e0, lr=1e-4, dropout=0.1
+AUC/AP Metrics: 
+current Attack AUC=0.6136201495428449, current final AP=0.6076363597503891
+current Train AUC=0.5577348927875243, current final AP=0.6275808808562973
+current All AUC=0.6017422481176218, current final AP=0.6143860639745273
+Current Similarity Measure: 
+Gen[attack]-->Cora[attack]=0.3175764798804823, Gen[attack]-->Citeseer[attack]=0.3287281831503638
+Gen[train]-->Cora[train]=0.42793280771752995, Gen[all]-->Cora[all]=0.26985734220915375
+***************************************

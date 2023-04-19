@@ -1,0 +1,15 @@
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='usair.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=0, w10=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+attack graph: AUC=0.5801442621162595	train graph: AUC=0.6539482107958756	Whole Graph: AUC=0.5801442621162595
+current density: 0.6151496171951294
+image name: (10.0, 10.0, 0, 0, 0, 1.0, 0.01, 0, 0.001, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='usair.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=0, w10=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+attack graph: AUC=0.582507923916996	train graph: AUC=0.5980945481501448	Whole Graph: AUC=0.582507923916996
+current density: 0.9796871542930603
+image name: (10.0, 10.0, 0, 0, 0, 1.0, 0.01, 0, 0.001, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='usair.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=0, w10=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+attack graph: AUC=0.6757913868719576	train graph: AUC=0.6703955792169285	Whole Graph: AUC=0.6757913868719576
+current density: 0.7772053480148315
+image name: (10.0, 1000.0, 0, 0, 0, 0.001, 100.0, 0, 10.0, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================

@@ -1,0 +1,5 @@
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='ogb_arxiv', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='ogb_arxiv_full.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.7709116621306767	In train graph: AUC=0.8194104004442834	In Whole Graph: AUC=0.7709116621306767
+current density: 7.064882755279541
+image name: (0, 0.001, 0, 0, 0, 0.01, 10.0, 0, 1000.0, 0.01)_1.0_0.1.png
+============================================================================================

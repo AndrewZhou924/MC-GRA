@@ -1,0 +1,500 @@
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8761499197931303	In train graph: AUC=0.8915463474627672	In Whole Graph: AUC=0.8761499197931303
+current density: 0.7063736915588379
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0.0001, 10.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8753294179293689	In train graph: AUC=0.8892445582586428	In Whole Graph: AUC=0.8753294179293689
+current density: 0.8002382516860962
+image name: (10.0, 0.01, 0, 0, 0, 100.0, 100.0, 0, 0.01, 0.0001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8759823788997663	In train graph: AUC=0.8926245872363368	In Whole Graph: AUC=0.8759823788997663
+current density: 0.7981693744659424
+image name: (1.0, 0.0001, 0, 0, 0, 10000, 0.01, 0, 0.0001, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8758937920592483	In train graph: AUC=0.8892192870139498	In Whole Graph: AUC=0.8758937920592483
+current density: 0.7063775658607483
+image name: (10.0, 1000.0, 0, 0, 0, 10000, 1000.0, 0, 0.01, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (0.1, 10.0, 0, 0, 0, 0.0001, 0.0001, 0, 10.0, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8695313761421651	In train graph: AUC=0.8869617224880384	In Whole Graph: AUC=0.8695313761421651
+current density: 0.8266547918319702
+image name: (0, 0.0001, 0, 0, 0, 100.0, 0, 0, 0.1, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8928963585275995	In train graph: AUC=0.8909040366601523	In Whole Graph: AUC=0.8928963585275995
+current density: 0.7839832901954651
+image name: (1.0, 1000.0, 0, 0, 0, 0.0001, 10.0, 0, 1.0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8758289772941368	In train graph: AUC=0.8889391973852687	In Whole Graph: AUC=0.8758289772941368
+current density: 0.7063775658607483
+image name: (10.0, 10000, 0, 0, 0, 0.001, 0.001, 0, 0.01, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8789720189666577	In train graph: AUC=0.8979252308107015	In Whole Graph: AUC=0.8789720189666577
+current density: 0.7246666550636292
+image name: (0.1, 1000.0, 0, 0, 0, 0.01, 10000, 0, 0.0001, 0.001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764069940653665	In train graph: AUC=0.8896889109778287	In Whole Graph: AUC=0.8764069940653665
+current density: 0.7798683643341064
+image name: (1000.0, 10000, 0, 0, 0, 1000.0, 0, 0, 10.0, 100.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (100.0, 1.0, 0, 0, 0, 10.0, 1000.0, 0, 0.1, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8773145079622181	In train graph: AUC=0.8911651728553138	In Whole Graph: AUC=0.8773145079622181
+current density: 0.7267446517944336
+image name: (10000, 10.0, 0, 0, 0, 0.01, 0.001, 0, 1000.0, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760233102694364	In train graph: AUC=0.8893077363703755	In Whole Graph: AUC=0.8760233102694364
+current density: 0.7900533080101013
+image name: (0.001, 1.0, 0, 0, 0, 0.01, 100.0, 0, 10000, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (0.001, 100.0, 0, 0, 0, 0.01, 0.01, 0, 0.01, 0.001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8759927484670411	In train graph: AUC=0.8892213929510075	In Whole Graph: AUC=0.8759927484670411
+current density: 0.7981734871864319
+image name: (0.1, 100.0, 0, 0, 0, 0.01, 0.1, 0, 1.0, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760207006627695	In train graph: AUC=0.8892571938809893	In Whole Graph: AUC=0.8760207006627695
+current density: 0.6982575058937073
+image name: (1.0, 0.001, 0, 0, 0, 0, 0.001, 0, 0, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8804936337590205	In train graph: AUC=0.8929615371655772	In Whole Graph: AUC=0.8804936337590205
+current density: 0.806281328201294
+image name: (1.0, 0.01, 0, 0, 0, 0.1, 1000.0, 0, 0.01, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760233102694364	In train graph: AUC=0.8893077363703755	In Whole Graph: AUC=0.8760233102694364
+current density: 0.7900533080101013
+image name: (0, 1000.0, 0, 0, 0, 0.0001, 10000, 0, 100.0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760458955672511	In train graph: AUC=0.8902343486757868	In Whole Graph: AUC=0.8760458955672511
+current density: 0.8062931895256042
+image name: (0.001, 1.0, 0, 0, 0, 1000.0, 0.001, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8840164154766902	In train graph: AUC=0.8892719354403935	In Whole Graph: AUC=0.8840164154766902
+current density: 0.7029452323913574
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 0.01, 0, 1.0, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8747891986037777	In train graph: AUC=0.8890950367275423	In Whole Graph: AUC=0.8747891986037777
+current density: 0.8083582520484924
+image name: (1000.0, 0.1, 0, 0, 0, 1.0, 10.0, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8725348599155933	In train graph: AUC=0.8897752543971965	In Whole Graph: AUC=0.8725348599155933
+current density: 0.7348592281341553
+image name: (0.01, 0.001, 0, 0, 0, 10000, 1.0, 0, 1.0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764069940653665	In train graph: AUC=0.8896889109778287	In Whole Graph: AUC=0.8764069940653665
+current density: 0.7798683643341064
+image name: (1000.0, 0.001, 0, 0, 0, 0.0001, 10.0, 0, 0.001, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8787315338710773	In train graph: AUC=0.891470533728688	In Whole Graph: AUC=0.8787315338710773
+current density: 0.6247604489326477
+image name: (1.0, 0.1, 0, 0, 0, 0.0001, 10.0, 0, 1.0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0.01, 0, 1.0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.886968604727328	In train graph: AUC=0.9080568939955523	In Whole Graph: AUC=0.886968604727328
+current density: 0.8032378554344177
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 0.01, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8811893386012953	In train graph: AUC=0.886631090369971	In Whole Graph: AUC=0.8811893386012953
+current density: 0.8166142106056213
+image name: (0.01, 1000.0, 0, 0, 0, 10.0, 0.0001, 0, 100.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8746692080633429	In train graph: AUC=0.8899121403059506	In Whole Graph: AUC=0.8746692080633429
+current density: 0.7981685400009155
+image name: (100.0, 0.001, 0, 0, 0, 1.0, 10.0, 0, 10000, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764323884977586	In train graph: AUC=0.889636262551385	In Whole Graph: AUC=0.8764323884977586
+current density: 0.7879886031150818
+image name: (10000, 1000.0, 0, 0, 0, 0, 0.1, 0, 0.001, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8793732110186562	In train graph: AUC=0.8900637677741088	In Whole Graph: AUC=0.8793732110186562
+current density: 0.7062961459159851
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 1.0, 0, 1000.0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (1.0, 0.01, 0, 0, 0, 0.1, 0.01, 0, 1.0, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8762329749290733	In train graph: AUC=0.8888044174135723	In Whole Graph: AUC=0.8762329749290733
+current density: 0.7981733083724976
+image name: (1000.0, 1000.0, 0, 0, 0, 10000, 100.0, 0, 1.0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760334554473265	In train graph: AUC=0.889217181076892	In Whole Graph: AUC=0.8760334554473265
+current density: 0.7981734871864319
+image name: (1.0, 0.0001, 0, 0, 0, 100.0, 10.0, 0, 0.0001, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8883854321684675	In train graph: AUC=0.9075430453534605	In Whole Graph: AUC=0.8883854321684675
+current density: 0.7947067618370056
+image name: (10.0, 10.0, 0, 0, 0, 10000, 0.01, 0, 10.0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8759442460627653	In train graph: AUC=0.8905986757867781	In Whole Graph: AUC=0.8759442460627653
+current density: 0.7879833579063416
+image name: (10.0, 10.0, 0, 0, 0, 0.0001, 0.0001, 0, 10.0, 1000.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8862966469929661	In train graph: AUC=0.9075388334793448	In Whole Graph: AUC=0.8862966469929661
+current density: 0.7010423541069031
+image name: (10.0, 10.0, 0, 0, 0, 0.001, 0, 0, 10.0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (10.0, 10.0, 0, 0, 0, 100.0, 10000, 0, 10.0, 1000.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.88002467515866	In train graph: AUC=0.8941303322326302	In Whole Graph: AUC=0.88002467515866
+current density: 0.724668562412262
+image name: (0, 10000, 0, 0, 0, 10000, 10.0, 0, 0.1, 10.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8761338240822863	In train graph: AUC=0.889337219489184	In Whole Graph: AUC=0.8761338240822863
+current density: 0.7981734871864319
+image name: (10.0, 10.0, 0, 0, 0, 1000.0, 1.0, 0, 10.0, 1000.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760207006627695	In train graph: AUC=0.8892571938809893	In Whole Graph: AUC=0.8760207006627695
+current density: 0.6982575058937073
+image name: (100.0, 1000.0, 0, 0, 0, 0, 0.01, 0, 0.0001, 100.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (10.0, 0.0001, 0, 0, 0, 0.1, 0.1, 0, 1000.0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8759617813006897	In train graph: AUC=0.8892972066850866	In Whole Graph: AUC=0.8759617813006897
+current density: 0.8062935471534729
+image name: (10000, 0.1, 0, 0, 0, 10.0, 100.0, 0, 10000, 10.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764069940653665	In train graph: AUC=0.8896889109778287	In Whole Graph: AUC=0.8764069940653665
+current density: 0.7798683643341064
+image name: (0.0001, 100.0, 0, 0, 0, 0.0001, 1000.0, 0, 10.0, 1000.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (0.1, 10000, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (1.0, 10.0, 0, 0, 0, 1.0, 0.0001, 0, 100.0, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.872890392040894	In train graph: AUC=0.8863299413707124	In Whole Graph: AUC=0.872890392040894
+current density: 0.8164772987365723
+image name: (0, 0.01, 0, 0, 0, 100.0, 10000, 0, 0.1, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8757921694836092	In train graph: AUC=0.8888781252105937	In Whole Graph: AUC=0.8757921694836092
+current density: 0.8062935471534729
+image name: (0.01, 0, 0, 0, 0, 0.001, 0.01, 0, 0.001, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8773684283125951	In train graph: AUC=0.8903396455286745	In Whole Graph: AUC=0.8773684283125951
+current density: 0.7063597440719604
+image name: (0.001, 1.0, 0, 0, 0, 1000.0, 1000.0, 0, 0.01, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (0.1, 1000.0, 0, 0, 0, 0.0001, 0.001, 0, 10.0, 0.001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (1.0, 100.0, 0, 0, 0, 10.0, 10.0, 0, 0.0001, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (10.0, 10.0, 0, 0, 0, 0.01, 100.0, 0, 0, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (10000, 0.0001, 0, 0, 0, 10000, 0.1, 0, 1000.0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8747718886564	In train graph: AUC=0.8891582148392749	In Whole Graph: AUC=0.8747718886564
+current density: 0.7063767313957214
+image name: (100.0, 1000.0, 0, 0, 0, 0.1, 0, 0, 10000, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8759859619736343	In train graph: AUC=0.8926393287957408	In Whole Graph: AUC=0.8759859619736343
+current density: 0.7981693744659424
+image name: (1.0, 1.0, 0, 0, 0, 0, 0.01, 0, 0.01, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760207006627695	In train graph: AUC=0.8892571938809893	In Whole Graph: AUC=0.8760207006627695
+current density: 0.6982575058937073
+image name: (10.0, 10000, 0, 0, 0, 0.0001, 10.0, 0, 0.1, 0.001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764658534206463	In train graph: AUC=0.889636262551385	In Whole Graph: AUC=0.8764658534206463
+current density: 0.7879884839057922
+image name: (0.001, 0.1, 0, 0, 0, 1.0, 1.0, 0, 100.0, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (0.01, 0.01, 0, 0, 0, 10000, 10000, 0, 0.001, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8759559932419774	In train graph: AUC=0.8892719354403935	In Whole Graph: AUC=0.8759559932419774
+current density: 0.6064616441726685
+image name: (0, 10.0, 0, 0, 0, 0.01, 0.001, 0, 10.0, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.876426851227182	In train graph: AUC=0.889610991306692	In Whole Graph: AUC=0.876426851227182
+current density: 0.6880725622177124
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0.01, 0, 1.0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (0.1, 1000.0, 0, 0, 0, 0.001, 1000.0, 0, 0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8826393775797194	In train graph: AUC=0.9034111968461487	In Whole Graph: AUC=0.8826393775797194
+current density: 0.7947573661804199
+image name: (1.0, 100.0, 0, 0, 0, 0.0001, 10.0, 0, 1.0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8763187081600096	In train graph: AUC=0.8918685558326033	In Whole Graph: AUC=0.8763187081600096
+current density: 0.7879862785339355
+image name: (100.0, 1.0, 0, 0, 0, 10000, 0.0001, 0, 10000, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764069940653665	In train graph: AUC=0.8896889109778287	In Whole Graph: AUC=0.8764069940653665
+current density: 0.7798683643341064
+image name: (10000, 1000.0, 0, 0, 0, 10.0, 0.01, 0, 1000.0, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760233102694364	In train graph: AUC=0.8893077363703755	In Whole Graph: AUC=0.8760233102694364
+current density: 0.7900533080101013
+image name: (10.0, 0.0001, 0, 0, 0, 100.0, 0.1, 0, 10.0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8761733329409384	In train graph: AUC=0.890044814340589	In Whole Graph: AUC=0.8761733329409384
+current density: 0.7872179746627808
+image name: (1.0, 10.0, 0, 0, 0, 0, 10.0, 0, 0.01, 10000)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8868680328007803	In train graph: AUC=0.9066606577262618	In Whole Graph: AUC=0.8868680328007803
+current density: 0.7864606380462646
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 0.01, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8856562287159541	In train graph: AUC=0.9066501280409731	In Whole Graph: AUC=0.8856562287159541
+current density: 0.8149505853652954
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 0.01, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.886968604727328	In train graph: AUC=0.9080568939955523	In Whole Graph: AUC=0.886968604727328
+current density: 0.8032378554344177
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 0.01, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8865233447311507	In train graph: AUC=0.906608009299818	In Whole Graph: AUC=0.8865233447311507
+current density: 0.8047657012939453
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 0.01, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8865198107441172	In train graph: AUC=0.9066185389851068	In Whole Graph: AUC=0.8865198107441172
+current density: 0.8047663569450378
+image name: (1000.0, 0.001, 0, 0, 0, 10000, 100.0, 0, 1.0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8876208137043846	In train graph: AUC=0.9105292641013545	In Whole Graph: AUC=0.8876208137043846
+current density: 0.794680655002594
+image name: (1000.0, 0.1, 0, 0, 0, 0.0001, 0.01, 0, 0.0001, 10.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8766845331477803	In train graph: AUC=0.8876924826470786	In Whole Graph: AUC=0.8766845331477803
+current density: 0.8062930107116699
+image name: (0.01, 0.1, 0, 0, 0, 0.0001, 1.0, 0, 0.0001, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8940762180031583	In train graph: AUC=0.9054118370510142	In Whole Graph: AUC=0.8940762180031583
+current density: 0.7368776798248291
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8762733247310752	In train graph: AUC=0.8886928027495113	In Whole Graph: AUC=0.8762733247310752
+current density: 0.806291401386261
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8951514171383528	In train graph: AUC=0.9075935878428465	In Whole Graph: AUC=0.8951514171383528
+current density: 0.802220344543457
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760233102694364	In train graph: AUC=0.8893077363703755	In Whole Graph: AUC=0.8760233102694364
+current density: 0.7900533080101013
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8951514171383528	In train graph: AUC=0.9075935878428465	In Whole Graph: AUC=0.8951514171383528
+current density: 0.802220344543457
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8951514171383528	In train graph: AUC=0.9075935878428465	In Whole Graph: AUC=0.8951514171383528
+current density: 0.802220344543457
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764346033423777	In train graph: AUC=0.8895604488173058	In Whole Graph: AUC=0.8764346033423777
+current density: 0.7879886031150818
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8940613221632625	In train graph: AUC=0.9054518498551115	In Whole Graph: AUC=0.8940613221632625
+current density: 0.8367713093757629
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.875990184766636	In train graph: AUC=0.8894446222791293	In Whole Graph: AUC=0.875990184766636
+current density: 0.7063775062561035
+image name: (0.001, 0.1, 0, 0, 0, 0.1, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8946804139600169	In train graph: AUC=0.9052117730305277	In Whole Graph: AUC=0.8946804139600169
+current density: 0.8347569704055786
+image name: (0.001, 0.1, 0, 0, 0, 0.0001, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764245537936988	In train graph: AUC=0.8895751903767101	In Whole Graph: AUC=0.8764245537936988
+current density: 0.7879886031150818
+image name: (0.001, 0.1, 0, 0, 0, 1.0, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8936990228400273	In train graph: AUC=0.9080695296178987	In Whole Graph: AUC=0.8936990228400273
+current density: 0.7859514951705933
+image name: (0.001, 0.1, 0, 0, 0, 0.01, 0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (0.001, 10000, 0, 0, 0, 0.0001, 0, 0, 100.0, 10.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8747564705665116	In train graph: AUC=0.8893498551115304	In Whole Graph: AUC=0.8747564705665116
+current density: 0.5248507261276245
+image name: (0.001, 0.01, 0, 0, 0, 1000.0, 0, 0, 0.1, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8765450288943428	In train graph: AUC=0.8897499831525035	In Whole Graph: AUC=0.8765450288943428
+current density: 0.7879884839057922
+image name: (0.0001, 0.1, 0, 0, 0, 0.001, 0.001, 0, 0.0001, 100.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764677680722379	In train graph: AUC=0.8895499191320169	In Whole Graph: AUC=0.8764677680722379
+current density: 0.7879886031150818
+image name: (0, 100.0, 0, 0, 0, 100.0, 10000, 0, 0.001, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760207006627695	In train graph: AUC=0.8892571938809893	In Whole Graph: AUC=0.8760207006627695
+current density: 0.6982575058937073
+image name: (0.001, 0, 0, 0, 0, 10.0, 0.0001, 0, 0.0001, 0.001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8753294179293689	In train graph: AUC=0.8892445582586428	In Whole Graph: AUC=0.8753294179293689
+current density: 0.8002382516860962
+image name: (0.1, 0.1, 0, 0, 0, 0.0001, 0, 0, 0, 10.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8776258452385008	In train graph: AUC=0.8890444942381562	In Whole Graph: AUC=0.8776258452385008
+current density: 0.8062894344329834
+image name: (0.001, 0.0001, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8734354616864273	In train graph: AUC=0.8894783172720533	In Whole Graph: AUC=0.8734354616864273
+current density: 0.8083528876304626
+image name: (100.0, 1.0, 0, 0, 0, 0.1, 0, 0, 1000.0, 10.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8751626568063449	In train graph: AUC=0.8890824011051958	In Whole Graph: AUC=0.8751626568063449
+current density: 0.7084424495697021
+image name: (10000, 0.1, 0, 0, 0, 1.0, 0.1, 0, 0.01, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8753294179293689	In train graph: AUC=0.8892445582586428	In Whole Graph: AUC=0.8753294179293689
+current density: 0.8002382516860962
+image name: (0.01, 0.01, 0, 0, 0, 0.0001, 100.0, 0, 100.0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8753294179293689	In train graph: AUC=0.8892445582586428	In Whole Graph: AUC=0.8753294179293689
+current density: 0.8002382516860962
+image name: (0.001, 10000, 0, 0, 0, 0.01, 1.0, 0, 0.0001, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8760039387280211	In train graph: AUC=0.8876545757800391	In Whole Graph: AUC=0.8760039387280211
+current density: 0.7063770294189453
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0.1, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8765087578584216	In train graph: AUC=0.8930689399555226	In Whole Graph: AUC=0.8765087578584216
+current density: 0.7879847884178162
+image name: (0, 0.1, 0, 0, 0, 1000.0, 0.001, 0, 0.001, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8768189781706772	In train graph: AUC=0.8896067794325765	In Whole Graph: AUC=0.8768189781706772
+current density: 0.7696834802627563
+image name: (0.001, 100.0, 0, 0, 0, 0.001, 10000, 0, 0.0001, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='usair', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='usair/HA_YA_Y2.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=True, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8764315092285111	In train graph: AUC=0.8895625547543634	In Whole Graph: AUC=0.8764315092285111
+current density: 0.7879886031150818
+image name: (0.1, 0.1, 0, 0, 0, 100.0, 0, 0, 0, 0.001)_1.0_1.png
+============================================================================================

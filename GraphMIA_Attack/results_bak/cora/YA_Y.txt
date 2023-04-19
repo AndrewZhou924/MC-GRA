@@ -1,0 +1,1000 @@
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124910321655744	In train graph: AUC=0.8081277710331701	In Whole Graph: AUC=0.7124910321655744
+current density: 40479.234375
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5256520231455639	In train graph: AUC=0.4848702144785233	In Whole Graph: AUC=0.5256520231455639
+current density: 26407105200128.0
+image name: (100.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5160330643343046	In train graph: AUC=0.47705795767351067	In Whole Graph: AUC=0.5160330643343046
+current density: 26688131956736.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4980853640214734	In train graph: AUC=0.5538064045608371	In Whole Graph: AUC=0.4980853640214734
+current density: 37885357064192.0
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5533058812128098	In train graph: AUC=0.5930955970311869	In Whole Graph: AUC=0.5533058812128098
+current density: 26407103102976.0
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6938782118278605	In train graph: AUC=0.8521418946862868	In Whole Graph: AUC=0.6938782118278605
+current density: 1833572.375
+image name: (0.0001, 0, 0, 0, 0, 0.1, 0, 0, 0, 1000.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48654865285837645	In train graph: AUC=0.45659511453233187	In Whole Graph: AUC=0.48654865285837645
+current density: 113712044179456.0
+image name: (10000, 0, 0, 0, 0, 0, 0, 0, 0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4802065296453815	In train graph: AUC=0.4236562295716211	In Whole Graph: AUC=0.4802065296453815
+current density: 71434021896192.0
+image name: (0.001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6982390932080906	In train graph: AUC=0.7680803660765505	In Whole Graph: AUC=0.6982390932080906
+current density: 967091.5
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 0.1)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5277180919480741	In train graph: AUC=0.5371146123777633	In Whole Graph: AUC=0.5277180919480741
+current density: 6890441932800.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 100.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5060743313737288	In train graph: AUC=0.5476917877360798	In Whole Graph: AUC=0.5060743313737288
+current density: 4542788796416.0
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.46086975686472087	In train graph: AUC=0.49910170720101743	In Whole Graph: AUC=0.46086975686472087
+current density: 20238139654144.0
+image name: (0.01, 0, 0, 0, 0, 0, 0, 0, 0, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5169998469696677	In train graph: AUC=0.5226485407189011	In Whole Graph: AUC=0.5169998469696677
+current density: 104827845607424.0
+image name: (100.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5187078434942217	In train graph: AUC=0.5763370999372973	In Whole Graph: AUC=0.5187078434942217
+current density: 35591823556608.0
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.1)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5240191304791161	In train graph: AUC=0.3922682337873714	In Whole Graph: AUC=0.5240191304791161
+current density: 86090530684928.0
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.511328671048153	In train graph: AUC=0.5216390730685593	In Whole Graph: AUC=0.511328671048153
+current density: 50683814346752.0
+image name: (0.0001, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7121580995068606	In train graph: AUC=0.794337642470572	In Whole Graph: AUC=0.7121580995068606
+current density: 1026901.9375
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5274358007728818	In train graph: AUC=0.5270888642821885	In Whole Graph: AUC=0.5274358007728818
+current density: 18925874053120.0
+image name: (100.0, 0, 0, 0, 0, 10000, 0, 0, 0, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4830663384754079	In train graph: AUC=0.4490196601607144	In Whole Graph: AUC=0.4830663384754079
+current density: 37904063660032.0
+image name: (1000.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4828275168210274	In train graph: AUC=0.4431663042366512	In Whole Graph: AUC=0.4828275168210274
+current density: 37904076242944.0
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 10.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.71691738133147	In train graph: AUC=0.8139266512800672	In Whole Graph: AUC=0.71691738133147
+current density: 1126949.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4817912315483888	In train graph: AUC=0.38106292051887525	In Whole Graph: AUC=0.4817912315483888
+current density: 100092275064832.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124890785961135	In train graph: AUC=0.8081188770450614	In Whole Graph: AUC=0.7124890785961135
+current density: 80958.0390625
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4818073453139726	In train graph: AUC=0.38124302377807723	In Whole Graph: AUC=0.4818073453139726
+current density: 36558971338752.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.47957446269155857	In train graph: AUC=0.36681697506570443	In Whole Graph: AUC=0.47957446269155857
+current density: 73041757339648.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5060745389585956	In train graph: AUC=0.5476917877360798	In Whole Graph: AUC=0.5060745389585956
+current density: 4542789320704.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4623878385018271	In train graph: AUC=0.4351517092021648	In Whole Graph: AUC=0.4623878385018271
+current density: 92746119380992.0
+image name: (0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 1000.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.49069035834564523	In train graph: AUC=0.5705248787082371	In Whole Graph: AUC=0.49069035834564523
+current density: 63085163315200.0
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48916067334062774	In train graph: AUC=0.4595834945368678	In Whole Graph: AUC=0.48916067334062774
+current density: 89668901142528.0
+image name: (1.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.0001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5120359771667082	In train graph: AUC=0.5224595434715904	In Whole Graph: AUC=0.5120359771667082
+current density: 137258950721536.0
+image name: (10.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 1.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5696606651559418	In train graph: AUC=0.5908987819683286	In Whole Graph: AUC=0.5696606651559418
+current density: 66390312615936.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48832517492499095	In train graph: AUC=0.4541803967608095	In Whole Graph: AUC=0.48832517492499095
+current density: 112455111933952.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.499454282244574	In train graph: AUC=0.5431580772976506	In Whole Graph: AUC=0.499454282244574
+current density: 25405958389760.0
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5133091461390578	In train graph: AUC=0.48990754699360967	In Whole Graph: AUC=0.5133091461390578
+current density: 33460016119808.0
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5060743636123859	In train graph: AUC=0.5476917877360798	In Whole Graph: AUC=0.5060743636123859
+current density: 4542790369280.0
+image name: (1.0, 0, 0, 0, 0, 10000, 0, 0, 0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6796889833452994	In train graph: AUC=0.72691231861823	In Whole Graph: AUC=0.6796889833452994
+current density: 2862182.25
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5155951697241018	In train graph: AUC=0.5367721938355768	In Whole Graph: AUC=0.5155951697241018
+current density: 25386289201152.0
+image name: (0.1, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.0001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5139690025693004	In train graph: AUC=0.42802651297855215	In Whole Graph: AUC=0.5139690025693004
+current density: 105628412411904.0
+image name: (10000, 0, 0, 0, 0, 0.001, 0, 0, 0, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5121072267459056	In train graph: AUC=0.6131848926717984	In Whole Graph: AUC=0.5121072267459056
+current density: 31245708820480.0
+image name: (10.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5211265913656412	In train graph: AUC=0.5319071823400972	In Whole Graph: AUC=0.5211265913656412
+current density: 15515181383680.0
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124888629903929	In train graph: AUC=0.8081188770450615	In Whole Graph: AUC=0.7124888629903929
+current density: 80958.03125
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5036955392294491	In train graph: AUC=0.6004309137238683	In Whole Graph: AUC=0.5036955392294491
+current density: 64132334223360.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5174629461550907	In train graph: AUC=0.4751824379310805	In Whole Graph: AUC=0.5174629461550907
+current density: 26407052771328.0
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.1)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124897450514295	In train graph: AUC=0.8081233240391157	In Whole Graph: AUC=0.7124897450514295
+current density: 80958.1484375
+image name: (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124884077422652	In train graph: AUC=0.8081188770450614	In Whole Graph: AUC=0.7124884077422652
+current density: 121437.0390625
+image name: (0.0001, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5172388631038752	In train graph: AUC=0.5427000369100506	In Whole Graph: AUC=0.5172388631038752
+current density: 15976017952768.0
+image name: (0.01, 0, 0, 0, 0, 0.001, 0, 0, 0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124877729822577	In train graph: AUC=0.808114430051007	In Whole Graph: AUC=0.7124877729822577
+current density: 202395.1875
+image name: (0.1, 0, 0, 0, 0, 100.0, 0, 0, 0, 10.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124907011630566	In train graph: AUC=0.8081322180272245	In Whole Graph: AUC=0.7124907011630566
+current density: 40479.1171875
+image name: (10000, 0, 0, 0, 0, 10000, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5415448730098845	In train graph: AUC=0.5244840375148417	In Whole Graph: AUC=0.5415448730098845
+current density: 26407105200128.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7126057469964197	In train graph: AUC=0.8094952217048886	In Whole Graph: AUC=0.7126057469964197
+current density: 2181797.5
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7120009238163585	In train graph: AUC=0.8125369656380769	In Whole Graph: AUC=0.7120009238163585
+current density: 3050062.0
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124972961417785	In train graph: AUC=0.8092573075229799	In Whole Graph: AUC=0.7124972961417785
+current density: 1111138.375
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124892241616702	In train graph: AUC=0.8081188770450614	In Whole Graph: AUC=0.7124892241616702
+current density: 80958.1484375
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4891705341134022	In train graph: AUC=0.45963018797443866	In Whole Graph: AUC=0.4891705341134022
+current density: 63568833675264.0
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4836778439450642	In train graph: AUC=0.5096455301039262	In Whole Graph: AUC=0.4836778439450642
+current density: 52298361339904.0
+image name: (1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5277189164400805	In train graph: AUC=0.5371257298628992	In Whole Graph: AUC=0.5277189164400805
+current density: 20674684911616.0
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48437615716014504	In train graph: AUC=0.5616286671024722	In Whole Graph: AUC=0.48437615716014504
+current density: 197988865540096.0
+image name: (1000.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.527718014249289	In train graph: AUC=0.5371146123777634	In Whole Graph: AUC=0.527718014249289
+current density: 6890441932800.0
+image name: (0, 0, 0, 0, 0, 0.1, 0, 0, 0, 10.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.715082718697165	In train graph: AUC=0.8359926357778459	In Whole Graph: AUC=0.715082718697165
+current density: 938459.125
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4199034284803125	In train graph: AUC=0.33357569450929647	In Whole Graph: AUC=0.4199034284803125
+current density: 101547673387008.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.42001371653735253	In train graph: AUC=0.33333110983630615	In Whole Graph: AUC=0.42001371653735253
+current density: 89549942292480.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.42033841952856266	In train graph: AUC=0.33587479043540514	In Whole Graph: AUC=0.42033841952856266
+current density: 43702974152704.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7262060881826686	In train graph: AUC=0.8259024062684828	In Whole Graph: AUC=0.7262060881826686
+current density: 978937.625
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5060743412574905	In train graph: AUC=0.5476917877360797	In Whole Graph: AUC=0.5060743412574905
+current density: 9085578641408.0
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4778667415539582	In train graph: AUC=0.4190046737907511	In Whole Graph: AUC=0.4778667415539582
+current density: 121263502655488.0
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4199034299551147	In train graph: AUC=0.33357569450929647	In Whole Graph: AUC=0.4199034299551147
+current density: 33849232850944.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.41990342995511465	In train graph: AUC=0.33357569450929647	In Whole Graph: AUC=0.41990342995511465
+current density: 67698457313280.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.42033841419857604	In train graph: AUC=0.33587479043540514	In Whole Graph: AUC=0.42033841419857604
+current density: 43702974152704.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7229776560815823	In train graph: AUC=0.8293732851279179	In Whole Graph: AUC=0.7229776560815823
+current density: 1917396.25
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7124906875017317	In train graph: AUC=0.80812777103317	In Whole Graph: AUC=0.7124906875017317
+current density: 40479.33203125
+image name: (0.001, 0, 0, 0, 0, 0.01, 0, 0, 0, 1000.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5209839515188863	In train graph: AUC=0.540583267740171	In Whole Graph: AUC=0.5209839515188863
+current density: 22866460409856.0
+image name: (100.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5227019499185546	In train graph: AUC=0.5	In Whole Graph: AUC=0.5227019499185546
+current density: 64197668896768.0
+image name: (1.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48378255573647777	In train graph: AUC=0.4406370763682289	In Whole Graph: AUC=0.48378255573647777
+current density: 189520297328640.0
+image name: (10000, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48667837085118804	In train graph: AUC=0.4546039729444882	In Whole Graph: AUC=0.48667837085118804
+current density: 113711968681984.0
+image name: (1000.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.40945825924668333	In train graph: AUC=0.33662633243059353	In Whole Graph: AUC=0.40945825924668333
+current density: 24053326807040.0
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5277181041992812	In train graph: AUC=0.5371146123777633	In Whole Graph: AUC=0.5277181041992812
+current density: 6890442981376.0
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.01)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.561673059615265	In train graph: AUC=0.5696988495626382	In Whole Graph: AUC=0.561673059615265
+current density: 52803477176320.0
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.505251741435321	In train graph: AUC=0.5343441350818914	In Whole Graph: AUC=0.505251741435321
+current density: 95023433515008.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.47792649978552154	In train graph: AUC=0.41900689728777835	In Whole Graph: AUC=0.47792649978552154
+current density: 107635370098688.0
+image name: (0.0001, 0, 0, 0, 0, 0.01, 0, 0, 0, 100.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5188715286119859	In train graph: AUC=0.541673893032005	In Whole Graph: AUC=0.5188715286119859
+current density: 113631396102144.0
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4828691504590004	In train graph: AUC=0.34585829208746344	In Whole Graph: AUC=0.4828691504590004
+current density: 61684261584896.0
+image name: (0.001, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4945098455210438	In train graph: AUC=0.4729689466405183	In Whole Graph: AUC=0.4945098455210438
+current density: 139059968081920.0
+image name: (100.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5355170737646858	In train graph: AUC=0.6021018717397975	In Whole Graph: AUC=0.5355170737646858
+current density: 26407035994112.0
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5277180265910538	In train graph: AUC=0.5371146123777633	In Whole Graph: AUC=0.5277180265910538
+current density: 6890442981376.0
+image name: (10000, 0, 0, 0, 0, 10000, 0, 0, 0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.712487980825862	In train graph: AUC=0.808114430051007	In Whole Graph: AUC=0.712487980825862
+current density: 242874.015625
+image name: (0.1, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.0001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4894382609578802	In train graph: AUC=0.5010027971592602	In Whole Graph: AUC=0.4894382609578802
+current density: 112241940627456.0
+image name: (1000.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.506074920078512	In train graph: AUC=0.5476917877360797	In Whole Graph: AUC=0.506074920078512
+current density: 4542788796416.0
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5060742348130006	In train graph: AUC=0.5476917877360798	In Whole Graph: AUC=0.5060742348130006
+current density: 9085577592832.0
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7066229447013023	In train graph: AUC=0.8312143406664265	In Whole Graph: AUC=0.7066229447013023
+current density: 4902445.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 10.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.49004183505816695	In train graph: AUC=0.45154777628062304	In Whole Graph: AUC=0.49004183505816695
+current density: 23861097660416.0
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5060742344766421	In train graph: AUC=0.5476917877360798	In Whole Graph: AUC=0.5060742344766421
+current density: 9085577592832.0
+image name: (0.0001, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.45860374701716133	In train graph: AUC=0.44405014430495704	In Whole Graph: AUC=0.45860374701716133
+current density: 29683861159936.0
+image name: (0.001, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5303939420730677	In train graph: AUC=0.4500580332724096	In Whole Graph: AUC=0.5303939420730677
+current density: 52814210400256.0
+image name: (100.0, 0, 0, 0, 0, 10000, 0, 0, 0, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4875665409189594	In train graph: AUC=0.4081228793397103	In Whole Graph: AUC=0.4875665409189594
+current density: 37339480981504.0
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 100.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7113109518880152	In train graph: AUC=0.8155275691396402	In Whole Graph: AUC=0.7113109518880152
+current density: 442035.71875
+image name: (1.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4735530071136259	In train graph: AUC=0.36399313384118004	In Whole Graph: AUC=0.4735530071136259
+current density: 37889031274496.0
+image name: (0.001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.48947028563907224	In train graph: AUC=0.5000200114732447	In Whole Graph: AUC=0.48947028563907224
+current density: 104234016047104.0
+image name: (10000, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5277180139646781	In train graph: AUC=0.5371146123777633	In Whole Graph: AUC=0.5277180139646781
+current density: 6890441932800.0
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5202702017699424	In train graph: AUC=0.539258063511969	In Whole Graph: AUC=0.5202702017699424
+current density: 25286445891584.0
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.4843272585693078	In train graph: AUC=0.3680910388622811	In Whole Graph: AUC=0.4843272585693078
+current density: 36646091227136.0
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 10000)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.928295899933178	In train graph: AUC=0.9272160483121434	In Whole Graph: AUC=0.928295899933178
+current density: 0.5004900693893433
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0.1)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (0, 0, 0, 0, 0, 10000, 0, 0, 0, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172428679394	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172428679394
+current density: 0.37590789794921875
+image name: (0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0.01)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9305164718648221	In train graph: AUC=0.9313384118005434	In Whole Graph: AUC=0.9305164718648221
+current density: 0.44825083017349243
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (100.0, 0, 0, 0, 0, 10000, 0, 0, 0, 1000.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.92991723821067	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.92991723821067
+current density: 0.375907838344574
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9308444181270104	In train graph: AUC=0.9314140106994677	In Whole Graph: AUC=0.9308444181270104
+current density: 0.42749956250190735
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172526740803	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172526740803
+current density: 0.3759078085422516
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299173860013659	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299173860013659
+current density: 0.37590649724006653
+image name: (0.001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.925384273477876	In train graph: AUC=0.922159816072326	In Whole Graph: AUC=0.925384273477876
+current density: 0.614983081817627
+image name: (0.01, 0, 0, 0, 0, 10000, 0, 0, 0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9298687693305976	In train graph: AUC=0.9273894810802636	In Whole Graph: AUC=0.9298687693305976
+current density: 0.3752603232860565
+image name: (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 10.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.928619340623142	In train graph: AUC=0.9280298482240928	In Whole Graph: AUC=0.928619340623142
+current density: 0.3707810640335083
+image name: (10.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.930591993738771	In train graph: AUC=0.9319343090038289	In Whole Graph: AUC=0.930591993738771
+current density: 0.44843006134033203
+image name: (100.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.928295899933178	In train graph: AUC=0.9272160483121434	In Whole Graph: AUC=0.928295899933178
+current density: 0.5004900693893433
+image name: (0.001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (10000, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.0001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172643690015	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172643690015
+current density: 0.37590768933296204
+image name: (1.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9212246853033756	In train graph: AUC=0.9134259197495453	In Whole Graph: AUC=0.9212246853033756
+current density: 0.5750305652618408
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 1.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9298314565006041	In train graph: AUC=0.9282433039387026	In Whole Graph: AUC=0.9298314565006041
+current density: 0.37268775701522827
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 1000.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172411085262	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172411085262
+current density: 0.37590789794921875
+image name: (10000, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (1000.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.924931302987613	In train graph: AUC=0.9225400340639746	In Whole Graph: AUC=0.924931302987613
+current density: 0.49491629004478455
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172520531103	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172520531103
+current density: 0.3759078085422516
+image name: (100.0, 0, 0, 0, 0, 10000, 0, 0, 0, 1000.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9249297433196869	In train graph: AUC=0.9222042860128695	In Whole Graph: AUC=0.9249297433196869
+current density: 0.5941053032875061
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9249313037638249	In train graph: AUC=0.9225400340639744	In Whole Graph: AUC=0.9249313037638249
+current density: 0.5948793292045593
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.1)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9295342970172807	In train graph: AUC=0.9245567458676308	In Whole Graph: AUC=0.9295342970172807
+current density: 0.3710005581378937
+image name: (0.01, 0, 0, 0, 0, 0.001, 0, 0, 0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.0001, 0, 0, 0, 0, 0.1, 0, 0, 0, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9308444181270104	In train graph: AUC=0.9314140106994677	In Whole Graph: AUC=0.9308444181270104
+current density: 0.42749956250190735
+image name: (0.0001, 0, 0, 0, 0, 0.1, 0, 0, 0, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9292182075172939	In train graph: AUC=0.9281454700695064	In Whole Graph: AUC=0.9292182075172939
+current density: 0.3752983808517456
+image name: (0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.930564674814786	In train graph: AUC=0.931720853289219	In Whole Graph: AUC=0.930564674814786
+current density: 0.4488982558250427
+image name: (0.0001, 0, 0, 0, 0, 10.0, 0, 0, 0, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.0001, 0, 0, 0, 0, 0.1, 0, 0, 0, 10.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (10.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.929917244135752	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.929917244135752
+current density: 0.37590789794921875
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9243295012372424	In train graph: AUC=0.9219018904171724	In Whole Graph: AUC=0.9243295012372424
+current density: 0.573480486869812
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 1.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9298958195042393	In train graph: AUC=0.9281232350992347	In Whole Graph: AUC=0.9298958195042393
+current density: 0.3744526207447052
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9243295012372424	In train graph: AUC=0.9219018904171724	In Whole Graph: AUC=0.9243295012372424
+current density: 0.573480486869812
+image name: (10000, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (0.1, 0, 0, 0, 0, 100.0, 0, 0, 0, 0.1)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 10.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9302521871179348	In train graph: AUC=0.9299998665901783	In Whole Graph: AUC=0.9302521871179348
+current density: 0.4458976984024048
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172167096068	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172167096068
+current density: 0.3759077191352844
+image name: (0.001, 0, 0, 0, 0, 0, 0, 0, 0, 10.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172414966324	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172414966324
+current density: 0.37590789794921875
+image name: (0.01, 0, 0, 0, 0, 10000, 0, 0, 0, 10000)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9308444181270104	In train graph: AUC=0.9314140106994677	In Whole Graph: AUC=0.9308444181270104
+current density: 0.42749956250190735
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9305643619756204	In train graph: AUC=0.9317164062951646	In Whole Graph: AUC=0.9305643619756204
+current density: 0.44889721274375916
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 1.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9248625345689293	In train graph: AUC=0.9221108991377279	In Whole Graph: AUC=0.9248625345689293
+current density: 0.5947762131690979
+image name: (100.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9248858514750573	In train graph: AUC=0.9223065668761201	In Whole Graph: AUC=0.9248858514750573
+current density: 0.5948728919029236
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9308444181270104	In train graph: AUC=0.9314140106994677	In Whole Graph: AUC=0.9308444181270104
+current density: 0.42749956250190735
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9287570870894001	In train graph: AUC=0.9287591552490094	In Whole Graph: AUC=0.9287570870894001
+current density: 0.5218591690063477
+image name: (10000, 0, 0, 0, 0, 0, 0, 0, 0, 10000)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299171346381627	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299171346381627
+current density: 0.37590768933296204
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172425315808	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172425315808
+current density: 0.37590789794921875
+image name: (0.0001, 0, 0, 0, 0, 0.1, 0, 0, 0, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9243295012372424	In train graph: AUC=0.9219018904171724	In Whole Graph: AUC=0.9243295012372424
+current density: 0.573480486869812
+image name: (1000.0, 0, 0, 0, 0, 0, 0, 0, 0, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9243295012372424	In train graph: AUC=0.9219018904171724	In Whole Graph: AUC=0.9243295012372424
+current density: 0.573480486869812
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (1.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9255261258449832	In train graph: AUC=0.9234049744075492	In Whole Graph: AUC=0.9255261258449832
+current density: 0.6162781119346619
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9255261280442493	In train graph: AUC=0.9234049744075493	In Whole Graph: AUC=0.9255261280442493
+current density: 0.5163151025772095
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9308444181270104	In train graph: AUC=0.9314140106994677	In Whole Graph: AUC=0.9308444181270104
+current density: 0.42749956250190735
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 100.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9243295012372424	In train graph: AUC=0.9219018904171724	In Whole Graph: AUC=0.9243295012372424
+current density: 0.573480486869812
+image name: (1.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (1.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9243295012372424	In train graph: AUC=0.9219018904171724	In Whole Graph: AUC=0.9243295012372424
+current density: 0.573480486869812
+image name: (1.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.929907834949974	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.929907834949974
+current density: 0.3757530152797699
+image name: (0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0.001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9305164718648221	In train graph: AUC=0.9313384118005434	In Whole Graph: AUC=0.9305164718648221
+current density: 0.44825083017349243
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0.0001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0, 0, 0, 0, 0, 10000, 0, 0, 0, 10.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.928295899933178	In train graph: AUC=0.9272160483121434	In Whole Graph: AUC=0.928295899933178
+current density: 0.5004900693893433
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 10.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172502419505	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172502419505
+current density: 0.37590768933296204
+image name: (1.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9316178208920299	In train graph: AUC=0.9306402337340075	In Whole Graph: AUC=0.9316178208920299
+current density: 0.3545090854167938
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9305646649827721	In train graph: AUC=0.9317208532892192	In Whole Graph: AUC=0.9305646649827721
+current density: 0.4488983750343323
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172431784244	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172431784244
+current density: 0.37590789794921875
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9302521871179348	In train graph: AUC=0.9299998665901783	In Whole Graph: AUC=0.9302521871179348
+current density: 0.4458976984024048
+image name: (10.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0.01)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9295969892771041	In train graph: AUC=0.9263711194418134	In Whole Graph: AUC=0.9295969892771041
+current density: 0.3729071617126465
+image name: (1000.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299163572104557	In train graph: AUC=0.9246234507784463	In Whole Graph: AUC=0.9299163572104557
+current density: 0.2815186083316803
+image name: (1000.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172425833284	In train graph: AUC=0.9277630285808307	In Whole Graph: AUC=0.9299172425833284
+current density: 0.37590789794921875
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='DP', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172411344001	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172411344001
+current density: 0.37590789794921875
+image name: (10000, 0, 0, 0, 0, 0, 0, 0, 0, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.928295899933178	In train graph: AUC=0.9272160483121434	In Whole Graph: AUC=0.928295899933178
+current density: 0.5004900693893433
+image name: (100.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KDE', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9206775031858765	In train graph: AUC=0.9190913901748113	In Whole Graph: AUC=0.9206775031858765
+current density: 0.5995442867279053
+image name: (0.1, 0, 0, 0, 0, 0.0001, 0, 0, 0, 1000.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='KL', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9255260435665492	In train graph: AUC=0.9234005274134949	In Whole Graph: AUC=0.9255260435665492
+current density: 0.6162555813789368
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9287059827379395	In train graph: AUC=0.9281210116022075	In Whole Graph: AUC=0.9287059827379395
+current density: 0.5212413668632507
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 10000)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.925517065980318	In train graph: AUC=0.9234227623837667	In Whole Graph: AUC=0.925517065980318
+current density: 0.616198718547821
+image name: (1.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 100.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='MSELoss', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9295969892771041	In train graph: AUC=0.9263711194418134	In Whole Graph: AUC=0.9295969892771041
+current density: 0.3729071617126465
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 10000)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9299172435406562	In train graph: AUC=0.9277630285808308	In Whole Graph: AUC=0.9299172435406562
+current density: 0.2759448289871216
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0.01)_1.0_1.png
+============================================================================================
+current parameter: Namespace(add_noise=False, arch='gcn', dataset='cora', defense=False, density=10000000.0, dropout=0.5, ensemble=True, epochs=100, eps=0, hidden=16, iter=1, log_name='cora/YA_Y.txt', lr=0.01, max_eval=100, measure='CKA', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=True, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.9308444181270104	In train graph: AUC=0.9314140106994677	In Whole Graph: AUC=0.9308444181270104
+current density: 0.42749956250190735
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 10.0)_1.0_0.03162277660168379.png
+============================================================================================

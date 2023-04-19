@@ -1,0 +1,1035 @@
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4744827174241138	In train graph: AUC=0.4119742111027449	In Whole Graph: AUC=0.4744827174241138
+current density: 458164025688064.0
+image name: (1.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400493881687591	In train graph: AUC=0.6170725237867069	In Whole Graph: AUC=0.5400493881687591
+current density: 371787468636160.0
+image name: (0.0001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49776787364317965	In train graph: AUC=0.3714234376069546	In Whole Graph: AUC=0.49776787364317965
+current density: 404197627396096.0
+image name: (0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5398327274357816	In train graph: AUC=0.6142446437127799	In Whole Graph: AUC=0.5398327274357816
+current density: 371884105400320.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4785373161437546	In train graph: AUC=0.39123571086316655	In Whole Graph: AUC=0.4785373161437546
+current density: 458164327677952.0
+image name: (0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.501626261133431	In train graph: AUC=0.48992059689232664	In Whole Graph: AUC=0.501626261133431
+current density: 447643503296512.0
+image name: (100.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.51172168283874	In train graph: AUC=0.6121654459579711	In Whole Graph: AUC=0.51172168283874
+current density: 429979443658752.0
+image name: (0.01, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5371287486672289	In train graph: AUC=0.6201014785406257	In Whole Graph: AUC=0.5371287486672289
+current density: 378675958644736.0
+image name: (1.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5279101953942207	In train graph: AUC=0.6620619138886986	In Whole Graph: AUC=0.5279101953942207
+current density: 439064977211392.0
+image name: (1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.54005076042998	In train graph: AUC=0.6170725237867067	In Whole Graph: AUC=0.54005076042998
+current density: 371784851390464.0
+image name: (10000, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49080652838159167	In train graph: AUC=0.5739783694982544	In Whole Graph: AUC=0.49080652838159167
+current density: 458163019055104.0
+image name: (10.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.543584492108981	In train graph: AUC=0.5269119207337942	In Whole Graph: AUC=0.543584492108981
+current density: 482312345092096.0
+image name: (10000, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5326650700442019	In train graph: AUC=0.613581525087275	In Whole Graph: AUC=0.5326650700442019
+current density: 386128364437504.0
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.47403244406545314	In train graph: AUC=0.40389913751796835	In Whole Graph: AUC=0.47403244406545314
+current density: 458164025688064.0
+image name: (1000.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5370959401622003	In train graph: AUC=0.6202640495584915	In Whole Graph: AUC=0.5370959401622003
+current density: 378627942252544.0
+image name: (1.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5427185307329231	In train graph: AUC=0.5297162707919776	In Whole Graph: AUC=0.5427185307329231
+current density: 442988429836288.0
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.47996645758391865	In train graph: AUC=0.386867684304196	In Whole Graph: AUC=0.47996645758391865
+current density: 419316918910976.0
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4785373161437546	In train graph: AUC=0.39123571086316655	In Whole Graph: AUC=0.4785373161437546
+current density: 458164327677952.0
+image name: (100.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.47602472697539655	In train graph: AUC=0.40580506879320966	In Whole Graph: AUC=0.47602472697539655
+current density: 458164025688064.0
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5438713958478976	In train graph: AUC=0.5266338387295503	In Whole Graph: AUC=0.5438713958478976
+current density: 482312445755392.0
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.543952326987087	In train graph: AUC=0.5271493599835717	In Whole Graph: AUC=0.543952326987087
+current density: 482312445755392.0
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4963112645206922	In train graph: AUC=0.64543261003491	In Whole Graph: AUC=0.4963112645206922
+current density: 453109587378176.0
+image name: (0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.543952326987087	In train graph: AUC=0.5271493599835717	In Whole Graph: AUC=0.543952326987087
+current density: 482312445755392.0
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.543952326987087	In train graph: AUC=0.5271493599835717	In Whole Graph: AUC=0.543952326987087
+current density: 482312445755392.0
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5361242680927748	In train graph: AUC=0.6191559997261961	In Whole Graph: AUC=0.5361242680927748
+current density: 390905374703616.0
+image name: (1000.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5432585327410657	In train graph: AUC=0.5293911287562462	In Whole Graph: AUC=0.5432585327410657
+current density: 482323283836928.0
+image name: (10.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5438269997289036	In train graph: AUC=0.5176881545622561	In Whole Graph: AUC=0.5438269997289036
+current density: 482316606504960.0
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4919887727625589	In train graph: AUC=0.42690293654596484	In Whole Graph: AUC=0.4919887727625589
+current density: 408786263080960.0
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400488573304083	In train graph: AUC=0.6170340201245808	In Whole Graph: AUC=0.5400488573304083
+current density: 371779247800320.0
+image name: (0.0001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5205746718110944	In train graph: AUC=0.6096584297350948	In Whole Graph: AUC=0.5205746718110944
+current density: 447086701051904.0
+image name: (0.01, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.530618715317678	In train graph: AUC=0.6405041412827709	In Whole Graph: AUC=0.530618715317678
+current density: 440108620709888.0
+image name: (0.001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5437775208035883	In train graph: AUC=0.51745927168184	In Whole Graph: AUC=0.5437775208035883
+current density: 482316572950528.0
+image name: (0.1, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5209264459594671	In train graph: AUC=0.6247261961804367	In Whole Graph: AUC=0.5209264459594671
+current density: 463944078589952.0
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4783711367904647	In train graph: AUC=0.4167743343144637	In Whole Graph: AUC=0.4783711367904647
+current density: 419371478417408.0
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4804369873081777	In train graph: AUC=0.38818536518584434	In Whole Graph: AUC=0.4804369873081777
+current density: 419698902564864.0
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5225547742183596	In train graph: AUC=0.6279647819837086	In Whole Graph: AUC=0.5225547742183596
+current density: 447141596102656.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49519834569862403	In train graph: AUC=0.6053588541310151	In Whole Graph: AUC=0.49519834569862403
+current density: 487636426817536.0
+image name: (100.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (1000.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5017932494703938	In train graph: AUC=0.530206122937915	In Whole Graph: AUC=0.5017932494703938
+current density: 451977561505792.0
+image name: (0.0001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5082582395805544	In train graph: AUC=0.553421692107605	In Whole Graph: AUC=0.5082582395805544
+current density: 446785684242432.0
+image name: (0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.540050116470326	In train graph: AUC=0.6170425764939422	In Whole Graph: AUC=0.540050116470326
+current density: 371781764382720.0
+image name: (10000, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5092991517024822	In train graph: AUC=0.36874529399685124	In Whole Graph: AUC=0.5092991517024822
+current density: 393843300106240.0
+image name: (1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400498240184862	In train graph: AUC=0.6170810801560682	In Whole Graph: AUC=0.5400498240184862
+current density: 371784314519552.0
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5222450399387769	In train graph: AUC=0.6074337737011432	In Whole Graph: AUC=0.5222450399387769
+current density: 458149463064576.0
+image name: (0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5321900099781041	In train graph: AUC=0.5757195906632897	In Whole Graph: AUC=0.5321900099781041
+current density: 450657530150912.0
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5150662865118362	In train graph: AUC=0.5362897015538367	In Whole Graph: AUC=0.5150662865118362
+current density: 419833522946048.0
+image name: (100.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400502849877968	In train graph: AUC=0.6170554110479841	In Whole Graph: AUC=0.5400502849877968
+current density: 371781294620672.0
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5394265577442754	In train graph: AUC=0.6190319323704565	In Whole Graph: AUC=0.5394265577442754
+current density: 371930678951936.0
+image name: (10.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4740534317270058	In train graph: AUC=0.4072724861386816	In Whole Graph: AUC=0.4740534317270058
+current density: 458164025688064.0
+image name: (1.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5438111333016439	In train graph: AUC=0.5294531624341159	In Whole Graph: AUC=0.5438111333016439
+current density: 482320129720320.0
+image name: (1000.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4783822168557594	In train graph: AUC=0.4168342288999931	In Whole Graph: AUC=0.4783822168557594
+current density: 419379799916544.0
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4955267897426933	In train graph: AUC=0.6450689643370525	In Whole Graph: AUC=0.4955267897426933
+current density: 453672093876224.0
+image name: (0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5265225643153348	In train graph: AUC=0.5774308645355604	In Whole Graph: AUC=0.5265225643153348
+current density: 475243500011520.0
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400507542748503	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400507542748503
+current density: 371781865046016.0
+image name: (10000, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5361394619473446	In train graph: AUC=0.6186383393798344	In Whole Graph: AUC=0.5361394619473446
+current density: 390556106620928.0
+image name: (100.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400502251000481	In train graph: AUC=0.6170468546786229	In Whole Graph: AUC=0.5400502251000481
+current density: 371781831491584.0
+image name: (10000, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5336122110936066	In train graph: AUC=0.5387860223150113	In Whole Graph: AUC=0.5336122110936066
+current density: 421132347899904.0
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.523515114194881	In train graph: AUC=0.5151789992470395	In Whole Graph: AUC=0.523515114194881
+current density: 446790381862912.0
+image name: (0.01, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4727368548003452	In train graph: AUC=0.39998887671983024	In Whole Graph: AUC=0.4727368548003452
+current density: 458164025688064.0
+image name: (0.01, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5480589586781728	In train graph: AUC=0.5119275788897255	In Whole Graph: AUC=0.5480589586781728
+current density: 482281844113408.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5283596083655575	In train graph: AUC=0.5385763912656581	In Whole Graph: AUC=0.5283596083655575
+current density: 453967976857600.0
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.511347987778063	In train graph: AUC=0.6134403449928125	In Whole Graph: AUC=0.511347987778063
+current density: 428527744712704.0
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5489469945120684	In train graph: AUC=0.6013929769320282	In Whole Graph: AUC=0.5489469945120684
+current density: 449745285808128.0
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5463848532222577	In train graph: AUC=0.6072583681292354	In Whole Graph: AUC=0.5463848532222577
+current density: 438747820720128.0
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5157514525968097	In train graph: AUC=0.3723090218358546	In Whole Graph: AUC=0.5157514525968097
+current density: 373109915910144.0
+image name: (10.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (1.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5463067081942246	In train graph: AUC=0.6068604969539324	In Whole Graph: AUC=0.5463067081942246
+current density: 438759732543488.0
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4858697659881759	In train graph: AUC=0.4332774317201725	In Whole Graph: AUC=0.4858697659881759
+current density: 414245736939520.0
+image name: (1000.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5221848426036276	In train graph: AUC=0.5121072626463139	In Whole Graph: AUC=0.5221848426036276
+current density: 443064900386816.0
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4916347267058951	In train graph: AUC=0.5882953145321377	In Whole Graph: AUC=0.4916347267058951
+current density: 458162918391808.0
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.506345500742997	In train graph: AUC=0.6410175234444521	In Whole Graph: AUC=0.506345500742997
+current density: 461069973716992.0
+image name: (0.0001, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5117375941818111	In train graph: AUC=0.5286809500992539	In Whole Graph: AUC=0.5117375941818111
+current density: 418911514263552.0
+image name: (0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5414309386448876	In train graph: AUC=0.5403004996919708	In Whole Graph: AUC=0.5414309386448876
+current density: 438642661130240.0
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5552874274206814	In train graph: AUC=0.5063916079129304	In Whole Graph: AUC=0.5552874274206814
+current density: 445288888139776.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5398327274357816	In train graph: AUC=0.6142446437127799	In Whole Graph: AUC=0.5398327274357816
+current density: 371884105400320.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5552874274206814	In train graph: AUC=0.5063916079129304	In Whole Graph: AUC=0.5552874274206814
+current density: 445288888139776.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5552874274206814	In train graph: AUC=0.5063916079129304	In Whole Graph: AUC=0.5552874274206814
+current density: 445288888139776.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5436642346427123	In train graph: AUC=0.6090765966185228	In Whole Graph: AUC=0.5436642346427123
+current density: 431106134376448.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.472160682754565	In train graph: AUC=0.39798454719693344	In Whole Graph: AUC=0.472160682754565
+current density: 458164025688064.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400370537878375	In train graph: AUC=0.6167473817509754	In Whole Graph: AUC=0.5400370537878375
+current density: 371840954400768.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5552874274206814	In train graph: AUC=0.5063916079129304	In Whole Graph: AUC=0.5552874274206814
+current density: 445288888139776.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5398327274357816	In train graph: AUC=0.6142446437127799	In Whole Graph: AUC=0.5398327274357816
+current density: 371884105400320.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5552545247588034	In train graph: AUC=0.5060172667533712	In Whole Graph: AUC=0.5552545247588034
+current density: 445288753922048.0
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (100.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5552874274206814	In train graph: AUC=0.5063916079129304	In Whole Graph: AUC=0.5552874274206814
+current density: 445288888139776.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5545722339511897	In train graph: AUC=0.507236549387364	In Whole Graph: AUC=0.5545722339511897
+current density: 445462901424128.0
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.472160682754565	In train graph: AUC=0.39798454719693344	In Whole Graph: AUC=0.472160682754565
+current density: 458164025688064.0
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.539284769672926	In train graph: AUC=0.6202255458963652	In Whole Graph: AUC=0.539284769672926
+current density: 460911630352384.0
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.6208577726114227	In train graph: AUC=0.6644448627558355	In Whole Graph: AUC=0.6208577726114227
+current density: 6.0656633377075195
+image name: (0.1, 0, 0, 0, 0, 0, 10000, 0, 1000.0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.6273635248187117	In train graph: AUC=0.6755424738175098	In Whole Graph: AUC=0.6273635248187117
+current density: 6.084025859832764
+image name: (100.0, 0.01, 0, 0, 0, 0.01, 10.0, 0, 1.0, 1000.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.620473503869638	In train graph: AUC=0.6789821343007736	In Whole Graph: AUC=0.620473503869638
+current density: 6.122489929199219
+image name: (0.01, 1000.0, 0, 0, 0, 10000, 1000.0, 0, 0.1, 100.0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.6172450228740958	In train graph: AUC=0.7106834827845848	In Whole Graph: AUC=0.6172450228740958
+current density: 6.0793304443359375
+image name: (10.0, 0.001, 0, 0, 0, 10.0, 0.001, 0, 1.0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.6196032546971236	In train graph: AUC=0.6459631049353138	In Whole Graph: AUC=0.6196032546971236
+current density: 5.953971862792969
+image name: (0.1, 0.1, 0, 0, 0, 0.01, 1000.0, 0, 0.01, 0.001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.6196032546971236	In train graph: AUC=0.6459631049353138	In Whole Graph: AUC=0.6196032546971236
+current density: 5.953971862792969
+image name: (100.0, 10.0, 0, 0, 0, 0.1, 0, 0, 10000, 0.001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.6196027809184891	In train graph: AUC=0.6459117667191457	In Whole Graph: AUC=0.6196027809184891
+current density: 5.953971862792969
+image name: (1000.0, 1000.0, 0, 0, 0, 10000, 1000.0, 0, 100.0, 1000.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5327594404932774	In train graph: AUC=0.5407817954685468	In Whole Graph: AUC=0.5327594404932774
+current density: 378606937178112.0
+image name: (1000.0, 10000, 0, 0, 0, 0.001, 10000, 0, 1000.0, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.47115453214369474	In train graph: AUC=0.40297291053460194	In Whole Graph: AUC=0.47115453214369474
+current density: 458033868046336.0
+image name: (1000.0, 10000, 0, 0, 0, 0, 1.0, 0, 0.0001, 0.0001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5464459014625042	In train graph: AUC=0.557319118351701	In Whole Graph: AUC=0.5464459014625042
+current density: 442272311148544.0
+image name: (1000.0, 100.0, 0, 0, 0, 0.0001, 10.0, 0, 1000.0, 1000.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5079254889419299	In train graph: AUC=0.580896194126908	In Whole Graph: AUC=0.5079254889419299
+current density: 436264926969856.0
+image name: (0.1, 0, 0, 0, 0, 1000.0, 10.0, 0, 0.001, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5399878748003307	In train graph: AUC=0.554611027448833	In Whole Graph: AUC=0.5399878748003307
+current density: 307717495324672.0
+image name: (0.1, 0.0001, 0, 0, 0, 100.0, 1.0, 0, 0.1, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49113930962950997	In train graph: AUC=0.5963725272092546	In Whole Graph: AUC=0.49113930962950997
+current density: 458163019055104.0
+image name: (100.0, 0.001, 0, 0, 0, 0.001, 0, 0, 0.0001, 0.01)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.001, 0.0001, 0, 0, 0, 10.0, 0.0001, 0, 1.0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5206221573061501	In train graph: AUC=0.6085888835649258	In Whole Graph: AUC=0.5206221573061501
+current density: 425907579781120.0
+image name: (10000, 0.1, 0, 0, 0, 10.0, 10000, 0, 10000, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.01, 0.01, 0, 0, 0, 100.0, 100.0, 0, 0, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49595223197716976	In train graph: AUC=0.503409713190499	In Whole Graph: AUC=0.49595223197716976
+current density: 438412813271040.0
+image name: (0.001, 0, 0, 0, 0, 0.01, 10000, 0, 1.0, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.536895389233639	In train graph: AUC=0.6161912177424875	In Whole Graph: AUC=0.536895389233639
+current density: 366037614723072.0
+image name: (1.0, 1.0, 0, 0, 0, 0, 1000.0, 0, 0.1, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (10000, 0.01, 0, 0, 0, 10000, 1.0, 0, 1.0, 1.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5291028349575339	In train graph: AUC=0.3887971455951811	In Whole Graph: AUC=0.5291028349575339
+current density: 455709384769536.0
+image name: (100.0, 0.001, 0, 0, 0, 0, 0.001, 0, 0.1, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5137901353127818	In train graph: AUC=0.5499734752549797	In Whole Graph: AUC=0.5137901353127818
+current density: 405177181929472.0
+image name: (0.01, 1000.0, 0, 0, 0, 1.0, 10.0, 0, 0.0001, 1000.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400539526133438	In train graph: AUC=0.6172265384352111	In Whole Graph: AUC=0.5400539526133438
+current density: 371794783502336.0
+image name: (10.0, 100.0, 0, 0, 0, 1000.0, 1000.0, 0, 10000, 0.001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5298103742736695	In train graph: AUC=0.5003636456978574	In Whole Graph: AUC=0.5298103742736695
+current density: 387264181960704.0
+image name: (1000.0, 0.001, 0, 0, 0, 0.1, 10000, 0, 0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5422532207250331	In train graph: AUC=0.626416079129304	In Whole Graph: AUC=0.5422532207250331
+current density: 414755529424896.0
+image name: (1.0, 0.01, 0, 0, 0, 0.001, 0.0001, 0, 100.0, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.01, 0.001, 0, 0, 0, 0.001, 1000.0, 0, 0.01, 100.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.517728011312897	In train graph: AUC=0.48280597576836204	In Whole Graph: AUC=0.517728011312897
+current density: 423198764040192.0
+image name: (1.0, 100.0, 0, 0, 0, 1.0, 0.1, 0, 0.0001, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5038324727305246	In train graph: AUC=0.45969308303100825	In Whole Graph: AUC=0.5038324727305246
+current density: 427769750093824.0
+image name: (10000, 1.0, 0, 0, 0, 1.0, 10000, 0, 0.1, 1000.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5319330324799522	In train graph: AUC=0.5146485043466357	In Whole Graph: AUC=0.5319330324799522
+current density: 389062431080448.0
+image name: (0.0001, 10.0, 0, 0, 0, 0.0001, 0.0001, 0, 100.0, 0.1)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5374574462361013	In train graph: AUC=0.6457406393319187	In Whole Graph: AUC=0.5374574462361013
+current density: 448243792084992.0
+image name: (0, 0.01, 0, 0, 0, 0.0001, 0.01, 0, 100.0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5261058605351767	In train graph: AUC=0.5128345540420289	In Whole Graph: AUC=0.5261058605351767
+current density: 438654572953600.0
+image name: (1.0, 100.0, 0, 0, 0, 0.0001, 0.0001, 0, 10.0, 0.001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5561266908383424	In train graph: AUC=0.6301466561708535	In Whole Graph: AUC=0.5561266908383424
+current density: 437014163881984.0
+image name: (1.0, 1000.0, 0, 0, 0, 0.0001, 10.0, 0, 1000.0, 0.0001)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5101940079191872	In train graph: AUC=0.49597422821548354	In Whole Graph: AUC=0.5101940079191872
+current density: 439424546504704.0
+image name: (0, 1000.0, 0, 0, 0, 0.0001, 10.0, 0, 1000.0, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5560854647775161	In train graph: AUC=0.6301209870627694	In Whole Graph: AUC=0.5560854647775161
+current density: 436956618031104.0
+image name: (10.0, 1000.0, 0, 0, 0, 0.0001, 10.0, 0, 1000.0, 1000.0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5554878088336428	In train graph: AUC=0.6283754877130536	In Whole Graph: AUC=0.5554878088336428
+current density: 437080635211776.0
+image name: (10.0, 1000.0, 0, 0, 0, 0.1, 10.0, 0, 1000.0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5561389407109963	In train graph: AUC=0.6303348962968034	In Whole Graph: AUC=0.5561389407109963
+current density: 436970106912768.0
+image name: (10.0, 1000.0, 0, 0, 0, 0.0001, 10.0, 0, 1000.0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5561289652419565	In train graph: AUC=0.6301594907248956	In Whole Graph: AUC=0.5561289652419565
+current density: 437019566145536.0
+image name: (0.0001, 1000.0, 0, 0, 0, 0.01, 100.0, 0, 1000.0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.474201824751624	In train graph: AUC=0.3879179786433021	In Whole Graph: AUC=0.474201824751624
+current density: 458164025688064.0
+image name: (0.0001, 1000.0, 0, 0, 0, 0.01, 100.0, 0, 0.001, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.0001, 10000, 0, 0, 0, 0.01, 100.0, 0, 0.01, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5422637423370705	In train graph: AUC=0.470951126018208	In Whole Graph: AUC=0.5422637423370705
+current density: 350556136669184.0
+image name: (0.0001, 10.0, 0, 0, 0, 10000, 100.0, 0, 1000.0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5337923259933229	In train graph: AUC=0.48141984393182286	In Whole Graph: AUC=0.5337923259933229
+current density: 336899214409728.0
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 0.01, 0, 10.0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5113784771300209	In train graph: AUC=0.597576836196865	In Whole Graph: AUC=0.5113784771300209
+current density: 439394381070336.0
+image name: (0.1, 10000, 0, 0, 0, 0.01, 0.001, 0, 1000.0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5006982319282042	In train graph: AUC=0.5192389965090013	In Whole Graph: AUC=0.5006982319282042
+current density: 306569061335040.0
+image name: (0.0001, 1000.0, 0, 0, 0, 100.0, 0, 0, 1000.0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5044909802832024	In train graph: AUC=0.5341099664590321	In Whole Graph: AUC=0.5044909802832024
+current density: 427237610356736.0
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0.1, 0, 0.001, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (1000.0, 0.0001, 0, 0, 0, 0.1, 100.0, 0, 1000.0, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5316773770038542	In train graph: AUC=0.6140136217400233	In Whole Graph: AUC=0.5316773770038542
+current density: 439922729156608.0
+image name: (100.0, 1000.0, 0, 0, 0, 10.0, 0, 0, 10000, 0.01)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5099372678094172	In train graph: AUC=0.5514836744472585	In Whole Graph: AUC=0.5099372678094172
+current density: 443245154795520.0
+image name: (0.1, 0.1, 0, 0, 0, 0.01, 1.0, 0, 0, 10000)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5416536939544305	In train graph: AUC=0.6209913409542063	In Whole Graph: AUC=0.5416536939544305
+current density: 370417944494080.0
+image name: (0.001, 0.0001, 0, 0, 0, 10000, 100.0, 0, 0.01, 0.1)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5429893278281658	In train graph: AUC=0.5544099527688411	In Whole Graph: AUC=0.5429893278281658
+current density: 445389853425664.0
+image name: (10.0, 1.0, 0, 0, 0, 0, 0.1, 0, 10.0, 10.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5382910807044434	In train graph: AUC=0.5943724758710385	In Whole Graph: AUC=0.5382910807044434
+current density: 374168222695424.0
+image name: (0.0001, 1000.0, 0, 0, 0, 10.0, 0.01, 0, 1.0, 100.0)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5349495218243072	In train graph: AUC=0.5372202067218839	In Whole Graph: AUC=0.5349495218243072
+current density: 430178656321536.0
+image name: (0, 0, 0, 0, 0, 100.0, 0.001, 0, 1000.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5307710779019096	In train graph: AUC=0.6023320384694366	In Whole Graph: AUC=0.5307710779019096
+current density: 458115472424960.0
+image name: (100.0, 10000, 0, 0, 0, 1000.0, 1.0, 0, 0.0001, 0.001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5306535997649755	In train graph: AUC=0.3761422753097406	In Whole Graph: AUC=0.5306535997649755
+current density: 457783283548160.0
+image name: (0.001, 1000.0, 0, 0, 0, 0.01, 10.0, 0, 0.001, 1.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5116757669017662	In train graph: AUC=0.608096892326648	In Whole Graph: AUC=0.5116757669017662
+current density: 420196850335744.0
+image name: (10000, 10.0, 0, 0, 0, 0.001, 100.0, 0, 10000, 0.01)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400294774885549	In train graph: AUC=0.6160029776165377	In Whole Graph: AUC=0.5400294774885549
+current density: 371773375774720.0
+image name: (1000.0, 0.1, 0, 0, 0, 0, 1000.0, 0, 0, 0.1)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49639702028346344	In train graph: AUC=0.39633530700253267	In Whole Graph: AUC=0.49639702028346344
+current density: 453092977934336.0
+image name: (0.01, 1.0, 0, 0, 0, 0.0001, 0, 0, 1000.0, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5387244274563366	In train graph: AUC=0.5534259702922855	In Whole Graph: AUC=0.5387244274563366
+current density: 407130754514944.0
+image name: (10.0, 0.001, 0, 0, 0, 10000, 10.0, 0, 0.1, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.1, 0.0001, 0, 0, 0, 1.0, 0.001, 0, 1.0, 100.0)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5095716830471161	In train graph: AUC=0.5720660209459922	In Whole Graph: AUC=0.5095716830471161
+current density: 353044935999488.0
+image name: (10000, 1000.0, 0, 0, 0, 100.0, 10000, 0, 1000.0, 1.0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5474255419296119	In train graph: AUC=0.6408720651653091	In Whole Graph: AUC=0.5474255419296119
+current density: 379438080458752.0
+image name: (0.0001, 100.0, 0, 0, 0, 10.0, 100.0, 0, 100.0, 0)_1.0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5559906183871927	In train graph: AUC=0.5903616777329044	In Whole Graph: AUC=0.5559906183871927
+current density: 470023235698688.0
+image name: (0.01, 0.01, 0, 0, 0, 0.001, 0.0001, 0, 0.0001, 0.001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5398202468289401	In train graph: AUC=0.5994121774248752	In Whole Graph: AUC=0.5398202468289401
+current density: 378437889949696.0
+image name: (0.001, 0, 0, 0, 0, 0.1, 1.0, 0, 0.1, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.563686797305478	In train graph: AUC=0.6043492025463755	In Whole Graph: AUC=0.563686797305478
+current density: 445461727019008.0
+image name: (100.0, 1000.0, 0, 0, 0, 0.0001, 1000.0, 0, 10000, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.511814001300646	In train graph: AUC=0.5803614210418235	In Whole Graph: AUC=0.511814001300646
+current density: 435146826186752.0
+image name: (100.0, 10.0, 0, 0, 0, 0.0001, 1000.0, 0, 0.01, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5384296609550725	In train graph: AUC=0.6036518584434253	In Whole Graph: AUC=0.5384296609550725
+current density: 399698481381376.0
+image name: (100.0, 0.001, 0, 0, 0, 0.0001, 1000.0, 0, 10000, 0.1)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.539340744921788	In train graph: AUC=0.48346053802450545	In Whole Graph: AUC=0.539340744921788
+current density: 340702005297152.0
+image name: (100.0, 1000.0, 0, 0, 0, 0.0001, 1000.0, 0, 10000, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5663523359580055	In train graph: AUC=0.5888664521870081	In Whole Graph: AUC=0.5663523359580055
+current density: 429150347198464.0
+image name: (100.0, 100.0, 0, 0, 0, 0.0001, 1000.0, 0, 10000, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5228971819228263	In train graph: AUC=0.5870738928058047	In Whole Graph: AUC=0.5228971819228263
+current density: 414085548081152.0
+image name: (100.0, 100.0, 0, 0, 0, 0.0001, 1000.0, 0, 10000, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5482706780064579	In train graph: AUC=0.5948002943391061	In Whole Graph: AUC=0.5482706780064579
+current density: 430721197932544.0
+image name: (100.0, 100.0, 0, 0, 0, 1000.0, 1000.0, 0, 10000, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (100.0, 100.0, 0, 0, 0, 1.0, 1000.0, 0, 10000, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4773185979611797	In train graph: AUC=0.49107142857142855	In Whole Graph: AUC=0.4773185979611797
+current density: 429919716769792.0
+image name: (100.0, 100.0, 0, 0, 0, 0.0001, 1000.0, 0, 10000, 0.01)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5728996346255767	In train graph: AUC=0.5633770278595387	In Whole Graph: AUC=0.5728996346255767
+current density: 432951997235200.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.524665224972477	In train graph: AUC=0.5357527893764118	In Whole Graph: AUC=0.524665224972477
+current density: 332536131616768.0
+image name: (0, 100.0, 0, 0, 0, 0, 10000, 0, 10.0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5728996346255767	In train graph: AUC=0.5633770278595387	In Whole Graph: AUC=0.5728996346255767
+current density: 432951997235200.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5728996346255767	In train graph: AUC=0.5633770278595387	In Whole Graph: AUC=0.5728996346255767
+current density: 432951997235200.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5728996346255767	In train graph: AUC=0.5633770278595387	In Whole Graph: AUC=0.5728996346255767
+current density: 432951997235200.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5728996346255767	In train graph: AUC=0.5633770278595387	In Whole Graph: AUC=0.5728996346255767
+current density: 432951997235200.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5723288834191884	In train graph: AUC=0.5636978917105893	In Whole Graph: AUC=0.5723288834191884
+current density: 432204572262400.0
+image name: (0, 100.0, 0, 0, 0, 0, 0.01, 0, 10000, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5559057511257162	In train graph: AUC=0.5488140872065165	In Whole Graph: AUC=0.5559057511257162
+current density: 452676835868672.0
+image name: (0, 100.0, 0, 0, 0, 0, 0.1, 0, 100.0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.47422844818304466	In train graph: AUC=0.39853215483605997	In Whole Graph: AUC=0.47422844818304466
+current density: 458164025688064.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4822405439591977	In train graph: AUC=0.6069118351701006	In Whole Graph: AUC=0.4822405439591977
+current density: 457223427850240.0
+image name: (0, 0.01, 0, 0, 0, 0, 0.0001, 0, 0.001, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.49739103830185455	In train graph: AUC=0.6308589739201862	In Whole Graph: AUC=0.49739103830185455
+current density: 456443622850560.0
+image name: (0, 10000, 0, 0, 0, 0, 1000.0, 0, 1.0, 0.0001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0, 1.0, 0, 0, 0, 0, 0.001, 0, 10000, 0.0001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.526911477684746	In train graph: AUC=0.5522794167978644	In Whole Graph: AUC=0.526911477684746
+current density: 436470414311424.0
+image name: (0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5124064188964065	In train graph: AUC=0.6073289581764666	In Whole Graph: AUC=0.5124064188964065
+current density: 458150268370944.0
+image name: (1.0, 0.1, 0, 0, 0, 0, 0, 0, 0.0001, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5401868894417814	In train graph: AUC=0.6170211855705386	In Whole Graph: AUC=0.5401868894417814
+current density: 372047817474048.0
+image name: (1000.0, 0.0001, 0, 0, 0, 0, 0.1, 0, 0.01, 10000)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5156507225678805	In train graph: AUC=0.6093268704223423	In Whole Graph: AUC=0.5156507225678805
+current density: 454398882873344.0
+image name: (0, 100.0, 0, 0, 0, 0.1, 0.01, 0, 10.0, 1.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.519988279255569	In train graph: AUC=0.4142223971524403	In Whole Graph: AUC=0.519988279255569
+current density: 418783202115584.0
+image name: (0, 0, 0, 0, 0, 10000, 10000, 0, 0.1, 0)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5501577948688378	In train graph: AUC=0.6375521938531042	In Whole Graph: AUC=0.5501577948688378
+current density: 403211194204160.0
+image name: (0.1, 10.0, 0, 0, 0, 0.001, 1.0, 0, 10000, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5064121636260445	In train graph: AUC=0.5263878431104114	In Whole Graph: AUC=0.5064121636260445
+current density: 424374276456448.0
+image name: (0.01, 0.001, 0, 0, 0, 100.0, 1000.0, 0, 0, 0.001)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5471862818892207	In train graph: AUC=0.6017609008145663	In Whole Graph: AUC=0.5471862818892207
+current density: 430223183052800.0
+image name: (10000, 100.0, 0, 0, 0, 10.0, 0, 0, 100.0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0, 10000, 0, 0, 0, 0, 0.0001, 0, 0.001, 0.0001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5055019022841002	In train graph: AUC=0.5866289615990143	In Whole Graph: AUC=0.5055019022841002
+current density: 418534630883328.0
+image name: (1.0, 0.01, 0, 0, 0, 1000.0, 1000.0, 0, 1.0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400510405715603	In train graph: AUC=0.6170554110479842	In Whole Graph: AUC=0.5400510405715603
+current density: 371782133481472.0
+image name: (0.001, 1.0, 0, 0, 0, 1.0, 0.001, 0, 10000, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5400283637427827	In train graph: AUC=0.6170768019713875	In Whole Graph: AUC=0.5400283637427827
+current density: 371807668404224.0
+image name: (1000.0, 0.1, 0, 0, 0, 0, 1000.0, 0, 0.0001, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5420846498543093	In train graph: AUC=0.5980431583270587	In Whole Graph: AUC=0.5420846498543093
+current density: 342124780322816.0
+image name: (0, 100.0, 0, 0, 0, 0, 0.1, 0, 10000, 10000)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.48687612238000516	In train graph: AUC=0.44907248956122936	In Whole Graph: AUC=0.48687612238000516
+current density: 415247705833472.0
+image name: (0, 0.0001, 0, 0, 0, 10000, 1.0, 0, 0.01, 0)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.534035549438198	In train graph: AUC=0.6347157574098159	In Whole Graph: AUC=0.534035549438198
+current density: 400888019550208.0
+image name: (0.1, 0, 0, 0, 0, 0.1, 0.01, 0, 0.1, 1.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5270827072388047	In train graph: AUC=0.5837668560476419	In Whole Graph: AUC=0.5270827072388047
+current density: 362968994807808.0
+image name: (10000, 100.0, 0, 0, 0, 0.001, 10000, 0, 10.0, 10.0)_1.0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='HSIC', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5271978545778283	In train graph: AUC=0.46353703196659596	In Whole Graph: AUC=0.5271978545778283
+current density: 438649539788800.0
+image name: (0.01, 0.001, 0, 0, 0, 100.0, 1000.0, 0, 10000, 0.001)_1.0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='CKA', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5160639076100892	In train graph: AUC=0.6695786843726471	In Whole Graph: AUC=0.5160639076100892
+current density: 415985198694400.0
+image name: (0, 10.0, 0, 0, 0, 10.0, 10.0, 0, 100.0, 1000.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5230519679646245	In train graph: AUC=0.6861095899787802	In Whole Graph: AUC=0.5230519679646245
+current density: 416355505405952.0
+image name: (1.0, 100.0, 0, 0, 0, 0, 0.0001, 0, 10000, 0.0001)_1.0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='DP', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.521885599160434	In train graph: AUC=0.45435604764186455	In Whole Graph: AUC=0.521885599160434
+current density: 378540801392640.0
+image name: (0.001, 10000, 0, 0, 0, 1000.0, 1000.0, 0, 0, 0.0001)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5095369950649055	In train graph: AUC=0.6241358066945034	In Whole Graph: AUC=0.5095369950649055
+current density: 463583100010496.0
+image name: (0, 0.01, 0, 0, 0, 1.0, 0, 0, 0.001, 100.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='MSELoss', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5465513722721671	In train graph: AUC=0.4954437333150798	In Whole Graph: AUC=0.5465513722721671
+current density: 320445328916480.0
+image name: (1000.0, 100.0, 0, 0, 0, 0, 1000.0, 0, 10000, 0.0001)_1.0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KDE', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.4834250442783897	In train graph: AUC=0.5927360702306796	In Whole Graph: AUC=0.4834250442783897
+current density: 433350623887360.0
+image name: (0, 1.0, 0, 0, 0, 0.01, 0.001, 0, 0.0001, 10000)_1.0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5516537655469069	In train graph: AUC=0.6526841330686564	In Whole Graph: AUC=0.5516537655469069
+current density: 380145005232128.0
+image name: (10.0, 0.1, 0, 0, 0, 0, 1000.0, 0, 1.0, 1.0)_1.0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='AIDS', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='AIDS2/Y0.txt', mode='search', measure='KL', measure2='HSIC', nofeature=True, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=True, useY=True, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.5429013816709837	In train graph: AUC=0.4250034225477445	In Whole Graph: AUC=0.5429013816709837
+current density: 414161280434176.0
+image name: (0.0001, 100.0, 0, 0, 0, 0.001, 1.0, 0, 10000, 0)_1.0_0.1.png
+============================================================================================

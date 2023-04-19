@@ -1,0 +1,1348 @@
+In attack graph: AUC=0.7887768344935551	In train graph: AUC=0.5745172124265324	In Whole Graph: AUC=0.7887768344935551
+current density: 4.405647277832031
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7477184623207852	In train graph: AUC=0.6315071368597817	In Whole Graph: AUC=0.7477184623207852
+current density: 3.888031244277954
+image name: (1.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.7940507410590261	In train graph: AUC=0.6384340890008396	In Whole Graph: AUC=0.7940507410590261
+current density: 3.9375717639923096
+image name: (10.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.7787330194671046	In train graph: AUC=0.6633081444164568	In Whole Graph: AUC=0.7787330194671046
+current density: 4.3308796882629395
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7288749616193846	In train graph: AUC=0.6516582703610412	In Whole Graph: AUC=0.7288749616193846
+current density: 3.858905553817749
+image name: (10000, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7201919418252638	In train graph: AUC=0.6403232577665828	In Whole Graph: AUC=0.7201919418252638
+current density: 3.8434031009674072
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.778374973740389	In train graph: AUC=0.6075776658270361	In Whole Graph: AUC=0.778374973740389
+current density: 4.4259538650512695
+image name: (0.0001, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7983756317123619	In train graph: AUC=0.6878673383711167	In Whole Graph: AUC=0.7983756317123619
+current density: 4.328114032745361
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8034565899461471	In train graph: AUC=0.6403232577665827	In Whole Graph: AUC=0.8034565899461471
+current density: 3.9491355419158936
+image name: (0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7244237664757031	In train graph: AUC=0.6405331654072208	In Whole Graph: AUC=0.7244237664757031
+current density: 3.8439691066741943
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.8112021665179322	In train graph: AUC=0.6623635600335852	In Whole Graph: AUC=0.8112021665179322
+current density: 4.492496967315674
+image name: (0.1, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.8147720314185352	In train graph: AUC=0.7029806884970613	In Whole Graph: AUC=0.8147720314185352
+current density: 4.470614433288574
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.8264203864083707	In train graph: AUC=0.7053946263643996	In Whole Graph: AUC=0.8264203864083707
+current density: 4.022810935974121
+image name: (100.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8034443928820116	In train graph: AUC=0.6395885810243493	In Whole Graph: AUC=0.8034443928820116
+current density: 3.9491302967071533
+image name: (1000.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7992839937444864	In train graph: AUC=0.6378043660789252	In Whole Graph: AUC=0.7992839937444864
+current density: 3.945016384124756
+image name: (0.01, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.8264517613213276	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264517613213276
+current density: 4.02225923538208
+image name: (100.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.775751619758038	In train graph: AUC=0.6996221662468514	In Whole Graph: AUC=0.775751619758038
+current density: 4.321254730224609
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.7742311328209119	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7742311328209119
+current density: 3.9186112880706787
+image name: (0.01, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8034565899461471	In train graph: AUC=0.6403232577665827	In Whole Graph: AUC=0.8034565899461471
+current density: 3.9491355419158936
+image name: (0.01, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7217345908365417	In train graph: AUC=0.6306675062972292	In Whole Graph: AUC=0.7217345908365417
+current density: 3.852022886276245
+image name: (0.001, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7312715341755531	In train graph: AUC=0.632031905961377	In Whole Graph: AUC=0.7312715341755531
+current density: 3.8735125064849854
+image name: (1000.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.799761139812764	In train graph: AUC=0.6369647355163728	In Whole Graph: AUC=0.799761139812764
+current density: 3.945612907409668
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.7834299265272884	In train graph: AUC=0.7397145256087321	In Whole Graph: AUC=0.7834299265272884
+current density: 4.487470626831055
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.7099088934260929	In train graph: AUC=0.6590050377833753	In Whole Graph: AUC=0.7099088934260929
+current density: 4.495491027832031
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.7400669026088117	In train graph: AUC=0.6405331654072208	In Whole Graph: AUC=0.7400669026088117
+current density: 3.879351854324341
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.8264525737111063	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264525737111063
+current density: 4.022239685058594
+image name: (0.1, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7099088934260929	In train graph: AUC=0.6590050377833753	In Whole Graph: AUC=0.7099088934260929
+current density: 4.495491027832031
+image name: (0.1, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.778374973740389	In train graph: AUC=0.6075776658270361	In Whole Graph: AUC=0.778374973740389
+current density: 4.4259538650512695
+image name: (0.001, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.728719920232533	In train graph: AUC=0.6537573467674223	In Whole Graph: AUC=0.728719920232533
+current density: 3.85813570022583
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7217345908365417	In train graph: AUC=0.6306675062972292	In Whole Graph: AUC=0.7217345908365417
+current density: 3.852022886276245
+image name: (0.1, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7787330194671046	In train graph: AUC=0.6633081444164568	In Whole Graph: AUC=0.7787330194671046
+current density: 4.3308796882629395
+image name: (10.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8264517613213276	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264517613213276
+current density: 4.02225923538208
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.7993612855198076	In train graph: AUC=0.639063811922754	In Whole Graph: AUC=0.7993612855198076
+current density: 3.944936752319336
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.8034443928820116	In train graph: AUC=0.6395885810243493	In Whole Graph: AUC=0.8034443928820116
+current density: 3.9491302967071533
+image name: (10000, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7773122927253368	In train graph: AUC=0.6515533165407221	In Whole Graph: AUC=0.7773122927253368
+current density: 4.485021591186523
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.7738442758341901	In train graph: AUC=0.6361251049538202	In Whole Graph: AUC=0.7738442758341901
+current density: 3.918586492538452
+image name: (0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8264517613213276	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264517613213276
+current density: 4.02225923538208
+image name: (0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.775751619758038	In train graph: AUC=0.6996221662468514	In Whole Graph: AUC=0.775751619758038
+current density: 4.321254730224609
+image name: (0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.8069917264080474	In train graph: AUC=0.6473551637279598	In Whole Graph: AUC=0.8069917264080474
+current density: 3.952645778656006
+image name: (100.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8147720314185352	In train graph: AUC=0.7029806884970613	In Whole Graph: AUC=0.8147720314185352
+current density: 4.470614433288574
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.7741964781711572	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7741964781711572
+current density: 3.918607711791992
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7742311328209119	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7742311328209119
+current density: 3.9186112880706787
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8264477039688527	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264477039688527
+current density: 4.022241115570068
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.7773122927253368	In train graph: AUC=0.6515533165407221	In Whole Graph: AUC=0.7773122927253368
+current density: 4.485021591186523
+image name: (1.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.7471160191440925	In train graph: AUC=0.6331863979848866	In Whole Graph: AUC=0.7471160191440925
+current density: 3.88553524017334
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.8035543485923504	In train graph: AUC=0.6405331654072208	In Whole Graph: AUC=0.8035543485923504
+current density: 3.9491820335388184
+image name: (1000.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8147720314185352	In train graph: AUC=0.7029806884970613	In Whole Graph: AUC=0.8147720314185352
+current density: 4.470614433288574
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.7768734268147378	In train graph: AUC=0.625	In Whole Graph: AUC=0.7768734268147378
+current density: 3.9241390228271484
+image name: (1000.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7787330194671046	In train graph: AUC=0.6633081444164568	In Whole Graph: AUC=0.7787330194671046
+current density: 4.3308796882629395
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7887768344935551	In train graph: AUC=0.5745172124265324	In Whole Graph: AUC=0.7887768344935551
+current density: 4.405647277832031
+image name: (0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.792225019749932	In train graph: AUC=0.6371746431570109	In Whole Graph: AUC=0.792225019749932
+current density: 3.932353973388672
+image name: (100.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.7478205553084546	In train graph: AUC=0.6326616288832914	In Whole Graph: AUC=0.7478205553084546
+current density: 3.8883306980133057
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8042912880364431	In train graph: AUC=0.6412678421494542	In Whole Graph: AUC=0.8042912880364431
+current density: 3.94950270652771
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.8088372489279916	In train graph: AUC=0.6596347607052897	In Whole Graph: AUC=0.8088372489279916
+current density: 4.439544200897217
+image name: (100.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+In attack graph: AUC=0.7201919418252638	In train graph: AUC=0.6403232577665828	In Whole Graph: AUC=0.7201919418252638
+current density: 3.8434031009674072
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7768734268147378	In train graph: AUC=0.625	In Whole Graph: AUC=0.7768734268147378
+current density: 3.9241390228271484
+image name: (1000.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.6561188766546203	In train graph: AUC=0.6229009235936187	In Whole Graph: AUC=0.6561188766546203
+current density: 4.49622917175293
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+In attack graph: AUC=0.8079258537515007	In train graph: AUC=0.6218513853904282	In Whole Graph: AUC=0.8079258537515007
+current density: 4.456367492675781
+image name: (100.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+In attack graph: AUC=0.8208702778241855	In train graph: AUC=0.7480058774139379	In Whole Graph: AUC=0.8208702778241855
+current density: 4.04864501953125
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+In attack graph: AUC=0.7741964781711572	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7741964781711572
+current density: 3.918607711791992
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+In attack graph: AUC=0.7802927826990268	In train graph: AUC=0.6497691015952981	In Whole Graph: AUC=0.7802927826990268
+current density: 4.476614475250244
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+In attack graph: AUC=0.7742311328209119	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7742311328209119
+current density: 3.9186112880706787
+image name: (1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7940507410590261	In train graph: AUC=0.6384340890008396	In Whole Graph: AUC=0.7940507410590261
+current density: 3.9375717639923096
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7471160191440925	In train graph: AUC=0.6331863979848866	In Whole Graph: AUC=0.7471160191440925
+current density: 3.88553524017334
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7920735355266239	In train graph: AUC=0.6541771620486986	In Whole Graph: AUC=0.7920735355266239
+current density: 4.469540596008301
+image name: (0.0001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264517613213276	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264517613213276
+current density: 4.02225923538208
+image name: (0.001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7742311328209119	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7742311328209119
+current density: 3.9186112880706787
+image name: (100.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7902316890478572	In train graph: AUC=0.6329764903442485	In Whole Graph: AUC=0.7902316890478572
+current density: 4.32960844039917
+image name: (10000, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7244237664757031	In train graph: AUC=0.6405331654072208	In Whole Graph: AUC=0.7244237664757031
+current density: 3.8439691066741943
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7249310807873919	In train graph: AUC=0.6393786733837112	In Whole Graph: AUC=0.7249310807873919
+current density: 3.844017744064331
+image name: (0.01, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7312715341755531	In train graph: AUC=0.632031905961377	In Whole Graph: AUC=0.7312715341755531
+current density: 3.8735125064849854
+image name: (0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7834299265272884	In train graph: AUC=0.7397145256087321	In Whole Graph: AUC=0.7834299265272884
+current density: 4.487470626831055
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.799761139812764	In train graph: AUC=0.6369647355163728	In Whole Graph: AUC=0.799761139812764
+current density: 3.945612907409668
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7742311328209119	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7742311328209119
+current density: 3.9186112880706787
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.728719920232533	In train graph: AUC=0.6537573467674223	In Whole Graph: AUC=0.728719920232533
+current density: 3.85813570022583
+image name: (10.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7787330194671046	In train graph: AUC=0.6633081444164568	In Whole Graph: AUC=0.7787330194671046
+current density: 4.3308796882629395
+image name: (10.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8034565899461471	In train graph: AUC=0.6403232577665827	In Whole Graph: AUC=0.8034565899461471
+current density: 3.9491355419158936
+image name: (0.1, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.775751619758038	In train graph: AUC=0.6996221662468514	In Whole Graph: AUC=0.775751619758038
+current density: 4.321254730224609
+image name: (0.001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6561188766546203	In train graph: AUC=0.6229009235936187	In Whole Graph: AUC=0.6561188766546203
+current density: 4.49622917175293
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7773122927253368	In train graph: AUC=0.6515533165407221	In Whole Graph: AUC=0.7773122927253368
+current density: 4.485021591186523
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6561188766546203	In train graph: AUC=0.6229009235936187	In Whole Graph: AUC=0.6561188766546203
+current density: 4.49622917175293
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264491545769447	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264491545769447
+current density: 4.022249698638916
+image name: (1000.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264508463876193	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264508463876193
+current density: 4.0222368240356445
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.780237012399256	In train graph: AUC=0.5907850545759865	In Whole Graph: AUC=0.780237012399256
+current density: 4.481539726257324
+image name: (1000.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264491545769447	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264491545769447
+current density: 4.022249698638916
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264477039688527	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264477039688527
+current density: 4.022241115570068
+image name: (0.001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264508463876193	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264508463876193
+current density: 4.0222368240356445
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264279004324329	In train graph: AUC=0.7059193954659949	In Whole Graph: AUC=0.8264279004324329
+current density: 4.023205757141113
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8035543485923504	In train graph: AUC=0.6405331654072208	In Whole Graph: AUC=0.8035543485923504
+current density: 3.9491820335388184
+image name: (0.001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7624082479266956	In train graph: AUC=0.7567170445004198	In Whole Graph: AUC=0.7624082479266956
+current density: 3.924595355987549
+image name: (0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264491545769447	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264491545769447
+current density: 4.022249698638916
+image name: (1000.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264477039688527	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264477039688527
+current density: 4.022241115570068
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7471160191440925	In train graph: AUC=0.6331863979848866	In Whole Graph: AUC=0.7471160191440925
+current density: 3.88553524017334
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264491545769447	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264491545769447
+current density: 4.022249698638916
+image name: (100.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7992839937444864	In train graph: AUC=0.6378043660789252	In Whole Graph: AUC=0.7992839937444864
+current density: 3.945016384124756
+image name: (1000.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7741964781711572	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7741964781711572
+current density: 3.918607711791992
+image name: (0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264477039688527	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264477039688527
+current density: 4.022241115570068
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8015564295692749	In train graph: AUC=0.6395885810243492	In Whole Graph: AUC=0.8015564295692749
+current density: 3.9500417709350586
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264279004324329	In train graph: AUC=0.7059193954659949	In Whole Graph: AUC=0.8264279004324329
+current density: 4.023205757141113
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7478411706053819	In train graph: AUC=0.6327665827036104	In Whole Graph: AUC=0.7478411706053819
+current density: 3.888361692428589
+image name: (0.001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8042912880364431	In train graph: AUC=0.6412678421494542	In Whole Graph: AUC=0.8042912880364431
+current density: 3.94950270652771
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264508463876193	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264508463876193
+current density: 4.0222368240356445
+image name: (1.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7887768344935551	In train graph: AUC=0.5745172124265324	In Whole Graph: AUC=0.7887768344935551
+current density: 4.405647277832031
+image name: (0.0001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7883766292858614	In train graph: AUC=0.6797858942065491	In Whole Graph: AUC=0.7883766292858614
+current density: 4.323436737060547
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7993612855198076	In train graph: AUC=0.639063811922754	In Whole Graph: AUC=0.7993612855198076
+current density: 3.944936752319336
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7288749616193846	In train graph: AUC=0.6516582703610412	In Whole Graph: AUC=0.7288749616193846
+current density: 3.858905553817749
+image name: (10000, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264524054219633	In train graph: AUC=0.7057094878253569	In Whole Graph: AUC=0.8264524054219633
+current density: 4.022246837615967
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7400669026088117	In train graph: AUC=0.6405331654072208	In Whole Graph: AUC=0.7400669026088117
+current density: 3.879351854324341
+image name: (10000, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7787330194671046	In train graph: AUC=0.6633081444164568	In Whole Graph: AUC=0.7787330194671046
+current density: 4.3308796882629395
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7738442758341901	In train graph: AUC=0.6361251049538202	In Whole Graph: AUC=0.7738442758341901
+current density: 3.918586492538452
+image name: (0.01, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7733743066097767	In train graph: AUC=0.6345507976490344	In Whole Graph: AUC=0.7733743066097767
+current density: 3.918416738510132
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.778374973740389	In train graph: AUC=0.6075776658270361	In Whole Graph: AUC=0.778374973740389
+current density: 4.4259538650512695
+image name: (0.01, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7099088934260929	In train graph: AUC=0.6590050377833753	In Whole Graph: AUC=0.7099088934260929
+current density: 4.495491027832031
+image name: (10.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7741964781711572	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7741964781711572
+current density: 3.918607711791992
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7742311328209119	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7742311328209119
+current density: 3.9186112880706787
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7787330194671046	In train graph: AUC=0.6633081444164568	In Whole Graph: AUC=0.7787330194671046
+current density: 4.3308796882629395
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8069917264080474	In train graph: AUC=0.6473551637279598	In Whole Graph: AUC=0.8069917264080474
+current density: 3.952645778656006
+image name: (0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (0.1, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7738442758341901	In train graph: AUC=0.6361251049538202	In Whole Graph: AUC=0.7738442758341901
+current density: 3.918586492538452
+image name: (0.1, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8147720314185352	In train graph: AUC=0.7029806884970613	In Whole Graph: AUC=0.8147720314185352
+current density: 4.470614433288574
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.778374973740389	In train graph: AUC=0.6075776658270361	In Whole Graph: AUC=0.778374973740389
+current density: 4.4259538650512695
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7471160191440925	In train graph: AUC=0.6331863979848866	In Whole Graph: AUC=0.7471160191440925
+current density: 3.88553524017334
+image name: (0.1, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7099088934260929	In train graph: AUC=0.6590050377833753	In Whole Graph: AUC=0.7099088934260929
+current density: 4.495491027832031
+image name: (0.1, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7802927826990268	In train graph: AUC=0.6497691015952981	In Whole Graph: AUC=0.7802927826990268
+current density: 4.476614475250244
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7741964781711572	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7741964781711572
+current density: 3.918607711791992
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7993694873104903	In train graph: AUC=0.6383291351805206	In Whole Graph: AUC=0.7993694873104903
+current density: 3.944927215576172
+image name: (10.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7940507410590261	In train graph: AUC=0.6384340890008396	In Whole Graph: AUC=0.7940507410590261
+current density: 3.9375717639923096
+image name: (10.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8079258537515007	In train graph: AUC=0.6218513853904282	In Whole Graph: AUC=0.8079258537515007
+current density: 4.456367492675781
+image name: (10.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7738442758341901	In train graph: AUC=0.6361251049538202	In Whole Graph: AUC=0.7738442758341901
+current density: 3.918586492538452
+image name: (10.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7983756317123619	In train graph: AUC=0.6878673383711167	In Whole Graph: AUC=0.7983756317123619
+current density: 4.328114032745361
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264508463876193	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264508463876193
+current density: 4.0222368240356445
+image name: (0.0001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.799761139812764	In train graph: AUC=0.6369647355163728	In Whole Graph: AUC=0.799761139812764
+current density: 3.945612907409668
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.778374973740389	In train graph: AUC=0.6075776658270361	In Whole Graph: AUC=0.778374973740389
+current density: 4.4259538650512695
+image name: (10.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7834299265272884	In train graph: AUC=0.7397145256087321	In Whole Graph: AUC=0.7834299265272884
+current density: 4.487470626831055
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7741964781711572	In train graph: AUC=0.6356003358522251	In Whole Graph: AUC=0.7741964781711572
+current density: 3.918607711791992
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6561188766546203	In train graph: AUC=0.6229009235936187	In Whole Graph: AUC=0.6561188766546203
+current density: 4.49622917175293
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8034443928820116	In train graph: AUC=0.6395885810243493	In Whole Graph: AUC=0.8034443928820116
+current density: 3.9491302967071533
+image name: (0.01, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264517613213276	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264517613213276
+current density: 4.02225923538208
+image name: (10.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7768734268147378	In train graph: AUC=0.625	In Whole Graph: AUC=0.7768734268147378
+current density: 3.9241390228271484
+image name: (1.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7992839937444864	In train graph: AUC=0.6378043660789252	In Whole Graph: AUC=0.7992839937444864
+current density: 3.945016384124756
+image name: (0.001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8385155107426182	In train graph: AUC=0.7003568429890848	In Whole Graph: AUC=0.8385155107426182
+current density: 4.372448921203613
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.775751619758038	In train graph: AUC=0.6996221662468514	In Whole Graph: AUC=0.775751619758038
+current density: 4.321254730224609
+image name: (1.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7733743066097767	In train graph: AUC=0.6345507976490344	In Whole Graph: AUC=0.7733743066097767
+current density: 3.918416738510132
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7773122927253368	In train graph: AUC=0.6515533165407221	In Whole Graph: AUC=0.7773122927253368
+current density: 4.485021591186523
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8264508463876193	In train graph: AUC=0.7057094878253568	In Whole Graph: AUC=0.8264508463876193
+current density: 4.0222368240356445
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7770688988816598	In train graph: AUC=0.6768471872376154	In Whole Graph: AUC=0.7770688988816598
+current density: 4.474501609802246
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211449347893318	In train graph: AUC=0.7670025188916877	In Whole Graph: AUC=0.8211449347893318
+current density: 3.2113068103790283
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211434056317146	In train graph: AUC=0.767317380352645	In Whole Graph: AUC=0.8211434056317146
+current density: 3.211306571960449
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8121375887110492	In train graph: AUC=0.7194584382871537	In Whole Graph: AUC=0.8121375887110492
+current density: 4.467964172363281
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.80035683831846	In train graph: AUC=0.6402183039462637	In Whole Graph: AUC=0.80035683831846
+current density: 2.728055477142334
+image name: (1.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211410555754705	In train graph: AUC=0.7672124265323258	In Whole Graph: AUC=0.8211410555754705
+current density: 3.2113099098205566
+image name: (0.1, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211410555754705	In train graph: AUC=0.7672124265323258	In Whole Graph: AUC=0.8211410555754705
+current density: 3.2113099098205566
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7770688988816598	In train graph: AUC=0.6768471872376154	In Whole Graph: AUC=0.7770688988816598
+current density: 4.474501609802246
+image name: (1.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7297341570658715	In train graph: AUC=0.6523929471032746	In Whole Graph: AUC=0.7297341570658715
+current density: 2.6152806282043457
+image name: (0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211434056317146	In train graph: AUC=0.767317380352645	In Whole Graph: AUC=0.8211434056317146
+current density: 3.211306571960449
+image name: (10000, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8073118450532337	In train graph: AUC=0.6432619647355163	In Whole Graph: AUC=0.8073118450532337
+current density: 2.7396702766418457
+image name: (0.1, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7499250092934882	In train graph: AUC=0.63392107472712	In Whole Graph: AUC=0.7499250092934882
+current density: 2.642228603363037
+image name: (0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7798874426068121	In train graph: AUC=0.5957178841309824	In Whole Graph: AUC=0.7798874426068121
+current density: 4.477414608001709
+image name: (0.1, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8121375887110492	In train graph: AUC=0.7194584382871537	In Whole Graph: AUC=0.8121375887110492
+current density: 4.467964172363281
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.81694665242778	In train graph: AUC=0.7815910999160369	In Whole Graph: AUC=0.81694665242778
+current density: 3.2422642707824707
+image name: (0.01, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8165596503528891	In train graph: AUC=0.7664777497900924	In Whole Graph: AUC=0.8165596503528891
+current density: 3.2342255115509033
+image name: (100.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7980539432257738	In train graph: AUC=0.5950881612090679	In Whole Graph: AUC=0.7980539432257738
+current density: 4.440474510192871
+image name: (0.001, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7776069910916098	In train graph: AUC=0.6542821158690176	In Whole Graph: AUC=0.7776069910916098
+current density: 4.4809160232543945
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8052048182224107	In train graph: AUC=0.6943744752308985	In Whole Graph: AUC=0.8052048182224107
+current density: 4.281325817108154
+image name: (10000, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7791516294770028	In train graph: AUC=0.637384550797649	In Whole Graph: AUC=0.7791516294770028
+current density: 2.6857588291168213
+image name: (1000.0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.783506992202548	In train graph: AUC=0.6255247691015953	In Whole Graph: AUC=0.783506992202548
+current density: 2.695741891860962
+image name: (10.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.779569051230393	In train graph: AUC=0.6380142737195633	In Whole Graph: AUC=0.779569051230393
+current density: 2.6857309341430664
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.729605116693644	In train graph: AUC=0.6544920235096557	In Whole Graph: AUC=0.729605116693644
+current density: 2.6147994995117188
+image name: (0.01, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.783506992202548	In train graph: AUC=0.6255247691015953	In Whole Graph: AUC=0.783506992202548
+current density: 2.695741891860962
+image name: (10.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7226130046788364	In train graph: AUC=0.6318219983207389	In Whole Graph: AUC=0.7226130046788364
+current density: 2.611227512359619
+image name: (1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211406073698545	In train graph: AUC=0.7667926112510496	In Whole Graph: AUC=0.8211406073698545
+current density: 3.2113289833068848
+image name: (10.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8311718870849452	In train graph: AUC=0.7269101595298069	In Whole Graph: AUC=0.8311718870849452
+current density: 4.226619243621826
+image name: (0.0001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7509126436652453	In train graph: AUC=0.6332913518052057	In Whole Graph: AUC=0.7509126436652453
+current density: 2.6440064907073975
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.779540089246132	In train graph: AUC=0.6375944584382871	In Whole Graph: AUC=0.779540089246132
+current density: 2.685731887817383
+image name: (0.01, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6647046364593291	In train graph: AUC=0.7038203190596137	In Whole Graph: AUC=0.6647046364593291
+current density: 4.494152069091797
+image name: (10.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.779569051230393	In train graph: AUC=0.6380142737195633	In Whole Graph: AUC=0.779569051230393
+current density: 2.6857309341430664
+image name: (0.01, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8121375887110492	In train graph: AUC=0.7194584382871537	In Whole Graph: AUC=0.8121375887110492
+current density: 4.467964172363281
+image name: (0.0001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.803010791650064	In train graph: AUC=0.6384340890008395	In Whole Graph: AUC=0.803010791650064
+current density: 2.742494821548462
+image name: (0.01, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7734723304803263	In train graph: AUC=0.6775818639798488	In Whole Graph: AUC=0.7734723304803263
+current density: 4.055788516998291
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7770688988816598	In train graph: AUC=0.6768471872376154	In Whole Graph: AUC=0.7770688988816598
+current density: 4.474501609802246
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7849975792396072	In train graph: AUC=0.5820738874895047	In Whole Graph: AUC=0.7849975792396072
+current density: 4.320818901062012
+image name: (1.0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211434056317146	In train graph: AUC=0.767317380352645	In Whole Graph: AUC=0.8211434056317146
+current density: 3.211306571960449
+image name: (0.0001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.750997181914713	In train graph: AUC=0.6330814441645676	In Whole Graph: AUC=0.750997181914713
+current density: 2.644237756729126
+image name: (0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8075126324688598	In train graph: AUC=0.6439966414777498	In Whole Graph: AUC=0.8075126324688598
+current density: 2.741715669631958
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6647046364593291	In train graph: AUC=0.7038203190596137	In Whole Graph: AUC=0.6647046364593291
+current density: 4.494152069091797
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7770688988816598	In train graph: AUC=0.6768471872376154	In Whole Graph: AUC=0.7770688988816598
+current density: 4.474501609802246
+image name: (100.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.81694665242778	In train graph: AUC=0.7815910999160369	In Whole Graph: AUC=0.81694665242778
+current density: 3.2422642707824707
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8073118450532337	In train graph: AUC=0.6432619647355163	In Whole Graph: AUC=0.8073118450532337
+current density: 2.7396702766418457
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7499250092934882	In train graph: AUC=0.63392107472712	In Whole Graph: AUC=0.7499250092934882
+current density: 2.642228603363037
+image name: (0.01, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7681130679951983	In train graph: AUC=0.6145046179680941	In Whole Graph: AUC=0.7681130679951983
+current density: 4.362583637237549
+image name: (1.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211434056317146	In train graph: AUC=0.767317380352645	In Whole Graph: AUC=0.8211434056317146
+current density: 3.211306571960449
+image name: (1000.0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7849975792396072	In train graph: AUC=0.5820738874895047	In Whole Graph: AUC=0.7849975792396072
+current density: 4.320818901062012
+image name: (0, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8104992288952333	In train graph: AUC=0.6465155331654072	In Whole Graph: AUC=0.8104992288952333
+current density: 2.7575178146362305
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0.001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.729605116693644	In train graph: AUC=0.6544920235096557	In Whole Graph: AUC=0.729605116693644
+current density: 2.6147994995117188
+image name: (0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.803010791650064	In train graph: AUC=0.6384340890008395	In Whole Graph: AUC=0.803010791650064
+current density: 2.742494821548462
+image name: (0.001, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8121375887110492	In train graph: AUC=0.7194584382871537	In Whole Graph: AUC=0.8121375887110492
+current density: 4.467964172363281
+image name: (10000, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7734723304803263	In train graph: AUC=0.6775818639798488	In Whole Graph: AUC=0.7734723304803263
+current density: 4.055788516998291
+image name: (0.1, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7980539432257738	In train graph: AUC=0.5950881612090679	In Whole Graph: AUC=0.7980539432257738
+current density: 4.440474510192871
+image name: (100.0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7298073624601402	In train graph: AUC=0.6514483627204031	In Whole Graph: AUC=0.7298073624601402
+current density: 2.615333318710327
+image name: (0.0001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.821144731096815	In train graph: AUC=0.7673173803526449	In Whole Graph: AUC=0.821144731096815
+current density: 3.2113430500030518
+image name: (0.001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8110700234257748	In train graph: AUC=0.6479848866498741	In Whole Graph: AUC=0.8110700234257748
+current density: 2.7587592601776123
+image name: (0.001, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7791516294770028	In train graph: AUC=0.637384550797649	In Whole Graph: AUC=0.7791516294770028
+current density: 2.6857588291168213
+image name: (0.0001, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.783506992202548	In train graph: AUC=0.6255247691015953	In Whole Graph: AUC=0.783506992202548
+current density: 2.695741891860962
+image name: (1000.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7202487792877778	In train graph: AUC=0.709592779177162	In Whole Graph: AUC=0.7202487792877778
+current density: 4.493458271026611
+image name: (0.001, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.779540089246132	In train graph: AUC=0.6375944584382871	In Whole Graph: AUC=0.779540089246132
+current density: 2.685731887817383
+image name: (0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7828992914880697	In train graph: AUC=0.7575566750629723	In Whole Graph: AUC=0.7828992914880697
+current density: 4.485230445861816
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8073956786278236	In train graph: AUC=0.6706549118387909	In Whole Graph: AUC=0.8073956786278236
+current density: 4.400581359863281
+image name: (0, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211449347893318	In train graph: AUC=0.7670025188916877	In Whole Graph: AUC=0.8211449347893318
+current density: 3.2113068103790283
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.779569051230393	In train graph: AUC=0.6380142737195633	In Whole Graph: AUC=0.779569051230393
+current density: 2.6857309341430664
+image name: (0.001, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7734723304803263	In train graph: AUC=0.6775818639798488	In Whole Graph: AUC=0.7734723304803263
+current density: 4.055788516998291
+image name: (1.0, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7770688988816598	In train graph: AUC=0.6768471872376154	In Whole Graph: AUC=0.7770688988816598
+current density: 4.474501609802246
+image name: (0.01, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7215302828645698	In train graph: AUC=0.6406381192275399	In Whole Graph: AUC=0.7215302828645698
+current density: 2.6040713787078857
+image name: (0, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8012913865352497	In train graph: AUC=0.6415827036104114	In Whole Graph: AUC=0.8012913865352497
+current density: 2.728691339492798
+image name: (10000, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.808947286388933	In train graph: AUC=0.6612090680100756	In Whole Graph: AUC=0.808947286388933
+current density: 4.433362007141113
+image name: (0.0001, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8311718870849452	In train graph: AUC=0.7269101595298069	In Whole Graph: AUC=0.8311718870849452
+current density: 4.226619243621826
+image name: (0, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8079321752783108	In train graph: AUC=0.644311502938707	In Whole Graph: AUC=0.8079321752783108
+current density: 2.754883050918579
+image name: (1000.0, 0, 0, 0, 0, 0.1, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7297341570658715	In train graph: AUC=0.6523929471032746	In Whole Graph: AUC=0.7297341570658715
+current density: 2.6152806282043457
+image name: (100.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (1000.0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8052048182224107	In train graph: AUC=0.6943744752308985	In Whole Graph: AUC=0.8052048182224107
+current density: 4.281325817108154
+image name: (0.1, 0, 0, 0, 0, 10.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8211410555754705	In train graph: AUC=0.7672124265323258	In Whole Graph: AUC=0.8211410555754705
+current density: 3.2113099098205566
+image name: (0.001, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='DP', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7734723304803263	In train graph: AUC=0.6775818639798488	In Whole Graph: AUC=0.7734723304803263
+current density: 4.055788516998291
+image name: (0.0001, 0, 0, 0, 0, 1.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8012913865352497	In train graph: AUC=0.6415827036104114	In Whole Graph: AUC=0.8012913865352497
+current density: 2.728691339492798
+image name: (10.0, 0, 0, 0, 0, 0.01, 0, 0, 0, 0)_1.0_1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8374316960201877	In train graph: AUC=0.7595507976490345	In Whole Graph: AUC=0.8374316960201877
+current density: 4.116054534912109
+image name: (0, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KL', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7510259259794444	In train graph: AUC=0.6333963056255247	In Whole Graph: AUC=0.7510259259794444
+current density: 2.6442623138427734
+image name: (1.0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1.0_0.01.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7913206906654837	In train graph: AUC=0.6683459277917716	In Whole Graph: AUC=0.7913206906654837
+current density: 4.465331554412842
+image name: (0.01, 0, 0, 0, 0, 100.0, 0, 0, 0, 0)_1.0_0.1.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='CKA', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.729605116693644	In train graph: AUC=0.6544920235096557	In Whole Graph: AUC=0.729605116693644
+current density: 2.6147994995117188
+image name: (10000, 0, 0, 0, 0, 0.001, 0, 0, 0, 0)_1.0_0.0031622776601683794.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='KDE', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8311718870849452	In train graph: AUC=0.7269101595298069	In Whole Graph: AUC=0.8311718870849452
+current density: 4.226619243621826
+image name: (0.01, 0, 0, 0, 0, 10000, 0, 0, 0, 0)_1.0_0.03162277660168379.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='HSIC', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7257653878263592	In train graph: AUC=0.6417926112510495	In Whole Graph: AUC=0.7257653878263592
+current density: 2.6043694019317627
+image name: (1000.0, 0, 0, 0, 0, 0.0001, 0, 0, 0, 0)_1.0_0.001.png
+============================================================================================
+raw search current parameter: Namespace(add_noise=False, arch='gcn', dataset='polblogs', defense=False, density=10000000.0, dropout=0.5, ensemble=False, epochs=100, eps=0, hidden=16, iter=1, log_name='polblogs/Y.txt', lr=0.01, max_eval=100, measure='MSELoss', measure2='HSIC', mode='search', model='PGD', nlabel=1.0, nlayers=2, seed=15, useH_A=False, useY=True, useY_A=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7770688988816598	In train graph: AUC=0.6768471872376154	In Whole Graph: AUC=0.7770688988816598
+current density: 4.474501609802246
+image name: (0.1, 0, 0, 0, 0, 1000.0, 0, 0, 0, 0)_1.0_0.31622776601683794.png
+============================================================================================

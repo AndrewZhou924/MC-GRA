@@ -1,0 +1,500 @@
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8867641889305229	In train graph: AUC=0.7951461257005233	In Whole Graph: AUC=0.8867641889305229
+current density: 5.6553449630737305
+image name: (0.0001, 10.0, 0, 0, 0, 0, 0.1, 0, 1000.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8743713353722007	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.8743713353722007
+current density: 5.408529758453369
+image name: (10000, 0.001, 0, 0, 0, 0.1, 0.0001, 0, 0.0001, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8533300362957623	In train graph: AUC=0.7934324487054791	In Whole Graph: AUC=0.8533300362957623
+current density: 5.55276346206665
+image name: (0.001, 10.0, 0, 0, 0, 0.1, 1.0, 0, 100.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0.001, 10000, 0, 0, 0, 10000, 1.0, 0, 0.0001, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9046220438551452	In train graph: AUC=0.8146449909684591	In Whole Graph: AUC=0.9046220438551452
+current density: 5.653359889984131
+image name: (10.0, 0.1, 0, 0, 0, 0.0001, 1.0, 0, 100.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8563211839504123	In train graph: AUC=0.8869899495160021	In Whole Graph: AUC=0.8563211839504123
+current density: 5.543123245239258
+image name: (1000.0, 100.0, 0, 0, 0, 10000, 1000.0, 0, 0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8813523846027945	In train graph: AUC=0.7946366541614561	In Whole Graph: AUC=0.8813523846027945
+current density: 5.738283157348633
+image name: (0.01, 10000, 0, 0, 0, 1.0, 0.1, 0, 0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8835701434393785	In train graph: AUC=0.8089713306470289	In Whole Graph: AUC=0.8835701434393785
+current density: 5.739766597747803
+image name: (0.1, 1000.0, 0, 0, 0, 10.0, 10.0, 0, 0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8705627692293734	In train graph: AUC=0.7578620721596961	In Whole Graph: AUC=0.8705627692293734
+current density: 5.679681301116943
+image name: (1.0, 0.1, 0, 0, 0, 1000.0, 10000, 0, 0.001, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8684508508631638	In train graph: AUC=0.7253485248483164	In Whole Graph: AUC=0.8684508508631638
+current density: 5.563354015350342
+image name: (0.01, 0.01, 0, 0, 0, 1.0, 10.0, 0, 0.1, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8710225799506027	In train graph: AUC=0.7615210041220879	In Whole Graph: AUC=0.8710225799506027
+current density: 5.680155277252197
+image name: (100.0, 0.01, 0, 0, 0, 10000, 0.01, 0, 0.1, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8777296120940512	In train graph: AUC=0.5793154555138715	In Whole Graph: AUC=0.8777296120940512
+current density: 5.603440284729004
+image name: (1.0, 0.0001, 0, 0, 0, 0.1, 0.01, 0, 0.1, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8395591358880498	In train graph: AUC=0.8187670788754573	In Whole Graph: AUC=0.8395591358880498
+current density: 5.517895221710205
+image name: (0, 10000, 0, 0, 0, 10000, 1000.0, 0, 1000.0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8982160849493614	In train graph: AUC=0.8392385716270668	In Whole Graph: AUC=0.8982160849493614
+current density: 5.723032474517822
+image name: (1000.0, 10000, 0, 0, 0, 0.001, 10000, 0, 10000, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8812087268945441	In train graph: AUC=0.7607336390162568	In Whole Graph: AUC=0.8812087268945441
+current density: 5.740014553070068
+image name: (10000, 0.0001, 0, 0, 0, 100.0, 0.1, 0, 0.001, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8781317301831969	In train graph: AUC=0.755731554814506	In Whole Graph: AUC=0.8781317301831969
+current density: 5.709939002990723
+image name: (100.0, 10000, 0, 0, 0, 1.0, 100.0, 0, 100.0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (100.0, 1000.0, 0, 0, 0, 0, 0.01, 0, 0, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (1.0, 1.0, 0, 0, 0, 10.0, 1.0, 0, 0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8704072219392636	In train graph: AUC=0.7460515955722291	In Whole Graph: AUC=0.8704072219392636
+current density: 5.7288408279418945
+image name: (0, 0, 0, 0, 0, 0.0001, 0.0001, 0, 100.0, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8921448596308474	In train graph: AUC=0.7886387846788014	In Whole Graph: AUC=0.8921448596308474
+current density: 5.740492343902588
+image name: (10000, 100.0, 0, 0, 0, 0.0001, 0.1, 0, 0.1, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9013209789322641	In train graph: AUC=0.8532258811541846	In Whole Graph: AUC=0.9013209789322641
+current density: 5.603799819946289
+image name: (10.0, 0.1, 0, 0, 0, 0.001, 0.001, 0, 10000, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9013209789322641	In train graph: AUC=0.8532258811541846	In Whole Graph: AUC=0.9013209789322641
+current density: 5.603799819946289
+image name: (10.0, 0.1, 0, 0, 0, 0.001, 0.001, 0, 10000, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9063170411502225	In train graph: AUC=0.8663795099810107	In Whole Graph: AUC=0.9063170411502225
+current density: 5.6866254806518555
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 0.001, 0, 10.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8839620426833397	In train graph: AUC=0.728359038488259	In Whole Graph: AUC=0.8839620426833397
+current density: 5.438357830047607
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 0, 0, 10.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9037970989056274	In train graph: AUC=0.8255754712611736	In Whole Graph: AUC=0.9037970989056274
+current density: 5.689087867736816
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 0.001, 0, 10.0, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.901961760836165	In train graph: AUC=0.8469501181047658	In Whole Graph: AUC=0.901961760836165
+current density: 5.71135950088501
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 1.0, 0, 1.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9020022226461165	In train graph: AUC=0.8057523968320133	In Whole Graph: AUC=0.9020022226461165
+current density: 5.620170593261719
+image name: (0.0001, 0, 0, 0, 0, 0.0001, 0, 0, 0.01, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8993627157612616	In train graph: AUC=0.8549858737436895	In Whole Graph: AUC=0.8993627157612616
+current density: 5.673305511474609
+image name: (10.0, 1.0, 0, 0, 0, 0.01, 0.001, 0, 10.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8776901418201134	In train graph: AUC=0.736070584965958	In Whole Graph: AUC=0.8776901418201134
+current density: 5.739630222320557
+image name: (0.1, 10.0, 0, 0, 0, 0.0001, 100.0, 0, 10.0, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8990708826254841	In train graph: AUC=0.704877032096707	In Whole Graph: AUC=0.8990708826254841
+current density: 5.462544918060303
+image name: (10.0, 0.001, 0, 0, 0, 1000.0, 0.001, 0, 100.0, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8898700783918481	In train graph: AUC=0.8345143809920801	In Whole Graph: AUC=0.8898700783918481
+current density: 5.6956658363342285
+image name: (0.0001, 0.1, 0, 0, 0, 100.0, 1.0, 0, 1.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8894334593148036	In train graph: AUC=0.8155249872632115	In Whole Graph: AUC=0.8894334593148036
+current density: 5.737437725067139
+image name: (10.0, 0.001, 0, 0, 0, 0, 0.0001, 0, 0.01, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.882698992207615	In train graph: AUC=0.7870177388726785	In Whole Graph: AUC=0.882698992207615
+current density: 5.740505695343018
+image name: (10.0, 10.0, 0, 0, 0, 0.0001, 1.0, 0, 0.0001, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.895127071714603	In train graph: AUC=0.7404474086424899	In Whole Graph: AUC=0.895127071714603
+current density: 5.7240986824035645
+image name: (0.001, 0.1, 0, 0, 0, 0.01, 1000.0, 0, 100.0, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8692466969310256	In train graph: AUC=0.5806122921587699	In Whole Graph: AUC=0.8692466969310256
+current density: 5.684487342834473
+image name: (1000.0, 100.0, 0, 0, 0, 0.1, 1.0, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8832932429425746	In train graph: AUC=0.7460052799777686	In Whole Graph: AUC=0.8832932429425746
+current density: 5.739930629730225
+image name: (0.01, 1000.0, 0, 0, 0, 0.01, 10000, 0, 1000.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8487443690336882	In train graph: AUC=0.6184984484275855	In Whole Graph: AUC=0.8487443690336882
+current density: 5.429752349853516
+image name: (0.001, 0.1, 0, 0, 0, 10.0, 10.0, 0, 0.0001, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8749893698569478	In train graph: AUC=0.8177944513917836	In Whole Graph: AUC=0.8749893698569478
+current density: 5.414068698883057
+image name: (0.1, 0.01, 0, 0, 0, 1000.0, 0.001, 0, 100.0, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8827686406781691	In train graph: AUC=0.6295215599092214	In Whole Graph: AUC=0.8827686406781691
+current density: 5.665919303894043
+image name: (0, 0.0001, 0, 0, 0, 0.0001, 0, 0, 0.001, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8877415242256865	In train graph: AUC=0.7446158121439488	In Whole Graph: AUC=0.8877415242256865
+current density: 5.7357892990112305
+image name: (0.0001, 0, 0, 0, 0, 0, 100.0, 0, 10.0, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (10000, 1.0, 0, 0, 0, 1.0, 0.0001, 0, 1000.0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8760715167944996	In train graph: AUC=0.6015932564494465	In Whole Graph: AUC=0.8760715167944996
+current density: 5.535960674285889
+image name: (0.01, 0.001, 0, 0, 0, 100.0, 1.0, 0, 0.01, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8792212107862143	In train graph: AUC=0.730420082441758	In Whole Graph: AUC=0.8792212107862143
+current density: 5.737091541290283
+image name: (1000.0, 0.1, 0, 0, 0, 10000, 10.0, 0, 100.0, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8864236763547639	In train graph: AUC=0.7435968690658145	In Whole Graph: AUC=0.8864236763547639
+current density: 5.701908111572266
+image name: (1.0, 0.01, 0, 0, 0, 0.1, 1000.0, 0, 1.0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8654816447067147	In train graph: AUC=0.7471168542448241	In Whole Graph: AUC=0.8654816447067147
+current density: 5.6789751052856445
+image name: (10.0, 10.0, 0, 0, 0, 10.0, 0.01, 0, 0.001, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8062972759061202	In train graph: AUC=0.7862535315640775	In Whole Graph: AUC=0.8062972759061202
+current density: 5.425158500671387
+image name: (100.0, 1000.0, 0, 0, 0, 1000.0, 0.1, 0, 0.0001, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8884918180690489	In train graph: AUC=0.7807419758232597	In Whole Graph: AUC=0.8884918180690489
+current density: 5.685336589813232
+image name: (0.1, 100.0, 0, 0, 0, 0.0001, 10000, 0, 100.0, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.868733033564675	In train graph: AUC=0.556435551850308	In Whole Graph: AUC=0.868733033564675
+current density: 5.597350597381592
+image name: (0.001, 0.0001, 0, 0, 0, 1.0, 0.001, 0, 0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0, 10000, 0, 0, 0, 10000, 1.0, 0, 10.0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8805500396947177	In train graph: AUC=0.7711314899726738	In Whole Graph: AUC=0.8805500396947177
+current density: 5.7401275634765625
+image name: (10000, 0.1, 0, 0, 0, 0.001, 0.01, 0, 0.1, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (1.0, 0.1, 0, 0, 0, 0.01, 10.0, 0, 10000, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8995579036333612	In train graph: AUC=0.8309480802186097	In Whole Graph: AUC=0.8995579036333612
+current density: 5.651015281677246
+image name: (10.0, 0, 0, 0, 0, 100.0, 100.0, 0, 1000.0, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9049885294447393	In train graph: AUC=0.8838404890926774	In Whole Graph: AUC=0.9049885294447393
+current density: 5.594271659851074
+image name: (0.01, 0.01, 0, 0, 0, 0.1, 0.1, 0, 100.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9049885294447393	In train graph: AUC=0.8838404890926774	In Whole Graph: AUC=0.9049885294447393
+current density: 5.594271659851074
+image name: (0.01, 0.01, 0, 0, 0, 0.1, 0.1, 0, 100.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0.01, 0.01, 0, 0, 0, 0.1, 0.1, 0, 10.0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0.01, 0.01, 0, 0, 0, 0.1, 0.1, 0, 0.001, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8941260172768881	In train graph: AUC=0.8586448057060813	In Whole Graph: AUC=0.8941260172768881
+current density: 5.699706554412842
+image name: (0.01, 0.01, 0, 0, 0, 0.1, 0.1, 0, 0.1, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8705148681335977	In train graph: AUC=0.5506924181371867	In Whole Graph: AUC=0.8705148681335977
+current density: 5.4484381675720215
+image name: (100.0, 1.0, 0, 0, 0, 0, 0.001, 0, 0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8625208871129431	In train graph: AUC=0.5953869667917187	In Whole Graph: AUC=0.8625208871129431
+current density: 5.58250093460083
+image name: (0.01, 10000, 0, 0, 0, 0.01, 1000.0, 0, 10000, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8894622173188694	In train graph: AUC=0.8126765782038813	In Whole Graph: AUC=0.8894622173188694
+current density: 5.738247394561768
+image name: (1000.0, 100.0, 0, 0, 0, 0.1, 0, 0, 1.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8351888304292049	In train graph: AUC=0.8071881802602936	In Whole Graph: AUC=0.8351888304292049
+current density: 5.627835750579834
+image name: (0.0001, 1000.0, 0, 0, 0, 0.001, 0.0001, 0, 0.01, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9050177382713365	In train graph: AUC=0.8462322263906258	In Whole Graph: AUC=0.9050177382713365
+current density: 5.604172706604004
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.1, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0, 0.0001, 0, 0, 0, 10.0, 10000, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9051553490681918	In train graph: AUC=0.8421564540780881	In Whole Graph: AUC=0.9051553490681918
+current density: 5.6006293296813965
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8092325567870923	In train graph: AUC=0.6435551850307998	In Whole Graph: AUC=0.8092325567870923
+current density: 5.713098526000977
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9051553490681918	In train graph: AUC=0.8421564540780881	In Whole Graph: AUC=0.9051553490681918
+current density: 5.6006293296813965
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9051553490681918	In train graph: AUC=0.8421564540780881	In Whole Graph: AUC=0.9051553490681918
+current density: 5.6006293296813965
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9051553490681918	In train graph: AUC=0.8421564540780881	In Whole Graph: AUC=0.9051553490681918
+current density: 5.6006293296813965
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9051553490681918	In train graph: AUC=0.8421564540780881	In Whole Graph: AUC=0.9051553490681918
+current density: 5.6006293296813965
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9051553490681918	In train graph: AUC=0.8421564540780881	In Whole Graph: AUC=0.9051553490681918
+current density: 5.6006293296813965
+image name: (0, 0.0001, 0, 0, 0, 10.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9029669929603684	In train graph: AUC=0.8346070121810014	In Whole Graph: AUC=0.9029669929603684
+current density: 5.616618633270264
+image name: (0, 0.001, 0, 0, 0, 0.01, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8885807223118027	In train graph: AUC=0.7869714232782177	In Whole Graph: AUC=0.8885807223118027
+current density: 5.740504264831543
+image name: (0.1, 10.0, 0, 0, 0, 10.0, 0.001, 0, 0.0001, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8926966982701899	In train graph: AUC=0.7990597934324487	In Whole Graph: AUC=0.8926966982701899
+current density: 5.7346577644348145
+image name: (0.001, 0.0001, 0, 0, 0, 1.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9027868066389457	In train graph: AUC=0.8097355379556296	In Whole Graph: AUC=0.9027868066389457
+current density: 5.668163776397705
+image name: (10000, 0.0001, 0, 0, 0, 1000.0, 0.001, 0, 1000.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8590263269792587	In train graph: AUC=0.7177990829512297	In Whole Graph: AUC=0.8590263269792587
+current density: 5.730001926422119
+image name: (1.0, 0, 0, 0, 0, 10000, 100.0, 0, 10.0, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8983932124440333	In train graph: AUC=0.8266870455282294	In Whole Graph: AUC=0.8983932124440333
+current density: 5.727560520172119
+image name: (0, 1.0, 0, 0, 0, 10.0, 0.01, 0, 0.01, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.883469881739427	In train graph: AUC=0.7731925339261729	In Whole Graph: AUC=0.883469881739427
+current density: 5.6724853515625
+image name: (100.0, 0.0001, 0, 0, 0, 0.01, 0, 0, 1.0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8426675583673642	In train graph: AUC=0.5699597054328193	In Whole Graph: AUC=0.8426675583673642
+current density: 5.50029993057251
+image name: (10.0, 10000, 0, 0, 0, 100.0, 0.001, 0, 0.1, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8820746679510245	In train graph: AUC=0.767819924968737	In Whole Graph: AUC=0.8820746679510245
+current density: 5.740505695343018
+image name: (1000.0, 0.001, 0, 0, 0, 0, 0.0001, 0, 0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8819074714453268	In train graph: AUC=0.767472558010282	In Whole Graph: AUC=0.8819074714453268
+current density: 5.740433216094971
+image name: (0, 1000.0, 0, 0, 0, 10.0, 10.0, 0, 0.001, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0.0001, 100.0, 0, 0, 0, 0.001, 1000.0, 0, 10000, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9037970989056274	In train graph: AUC=0.8255754712611736	In Whole Graph: AUC=0.9037970989056274
+current density: 5.689087867736816
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 0.001, 0, 10.0, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8865326293571574	In train graph: AUC=0.7510768375712102	In Whole Graph: AUC=0.8865326293571574
+current density: 5.740504741668701
+image name: (0.1, 10.0, 0, 0, 0, 1.0, 10000, 0, 0.0001, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8915442471750769	In train graph: AUC=0.792228243249502	In Whole Graph: AUC=0.8915442471750769
+current density: 5.740394115447998
+image name: (10000, 0.1, 0, 0, 0, 1000.0, 0.001, 0, 10.0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8606366842096986	In train graph: AUC=0.716548561900792	In Whole Graph: AUC=0.8606366842096986
+current density: 5.736936569213867
+image name: (1.0, 0.0001, 0, 0, 0, 10000, 0.01, 0, 10.0, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0.001, 1.0, 0, 0, 0, 10.0, 100.0, 0, 1000.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0, 0, 0, 0, 0, 100.0, 0.001, 0, 0.01, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9009637755237392	In train graph: AUC=0.8455838080681766	In Whole Graph: AUC=0.9009637755237392
+current density: 5.717364311218262
+image name: (10.0, 0.1, 0, 0, 0, 0.01, 10.0, 0, 1.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8743713352917436	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.8743713352917436
+current density: 5.408529758453369
+image name: (100.0, 0.0001, 0, 0, 0, 10.0, 0, 0, 0.1, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8605122222122515	In train graph: AUC=0.7879208929646612	In Whole Graph: AUC=0.8605122222122515
+current density: 5.6959381103515625
+image name: (1000.0, 10000, 0, 0, 0, 0, 0.0001, 0, 0.001, 0)_0_0.01.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8820862459819899	In train graph: AUC=0.7674957158075123	In Whole Graph: AUC=0.8820862459819899
+current density: 5.740505695343018
+image name: (0.0001, 1000.0, 0, 0, 0, 0.0001, 0.001, 0, 0, 0)_0_0.1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='CKA', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8811274434895784	In train graph: AUC=0.7257653651984624	In Whole Graph: AUC=0.8811274434895784
+current density: 5.729358673095703
+image name: (0, 100.0, 0, 0, 0, 0.001, 10000, 0, 10.0, 0)_0_0.0031622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9000473307780188	In train graph: AUC=0.8659163540364041	In Whole Graph: AUC=0.9000473307780188
+current density: 5.646078586578369
+image name: (10.0, 0.001, 0, 0, 0, 0.01, 1000.0, 0, 10000, 0)_0_1.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='DP', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.862963050544789	In train graph: AUC=0.708072808114492	In Whole Graph: AUC=0.862963050544789
+current density: 5.621335506439209
+image name: (0.1, 10.0, 0, 0, 0, 10.0, 1.0, 0, 10.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8841714818415184	In train graph: AUC=0.8089944884442591	In Whole Graph: AUC=0.8841714818415184
+current density: 5.733142375946045
+image name: (0, 0.1, 0, 0, 0, 1000.0, 0.001, 0, 0.0001, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='MSELoss', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.874371335291743	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.874371335291743
+current density: 5.408529758453369
+image name: (0.001, 0.0001, 0, 0, 0, 1.0, 0.001, 0, 10.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.9020941197204969	In train graph: AUC=0.8595711175952944	In Whole Graph: AUC=0.9020941197204969
+current density: 5.685789585113525
+image name: (10000, 0, 0, 0, 0, 10000, 0.01, 0, 1000.0, 0)_0_0.03162277660168379.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='HSIC', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8743712779457827	In train graph: AUC=0.6965865406882497	In Whole Graph: AUC=0.8743712779457827
+current density: 5.408530235290527
+image name: (1.0, 0.0001, 0, 0, 0, 0.01, 100.0, 0, 10.0, 0)_0_0.001.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KDE', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8759241548911445	In train graph: AUC=0.702468621184753	In Whole Graph: AUC=0.8759241548911445
+current density: 5.70173454284668
+image name: (10.0, 1.0, 0, 0, 0, 100.0, 10.0, 0, 1.0, 0)_0_0.31622776601683794.png
+============================================================================================
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='citeseer', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='citeseer/HA3.txt', mode='search', measure='KL', measure2='HSIC', weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=True, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8948292470824162	In train graph: AUC=0.8577648094113288	In Whole Graph: AUC=0.8948292470824162
+current density: 5.717698574066162
+image name: (0, 0.1, 0, 0, 0, 10.0, 0.001, 0, 0.1, 0)_0_0.01.png
+============================================================================================

@@ -1,0 +1,266 @@
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8572989113075866, AP=0.8134230929025987, MRR=0.2010533155500841, MRR_ALL=0.34906466947094805
+In train graph: AUC=0.8687113945328655, AP=0.7376357664377138, MRR=0.28827977315689984, MRR_ALL=0.38327032136105876
+In Whole Graph: AUC=0.8032182695837979, AP=0.7252149242608921, MRR=0.2794687019739621, MRR_ALL=0.38968653584462937
+current density: 0.6868547201156616
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8387255381811685, AP=0.8589884364781626, MRR=0.15639351988412073, MRR_ALL=0.32787501174113176
+In train graph: AUC=0.8358658964472964, AP=0.7220690500094358, MRR=0.32514177693761837, MRR_ALL=0.4017013232514179
+In Whole Graph: AUC=0.8134505419591755, AP=0.747078734778345, MRR=0.23074645396155452, MRR_ALL=0.365325411838426
+current density: 0.6560880541801453
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8608309647041572, AP=0.8413232167847609, MRR=0.15235830708073994, MRR_ALL=0.3260424798081965
+In train graph: AUC=0.8566911696039063, AP=0.6883406479215846, MRR=0.33364839319470707, MRR_ALL=0.4059546313799623
+In Whole Graph: AUC=0.8331689143548966, AP=0.7979559817907509, MRR=0.2000195173370087, MRR_ALL=0.34996192557752476
+current density: 0.6358526945114136
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8594663386945243, AP=0.8308668977533068, MRR=0.1347752024927375, MRR_ALL=0.31731336244257446
+In train graph: AUC=0.8533203481106945, AP=0.6890387477680302, MRR=0.3506616257088846, MRR_ALL=0.4144612476370511
+In Whole Graph: AUC=0.849033787261812, AP=0.8116924337204146, MRR=0.18746511684340753, MRR_ALL=0.34368472533072497
+current density: 0.6292148232460022
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5786424778128708, AP=0.4594346518867902, MRR=0.5571166810268168, MRR_ALL=0.5284839296115467
+In train graph: AUC=0.5717055556296721, AP=0.728858276271275, MRR=0.39413988657844995, MRR_ALL=0.4362003780718336
+In Whole Graph: AUC=0.584283269739621, AP=0.5613464053421194, MRR=0.4545075356233587, MRR_ALL=0.47720571933717326
+current density: 0.8460512757301331
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7027475452125206, AP=0.7395689702196224, MRR=0.2699121097089706, MRR_ALL=0.38349406655039187
+In train graph: AUC=0.6987739637392104, AP=0.5455162272976962, MRR=0.43478260869565233, MRR_ALL=0.45652173913043476
+In Whole Graph: AUC=0.7053810383384918, AP=0.6712862766074381, MRR=0.38605357220036574, MRR_ALL=0.44297875557430616
+current density: 0.6993404030799866
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='cora', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8697509491600306, AP=0.8343322694505485, MRR=0.1494027917438039, MRR_ALL=0.3246532397056389
+In train graph: AUC=0.8636284803287217, AP=0.7067311961531229, MRR=0.3241965973534971, MRR_ALL=0.4012287334593575
+In Whole Graph: AUC=0.8697509491600306, AP=0.806453341811835, MRR=0.17161489971527744, MRR_ALL=0.33575929369137425
+current density: 0.6242218613624573
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='citeseer', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8634602417815098, AP=0.8565115363718212, MRR=0.14358673138894296, MRR_ALL=0.32173754632740253
+In train graph: AUC=0.8894909916168774, AP=0.746031746031746, MRR=0.49999999999999994, MRR_ALL=0.4166666666666667
+In Whole Graph: AUC=0.8634602417815098, AP=0.8096446092600552, MRR=0.1682136188952043, MRR_ALL=0.334050990080532
+current density: 0.6605387926101685
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='citeseer', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8482100613633277, AP=0.7995092343049063, MRR=0.16258826393961534, MRR_ALL=0.3301680058436816
+In train graph: AUC=0.8128849983789542, AP=0.6818181818181819, MRR=0.6666666666666666, MRR_ALL=0.5000000000000001
+In Whole Graph: AUC=0.8420283557402682, AP=0.7978695893064627, MRR=0.18678370410807332, MRR_ALL=0.34333625139584745
+current density: 0.7095710635185242
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='citeseer', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8902824815670592, AP=0.862853141265784, MRR=0.09071424938790053, MRR_ALL=0.29502019747023056
+In train graph: AUC=0.8686952897040433, AP=0.7, MRR=0.6111111111111112, MRR_ALL=0.47222222222222227
+In Whole Graph: AUC=0.8562305876095624, AP=0.7958896387042584, MRR=0.17370695420372015, MRR_ALL=0.336798095152555
+current density: 0.6709954738616943
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='citeseer', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8740530680004696, AP=0.8864141907721663, MRR=0.08725285734772262, MRR_ALL=0.2934679120966817
+In train graph: AUC=0.8809226066416562, AP=0.6349206349206349, MRR=0.5555555555555555, MRR_ALL=0.4444444444444444
+In Whole Graph: AUC=0.8597738806672375, AP=0.8112234047904643, MRR=0.16509743043307878, MRR_ALL=0.33249304165539084
+current density: 0.663493812084198
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='citeseer', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8664333189187375, AP=0.8536448369328604, MRR=0.15561007146747013, MRR_ALL=0.32771495735189954
+In train graph: AUC=0.8885183641332036, AP=0.746031746031746, MRR=0.49999999999999994, MRR_ALL=0.4166666666666667
+In Whole Graph: AUC=0.8617604121387696, AP=0.8089392271769787, MRR=0.1685332497768192, MRR_ALL=0.33421095132726125
+current density: 0.6610531210899353
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='citeseer', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8634602417815098, AP=0.8565115363718212, MRR=0.14358673138894296, MRR_ALL=0.32173754632740253
+In train graph: AUC=0.8894909916168774, AP=0.746031746031746, MRR=0.49999999999999994, MRR_ALL=0.4166666666666667
+In Whole Graph: AUC=0.8634602417815098, AP=0.8096446092600552, MRR=0.1682136188952043, MRR_ALL=0.334050990080532
+current density: 0.6605387926101685
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='polblogs', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.800083101243935, AP=0.7784385807457388, MRR=0.17096070785385045, MRR_ALL=0.3351312345471746
+In train graph: AUC=0.677791771620487, AP=0.46638504528530106, MRR=0.7083333333333334, MRR_ALL=0.5625000000000001
+In Whole Graph: AUC=0.7609245404710158, AP=0.7551475246237463, MRR=0.2600677347686914, MRR_ALL=0.3800179909014695
+current density: 0.8842480778694153
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='polblogs', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7874093588926342, AP=0.6927930015608386, MRR=0.20956363545954837, MRR_ALL=0.3547083998210902
+In train graph: AUC=0.6828295549958019, AP=0.41786820265081137, MRR=0.8194444444444445, MRR_ALL=0.6180555555555556
+In Whole Graph: AUC=0.7956626601908097, AP=0.7574423687350577, MRR=0.2177160234721043, MRR_ALL=0.35884186144357066
+current density: 0.8591172695159912
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='polblogs', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.783498433582104, AP=0.7216152742647347, MRR=0.20840677012612754, MRR_ALL=0.3541619505283729
+In train graph: AUC=0.7067590260285475, AP=0.43708101598127175, MRR=0.763888888888889, MRR_ALL=0.5902777777777778
+In Whole Graph: AUC=0.7988723404975111, AP=0.7174330699224204, MRR=0.2314537652354704, MRR_ALL=0.3657104674636839
+current density: 0.8552610874176025
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='polblogs', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7565600991215107, AP=0.6549696106027599, MRR=0.25450845055322024, MRR_ALL=0.37723016060206216
+In train graph: AUC=0.7132661628883291, AP=0.4448319796145883, MRR=0.7361111111111112, MRR_ALL=0.576388888888889
+In Whole Graph: AUC=0.7758997758453454, AP=0.6582368128666697, MRR=0.264839275106082, MRR_ALL=0.38240303628003924
+current density: 0.8517683744430542
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='polblogs', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7326501976875547, AP=0.6577349380941999, MRR=0.27100122060025333, MRR_ALL=0.38548341129897506
+In train graph: AUC=0.7115869017632243, AP=0.447337426237682, MRR=0.7361111111111112, MRR_ALL=0.576388888888889
+In Whole Graph: AUC=0.7326501976875547, AP=0.6103163059931025, MRR=0.3221177096739526, MRR_ALL=0.41104165583582697
+current density: 0.8511713743209839
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='usair', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8287122712152232, AP=0.8222970814950127, MRR=0.1753286598580001, MRR_ALL=0.33721085116318
+In train graph: AUC=0.7638781252105937, AP=0.6001084864937657, MRR=0.31042243767313016, MRR_ALL=0.4019217451523546
+In Whole Graph: AUC=0.7064016129524147, AP=0.7081596021407037, MRR=0.2757814269759167, MRR_ALL=0.3878716345798047
+current density: 0.9330043196678162
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='usair', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8167936369037324, AP=0.8056835147601188, MRR=0.19442945999238617, MRR_ALL=0.34709082350491693
+In train graph: AUC=0.7698463508322664, AP=0.7601431360316133, MRR=0.25389542936288106, MRR_ALL=0.3736582409972301
+In Whole Graph: AUC=0.7188856311908789, AP=0.7443203497787436, MRR=0.2475273827190098, MRR_ALL=0.3737443901938628
+current density: 0.9287134408950806
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='usair', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8233915168847212, AP=0.8274302867456168, MRR=0.1839714295556625, MRR_ALL=0.34192731466684484
+In train graph: AUC=0.790918357032145, AP=0.7737284910719298, MRR=0.23788088642659289, MRR_ALL=0.3656509695290859
+In Whole Graph: AUC=0.7589534974459456, AP=0.7886816893573628, MRR=0.21887222332363274, MRR_ALL=0.3594162331687942
+current density: 0.9299317598342896
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='usair', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.80405427985031, AP=0.7778446057493045, MRR=0.20416676761699476, MRR_ALL=0.3520494692118165
+In train graph: AUC=0.8126389918458118, AP=0.8513631933614285, MRR=0.17823753462603883, MRR_ALL=0.3358292936288087
+In Whole Graph: AUC=0.7737820003827256, AP=0.8117314151877155, MRR=0.20038033785784107, MRR_ALL=0.3501692984085651
+current density: 0.9280666708946228
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='usair', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.8131951737926986, AP=0.801899413023581, MRR=0.18870130579635844, MRR_ALL=0.3443281046048234
+In train graph: AUC=0.8202624839948784, AP=0.8542501910850183, MRR=0.16040512465373974, MRR_ALL=0.32691308864265917
+In Whole Graph: AUC=0.8131951737926986, AP=0.8460056273793634, MRR=0.16599289760471744, MRR_ALL=0.3329739005090044
+current density: 0.9297058582305908
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='brazil', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6821895424836601, AP=0.7128927878674843, MRR=0.3452638408304497, MRR_ALL=0.4159277681660896
+In train graph: AUC=0.5680359023979857, AP=0.6067309765619325, MRR=0.40731461144039255, MRR_ALL=0.4524551482752822
+In Whole Graph: AUC=0.5967807049899474, AP=0.6262497938062473, MRR=0.3700436423501638, MRR_ALL=0.4344971834260606
+current density: 0.8665648102760315
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='brazil', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.729305141661889, AP=0.6766555440676976, MRR=0.3351570505680551, MRR_ALL=0.4143417242147468
+In train graph: AUC=0.597865925458989, AP=0.707721438784749, MRR=0.3008698702123719, MRR_ALL=0.3992327776612725
+In Whole Graph: AUC=0.6495607904992194, AP=0.6763813290313752, MRR=0.3329299114565867, MRR_ALL=0.4159403179792722
+current density: 0.8261879682540894
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='brazil', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.700973008641907, AP=0.7012955967622749, MRR=0.2891863613719706, MRR_ALL=0.39324106547677695
+In train graph: AUC=0.6493535888195132, AP=0.7165314852151707, MRR=0.25920734257286876, MRR_ALL=0.37840151384152027
+In Whole Graph: AUC=0.685035060282543, AP=0.7397388228761839, MRR=0.263651534366931, MRR_ALL=0.38130020220546107
+current density: 0.8135877847671509
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='brazil', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7269910145369491, AP=0.7010392137747031, MRR=0.29783095455063635, MRR_ALL=0.3980076156416756
+In train graph: AUC=0.6618327604848794, AP=0.7665855177200007, MRR=0.23324736420618336, MRR_ALL=0.36542152465817784
+In Whole Graph: AUC=0.7103821233095947, AP=0.8078363040421076, MRR=0.21971339815745672, MRR_ALL=0.35933113410072276
+current density: 0.7966617345809937
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='brazil', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7413428150136478, AP=0.7281615979528684, MRR=0.27342962760861383, MRR_ALL=0.3861897124407944
+In train graph: AUC=0.7062359192802437, AP=0.7888257583552907, MRR=0.20593101130843597, MRR_ALL=0.3517633482093038
+In Whole Graph: AUC=0.7413428150136478, AP=0.8183140950330348, MRR=0.1984432288987599, MRR_ALL=0.3486965130858671
+current density: 0.7769244909286499
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='AIDS', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.6441049352613852, AP=0.6606171550969986, MRR=0.37970615243342554, MRR_ALL=0.43606519742883393
+In train graph: AUC=0.6108841296461085, AP=0.4544132328735033, MRR=0.619140625, MRR_ALL=0.5439453125
+In Whole Graph: AUC=0.6872930845425281, AP=0.7289056146625242, MRR=0.2946474761998582, MRR_ALL=0.39711040670583286
+current density: 0.8269087672233582
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='AIDS', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7068954988597076, AP=0.883984235473712, MRR=0.1536297934821993, MRR_ALL=0.3257041246353044
+In train graph: AUC=0.5692894790882334, AP=0.4002188172226424, MRR=0.716796875, MRR_ALL=0.5927734375
+In Whole Graph: AUC=0.6711380148031482, AP=0.6395783281679916, MRR=0.3801977377206725, MRR_ALL=0.43987886366858225
+current density: 0.8001899719238281
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='AIDS', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7626438772159959, AP=0.8259332787009018, MRR=0.2082300492758837, MRR_ALL=0.35358170332311795
+In train graph: AUC=0.6705797795879253, AP=0.4411648371790466, MRR=0.611328125, MRR_ALL=0.5400390625
+In Whole Graph: AUC=0.7040151277358337, AP=0.634246416279916, MRR=0.3864566092689388, MRR_ALL=0.4430400575143275
+current density: 0.8001520037651062
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='AIDS', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.725117196719922, AP=0.7913918568420053, MRR=0.2436249249335112, MRR_ALL=0.3715027595870622
+In train graph: AUC=0.5175940344992813, AP=0.39062376660389286, MRR=0.75390625, MRR_ALL=0.611328125
+In Whole Graph: AUC=0.6699133193241827, AP=0.6594051626995024, MRR=0.4051890387706214, MRR_ALL=0.45240005872941946
+current density: 0.7838634252548218
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='AIDS', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.7103899734757227, AP=0.6425984281534469, MRR=0.37367030334941753, MRR_ALL=0.43660985347101894
+In train graph: AUC=0.5331152885207748, AP=0.4050841487309484, MRR=0.744140625, MRR_ALL=0.6064453125
+In Whole Graph: AUC=0.7103899734757227, AP=0.7390615021016749, MRR=0.293226647691603, MRR_ALL=0.3963880256421101
+current density: 0.7689788341522217
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='ENZYME', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.2, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5958814512255184, AP=0.5968849924290802, MRR=0.4069230166810239, MRR_ALL=0.45285701699428343
+In train graph: AUC=0.6325736520289049, AP=1.0, MRR=0.5, MRR_ALL=0.25
+In Whole Graph: AUC=0.5319315668375999, AP=0.6026644252912559, MRR=0.424394810684879, MRR_ALL=0.46209878140109867
+current density: 0.972659170627594
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='ENZYME', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.4, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5865507411805464, AP=0.5943141010918556, MRR=0.4382647221570525, MRR_ALL=0.46891918148711625
+In train graph: AUC=0.09227348526959422, AP=0.6666666666666666, MRR=1.0, MRR_ALL=0.5
+In Whole Graph: AUC=0.5307589316989011, AP=0.5524481642573703, MRR=0.4934365776661001, MRR_ALL=0.4966703783816671
+current density: 0.9699627757072449
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='ENZYME', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.6, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5847269677291475, AP=0.5778436949104997, MRR=0.4482347795925172, MRR_ALL=0.4739684384986338
+In train graph: AUC=0.9405225125069483, AP=1.0, MRR=0.5, MRR_ALL=0.25
+In Whole Graph: AUC=0.5376302990995938, AP=0.5205767468837355, MRR=0.5236450274211318, MRR_ALL=0.5117764742830475
+current density: 0.968578577041626
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='ENZYME', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=0.8, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5817355697723546, AP=0.6484719873600355, MRR=0.3739838228130696, MRR_ALL=0.43683686613130485
+In train graph: AUC=0.03668704836020009, AP=0.6666666666666666, MRR=1.0, MRR_ALL=0.5
+In Whole Graph: AUC=0.5548029898868903, AP=0.6262569788227768, MRR=0.38096143963892526, MRR_ALL=0.440405849138161
+current density: 0.9715621471405029
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
+current parameter: Namespace(dataset='ENZYME', density=10000000.0, dropout=0.5, epochs=1000, hidden=16, iter=1, log_name='baseline_cora.txt', lr=0.01, max_eval=100, measure='HSIC', mode='baseline', model='PGD', nlabel=1.0, nlayers=2, seed=15, use=False, w1=1, w10=1, w2=1, w3=1, w4=1, w5=1, w6=1, w7=1, w8=1, w9=1, weight_aux=0, weight_decay=0.0005, weight_sup=1)
+In attack graph: AUC=0.5569429620676922, AP=0.5905968255521314, MRR=0.43034536603588236, MRR_ALL=0.4650833442511333
+In train graph: AUC=0.9838799332962758, AP=1.0, MRR=0.5, MRR_ALL=0.25
+In Whole Graph: AUC=0.5569429620676922, AP=0.619332400469724, MRR=0.42570558705702854, MRR_ALL=0.4627634547617107
+current density: 0.9619154930114746
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
