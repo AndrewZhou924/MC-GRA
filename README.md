@@ -1,6 +1,182 @@
 # MC-GRA
 
+**Keywords**: Graph Reconstruction Attack, Model Inversion Attack, graph neural network, information theory
+
 The is an official repository of the paper 'On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation'. 
+
+*paper link*
+
+```
+Google Scholar Here.
+```
+
+**Abstract**: Although the powerful graph neural networks (GNNs) have boosted numerous real-world applications, the potential privacy risk is still under-explored. To catch more attention, we perform the first comprehensive study of graph reconstruction attack that aims to reconstruct the adjacency of nodes, and show that a range of factors in GNNs can lead to the surprising leakage of private links. Specially, by taking GNNs as a Markov chain and attacking GNNs via a flexible chain approximation, we systematically explore the underneath principles of graph reconstruction attack, and propose two information theory-guided mechanisms: (1) the chain-based attack method with adaptive designs for extracting more private information; (2) the chain-based defense method that sharply reduces the attack fidelity with moderate accuracy loss. Such two objectives disclose a critical belief that to recover better in attack, you must extract more multi-aspect knowledge from the trained GNN, while to learn safer for defense, you must forget more link-sensitive information in training GNNs. Empirically, we achieve state-of-the-art results on six datasets and three common GNNs.
+
+## Get Start
+
+### Environment
+
+```
+python = 3.9.16
+torch = 1.12.1
+```
+for detailed evaluation environment, see 'requirements.txt'.
+
+### File Structure
+```
+├── GraphMIA_Attack
+│   ├── base_attack.py
+│   ├── baseline.py
+│   ├── dataset                             # Datasets and other settings
+│   │   ├── AIDS
+│   │   │   ├── AIDS_A.txt
+│   │   │   ├── AIDS_node_attributes.txt
+│   │   │   └── AIDS_node_labels.txt
+│   │   ├── blogcatalog.mat
+│   │   ├── brazil
+│   │   │   ├── brazil_A.txt
+│   │   │   └── brazil_lable.txt
+│   │   ├── citeseer.npz
+│   │   ├── cora.npz
+│   │   ├── ENZYMES
+│   │   │   ├── ENZYMES_A.txt
+│   │   │   ├── ENZYMES_node_attributes.txt
+│   │   │   └── ENZYMES_node_labels.txt
+│   │   ├── polblogs.npz
+│   │   └── usair
+│   │       ├── usair_A.txt
+│   │       └── usair_lable.txt
+│   ├── dataset.py
+│   ├── defense
+│   │   ├── gcn.py
+│   │   └── use_model.py
+│   ├── gaussian_parameterized.py
+│   ├── gcn_parameterized.py
+│   ├── hsic.py
+│   ├── main.py
+│   ├── models                          # Models under attack
+│   │   ├── gat.py
+│   │   ├── gcn.py
+│   │   ├── graphsage.py
+│   │   └── ori_gcn.py
+│   ├── requirements.txt
+│   ├── results
+│   ├── topology_attack.py              # Attack modules
+│   └── utils.py
+├── GraphMIA_Defense
+│   ├── base_attack.py
+│   ├── bkp
+│   │   ├── gcn_optuna_bkp.py
+│   │   ├── main copy.py
+│   │   ├── main.py
+│   │   ├── MI_constrain.py
+│   │   ├── MI.py
+│   │   ├── other_optuna.py
+│   │   ├── plain_visual.ipynb
+│   │   ├── reproduce_optuna.py
+│   │   ├── test.ipynb
+│   │   └── test.py
+│   ├── dataset
+│   │   ├── AIDS
+│   │   │   ├── AIDS_A.txt
+│   │   │   ├── AIDS_node_attributes.txt
+│   │   │   └── AIDS_node_labels.txt
+│   │   ├── blogcatalog.mat
+│   │   ├── brazil
+│   │   │   ├── brazil_A.txt
+│   │   │   └── brazil_lable.txt
+│   │   ├── citeseer.npz
+│   │   ├── cora.npz
+│   │   ├── ENZYMES
+│   │   │   ├── ENZYMES_A.txt
+│   │   │   ├── ENZYMES_node_attributes.txt
+│   │   │   └── ENZYMES_node_labels.txt
+│   │   ├── polblogs.npz
+│   │   └── usair
+│   │       ├── usair_A.txt
+│   │       └── usair_lable.txt
+│   ├── dataset.py
+│   ├── KDE_optuna.py
+│   ├── main_table.py
+│   ├── MI_constrain.py
+│   ├── MI.py
+│   ├── models
+│   │   ├── gat.py
+│   │   ├── gcn_hetero.py
+│   │   ├── gcn.py
+│   │   └── graphsage.py
+│   ├── Optuna_file
+│   │   ├── 0122
+│   │   │   ├── gat
+│   │   │   │   ├── polblogs_gat_2_KDE_mb.db
+│   │   │   │   ├── polblogs_gat_2_KDE_mb.pkl
+│   │   │   │   ├── polblogs_gat_2_KDE_mb_reproduce.txt
+│   │   │   │   ├── polblogs_gat_4_KDE_mb.db
+│   │   │   │   ├── polblogs_gat_4_KDE_mb.pkl
+│   │   │   │   ├── polblogs_gat_4_KDE_mb_reproduce.txt
+│   │   │   │   ├── polblogs_gat_6_KDE_mb.db
+│   │   │   │   ├── polblogs_gat_6_KDE_mb.pkl
+│   │   │   │   └── polblogs_gat_6_KDE_mb_reproduce.txt
+│   │   │   ├── gcn
+│   │   │   │   ├── polblogs_gcn_4_KDE_mb.db
+│   │   │   │   ├── polblogs_gcn_4_KDE_mb.pkl
+│   │   │   │   ├── polblogs_gcn_4_KDE_mb_reproduce.txt
+│   │   │   │   ├── polblogs_gcn_6_KDE_mb.db
+│   │   │   │   ├── polblogs_gcn_6_KDE_mb.pkl
+│   │   │   │   └── polblogs_gcn_6_KDE_mb_reproduce.txt
+│   │   │   └── sage
+│   │   │       ├── polblogs_sage_2_KDE_mb.db
+│   │   │       ├── polblogs_sage_2_KDE_mb.pkl
+│   │   │       ├── polblogs_sage_2_KDE_mb_reproduce.txt
+│   │   │       ├── polblogs_sage_4_KDE_mb.db
+│   │   │       ├── polblogs_sage_4_KDE_mb.pkl
+│   │   │       ├── polblogs_sage_4_KDE_mb_reproduce.txt
+│   │   │       ├── polblogs_sage_6_KDE_mb.db
+│   │   │       ├── polblogs_sage_6_KDE_mb.pkl
+│   │   │       └── polblogs_sage_6_KDE_mb_reproduce.txt
+│   │   └── 0124
+│   │       ├── diff_metric
+│   │       │   ├── AIDS
+│   │       │   │   ├── AIDS_gcn_2_DP_mb.db
+│   │       │   │   ├── AIDS_gcn_2_DP_mb_reproduce.txt
+│   │       │   │   ├── AIDS_gcn_2_linear_CKA_mb.db
+│   │       │   │   ├── AIDS_gcn_2_linear_CKA_mb_reproduce.txt
+│   │       │   │   └── linear_HSIC.txt
+│   │       │   ├── Cora
+│   │       │   │   ├── cora_gcn_2_DP_mb.db
+│   │       │   │   ├── cora_gcn_2_DP_mb_reproduce.txt
+│   │       │   │   ├── cora_gcn_2_linear_CKA_mb.db
+│   │       │   │   ├── cora_gcn_2_linear_CKA_mb_reproduce.txt
+│   │       │   │   ├── cora_gcn_2_linear_HSIC_mb.db
+│   │       │   │   └── cora_gcn_2_linear_HSIC_mb_reproduce.txt
+│   │       │   └── usair
+│   │       │       ├── linear_CKA.txt
+│   │       │       ├── usair_gcn_2_DP_mb.db
+│   │       │       ├── usair_gcn_2_DP_mb_reproduce.txt
+│   │       │       ├── usair_gcn_2_linear_HSIC_mb.db
+│   │       │       └── usair_gcn_2_linear_HSIC_mb_reproduce.txt
+│   │       ├── gat
+│   │       │   ├── polblogs_gat_2_KDE_mb.db
+│   │       │   ├── polblogs_gat_2_KDE_mb_reproduce.txt
+│   │       │   ├── polblogs_gat_4_KDE_mb.db
+│   │       │   ├── polblogs_gat_4_KDE_mb_reproduce.txt
+│   │       │   └── polblogs_gat_6_KDE_mb_reproduce.txt
+│   │       ├── main.py
+│   │       ├── main_table.py
+│   │       └── sage
+│   │           ├── polblogs_sage_2_KDE_mb.db
+│   │           ├── polblogs_sage_2_KDE_mb_reproduce.txt
+│   │           ├── polblogs_sage_4_KDE_mb.db
+│   │           ├── polblogs_sage_4_KDE_mb_reproduce.txt
+│   │           ├── polblogs_sage_6_KDE_mb.db
+│   │           └── polblogs_sage_6_KDE_mb_reproduce.txt
+│   ├── polblogs_gat_6_KDE_mb.db
+│   ├── README.md
+│   ├── reproduce_optuna.py
+│   ├── topology_attack.py
+│   └── utils.py
+└── README.md
+```
 
 ## Evaluate
 
