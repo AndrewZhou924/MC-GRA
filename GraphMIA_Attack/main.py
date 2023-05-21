@@ -15,7 +15,6 @@ import random
 from hyperopt import hp
 from hyperopt import fmin, tpe, space_eval
 import baseline 
-import aux_attack
 import gaussian_parameterized
 import gcn_parameterized
 import matplotlib.pyplot as plt
