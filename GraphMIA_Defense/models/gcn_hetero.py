@@ -6,12 +6,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import utils
 from torch.nn.modules.module import Module
 from torch.nn.parameter import Parameter
 from torchmetrics import AUROC
 from tqdm import trange
-
-import utils
 
 
 class GraphConvolution(Module):
@@ -75,8 +74,6 @@ class embedding_GCN(nn.Module):
         for i in range(self.nlayer):
             layer=self.gc[i].to(self.device)
             x = F.relu(layer(x, adj))
-        return x
-        # x = F.relu(self.gc1(x, adj))
         return x
 
     def initialize(self):
@@ -166,8 +163,7 @@ class GCN(nn.Module):
         node_emb = []
         for i,layer in enumerate(self.gc):
             layer=layer.to(self.device)
-            # 最后一层不添加 relu
-            if self.with_relu: # and i!= len(self.gc)-1
+            if self.with_relu:
                 x=F.relu(layer(x, adj))
             else:
                 x=layer(x, adj)

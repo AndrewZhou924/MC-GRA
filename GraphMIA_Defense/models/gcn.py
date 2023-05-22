@@ -6,12 +6,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import utils
 from torch.nn.modules.module import Module
 from torch.nn.parameter import Parameter
 from torchmetrics import AUROC
 from tqdm import trange
-
-import utils
 
 
 class GraphConvolution(Module):
@@ -87,44 +86,6 @@ class embedding_GCN(nn.Module):
         
     def set_layers(self, nlayer):
         self.nlayer = nlayer
-
-# class embedding_GCN(nn.Module):
-#     def __init__(self, nfeat, nhid, nlayer=2, with_bias=True, device=None):
-
-#         super(embedding_GCN, self).__init__()
-
-#         assert device is not None, "Please specify 'device'!"
-#         self.device = device
-#         self.nfeat = nfeat
-#         self.nlayer = nlayer
-#         self.hidden_sizes = [nhid]
-#         self.gc1=GraphConvolution(nfeat, nhid, with_bias=with_bias)
-#         self.gc=[]
-#         self.gc.append(GraphConvolution(nfeat, nhid, with_bias=with_bias))
-#         for i in range(nlayer-1):
-#             self.gc.append(GraphConvolution(nhid, nhid, with_bias=with_bias))
-#         # self.gc1=self.gc[0]
-#         # self.gc2=self.gc[1]
-#         self.with_bias = with_bias
-
-#     def forward(self, x, adj):
-#         # self.gc[0].to(self.device)
-#         # x = F.relu(self.gc1(x, adj)) 
-#         for i in range(self.nlayer):
-#             #print(i)
-#             layer=self.gc[i].to(self.device)
-#             x = F.relu(layer(x, adj))
-#         return x
-
-#     def initialize(self):
-#         self.gc1.reset_parameters()
-#         for layer in self.gc:
-#             layer.rset_parameters()
-
-        
-#     def set_layers(self, nlayer):
-#         self.nlayer = nlayer
-
 
 class GCN(nn.Module):
     """ 2 Layer Graph Convolutional Network.
@@ -204,8 +165,7 @@ class GCN(nn.Module):
         node_emb = []
         for i,layer in enumerate(self.gc):
             layer=layer.to(self.device)
-            # 最后一层不添加 relu
-            if self.with_relu: # and i!= len(self.gc)-1
+            if self.with_relu: 
                 x=F.relu(layer(x, adj))
             else:
                 x=layer(x, adj)
@@ -416,23 +376,24 @@ class GCN(nn.Module):
             optimizer.zero_grad()
             output, node_embs = self.forward(self.features, self.adj_norm)
             
+            # * can control to perform MI constrain on hetero/homo node-pairs
             node_pair_idxs = np.random.choice(edge_index.size(0), size=sample_size, replace=True)
             node_idx_1 = edge_index[node_pair_idxs][:, 0]
             node_idx_2 = edge_index[node_pair_idxs][:, 1]
             
-            # node_idx_1 = edge_index[:, 0]
-            # node_idx_2 = edge_index[:, 1]
-
-            # loss_IAZ = beta * IAZ_func(self.adj_norm, node_embs[0])
-
             loss_IAZ = 0
             loss_inter = 0
             loss_mission = 0
             layer_aucs = []
 
+            # * Note: 
+            # * Instead of calculating the Mutual Information of full node embeddings,
+            # * we consider to model the Mutual Information of each node-paris in the graph.
+            # * We had tried the former one, model the full node embeddings, but the results 
+            # * cannot competitve with the node-pairs counterparts.
 
             for idx, node_emb in enumerate(node_embs):
-            #     # 层间约束
+                # * complexity constrain in Equ.4
                 if (idx+1) <= len(node_embs)-1:
                     param_inter = 'layer_inter-{}'.format(idx)
                     beta_inter = beta[param_inter]
@@ -440,30 +401,20 @@ class GCN(nn.Module):
                     next_node_emb = (next_node_emb@next_node_emb.T)
                     loss_inter += beta_inter * IAZ_func(next_node_emb, node_emb)
 
-            #     # MI约束
+                # * privacy constrain in Equ.4
                 param_name = 'layer-{}'.format(idx)
                 beta_cur = beta[param_name]
 
-            #     # # TODO: 采样到2M边， BCELoss, (gt 取反 0->1)
-                # loss_IAZ += beta_cur * IAZ_func(self.adj_norm, node_emb)
-                
                 left_node_embs = node_emb[node_idx_1]
                 right_node_embs = node_emb[node_idx_2]
 
-                # DP 
-                # tmp_MI = torch.sigmoid(left_node_embs * right_node_embs)
-                # tmp_MI = torch.sum(tmp_MI)
-                # loss_IAZ += beta_cur * tmp_MI
-
-                # make it as adj shape [NxN]
                 right_node_embs = right_node_embs @ right_node_embs.T
                 loss_IAZ += beta_cur * IAZ_func(right_node_embs, left_node_embs)
                 
                 layer_AUC = calculate_AUC(node_emb, self.origin_adj).item()
                 layer_aucs.append(layer_AUC)
 
-            #     # 任务约束
-            #     # 排除linear层
+                # * accuracy constrain in Equ.4
                 if idx != len(node_embs)-1:
                     output_layer = self.linear1(node_emb)
                     output_layer = F.log_softmax(output_layer, dim=1)

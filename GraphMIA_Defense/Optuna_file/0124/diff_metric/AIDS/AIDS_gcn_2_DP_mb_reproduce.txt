@@ -1,7 +1,0 @@
-Beta: {'plain_acc': 0.668, 'aug_pe': 0.16, 'layer-0': 5.3500000000000005, 'layer-1': 1.8900000000000001, 'layer-2': 2.14, 'layer_inter-0': 0.91, 'layer_inter-1': 2.65}, Acc: 0.0, layer AUC: [0.5810913721882311, 0.4834932807120357], graphMI AUC: 0.7005196164180909
-Beta: {'plain_acc': 0.668, 'aug_pe': 0.08, 'layer-0': 3.91, 'layer-1': 0.53, 'layer-2': 2.7800000000000002, 'layer_inter-0': 0.27, 'layer_inter-1': 0.61}, Acc: 0.0015290519877675841, layer AUC: [0.6249083703303819, 0.4320215336634816], graphMI AUC: 0.5765351610045959
-Beta: {'plain_acc': 0.668, 'aug_pe': 0.05, 'layer-0': 4.65, 'layer-1': 0.16, 'layer-2': 0.8200000000000001, 'layer_inter-0': 0.51, 'layer_inter-1': 1.12}, Acc: 0.13608562691131498, layer AUC: [0.6342808219756677, 0.4272469958693243], graphMI AUC: 0.573375953166173
-Beta: {'plain_acc': 0.668, 'aug_pe': 0.07, 'layer-0': 4.62, 'layer-1': 0.11, 'layer-2': 1.02, 'layer_inter-0': 0.67, 'layer_inter-1': 0.86}, Acc: 0.0015290519877675841, layer AUC: [0.6065539571205623, 0.4247360509523795], graphMI AUC: 0.5747300629094649
-Beta: {'plain_acc': 0.668, 'aug_pe': 0.07, 'layer-0': 4.88, 'layer-1': 0.12, 'layer-2': 0.46, 'layer_inter-0': 0.14, 'layer_inter-1': 0.59}, Acc: 0.13608562691131498, layer AUC: [0.615263252093963, 0.42854105317254815], graphMI AUC: 0.5732099877452299
-
-Beta: {'plain_acc': 0.668, 'aug_pe': 0.07, 'layer-0': 4.88, 'layer-1': 0.12, 'layer-2': 0.46, 'layer_inter-0': 0.14, 'layer_inter-1': 0.59}, Acc: 0.13608562691131498, layer AUC: [0.615263252093963, 0.42854105317254815], graphMI AUC: 0.5732099877452299

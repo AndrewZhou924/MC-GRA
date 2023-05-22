@@ -9,14 +9,13 @@ import numpy as np
 import optuna
 import torch
 import torch.nn.functional as F
-from sklearn.metrics import auc, average_precision_score, roc_curve
-from torchmetrics import AUROC
-
 from dataset import Dataset
 from models.gat import GAT, embedding_gat
 from models.gcn import GCN, embedding_GCN  # gcn_hetero
 from models.graphsage import embedding_graphsage, graphsage
+from sklearn.metrics import auc, average_precision_score, roc_curve
 from topology_attack import PGDAttack
+from torchmetrics import AUROC
 from utils import *
 
 warnings.filterwarnings('ignore')
@@ -130,6 +129,14 @@ parser.add_argument('--nlabel', type=float, default=0.1)
 parser.add_argument('--arch', type=str, default='gcn')
 parser.add_argument('--nlayer', type=int, default=2)
 parser.add_argument('--MI_type', type=str, default='KDE')
+
+parser.add_argument('--layer_MI', nargs='+',
+                    help='the layer MI constrain', required=True)
+
+parser.add_argument('--layer_inter_MI', nargs='+',
+                    help='the inter-layer MI constrain', required=True)
+
+parser.add_argument('--aug_pe', type=float, default='proability of augmentation')
 
 parser.add_argument('--device', type=str, default='cuda:0')
 
@@ -295,7 +302,13 @@ plain_acc_maps = {
 param = {}
 
 param['plain_acc'] = plain_acc_maps[args.dataset]
-
+param['aug_pe'] = args.aug_pe
+layer_MI_params = list(map(float, args.layer_MI))
+layer_inter_params = list(map(float, args.layer_inter_MI))
+for i in args.nlayer:
+    param['layer-{}'.format(i)] = layer_MI_params[i]
+    if (i+1) <= len(args.nlayer)-1:
+        param['layer_inter-{}'.format(i)] = layer_inter_params[i]
 
 if args.dataset == 'ogb_arxiv':
     # no mission
