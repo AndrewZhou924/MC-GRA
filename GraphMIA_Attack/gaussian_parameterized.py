@@ -172,7 +172,6 @@ class PGDAttack(BaseAttack):
 
         '''
             Parameters:
-
             index_delete:           deleted zero edges, for metric
             lr_ori:                 learning rate
             weight:                 the weight for aux_loss1 and aux_loss2
@@ -189,10 +188,12 @@ class PGDAttack(BaseAttack):
             epochs:                 epochs for recovery training.
             dropout_rate:           dropout rate in testing.
         '''
-
+        
+        if args.max_eval == 1:
+            lr_ori = 10**args.lr
+        self.args = args
         print(f"current weight_supervised={weight_supervised}, current weight_aux={weight_aux}")
-
-        optimizer=torch.optim.Adam([self.logvar, self.mu], lr=lr_ori)
+        optimizer=torch.optim.Adam([self.adj_changes], lr=lr_ori)
         plt.cla()
         victim_model = self.surrogate
         self.sparse_features = sp.issparse(ori_features)
@@ -206,17 +207,11 @@ class PGDAttack(BaseAttack):
         label_adj = torch.Tensor(label_adj).to(self.device)
 
         # lists for drawing
-        loss_list = []
         acc_test_list=[]
-        acc_val_list=[]
         origin_loss_list = []
         x_axis=[]
-        auc_list=[]
         sparsity_list=[]
-        sim_list=[]
-        mrr_list = []
-        mrr_all_list=[]
-        modified_adj = self.get_modified_adj()
+        modified_adj = self.get_modified_adj(ori_adj)
         adj_norm = utils.normalize_adj_tensor(modified_adj)
         output = victim_model(ori_features, modified_adj)
         self.delete_eye(modified_adj)
@@ -224,10 +219,7 @@ class PGDAttack(BaseAttack):
         adj_tmp = torch.eye(adj_norm.shape[0]).to(self.device)
         em = self.embedding(ori_features, adj_tmp)
         adj_changes = self.dot_product_decode(em)
-        #self.adj_changes.value=adj_changes.detach()
         embedd_adj = self.get_modified_adj2(ori_adj,adj_changes).detach()
-        #ori_adj = embedd_adj.detach()
-        #self.adj_changes.data.copy_(adj_changes)
 
 
         # select the nodes for attack while calculating aux loss
@@ -236,9 +228,22 @@ class PGDAttack(BaseAttack):
         lr=lr_ori
         feature_adj = feature_adj.to(self.device)
         w1, w2, w3, w4, w5, w6, w7, w8, w9, w10 = weight_param
+        if args.max_eval == 1:        
+            w1=args.w1
+            w2=args.w2
+            w3=args.w3
+            w4=args.w4
+            w5=args.w5
+            w6=args.w6
+            w7=args.w7
+            w7=args.w8
+            w9=args.w9
+            w10=args.w10
+            lr=args.lr
         for t in tqdm(range(epochs)):
             optimizer.zero_grad()
-            modified_adj = self.get_modified_adj()
+            modified_adj = self.get_modified_adj(ori_adj)
+            modified_adj = self.adding_noise(modified_adj, args.eps)
             adj_norm = utils.normalize_adj_tensor(modified_adj)
             output = victim_model(ori_features, adj_norm)
             adj_tmp = torch.eye(adj_norm.shape[0]).to(self.device)
@@ -246,12 +251,10 @@ class PGDAttack(BaseAttack):
             adj_changes = self.dot_product_decode(em)
             embedd_adj = self.get_modified_adj2(ori_adj,adj_changes).detach()
             
-            origin_loss = self._loss(output[idx_attack], labels[idx_attack])
-            print(modified_adj.max())
-            
+            origin_loss = self._loss(output[idx_attack], labels[idx_attack]) + torch.norm(self.adj_changes,
+                                                                                            p=2) * 0.001
             origin_loss_list.append(origin_loss.item())
             loss = weight_supervised*origin_loss
-            
             self.embedding.set_layers(1)
             H_A1 = self.embedding(ori_features, adj)
             self.embedding.set_layers(2)
@@ -264,7 +267,6 @@ class PGDAttack(BaseAttack):
             modified_adj1 = self.get_modified_adj_after(ori_adj)
             adj_norm2 = utils.normalize_adj_tensor(modified_adj1)
             
-            #calc = KLDivLoss(reduction="batchmean")
             CKA = CudaCKA(device=self.device)
             calc = CKA.linear_HSIC
             calc2=MSELoss()
@@ -333,7 +335,7 @@ class PGDAttack(BaseAttack):
                 c7 = w7 * Info_entropy(modified_adj1)*Align_Parameter_Cora["c7"]
                 loss += c7
             if w8 != 0:
-                c8 = w8 * torch.clamp(torch.sum(torch.abs(modified_adj)), min=0.01)*0.0001*Align_Parameter_Cora["c8"]
+                c8 = w8 * torch.clamp(torch.sum(torch.abs(self.adj_changes)), min=0.01)*0.0001*Align_Parameter_Cora["c8"]
                 loss += c8
             self.embedding.set_layers(1)
             em1 = self.embedding(ori_features, modified_adj - ori_adj)
@@ -364,153 +366,67 @@ class PGDAttack(BaseAttack):
                     c10 = w10 * calc(Y_A[idx_attack], torch.softmax(output2[idx_attack], dim=1))*Align_Parameter_Cora["c10"]
                 loss += c10
             
-            # print(origin_loss)
-            # print(c1)
-            # print(c2)
-            # print(c3)
-            # print(c4)
-            # print(c5)
-            # print(c6)
-            # print(c7)
-            # print(c8)
-            # print(c9)
-            # print(c10)
+
             
 
             test_acc = utils.accuracy(output[idx_attack], labels[idx_attack])
             print("loss= {:.4f}".format(loss.item()), "test_accuracy= {:.4f}".format(test_acc.item()))
-            loss_list.append(loss.item())
+            if torch.isnan(loss):
+                print(args.measure)
+                print(weight_param)
+                exit()
+                break
             loss.backward()
-            #adj_grad = -torch.autograd.grad(loss, self.adj_changes)[0]
 
             if self.loss_type == 'CE':
-                if sample:
-                    lr = 200 / np.sqrt(t + 1)
-                #self.adj_changes.data.add_(lr * adj_grad)
                 optimizer.step()
+            if torch.isnan(self.adj_changes).sum()>0:
+                print("now at:" , t)
+                exit()
 
-
-            #self.projection(num_edges)
-            #self.adj_changes.data.copy_(torch.clamp(self.adj_changes.data, min=0, max=1))
+            self.projection(num_edges)
+            self.adj_changes.data.copy_(torch.clamp(self.adj_changes.data, min=0, max=1))
             
             em = self.embedding(ori_features, adj_norm)
             adj_changes = self.dot_product_decode(em)
             modified_adj = self.get_modified_adj2(ori_adj,adj_changes).detach()
             victim_model.eval()
-            modified_adj = self.get_modified_adj()
+            modified_adj = self.get_modified_adj(ori_adj)
             sparsity_list.append(modified_adj.detach().cpu().mean())
             adj_norm2 = utils.normalize_adj_tensor(modified_adj)
             output2 = victim_model(ori_features, adj_norm2)
             cur_acc = test_acc = utils.accuracy(output2[idx_test], labels[idx_test]).item()
             acc_test_list.append(cur_acc)
-            #auc =metric(adj, modified_adj.detach(), idx_attack, index_delete)
-            #acc_val_list.append(val_acc)
-            #auc_list.append(auc)
+
             x_axis.append(t)
-            #print(self.adj_changes.sum())
 
-        #print('--modify parameters--')
-        #self.random_sample(ori_adj, ori_features, labels, idx_attack)
 
-        #self.modified_adj = self.get_modified_adj().detach()
-        
         em = self.embedding(ori_features, adj_norm)
-        self.modified_adj = self.dot_product_decode2(em).detach()
+        self.adj_changes.data = self.dot_product_decode(em)
+        self.modified_adj = self.get_modified_adj(ori_adj).detach()
         
-        # loss_list=normalization(loss_list)
-        # origin_loss_list=normalization(origin_loss_list)
-        # # aux1_loss_list=normalization(aux1_loss_list)
-        # # aux2_loss_list=normalization(aux2_loss_list)
 
-        # #plt.plot(x_axis, auc_list, label="auc")
-        # #plt.plot(x_axis, acc_val_list, label="AP")
-        # plt.plot(x_axis, loss_list, label="loss")
-        # plt.plot(x_axis, origin_loss_list, label="supervised",  linestyle="--")
-        # plt.plot(x_axis, sparsity_list, label="density")
-        # plt.show()
-        # plt.savefig(f"./image/cora/bs{weight_param}_{weight_supervised}_{lr}.png")
+        self.embedding.set_layers(1)
+        H_A1 = self.embedding(ori_features, self.modified_adj)
+        self.embedding.set_layers(2)
+        H_A2 = self.embedding(ori_features, self.modified_adj)
+        Y_A2 = victim_model(ori_features, self.modified_adj)
+        ori_HA = self.dot_product_decode2(self.H_A.detach())
+        ori_YA = self.dot_product_decode2(self.Y_A.detach())
+        H_A1 = self.dot_product_decode2(H_A1.detach())
+        H_A2 = self.dot_product_decode2(H_A2.detach())
+        Y_A2 = self.dot_product_decode2(Y_A2.detach())
+        cur_adj = self.modified_adj + H_A1 + H_A2 + feature_adj + Y_A2
+        if args.useH_A:
+            cur_adj = cur_adj + ori_HA
+        if args.useY_A:
+            cur_adj = cur_adj + ori_YA
+        if args.useY:
+            cur_adj = cur_adj + label_adj
+
+        self.modified_adj = cur_adj.detach()
         
-        if args.ensemble:
-            self.embedding.set_layers(1)
-            H_A1 = self.embedding(ori_features, self.modified_adj)
-            self.embedding.set_layers(2)
-            H_A2 = self.embedding(ori_features, self.modified_adj)
-            Y_A2 = victim_model(ori_features, self.modified_adj)
-            ori_HA = self.dot_product_decode2(self.H_A.detach())
-            ori_YA = self.dot_product_decode2(self.Y_A.detach())
-            H_A1 = self.dot_product_decode2(H_A1.detach())
-            H_A2 = self.dot_product_decode2(H_A2.detach())
-            Y_A2 = self.dot_product_decode2(Y_A2.detach())
-            best_auc=0
-            best_adj = self.modified_adj.detach()
-            if args.max_eval == 1:
-                for i1 in range( 11):
-                    for i2 in range( 11-i1):
-                        for i3 in range( 11-i1-i2):
-                            for i4 in range( 11-i1-i2-i3):
-                                for i5 in range(1, 11-i1-i2-i3-i4):
-                                    for i6 in range(1, 11-i1-i2-i3-i4-i5):
-                                        for i7 in range(1, 11-i1-i2-i3-i4-i5-i6):
-                                                ii1=i1/10
-                                                ii2=i2/10
-                                                ii3=i3/10
-                                                ii4=i4/10
-                                                ii5=i5/10
-                                                ii6=i6/10
-                                                ii7=i7/10
-                                                ii8=1-ii1-ii2-ii3-ii4-ii5-ii6-ii7
-                                                ii8=int(ii8*10+0.5)/10
-                                                cur_adj = self.modified_adj*ii1 + H_A2*ii2 + Y_A2*ii3 + feature_adj*ii4 + H_A1*ii8
-                                                if args.useH_A:
-                                                    cur_adj = cur_adj + ii5*ori_HA
-                                                if args.useY_A:
-                                                    cur_adj = cur_adj + ii6*ori_YA
-                                                if args.useY:
-                                                    cur_adj = cur_adj + ii7*label_adj
-                                                auc = metric(adj, cur_adj, np.arange(adj.shape[0]), index_delete)
-                                                if auc > best_auc:
-                                                    best_auc = auc
-                                                    best_adj = cur_adj.detach()             
-                self.modified_adj = best_adj.detach()
-            
-            if args.max_eval >1 :
-                params = []
-                for i1 in range( 11):
-                    for i2 in range( 11-i1):
-                        for i3 in range( 11-i1-i2):
-                            for i4 in range( 11-i1-i2-i3):
-                                for i5 in range(1, 11-i1-i2-i3-i4):
-                                    for i6 in range(1, 11-i1-i2-i3-i4-i5):
-                                        for i7 in range(1, 11-i1-i2-i3-i4-i5-i6):
-                                                ii1=i1/10
-                                                ii2=i2/10
-                                                ii3=i3/10
-                                                ii4=i4/10
-                                                ii5=i5/10
-                                                ii6=i6/10
-                                                ii7=i7/10
-                                                ii8=1-ii1-ii2-ii3-ii4-ii5-ii6-ii7
-                                                ii8=int(ii8*10+0.5)/10
-                                                params.append([ii1,ii2,ii3,ii4,ii5,ii6,ii7,ii8])
-                eval_idxs = np.random.choice(len(params), size=500, replace=True)
 
-                for eval_idx in tqdm(eval_idxs, desc='ensemble...'):
-                    ii1,ii2,ii3,ii4,ii5,ii6,ii7,ii8 = params[eval_idx]
-
-                    cur_adj = self.modified_adj*ii1 + H_A2*ii2 + Y_A2*ii3 + feature_adj*ii4 + H_A1*ii8
-                    if args.useH_A:
-                        cur_adj = cur_adj + ii5*ori_HA
-                    if args.useY_A:
-                        cur_adj = cur_adj + ii6*ori_YA
-                    if args.useY:
-                        cur_adj = cur_adj + ii7*label_adj
-                    auc = metric(adj, cur_adj, np.arange(adj.shape[0]), index_delete)
-                    if auc > best_auc:
-                        best_auc = auc
-                        best_adj = cur_adj.detach()      
-
-                self.modified_adj = best_adj.detach()
-        
 
         return 0, 0, 0, 0
 
@@ -600,16 +516,25 @@ class PGDAttack(BaseAttack):
     def dot_product_decode(self, Z):
         Z = F.normalize(Z, p=2, dim=1)
         A_pred = torch.relu(torch.matmul(Z, Z.t()))
-        #A_pred = torch.matmul(Z, Z.t())
         tril_indices = torch.tril_indices(row=self.nnodes, col=self.nnodes, offset=-1)
         return A_pred[tril_indices[0], tril_indices[1]]
-
+    
     def dot_product_decode2(self, Z):
-        Z = F.normalize(Z, p=2, dim=1)
-        Z = torch.matmul(Z, Z.t())
-        adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+        if self.args.dataset == 'cora' or self.args.dataset == 'citeseer':
+            Z = torch.matmul(Z, Z.t())
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            adj = torch.sigmoid(adj)
+            
+        if self.args.dataset == 'brazil' or self.args.dataset == 'usair' or self.args.dataset == 'pulblogs':
+            Z = F.normalize(Z, p=2, dim=1)
+            Z = torch.matmul(Z, Z.t()).to(self.device)
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+   
+        if self.args.dataset == 'AIDS' :
+            Z = torch.matmul(Z, Z.t())
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+        
         return adj
-
     def delete_eye(self, A):
         complementary = torch.ones_like(A) - torch.eye(self.nnodes).to(self.device)
         A = A*complementary

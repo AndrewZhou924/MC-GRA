@@ -2,7 +2,6 @@ from calendar import c
 from importlib.metadata import requires
 from math import dist
 from pyexpat import features
-#from types import NoneType
 import numpy as np
 import scipy.sparse as sp
 import torch
@@ -34,7 +33,6 @@ def metric(ori_adj, inference_adj, idx, index_delete):
     #index_delete = np.random.choice(index, size=int(len(real_edge)-2*np.sum(real_edge)), replace=False)
     real_edge = np.delete(real_edge, index_delete)
     pred_edge = np.delete(pred_edge, index_delete)
-    #print("Inference attack AUC: %f AP: %f" % (auc(fpr, tpr), average_precision_score(real_edge, pred_edge)))
     return auroc(pred_edge, real_edge)
 
 
@@ -162,10 +160,7 @@ class PGDAttack(BaseAttack):
         adj_tmp = torch.eye(adj_norm.shape[0]).to(self.device)
         em = self.embedding(ori_features, adj_tmp)
         adj_changes = self.dot_product_decode(em)
-        #self.adj_changes.value=adj_changes.detach()
         embedd_adj = self.get_modified_adj2(ori_adj,adj_changes).detach()
-        #ori_adj = embedd_adj.detach()
-        #self.adj_changes.data.copy_(adj_changes)
 
 
         # select the nodes for attack while calculating aux loss
@@ -185,7 +180,6 @@ class PGDAttack(BaseAttack):
             w7=args.w8
             w9=args.w9
             w10=args.w10
-            #args.measure = args.measure2
             lr=args.lr
         for t in tqdm(range(epochs)):
             optimizer.zero_grad()
@@ -214,7 +208,6 @@ class PGDAttack(BaseAttack):
             modified_adj1 = self.get_modified_adj_after(ori_adj)
             adj_norm2 = utils.normalize_adj_tensor(modified_adj1)
             
-            #calc = KLDivLoss(reduction="batchmean")
             CKA = CudaCKA(device=self.device)
             calc = CKA.linear_HSIC
             calc2=MSELoss()
@@ -325,12 +318,8 @@ class PGDAttack(BaseAttack):
                 exit()
                 break
             loss.backward()
-            #adj_grad = -torch.autograd.grad(loss, self.adj_changes)[0]
 
             if self.loss_type == 'CE':
-                if sample:
-                    lr = 200 / np.sqrt(t + 1)
-                #self.adj_changes.data.add_(lr * adj_grad)
                 optimizer.step()
             if torch.isnan(self.adj_changes).sum()>0:
                 print("now at:" , t)
@@ -393,7 +382,6 @@ class PGDAttack(BaseAttack):
                      output[np.arange(len(output)), best_second_class]
             k = 0
             loss = -torch.clamp(margin, min=k).mean()
-            # loss = torch.clamp(margin.sum()+50, min=k)
         return loss
 
 
@@ -472,13 +460,11 @@ class PGDAttack(BaseAttack):
     def dot_product_decode(self, Z):
         Z = F.normalize(Z, p=2, dim=1)
         A_pred = torch.relu(torch.matmul(Z, Z.t()))
-        #A_pred = torch.matmul(Z, Z.t())
         tril_indices = torch.tril_indices(row=self.nnodes, col=self.nnodes, offset=-1)
         return A_pred[tril_indices[0], tril_indices[1]]
     
     def dot_product_decode2(self, Z):
         if self.args.dataset == 'cora' or self.args.dataset == 'citeseer':
-            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
             adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
             adj = torch.sigmoid(adj)
@@ -487,13 +473,10 @@ class PGDAttack(BaseAttack):
             Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t()).to(self.device)
             adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            # adj = torch.sigmoid(adj)
    
         if self.args.dataset == 'AIDS' :
-            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
             adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            # adj = torch.sigmoid(adj)
         
         return adj
 
