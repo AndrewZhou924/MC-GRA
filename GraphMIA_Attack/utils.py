@@ -1,13 +1,14 @@
+import math
+
+import networkx as nx
 import numpy as np
 import scipy.sparse as sp
 import torch
-from sklearn.model_selection import train_test_split
-import torch.sparse as ts
+import torch.nn as nn
 import torch.nn.functional as F
-import networkx as nx
-from grakel import Graph
-from grakel.kernels import ShortestPath, WeisfeilerLehman, VertexHistogram, WeisfeilerLehmanOptimalAssignment
-import numpy as np
+import torch.sparse as ts
+from sklearn.model_selection import train_test_split
+
 
 def encode_onehot(labels):
     """Convert label to onehot format.
@@ -25,6 +26,7 @@ def encode_onehot(labels):
     eye = np.eye(labels.max() + 1)
     onehot_mx = eye[labels]
     return onehot_mx
+
 
 def tensor2onehot(labels):
     """Convert label tensor to label onehot tensor.
@@ -45,7 +47,8 @@ def tensor2onehot(labels):
     onehot_mx = eye[labels]
     return onehot_mx.to(labels.device)
 
-def preprocess(adj, features, labels, preprocess_adj=False, preprocess_feature=False, onehot_feature= False,sparse=False, device='cpu'):
+
+def preprocess(adj, features, labels, preprocess_adj=False, preprocess_feature=False, onehot_feature=False, sparse=False, device='cpu'):
     """Convert adj, features, labels from array or sparse matrix to
     torch Tensor, and normalize the input data.
 
@@ -78,13 +81,14 @@ def preprocess(adj, features, labels, preprocess_adj=False, preprocess_feature=F
         adj = sparse_mx_to_torch_sparse_tensor(adj)
         features = sparse_mx_to_torch_sparse_tensor(features)
     else:
-        if onehot_feature==True:
+        if onehot_feature == True:
             features = torch.eye(features.shape[0])
         else:
             features = torch.FloatTensor(np.array(features.todense()))
         adj = torch.FloatTensor(adj.todense())
 
     return adj.to(device), features.to(device), labels.to(device)
+
 
 def to_tensor(adj, features, labels=None, device='cpu'):
     """Convert adj, features, labels from array or sparse matrix to
@@ -116,6 +120,7 @@ def to_tensor(adj, features, labels=None, device='cpu'):
         labels = torch.LongTensor(labels)
         return adj.to(device), features.to(device), labels.to(device)
 
+
 def normalize_feature(mx):
     """Row-normalize sparse matrix
 
@@ -138,6 +143,7 @@ def normalize_feature(mx):
     mx = r_mat_inv.dot(mx)
     return mx
 
+
 def normalize_adj(mx):
     """Normalize sparse adjacency matrix,
     A' = (D + I)^-1/2 * ( A + I ) * (D + I)^-1/2
@@ -156,7 +162,7 @@ def normalize_adj(mx):
 
     if type(mx) is not sp.lil.lil_matrix:
         mx = mx.tolil()
-    if mx[0, 0] == 0 :
+    if mx[0, 0] == 0:
         mx = mx + sp.eye(mx.shape[0])
     rowsum = np.array(mx.sum(1))
     r_inv = np.power(rowsum, -1/2).flatten()
@@ -166,14 +172,15 @@ def normalize_adj(mx):
     mx = mx.dot(r_mat_inv)
     return mx
 
+
 def normalize_sparse_tensor(adj, fill_value=1):
     """Normalize sparse tensor. Need to import torch_scatter
     """
     edge_index = adj._indices()
     edge_weight = adj._values()
-    num_nodes= adj.size(0)
+    num_nodes = adj.size(0)
     edge_index, edge_weight = add_self_loops(
-    edge_index, edge_weight, fill_value, num_nodes)
+        edge_index, edge_weight, fill_value, num_nodes)
 
     row, col = edge_index
     from torch_scatter import scatter_add
@@ -185,6 +192,7 @@ def normalize_sparse_tensor(adj, fill_value=1):
 
     shape = adj.shape
     return torch.sparse.FloatTensor(edge_index, values, shape)
+
 
 def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
     # num_nodes = maybe_num_nodes(edge_index, num_nodes)
@@ -201,6 +209,7 @@ def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
     edge_index = torch.cat([edge_index, loop_index], dim=1)
 
     return edge_index, edge_weight
+
 
 def normalize_adj_tensor(adj, sparse=False):
     """Normalize adjacency tensor matrix.
@@ -223,10 +232,11 @@ def normalize_adj_tensor(adj, sparse=False):
         mx = mx @ r_mat_inv
     return mx
 
+
 def degree_normalize_adj(mx):
     """Row-normalize sparse matrix"""
     mx = mx.tolil()
-    if mx[0, 0] == 0 :
+    if mx[0, 0] == 0:
         mx = mx + sp.eye(mx.shape[0])
     rowsum = np.array(mx.sum(1))
     r_inv = np.power(rowsum, -1).flatten()
@@ -236,15 +246,16 @@ def degree_normalize_adj(mx):
     mx = r_mat_inv.dot(mx)
     return mx
 
+
 def degree_normalize_sparse_tensor(adj, fill_value=1):
     """degree_normalize_sparse_tensor.
     """
     edge_index = adj._indices()
     edge_weight = adj._values()
-    num_nodes= adj.size(0)
+    num_nodes = adj.size(0)
 
     edge_index, edge_weight = add_self_loops(
-    edge_index, edge_weight, fill_value, num_nodes)
+        edge_index, edge_weight, fill_value, num_nodes)
 
     row, col = edge_index
     from torch_scatter import scatter_add
@@ -255,6 +266,7 @@ def degree_normalize_sparse_tensor(adj, fill_value=1):
     values = deg_inv_sqrt[row] * edge_weight
     shape = adj.shape
     return torch.sparse.FloatTensor(edge_index, values, shape)
+
 
 def degree_normalize_adj_tensor(adj, sparse=True):
     """degree_normalize_adj_tensor.
@@ -274,6 +286,7 @@ def degree_normalize_adj_tensor(adj, sparse=True):
         r_mat_inv = torch.diag(r_inv)
         mx = r_mat_inv @ mx
     return mx
+
 
 def accuracy(output, labels):
     """Return accuracy of output compared to labels.
@@ -299,18 +312,21 @@ def accuracy(output, labels):
     correct = correct.sum()
     return correct / len(labels)
 
+
 def loss_acc(output, labels, targets, avg_loss=True):
     if type(labels) is not torch.Tensor:
         labels = torch.LongTensor(labels)
     preds = output.max(1)[1].type_as(labels)
     correct = preds.eq(labels).double()[targets]
-    loss = F.nll_loss(output[targets], labels[targets], reduction='mean' if avg_loss else 'none')
+    loss = F.nll_loss(output[targets], labels[targets],
+                      reduction='mean' if avg_loss else 'none')
 
     if avg_loss:
         return loss, correct.sum() / len(targets)
     return loss, correct
     # correct = correct.sum()
     # return loss, correct / len(labels)
+
 
 def classification_margin(output, true_label):
     """Calculate classification margin for outputs.
@@ -335,6 +351,7 @@ def classification_margin(output, true_label):
     probs_best_second_class = probs[probs.argmax()]
     return (probs_true_label - probs_best_second_class).item()
 
+
 def sparse_mx_to_torch_sparse_tensor(sparse_mx):
     """Convert a scipy sparse matrix to a torch sparse tensor."""
     sparse_mx = sparse_mx.tocoo().astype(np.float32)
@@ -343,6 +360,7 @@ def sparse_mx_to_torch_sparse_tensor(sparse_mx):
     values = torch.from_numpy(sparse_mx.data)
     shape = torch.Size(sparse_mx.shape)
     return torch.sparse.FloatTensor(indices, values, shape)
+
 
 def to_scipy(tensor):
     """Convert a dense/sparse tensor to scipy matrix"""
@@ -354,6 +372,7 @@ def to_scipy(tensor):
         indices = tensor.nonzero().t()
         values = tensor[indices[0], indices[1]]
         return sp.csr_matrix((values.cpu().numpy(), indices.cpu().numpy()), shape=tensor.shape)
+
 
 def is_sparse_tensor(tensor):
     """Check if a tensor is sparse tensor.
@@ -373,6 +392,7 @@ def is_sparse_tensor(tensor):
         return True
     else:
         return False
+
 
 def get_train_val_test(nnodes, val_size=0.1, test_size=0.8, stratify=None, seed=None):
     """This setting follows nettack/mettack, where we split the nodes
@@ -419,11 +439,14 @@ def get_train_val_test(nnodes, val_size=0.1, test_size=0.8, stratify=None, seed=
 
     idx_train, idx_val = train_test_split(idx_train_and_val,
                                           random_state=None,
-                                          train_size=(train_size / (train_size + val_size)),
-                                          test_size=(val_size / (train_size + val_size)),
+                                          train_size=(
+                                              train_size / (train_size + val_size)),
+                                          test_size=(
+                                              val_size / (train_size + val_size)),
                                           stratify=stratify)
 
     return idx_train, idx_val, idx_test
+
 
 def get_train_test(nnodes, test_size=0.8, stratify=None, seed=None):
     """This function returns training and test set without validation.
@@ -455,11 +478,12 @@ def get_train_test(nnodes, test_size=0.8, stratify=None, seed=None):
     idx = np.arange(nnodes)
     train_size = 1 - test_size
     idx_train, idx_test = train_test_split(idx, random_state=None,
-                                                train_size=train_size,
-                                                test_size=test_size,
-                                                stratify=stratify)
+                                           train_size=train_size,
+                                           test_size=test_size,
+                                           stratify=stratify)
 
     return idx_train, idx_test
+
 
 def get_train_val_test_gcn(labels, seed=None):
     """This setting follows gcn, where we randomly sample 20 instances for each class
@@ -491,15 +515,17 @@ def get_train_val_test_gcn(labels, seed=None):
     idx_train = []
     idx_unlabeled = []
     for i in range(nclass):
-        labels_i = idx[labels==i]
+        labels_i = idx[labels == i]
         labels_i = np.random.permutation(labels_i)
         idx_train = np.hstack((idx_train, labels_i[: 20])).astype(np.int)
-        idx_unlabeled = np.hstack((idx_unlabeled, labels_i[20: ])).astype(np.int)
+        idx_unlabeled = np.hstack(
+            (idx_unlabeled, labels_i[20:])).astype(np.int)
 
     idx_unlabeled = np.random.permutation(idx_unlabeled)
     idx_val = idx_unlabeled[: len(idx_unlabeled)//2]
-    idx_test = idx_unlabeled[len(idx_unlabeled)//2 :]
+    idx_test = idx_unlabeled[len(idx_unlabeled)//2:]
     return idx_train, idx_val, idx_test
+
 
 def get_train_test_labelrate(labels, label_rate):
     """Get train test according to given label rate.
@@ -507,8 +533,10 @@ def get_train_test_labelrate(labels, label_rate):
     nclass = labels.max() + 1
     train_size = int(round(len(labels) * label_rate / nclass))
     print("=== train_size = %s ===" % train_size)
-    idx_train, idx_val, idx_test = get_splits_each_class(labels, train_size=train_size)
+    idx_train, idx_val, idx_test = get_splits_each_class(
+        labels, train_size=train_size)
     return idx_train, idx_test
+
 
 def get_splits_each_class(labels, train_size):
     """We randomly sample n instances for class, where n = train_size.
@@ -519,14 +547,17 @@ def get_splits_each_class(labels, train_size):
     idx_val = []
     idx_test = []
     for i in range(nclass):
-        labels_i = idx[labels==i]
+        labels_i = idx[labels == i]
         labels_i = np.random.permutation(labels_i)
-        idx_train = np.hstack((idx_train, labels_i[: train_size])).astype(np.int)
-        idx_val = np.hstack((idx_val, labels_i[train_size: 2*train_size])).astype(np.int)
-        idx_test = np.hstack((idx_test, labels_i[2*train_size: ])).astype(np.int)
+        idx_train = np.hstack(
+            (idx_train, labels_i[: train_size])).astype(np.int)
+        idx_val = np.hstack(
+            (idx_val, labels_i[train_size: 2*train_size])).astype(np.int)
+        idx_test = np.hstack(
+            (idx_test, labels_i[2*train_size:])).astype(np.int)
 
     return np.random.permutation(idx_train), np.random.permutation(idx_val), \
-           np.random.permutation(idx_test)
+        np.random.permutation(idx_test)
 
 
 def unravel_index(index, array_shape):
@@ -540,6 +571,7 @@ def get_degree_squence(adj):
         return adj.sum(0)
     except:
         return ts.sum(adj, dim=1).to_dense()
+
 
 def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, d_min, threshold=0.004):
     """
@@ -555,13 +587,17 @@ def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, 
     original_degree_sequence = original_adjacency.sum(0)
     current_degree_sequence = modified_adjacency.sum(0)
 
-    concat_degree_sequence = torch.cat((current_degree_sequence, original_degree_sequence))
+    concat_degree_sequence = torch.cat(
+        (current_degree_sequence, original_degree_sequence))
 
     # Compute the log likelihood values of the original, modified, and combined degree sequences.
-    ll_orig, alpha_orig, n_orig, sum_log_degrees_original = degree_sequence_log_likelihood(original_degree_sequence, d_min)
-    ll_current, alpha_current, n_current, sum_log_degrees_current = degree_sequence_log_likelihood(current_degree_sequence, d_min)
+    ll_orig, alpha_orig, n_orig, sum_log_degrees_original = degree_sequence_log_likelihood(
+        original_degree_sequence, d_min)
+    ll_current, alpha_current, n_current, sum_log_degrees_current = degree_sequence_log_likelihood(
+        current_degree_sequence, d_min)
 
-    ll_comb, alpha_comb, n_comb, sum_log_degrees_combined = degree_sequence_log_likelihood(concat_degree_sequence, d_min)
+    ll_comb, alpha_comb, n_comb, sum_log_degrees_combined = degree_sequence_log_likelihood(
+        concat_degree_sequence, d_min)
 
     # Compute the log likelihood ratio
     current_ratio = -2 * ll_comb + 2 * (ll_orig + ll_current)
@@ -573,15 +609,18 @@ def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, 
     # Combination of the original degree distribution with the distributions corresponding to each node pair.
     n_combined = n_orig + new_ns
     new_sum_log_degrees_combined = sum_log_degrees_original + new_sum_log_degrees
-    alpha_combined = compute_alpha(n_combined, new_sum_log_degrees_combined, d_min)
-    new_ll_combined = compute_log_likelihood(n_combined, alpha_combined, new_sum_log_degrees_combined, d_min)
+    alpha_combined = compute_alpha(
+        n_combined, new_sum_log_degrees_combined, d_min)
+    new_ll_combined = compute_log_likelihood(
+        n_combined, alpha_combined, new_sum_log_degrees_combined, d_min)
     new_ratios = -2 * new_ll_combined + 2 * (new_lls + ll_orig)
 
     # Allowed edges are only those for which the resulting likelihood ratio measure is < than the threshold
     allowed_edges = new_ratios < threshold
 
     if allowed_edges.is_cuda:
-        filtered_edges = node_pairs[allowed_edges.cpu().numpy().astype(np.bool)]
+        filtered_edges = node_pairs[allowed_edges.cpu(
+        ).numpy().astype(np.bool)]
     else:
         filtered_edges = node_pairs[allowed_edges.numpy().astype(np.bool)]
 
@@ -608,6 +647,7 @@ def degree_sequence_log_likelihood(degree_sequence, d_min):
     ll = compute_log_likelihood(n, alpha, sum_log_degrees, d_min)
     return ll, alpha, n, sum_log_degrees
 
+
 def updated_log_likelihood_for_edge_changes(node_pairs, adjacency_matrix, d_min):
     # For each node pair find out whether there is an edge or not in the input adjacency matrix.
 
@@ -622,11 +662,13 @@ def updated_log_likelihood_for_edge_changes(node_pairs, adjacency_matrix, d_min)
     d_edges_after = degree_sequence[node_pairs] + deltas[:, None]
 
     # Sum the log of the degrees after the potential changes which are >= d_min
-    sum_log_degrees_after, new_n = update_sum_log_degrees(sum_log_degrees, n, d_edges_before, d_edges_after, d_min)
+    sum_log_degrees_after, new_n = update_sum_log_degrees(
+        sum_log_degrees, n, d_edges_before, d_edges_after, d_min)
     # Updated estimates of the Powerlaw exponents
     new_alpha = compute_alpha(new_n, sum_log_degrees_after, d_min)
     # Updated log likelihood values for the Powerlaw distributions
-    new_ll = compute_log_likelihood(new_n, new_alpha, sum_log_degrees_after, d_min)
+    new_ll = compute_log_likelihood(
+        new_n, new_alpha, sum_log_degrees_after, d_min)
     return new_ll, new_alpha, new_n, sum_log_degrees_after
 
 
@@ -639,29 +681,34 @@ def update_sum_log_degrees(sum_log_degrees_before, n_old, d_old, d_new, d_min):
 
     # Update the sum by subtracting the old values and then adding the updated logs of the degrees.
     sum_log_degrees_after = sum_log_degrees_before - (torch.log(torch.clamp(d_old_in_range, min=1))).sum(1) \
-                                 + (torch.log(torch.clamp(d_new_in_range, min=1))).sum(1)
+        + (torch.log(torch.clamp(d_new_in_range, min=1))).sum(1)
 
     # Update the number of degrees >= d_min
 
-    new_n = n_old - (old_in_range!=0).sum(1) + (new_in_range!=0).sum(1)
+    new_n = n_old - (old_in_range != 0).sum(1) + (new_in_range != 0).sum(1)
     new_n = new_n.float()
     return sum_log_degrees_after, new_n
 
+
 def compute_alpha(n, sum_log_degrees, d_min):
     try:
-        alpha =  1 + n / (sum_log_degrees - n * torch.log(d_min - 0.5))
+        alpha = 1 + n / (sum_log_degrees - n * torch.log(d_min - 0.5))
     except:
-        alpha =  1 + n / (sum_log_degrees - n * np.log(d_min - 0.5))
+        alpha = 1 + n / (sum_log_degrees - n * np.log(d_min - 0.5))
     return alpha
+
 
 def compute_log_likelihood(n, alpha, sum_log_degrees, d_min):
     # Log likelihood under alpha
     try:
-        ll = n * torch.log(alpha) + n * alpha * torch.log(d_min) + (alpha + 1) * sum_log_degrees
+        ll = n * torch.log(alpha) + n * alpha * \
+            torch.log(d_min) + (alpha + 1) * sum_log_degrees
     except:
-        ll = n * np.log(alpha) + n * alpha * np.log(d_min) + (alpha + 1) * sum_log_degrees
+        ll = n * np.log(alpha) + n * alpha * np.log(d_min) + \
+            (alpha + 1) * sum_log_degrees
 
     return ll
+
 
 def ravel_multiple_indices(ixs, shape, reverse=False):
     """
@@ -686,13 +733,6 @@ def ravel_multiple_indices(ixs, shape, reverse=False):
 
     return ixs[:, 0] * shape[1] + ixs[:, 1]
 
-def visualize(your_var):
-    """visualize computation graph"""
-    from graphviz import Digraph
-    import torch
-    from torch.autograd import Variable
-    from torchviz import make_dot
-    make_dot(your_var).view()
 
 def reshape_mx(mx, shape):
     indices = mx.nonzero()
@@ -703,7 +743,7 @@ def reshape_mx(mx, shape):
 #         os.system(f'mkdir -p {file_path}')
 
 
-## HSIC Part.
+# HSIC Part.
 def hsic_normalized_cca(x, y, sigma=5.0, ktype='gaussian'):
     m = int(x.size()[0])
     Kxc = kernelmat(x, sigma=sigma)
@@ -717,6 +757,7 @@ def hsic_normalized_cca(x, y, sigma=5.0, ktype='gaussian'):
     Pxy = torch.sum(torch.mul(Rx, Ry.t()))
     return Pxy
 
+
 def distmat(X):
     """ distance matrix
     """
@@ -726,6 +767,7 @@ def distmat(X):
     D = r.expand_as(a) - 2 * a + torch.transpose(r, 0, 1).expand_as(a)
     D = torch.abs(D)
     return D
+
 
 def sigma_estimation(X, Y):
     """ sigma from median distance
@@ -742,7 +784,6 @@ def sigma_estimation(X, Y):
     return med
 
 
-
 def kernelmat(X, sigma, ktype='gaussian'):
     """ kernel matrix baker
     """
@@ -752,8 +793,9 @@ def kernelmat(X, sigma, ktype='gaussian'):
         Dxx = distmat(X)
         if sigma:
             variance = 2. * sigma * sigma * X.size()[1]
-            Kx = torch.exp(-Dxx / variance).type(torch.FloatTensor)  # kernel matrices
-            #print(Kx.device)
+            # kernel matrices
+            Kx = torch.exp(-Dxx / variance).type(torch.FloatTensor)
+            # print(Kx.device)
             # print(sigma, torch.mean(Kx), torch.max(Kx), torch.min(Kx))
         else:
             try:
@@ -762,7 +804,6 @@ def kernelmat(X, sigma, ktype='gaussian'):
             except RuntimeError as e:
                 raise RuntimeError("Unstable sigma {} with maximum/minimum input ({},{})".format(
                     sx, torch.max(X), torch.min(X)))
-
 
     elif ktype == "linear":
         Kx = torch.mm(X, X.T).type(torch.FloatTensor)
@@ -774,6 +815,7 @@ def kernelmat(X, sigma, ktype='gaussian'):
     Kxc = torch.mm(Kx, H)
 
     return Kxc
+
 
 def pairwise_distances(x):
     # x should be two dimensional
@@ -793,8 +835,10 @@ def HSIC(x, y, s_x=1, s_y=1):
     H = torch.eye(m) - 1.0 / m * torch.ones((m, m))
     # H = H.double().cuda()
     H = H.to(x.device)
-    HSIC = torch.trace(torch.mm(L, torch.mm(H, torch.mm(K, H)))) / ((m - 1) ** 2)
+    HSIC = torch.trace(torch.mm(L, torch.mm(
+        H, torch.mm(K, H)))) / ((m - 1) ** 2)
     return HSIC
+
 
 class EMA():
     def __init__(self, model, decay):
@@ -812,7 +856,8 @@ class EMA():
         for name, param in self.model.named_parameters():
             if param.requires_grad:
                 assert name in self.shadow
-                new_average = (1.0 - self.decay) * param.data + self.decay * self.shadow[name]
+                new_average = (1.0 - self.decay) * param.data + \
+                    self.decay * self.shadow[name]
                 self.shadow[name] = new_average.clone()
 
     def apply_shadow(self):
@@ -830,200 +875,105 @@ class EMA():
         self.backup = {}
 
 
-####################################################### kernel similarity part #############################################
-def calc_similarity(G1 :nx.DiGraph, G2: nx.DiGraph) -> int:
-    edges1=G1.edges()
-    edges2=G2.edges()
-    node1=G1.nodes()
-    node2=G2.nodes()
-    gs=list()
-    y=list()
-    node_label={}
-    for x in node1:
-        node_label[x]=1
-    edge_label={}
-    for x in edges1:
-        edge_label[x]=1
-    gra=Graph(edges1, node_labels=node_label, edge_labels=edge_label)
-    gs.append(gra)
-    node_label={}
-    for x in node2:
-        node_label[x]=1
-    edge_label={}
-    for x in edges2:
-        edge_label[x]=1
-    gra=Graph(edges2, node_labels=node_label, edge_labels=edge_label)
-    gs.append(gra)
-    y.append(1)
-    y.append(2)
-    gk=WeisfeilerLehmanOptimalAssignment(normalize=True)
-    t=gk.fit_transform(gs)
-    #print(t)
-    ret=t[0][1]
-    return ret
-
-
-
-def GetKernelSimilarity(adj_gen, adj_true, idx_attack, idx_sel, thres=0.95, iter_times=10) -> int:
-
-# To calculate the similarity between Auxiliary graph and original graph
-# G0: adj_gen        G1: adj_true
-# G0[idx_attack] --> G1[random_sample]
-
-    adj_gen=(adj_gen>thres).int()
-    adj_gen=adj_gen[idx_attack,:]
-    adj_gen=adj_gen[:,idx_attack]
-    #adj_true=adj_true[idx_sel, :][:, idx_sel]
-    n=adj_gen.size()[0]
-    edge1=[]
-    edges=torch.nonzero(adj_gen).tolist()
-    for x in edges:
-        edge1.append((x[0],x[1],1))
-    G1 = nx.DiGraph()
-    G1.add_weighted_edges_from(edge1)
-    sum=0
-    for i in range(iter_times):
-        edge2=[]
-        idx_true=torch.randperm(adj_true.size()[0])
-        idx_true=idx_true[:n]
-        adj_tmp=adj_true[idx_true,:]
-        adj_tmp=adj_tmp[:,idx_true]
-        edges2=torch.nonzero(adj_tmp).tolist()
-        for x in edges2:
-            edge2.append((x[0],x[1],1))
-        G2=nx.DiGraph()
-        G2.add_weighted_edges_from(edge2)
-        sum+=calc_similarity(G1, G2)
-    
-    return sum/iter_times
-
-
-
-def GetSelfSimilarity(adj_gen, adj_true, idx_attack, idx_sel, thres=0.95, iter_times=10) -> int:
-
-# calculating the similarity between Generated Graph and Origin Graph
-# adj_gen            adj_true
-# G'[idx_attack] --> G[idx_sel]
-
-    adj_gen=(adj_gen>thres).int()
-    adj_gen=adj_gen[idx_attack,:]
-    adj_gen=adj_gen[:,idx_attack]
-    adj_true=adj_true[idx_sel, :][:, idx_sel]
-    n=adj_gen.size()[0]
-    edge1=[]
-    edges=torch.nonzero(adj_gen).tolist()
-    for x in edges:
-        edge1.append((x[0],x[1],1))
-    G1 = nx.DiGraph()
-    G1.add_weighted_edges_from(edge1)
-    sum=0
-    for i in range(1):
-        edge2=[]
-        adj_tmp=adj_true
-        edges2=torch.nonzero(adj_tmp).tolist()
-        for x in edges2:
-            edge2.append((x[0],x[1],1))
-        G2=nx.DiGraph()
-        G2.add_weighted_edges_from(edge2)
-        sum+=calc_similarity(G1, G2)
-    
-    return sum/1
-
-
-import torch.nn as nn
-
 class MMD_loss(nn.Module):
     def __init__(self, kernel_mul=2.0, kernel_num=5):
         super(MMD_loss, self).__init__()
-        self.kernel_num=kernel_num
-        self.kernel_mul=kernel_mul
-        self.fix_sigma=None
+        self.kernel_num = kernel_num
+        self.kernel_mul = kernel_mul
+        self.fix_sigma = None
         return
-    
+
     def gaussian_kernel(self, source, target, kernel_mul=2.0, kernel_num=5, fix_sigma=None):
         n_samples = int(source.size()[0])+int(target.size()[0])
         total = torch.cat([source, target], dim=0)
 
-        total0 = total.unsqueeze(0).expand(int(total.size(0)), int(total.size(0)), int(total.size(1)))
-        total1 = total.unsqueeze(1).expand(int(total.size(0)), int(total.size(0)), int(total.size(1)))
+        total0 = total.unsqueeze(0).expand(
+            int(total.size(0)), int(total.size(0)), int(total.size(1)))
+        total1 = total.unsqueeze(1).expand(
+            int(total.size(0)), int(total.size(0)), int(total.size(1)))
         L2_distance = ((total0-total1)**2).sum(2)
         if fix_sigma:
-            bandwitdh=fix_sigma
+            bandwitdh = fix_sigma
         else:
             bandwidth = torch.sum(L2_distance.data) / (n_samples**2-n_samples)
         bandwidth /= kernel_mul ** (kernel_num // 2)
-        bandwidth_list = [bandwidth * (kernel_mul**i) for i in range(kernel_num)]
-        kernel_val = [torch.exp(-L2_distance / bandwidth_temp) for bandwidth_temp in bandwidth_list]
+        bandwidth_list = [bandwidth * (kernel_mul**i)
+                          for i in range(kernel_num)]
+        kernel_val = [torch.exp(-L2_distance / bandwidth_temp)
+                      for bandwidth_temp in bandwidth_list]
         return sum(kernel_val)
 
-    
     def forward(self, source, target):
         batch_size = int(source.size()[0])
-        kernels = self.gaussian_kernel(source, target, kernel_mul=self.kernel_mul, kernel_num=self.kernel_num, fix_sigma=self.fix_sigma)
+        kernels = self.gaussian_kernel(
+            source, target, kernel_mul=self.kernel_mul, kernel_num=self.kernel_num, fix_sigma=self.fix_sigma)
         XX = kernels[:batch_size, :batch_size]
         YY = kernels[batch_size:, batch_size:]
         XY = kernels[:batch_size, batch_size:]
         YX = kernels[batch_size:, :batch_size]
-        loss = torch.mean(XX + YY - XY -YX)
+        loss = torch.mean(XX + YY - XY - YX)
         return loss
 
-def broadcast_values(x,y):
+
+def broadcast_values(x, y):
     """
     Utility function that make two tensors broadcastable
     Necessary for computing the kernel
     """
     length_x = len(x.shape)
     length_y = len(y.shape)
-    #if we consider the 1D dimension kernel 
-    if x.shape[-1]!= y.shape[-1]:
-        #reshaping for broadcasting
-        x_scaled = x.view(*x.shape,*([1]*length_y))
-        y_scaled = y.view(*([1]*length_x),*y.shape)
-        
-    # if we have multiple dimensions
-    elif length_x>1 and length_y>1:
-        x_scaled = x.view(*x.shape[:-1],*([1]*(length_y-1)),x.shape[-1])
-        y_scaled = y.view(*([1]*(length_x-1)),*y.shape)
+    # if we consider the 1D dimension kernel
+    if x.shape[-1] != y.shape[-1]:
+        # reshaping for broadcasting
+        x_scaled = x.view(*x.shape, *([1]*length_y))
+        y_scaled = y.view(*([1]*length_x), *y.shape)
 
-    #case x is 1D
-    elif length_x==1 and length_y>1:
-        x_scaled = x.view(*([1]*(length_y-1)),x.shape[0])
+    # if we have multiple dimensions
+    elif length_x > 1 and length_y > 1:
+        x_scaled = x.view(*x.shape[:-1], *([1]*(length_y-1)), x.shape[-1])
+        y_scaled = y.view(*([1]*(length_x-1)), *y.shape)
+
+    # case x is 1D
+    elif length_x == 1 and length_y > 1:
+        x_scaled = x.view(*([1]*(length_y-1)), x.shape[0])
         y_scaled = y
 
-    #case y is 1D
-    elif length_y==1 and length_x>1:
+    # case y is 1D
+    elif length_y == 1 and length_x > 1:
         x_scaled = x
-        y_scaled = y.view(*([1]*(length_x-1)),y.shape[0])
+        y_scaled = y.view(*([1]*(length_x-1)), y.shape[0])
 
-    #case are both 1D
+    # case are both 1D
     else:
-        x_scaled=x
-        y_scaled=y
+        x_scaled = x
+        y_scaled = y
 
+    return x_scaled, y_scaled
 
-    return x_scaled,y_scaled
 
 class GaussianKernel():
-    def __init__(self,sigmas, device):
+    def __init__(self, sigmas, device):
         """
         Simple version of the gaussian kernel with 
         """
         self.sigmas_square = sigmas**2
-        self.sigmas_square=self.sigmas_square.to(device)
-    def __call__(self,x,y=None):
+        self.sigmas_square = self.sigmas_square.to(device)
+
+    def __call__(self, x, y=None):
         if y is None:
             y = x
-        x,y = broadcast_values(x,y)
-        #print(x.shape)
-        #print(y.shape)
-        #print(self.sigmas_square)
-        #print(y)
+        x, y = broadcast_values(x, y)
+        # print(x.shape)
+        # print(y.shape)
+        # print(self.sigmas_square)
+        # print(y)
         L2 = (x-y)**2/self.sigmas_square
-        return torch.exp(torch.sum(-L2,dim=-1))
+        return torch.exp(torch.sum(-L2, dim=-1))
+
 
 class MMD_loss1(nn.Module):
-    def __init__(self,kernel):
-        super(MMD_loss,self).__init__()
+    def __init__(self, kernel):
+        super(MMD_loss, self).__init__()
         """
         Function to compute the MMD loss on two samples of data
         It only works for discrete distributions
@@ -1032,108 +982,107 @@ class MMD_loss1(nn.Module):
         """
         self.kernel = kernel
 
-    def forward(self,x,y):
-        complete = torch.cat([x,y],dim=0)
+    def forward(self, x, y):
+        complete = torch.cat([x, y], dim=0)
         kernel_complete = self.kernel(complete)
-        #print("kernel_complete=", kernel_complete)
+        # print("kernel_complete=", kernel_complete)
         size_x = x.shape[0]
-        kernel_x = kernel_complete[:size_x,:size_x]
-        kernel_y = kernel_complete[size_x:,size_x:]
+        kernel_x = kernel_complete[:size_x, :size_x]
+        kernel_y = kernel_complete[size_x:, size_x:]
 
-        kernel_xy = kernel_complete[:size_x,size_x:]
-        kernel_yx = kernel_complete[size_x:,:size_x]
+        kernel_xy = kernel_complete[:size_x, size_x:]
+        kernel_yx = kernel_complete[size_x:, :size_x]
 
-        #print(torch.mean(kernel_x) , torch.mean(kernel_y) , torch.mean(kernel_xy) , torch.mean(kernel_yx))
-        return torch.mean(kernel_x) + torch.mean(kernel_y) -torch.mean(kernel_xy) - torch.mean(kernel_yx)
+        # print(torch.mean(kernel_x) , torch.mean(kernel_y) , torch.mean(kernel_xy) , torch.mean(kernel_yx))
+        return torch.mean(kernel_x) + torch.mean(kernel_y) - torch.mean(kernel_xy) - torch.mean(kernel_yx)
 
 
 class MutualInformation(nn.Module):
 
-	def __init__(self, sigma=0.4, num_bins=256, normalize=True):
-		super(MutualInformation, self).__init__()
+    def __init__(self, sigma=0.4, num_bins=256, normalize=True):
+        super(MutualInformation, self).__init__()
 
-		self.sigma = 2*sigma**2
-		self.num_bins = num_bins
-		self.normalize = normalize
-		self.epsilon = 1e-10
+        self.sigma = 2*sigma**2
+        self.num_bins = num_bins
+        self.normalize = normalize
+        self.epsilon = 1e-10
 
-		self.bins = nn.Parameter(torch.linspace(0, num_bins, num_bins, device='cuda:0').float(), requires_grad=True)
+        self.bins = nn.Parameter(torch.linspace(
+            0, num_bins, num_bins, device='cuda:0').float(), requires_grad=True)
 
+    def marginalPdf(self, values):
 
-	def marginalPdf(self, values):
+        residuals = values - self.bins.unsqueeze(0).unsqueeze(0)
+        kernel_values = torch.exp(-0.5*(residuals / self.sigma).pow(2))
 
-		residuals = values - self.bins.unsqueeze(0).unsqueeze(0)
-		kernel_values = torch.exp(-0.5*(residuals / self.sigma).pow(2))
-		
-		pdf = torch.mean(kernel_values, dim=1)
-		normalization = torch.sum(pdf, dim=1).unsqueeze(1) + self.epsilon
-		pdf = pdf / normalization
-		
-		return pdf, kernel_values
+        pdf = torch.mean(kernel_values, dim=1)
+        normalization = torch.sum(pdf, dim=1).unsqueeze(1) + self.epsilon
+        pdf = pdf / normalization
 
+        return pdf, kernel_values
 
-	def jointPdf(self, kernel_values1, kernel_values2):
+    def jointPdf(self, kernel_values1, kernel_values2):
 
-		joint_kernel_values = torch.matmul(kernel_values1.transpose(1, 2), kernel_values2) 
-		normalization = torch.sum(joint_kernel_values, dim=(1,2)).view(-1, 1, 1) + self.epsilon
-		pdf = joint_kernel_values / normalization
+        joint_kernel_values = torch.matmul(
+            kernel_values1.transpose(1, 2), kernel_values2)
+        normalization = torch.sum(joint_kernel_values, dim=(
+            1, 2)).view(-1, 1, 1) + self.epsilon
+        pdf = joint_kernel_values / normalization
 
-		return pdf
+        return pdf
 
+    def getMutualInformation(self, input1, input2):
+        '''
+                input1: B, C, H, W
+                input2: B, C, H, W
+                return: scalar
+        '''
 
-	def getMutualInformation(self, input1, input2):
-		'''
-			input1: B, C, H, W
-			input2: B, C, H, W
-			return: scalar
-		'''
+        # Torch tensors for images between (0, 1)
+        # input1 = input1*255
+        # input2 = input2*255
 
-		# Torch tensors for images between (0, 1)
-		# input1 = input1*255
-		# input2 = input2*255
+        # B, C, H, W = input1.shape
+        # assert((input1.shape == input2.shape))
 
-		# B, C, H, W = input1.shape
-		# assert((input1.shape == input2.shape))
+        # x1 = input1.view(B, H*W, C)
+        # x2 = input2.view(B, H*W, C)
 
-		# x1 = input1.view(B, H*W, C)
-		# x2 = input2.view(B, H*W, C)
-		
-		pdf_x1, kernel_values1 = self.marginalPdf(input1)
-		pdf_x2, kernel_values2 = self.marginalPdf(input2)
-		pdf_x1x2 = self.jointPdf(kernel_values1, kernel_values2)
+        pdf_x1, kernel_values1 = self.marginalPdf(input1)
+        pdf_x2, kernel_values2 = self.marginalPdf(input2)
+        pdf_x1x2 = self.jointPdf(kernel_values1, kernel_values2)
 
-		H_x1 = -torch.sum(pdf_x1*torch.log2(pdf_x1 + self.epsilon), dim=1)
-		H_x2 = -torch.sum(pdf_x2*torch.log2(pdf_x2 + self.epsilon), dim=1)
-		H_x1x2 = -torch.sum(pdf_x1x2*torch.log2(pdf_x1x2 + self.epsilon), dim=(1,2))
+        H_x1 = -torch.sum(pdf_x1*torch.log2(pdf_x1 + self.epsilon), dim=1)
+        H_x2 = -torch.sum(pdf_x2*torch.log2(pdf_x2 + self.epsilon), dim=1)
+        H_x1x2 = -torch.sum(pdf_x1x2*torch.log2(pdf_x1x2 +
+                            self.epsilon), dim=(1, 2))
 
-		mutual_information = H_x1 + H_x2 - H_x1x2
-		
-		if self.normalize:
-			mutual_information = 2*mutual_information/(H_x1+H_x2)
+        mutual_information = H_x1 + H_x2 - H_x1x2
 
-		return mutual_information
+        if self.normalize:
+            mutual_information = 2*mutual_information/(H_x1+H_x2)
 
+        return mutual_information
 
-	def forward(self, input1, input2):
-		'''
-			input1: B, C, H, W
-			input2: B, C, H, W
-			return: scalar
-		'''
-		return self.getMutualInformation(input1, input2)
+    def forward(self, input1, input2):
+        '''
+                input1: B, C, H, W
+                input2: B, C, H, W
+                return: scalar
+        '''
+        return self.getMutualInformation(input1, input2)
 
-import math
 
 class CudaCKA(object):
     def __init__(self, device):
         self.device = device
-    
+
     def centering(self, K):
         n = K.shape[0]
         unit = torch.ones([n, n], device=self.device)
         I = torch.eye(n, device=self.device)
         H = I - unit / n
-        return torch.matmul(torch.matmul(H, K), H)  
+        return torch.matmul(torch.matmul(H, K), H)
 
     def rbf(self, X, sigma=None):
         GX = torch.matmul(X, X.T)
@@ -1150,7 +1099,7 @@ class CudaCKA(object):
 
     def linear_HSIC(self, X, Y):
         L_X = torch.matmul(X, X.T)
-        L_Y = torch.matmul(Y, Y.T)    
+        L_Y = torch.matmul(Y, Y.T)
         # L_Y = Y
         return torch.sum(self.centering(L_X) * self.centering(L_Y))
 
@@ -1168,16 +1117,15 @@ class CudaCKA(object):
         return hsic / (var1 * var2)
 
 
-
-Align_Parameter_Cora={
-    "c1":100,
-    "c2":1000,
-    "c3":100,
-    "c4":10,
-    "c5":10,
-    "c6":10,
-    "c7":10,
-    "c8":0.01,
-    "c9":1,
-    "c10":1,
+Align_Parameter_Cora = {
+    "c1": 100,
+    "c2": 1000,
+    "c3": 100,
+    "c4": 10,
+    "c5": 10,
+    "c6": 10,
+    "c7": 10,
+    "c8": 0.01,
+    "c9": 1,
+    "c10": 1,
 }
