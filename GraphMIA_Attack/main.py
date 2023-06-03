@@ -1,28 +1,23 @@
-import torch
-import numpy as np
-import torch.nn.functional as F
-import torch.optim as optim
-from models.gcn import GCN, embedding_GCN
-from models.gat import GAT, embedding_gat
-from models.graphsage import graphsage, embedding_graphsage
-from topology_attack import PGDAttack
-from utils import *
-from dataset import Dataset
 import argparse
-from sklearn.metrics import roc_curve, auc, average_precision_score
-import scipy.io as sio
+import os
 import random
-from hyperopt import hp
-from hyperopt import fmin, tpe, space_eval
-import baseline 
+from copy import deepcopy
+
+import baseline
 import gaussian_parameterized
 import gcn_parameterized
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
+import numpy as np
+import torch
+import torch.nn.functional as F
+from dataset import Dataset
+from models.gat import GAT, embedding_gat
+from models.gcn import GCN, embedding_GCN
+from models.graphsage import embedding_graphsage, graphsage
+from sklearn.metrics import auc, roc_curve
+from topology_attack import PGDAttack
 from tqdm import tqdm
-from copy import deepcopy
-from torchmetrics import AUROC
+from utils import *
+
 
 def test(adj, features, labels, victim_model):
     adj, features, labels = to_tensor(adj, features, labels, device=device)
@@ -82,6 +77,8 @@ def metric_pool(ori_adj, inference_adj, idx, index_delete):
     fpr, tpr, threshold = roc_curve(real_edge, pred_edge)
     real_edge = np.delete(real_edge, index_delete)
     pred_edge = np.delete(pred_edge, index_delete)
+    #print("Inference attack AUC: %f AP: %f" % (auc(fpr, tpr), average_precision_score(real_edge, pred_edge)))
+    #AP = average_precision_score(real_edge,pred_edge)
     AUC = auc(fpr, tpr)
     print(f"current auc={AUC}")
     return AUC
@@ -103,6 +100,7 @@ parser.add_argument('--nlayers', type=int, default=2, help="number of layers in 
 parser.add_argument('--arch', type=str, choices=["gcn","gat","sage"], default='gcn')
 parser.add_argument('--dataset', type=str, default='cora', 
                     choices=['cora', 'cora_ml', 'citeseer', 'polblogs', 'pubmed', 'AIDS', 'usair', 'brazil', 'chameleon', 'ENZYME', 'squirrel', 'ogb_arxiv'], help='dataset')
+                    #citseer pubmed
 parser.add_argument('--density', type=float, default=10000000.0, help='Edge density estimation')
 parser.add_argument('--model', type=str, default='PGD', choices=['PGD', 'min-max'], help='model variant')
 parser.add_argument('--nlabel', type=float, default=1.0)
@@ -154,7 +152,8 @@ idx_train, idx_val, idx_test = data.idx_train, data.idx_val, data.idx_test
 
 #choose the target nodes
 idx_attack = np.array(random.sample(range(adj.shape[0]), int(adj.shape[0]*args.nlabel)))
-
+# to recover the whole graph:
+#idx_attack=np.arange(adj.shape[0])
 
 num_edges = int(0.5 * args.density * adj.sum()/adj.shape[0]**2 * len(idx_attack)**2)
 
@@ -163,6 +162,7 @@ adj, features, labels = preprocess(adj, features, labels, preprocess_adj=False, 
 feature_adj = dot_product_decode(features)
 if args.nofeature:
     feature_adj = torch.eye(*feature_adj.size())
+#preprocess_adj = preprocess_Adj(adj, feature_adj)
 init_adj = torch.FloatTensor(init_adj.todense())
 # initial adj is set to zero matrix
 
@@ -232,7 +232,7 @@ H_A2 = embedding(features.to(device), adj.to(device))
 
 
 idx_attack = np.array(random.sample(range(adj.shape[0]), int(adj.shape[0]*args.nlabel)))
-
+        #idx_attack=np.arange(adj.shape[0])
 num_edges = int(0.5 * args.density * adj.sum()/adj.shape[0]**2 * len(idx_attack)**2)
 
 # Setup Attack Model
@@ -246,6 +246,8 @@ baseline_model=baseline_model.to(device)
 
 
 def objective(arg):
+    #auc0 = 1-gcn_reparameterize_attack(arg)
+    #print(args)
     ori_adj=adj.numpy()
     idx=idx_attack
     real_edge = ori_adj[idx, :][:, idx].reshape(-1)
@@ -281,6 +283,9 @@ def objective(arg):
     args.eps = arg["eps"]
     model = PGDAttack(model=victim_model, embedding=embedding,H_A= H_A2, Y_A=Y_A, nnodes=adj.shape[0], loss_type='CE', device=device)
     model = model.to(device)
+    # sim_gen_citeseer: the WL kernel similarity between recovery graph and aux graph(e.g. citeseer)
+    # sim_cora_citeseer: the WL kernel similarity between original graph(e.g. cora) and aux graph
+    # sim_gen_cora: the WL kernel similarity between recovery graph and origin graph
     model.attack(args, index_delete, 
                 lr, 0, weight_sup, weight_param, feature_adj, 0, 0, 
                 0, idx_train, idx_val, 
@@ -291,7 +296,9 @@ def objective(arg):
     auc = metric_pool(adj, inference_adj, idx_attack, index_delete)
     auc_train = metric_pool(adj, inference_adj, idx_train, index_delete_train)
     auc_all = metric_pool(adj, inference_adj, np.arange(adj.shape[0]), index_delete_all)
-    with open("./results/"+args.log_name, "a") as f:
+
+    os.makedirs("./results/", exist_ok=True)    
+    with open(os.path.join("./results", args.log_name), "a") as f:
         f.write(f"current parameter: {args}\n")
         f.write(f"In attack graph: AUC={auc}\t")
         f.write(f"In train graph: AUC={auc_train}\t")
