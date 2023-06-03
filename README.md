@@ -38,7 +38,6 @@ Empirically, we achieve state-of-the-art results on six datasets and three commo
 <p align="center"><em>Figure 2.</em> Recovered adjacency on Cora dataset.Green dots are correctly predicted edges while red dots are wrong ones.</p>
 
 ## Installation
-1.12.1+cu113
 We have tested our code on `Python 3.8` with `PyTorch 1.12.1`, `PyG 2.2.0` and `CUDA 11.3`. Please follow the following steps to create a virtual environment and install the required packages.
 
 Clone the repository:
