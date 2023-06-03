@@ -49,7 +49,7 @@ def dot_product_decode2(Z):
         adj = torch.relu(Z-torch.eye(Z.shape[0]))
         adj = torch.sigmoid(adj)
 
-    if args.dataset == 'brazil' or args.dataset == 'usair' or args.dataset == 'pulblogs':
+    if args.dataset == 'brazil' or args.dataset == 'usair' or args.dataset == 'polblogs':
         Z = F.normalize(Z, p=2, dim=1)
         Z = torch.matmul(Z, Z.t())
         adj = torch.relu(Z-torch.eye(Z.shape[0]))
