@@ -68,9 +68,6 @@ The full command and hyperparameters for MC-GRA can be found in [MC-GRA commands
 Prepare data
 ```bash
 cd GraphMIA_Attack
-mkdir -p saved_data
-mv saved_data.zip saved_data
-cd saved_data
 unzip saved_data.zip
 ```
 
