@@ -1,11 +1,25 @@
+import random
+from calendar import c
+from importlib.metadata import requires
+from math import dist, log10
+from random import randint, random
+from random import sample as Sample
+
 import matplotlib.pyplot as plt
+# from types import NoneType
 import numpy as np
 import scipy.sparse as sp
 import torch
 import utils
 from base_attack import BaseAttack
-from torch.nn import KLDivLoss, MSELoss
+from hsic import mmd, mmd_pxpy_pxy
+from pyexpat import features
+from sklearn.metrics import auc, average_precision_score, roc_curve
+from torch import optim
+from torch.nn import (CosineSimilarity, KLDivLoss, MarginRankingLoss, MSELoss,
+                      NLLLoss, Softmax)
 from torch.nn import functional as F
+from torch.nn.functional import normalize
 from torch.nn.parameter import Parameter
 from torchmetrics import AUROC
 from tqdm import tqdm
@@ -19,6 +33,7 @@ def metric(ori_adj, inference_adj, idx, index_delete):
     # index_delete = np.random.choice(index, size=int(len(real_edge)-2*np.sum(real_edge)), replace=False)
     real_edge = np.delete(real_edge, index_delete)
     pred_edge = np.delete(pred_edge, index_delete)
+    # print("Inference attack AUC: %f AP: %f" % (auc(fpr, tpr), average_precision_score(real_edge, pred_edge)))
     return auroc(pred_edge, real_edge)
 
 
@@ -151,12 +166,7 @@ class PGDAttack(BaseAttack):
         adj_tmp = torch.eye(adj_norm.shape[0]).to(self.device)
         em = self.embedding(ori_features, adj_tmp)
         adj_changes = self.dot_product_decode(em)
-        embedd_adj = self.get_modified_adj2(ori_adj, adj_changes).detach()
 
-        # select the nodes for attack while calculating aux loss
-        # idx_attack.shape=[270.]
-        ori_features_tmp = ori_features[idx_attack]
-        lr = lr_ori
         feature_adj = feature_adj.to(self.device)
         w1, w2, w3, w4, w5, w6, w7, w8, w9, w10 = weight_param
         if args.max_eval == 1:
@@ -170,34 +180,40 @@ class PGDAttack(BaseAttack):
             w7 = args.w8
             w9 = args.w9
             w10 = args.w10
+            # args.measure = args.measure2
             lr = args.lr
         for t in tqdm(range(epochs)):
             optimizer.zero_grad()
+            # ! ori_adj only ues it shape info
             modified_adj = self.get_modified_adj(ori_adj)
             modified_adj = self.adding_noise(modified_adj, args.eps)
             adj_norm = utils.normalize_adj_tensor(modified_adj)
             output = victim_model(ori_features, adj_norm)
             adj_tmp = torch.eye(adj_norm.shape[0]).to(self.device)
-            em = self.embedding(ori_features, adj_tmp)
+            em = self.embedding(ori_features, adj_tmp)  # * node embs
             adj_changes = self.dot_product_decode(em)
-            embedd_adj = self.get_modified_adj2(ori_adj, adj_changes).detach()
+            # embedd_adj = self.get_modified_adj2(ori_adj, adj_changes).detach()
 
             origin_loss = self._loss(output[idx_attack], labels[idx_attack]) + torch.norm(self.adj_changes,
                                                                                           p=2) * 0.001
             origin_loss_list.append(origin_loss.item())
             loss = weight_supervised*origin_loss
+
             self.embedding.set_layers(1)
             H_A1 = self.embedding(ori_features, adj)
             self.embedding.set_layers(2)
             H_A2 = self.embedding(ori_features, adj)
-            H_A = self.embedding(ori_features, adj)
+            # H_A = self.embedding(ori_features, adj)
             Y_A = victim_model(ori_features, adj)
+
             # calculating modified_adj after embedding model.
             em = self.embedding(ori_features, modified_adj-ori_adj)
+            # * difference between out_adj and ori_adj will relfect on node emb adj
             self.adj_changes_after = self.dot_product_decode(em)
             modified_adj1 = self.get_modified_adj_after(ori_adj)
-            adj_norm2 = utils.normalize_adj_tensor(modified_adj1)
+            # adj_norm2 = utils.normalize_adj_tensor(modified_adj1)
 
+            # calc = KLDivLoss(reduction="batchmean")
             CKA = CudaCKA(device=self.device)
             calc = CKA.linear_HSIC
             calc2 = MSELoss()
@@ -238,33 +254,6 @@ class PGDAttack(BaseAttack):
                     loss += -c2
                 else:
                     loss += c2
-            if w3 != 0:
-                c3 = w3 * calc(adj_norm, embedd_adj)*1000 * \
-                    Align_Parameter_Cora["c3"]
-                if args.measure == "KDE":
-                    loss += c3[0]
-                elif args.measure == "HSIC":
-                    loss += -c3
-                else:
-                    loss += c3
-            if w4 != 0 and feature_adj.max() != feature_adj.min():
-                c4 = w4 * calc(modified_adj1, feature_adj) * \
-                    1000*Align_Parameter_Cora["c4"]
-                if args.measure == "KDE":
-                    loss += c4[0]
-                elif args.measure == "HSIC":
-                    loss += -c4
-                else:
-                    loss += c4
-            if w5 != 0:
-                c5 = w5 * calc(modified_adj1, embedd_adj) * \
-                    1000*Align_Parameter_Cora["c5"]
-                if args.measure == "KDE":
-                    loss += c5[0]
-                elif args.measure == "HSIC":
-                    loss += -c5
-                else:
-                    loss += c5
             if w6 != 0:
                 c6 = w6 * Info_entropy(adj_norm)*100*Align_Parameter_Cora["c6"]
                 loss += c6
@@ -272,14 +261,6 @@ class PGDAttack(BaseAttack):
                 c7 = w7 * Info_entropy(modified_adj1) * \
                     Align_Parameter_Cora["c7"]
                 loss += c7
-            if w8 != 0:
-                c8 = w8 * torch.clamp(torch.sum(torch.abs(self.adj_changes)),
-                                      min=0.01)*0.0001*Align_Parameter_Cora["c8"]
-                loss += c8
-            self.embedding.set_layers(1)
-            em1 = self.embedding(ori_features, modified_adj - ori_adj)
-            self.embedding.set_layers(2)
-            em2 = self.embedding(ori_features, modified_adj - ori_adj)
             if w9 != 0:
                 num_layers = self.embedding.nlayer
                 for i in range(num_layers-1, num_layers):
@@ -328,6 +309,8 @@ class PGDAttack(BaseAttack):
             loss.backward()
 
             if self.loss_type == 'CE':
+                if sample:
+                    lr = 200 / np.sqrt(t + 1)
                 optimizer.step()
             if torch.isnan(self.adj_changes).sum() > 0:
                 print("now at:", t)
@@ -392,7 +375,6 @@ class PGDAttack(BaseAttack):
 
     def projection(self, num_edges):
         if torch.clamp(self.adj_changes, 0, 1).sum() > num_edges:
-            # print('high')
             left = (self.adj_changes - 1).min()
             right = self.adj_changes.max()
             miu = self.bisection(left, right, num_edges, epsilon=1e-5)
@@ -465,7 +447,6 @@ class PGDAttack(BaseAttack):
                 b = miu
             else:
                 a = miu
-        # print("The value of root is : ","%.4f" % miu)
         return miu
 
     def dot_product_decode(self, Z):
@@ -476,21 +457,25 @@ class PGDAttack(BaseAttack):
         return A_pred[tril_indices[0], tril_indices[1]]
 
     def dot_product_decode2(self, Z):
-        if self.args.dataset == 'cora' or self.args.dataset == 'citeseer':
+        if self.args.dataset in ['cora', 'citeseer']:
+            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
-            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            adj = torch.sigmoid(adj)
+            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            _adj = torch.sigmoid(_adj)
 
-        if self.args.dataset == 'brazil' or self.args.dataset == 'usair' or self.args.dataset == 'pulblogs':
+        elif self.args.dataset in ['polblogs', 'usair', 'brazil']:
             Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t()).to(self.device)
-            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            # adj = torch.sigmoid(adj)
 
-        if self.args.dataset == 'AIDS':
+        elif self.args.dataset == 'AIDS':
+            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
-            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            # adj = torch.sigmoid(adj)
 
-        return adj
+        return _adj
 
     def delete_eye(self, A):
         complementary = torch.ones_like(
