@@ -299,8 +299,8 @@ class PGDAttack(BaseAttack):
                 loss += c10
 
             test_acc = utils.accuracy(output[idx_attack], labels[idx_attack])
-            print("loss= {:.4f}".format(loss.item()),
-                  "test_accuracy= {:.4f}".format(test_acc.item()))
+            # print("loss= {:.4f}".format(loss.item()),
+            #       "test_accuracy= {:.4f}".format(test_acc.item()))
             if torch.isnan(loss):
                 print(args.measure)
                 print(weight_param)
