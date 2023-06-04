@@ -380,8 +380,8 @@ class PGDAttack(BaseAttack):
                 loss += c10
 
             test_acc = utils.accuracy(output[idx_attack], labels[idx_attack])
-            print("loss= {:.4f}".format(loss.item()),
-                  "test_accuracy= {:.4f}".format(test_acc.item()))
+            # print("loss= {:.4f}".format(loss.item()),
+            #       "test_accuracy= {:.4f}".format(test_acc.item()))
             if torch.isnan(loss):
                 print(args.measure)
                 print(weight_param)
@@ -533,21 +533,25 @@ class PGDAttack(BaseAttack):
         return A_pred[tril_indices[0], tril_indices[1]]
 
     def dot_product_decode2(self, Z):
-        if self.args.dataset == 'cora' or self.args.dataset == 'citeseer':
+        if self.args.dataset in ['cora', 'citeseer']:
+            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
-            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            adj = torch.sigmoid(adj)
+            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            _adj = torch.sigmoid(_adj)
 
-        if self.args.dataset == 'brazil' or self.args.dataset == 'usair' or self.args.dataset == 'polblogs':
+        elif self.args.dataset in ['polblogs', 'usair', 'brazil']:
             Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t()).to(self.device)
-            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            # adj = torch.sigmoid(adj)
 
-        if self.args.dataset == 'AIDS':
+        elif self.args.dataset == 'AIDS':
+            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
-            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            # adj = torch.sigmoid(adj)
 
-        return adj
+        return _adj
 
     def delete_eye(self, A):
         complementary = torch.ones_like(

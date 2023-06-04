@@ -1,0 +1,5 @@
+current parameter: Namespace(seed=15, epochs=100, lr=0.01, weight_decay=0.0005, hidden=16, dropout=0.5, nlayers=2, arch='gcn', dataset='cora', density=10000000.0, model='PGD', nlabel=1.0, iter=1, max_eval=100, log_name='result.txt', mode='evaluate', measure='HSIC', measure2='HSIC', nofeature=False, weight_aux=0, weight_sup=1, w1=0, w2=0, w3=0, w4=0, w5=0, w6=0, w7=0, w8=0, w9=0, w10=0, eps=0, useH_A=False, useY_A=False, useY=False, ensemble=False, add_noise=False, defense=False)
+In attack graph: AUC=0.8290250362383047	In train graph: AUC=0.8217778192830556	In Whole Graph: AUC=0.8290250362383047
+current density: 4.637238025665283
+image name: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0)_1_1.023292992280754.png
+============================================================================================
