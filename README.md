@@ -74,7 +74,7 @@ We provide examples for MC-GRA and MC-GPB to reproduce the results as follows.
 
 Prepare data
 ```bash
-cd GraphMIA_Attack
+cd MC-GRA
 unzip saved_data.zip
 ```
 
@@ -82,7 +82,7 @@ The full command and hyperparameters for MC-GRA can be found in [MC-GRA commands
 
 For example, to train the MC-GRA with given all three prior (i.e., $\mathcal{K}=[H_A, Y_A, Y]$) on Cora dataset: 
   ``` bash
-  cd GraphMIA_Attack
+  cd MC-GRA
   conda activate mc_gra
 
   python main.py --w1=0.01 --w6=10 --w7=10 --w9=10 --w10=1000 --lr=-2 --useH_A --useY_A --useY --measure=MSELoss --dataset=cora
@@ -93,7 +93,7 @@ The full command and hyperparameters for MC-GRA can be found in [MC-GPB commands
 
 For example, to train a general GNN with MC-GPB on Cora dataset: 
   ``` bash
-  cd GraphMIA_Defense
+  cd MC-GPB
   conda activate mc_gra
 
   python main_table.py --dataset=cora --aug_pe=0.17 --layer_MI=3.2 0.77 0.02 --layer_inter_MI=0.27 0.96 --device=cuda:0
