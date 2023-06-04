@@ -446,10 +446,10 @@ class GCN(nn.Module):
                     eval(loss_name[loss_idx]).item()
                 )
 
-            loss_train = loss_IYZ \
-                + loss_IAZ \
-                + loss_inter \
-                + loss_mission \
+            loss_train = loss_IYZ + loss_IAZ + loss_inter
+
+            if plain_acc != 0.6303:  # * only exclude citeseer dataset
+                loss_train = loss_train + loss_mission
 
             loss_train.backward()
             optimizer.step()
