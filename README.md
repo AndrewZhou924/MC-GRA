@@ -1,6 +1,7 @@
 
-<p align="center"><img src="./figs/logo-newbing.jpeg" width=30% height=30% ></p>
-<h1 align="center"> MC-GRA </h1>
+<p align="center"><img src="./figs/logo_with_name.png" width=90% height=60% ></p>
+<!-- <h1 align="center"> MC-GRA </h1> -->
+
 <!-- <p align="center">
     <a href="TODO: arxiv"><img src="https://img.shields.io/badge/-arXiv-grey?logo=gitbook&logoColor=white" alt="arXiv"></a>
     <a href="https://github.com/AndrewZhou924/MC-GRA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
@@ -29,15 +30,21 @@ Such two objectives disclose a critical belief that to recover better in attack,
 That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must Forget More.*
 
 <table><tr>
+<td><img src="./figs/fig1.png"></td>
+<td><img src="./figs/fig3.png"></td>
+</tr></table>
+<p align="center"><em>Figure 1.</em> Problem definition and method.</p>
+
+<table><tr>
 <td><img src="./figs/markov-attack.png"></td>
 <td><img src="./figs/markov-defense.png"></td>
 </tr></table>
-<p align="center"><em>Figure 1.</em> The workflow of MC-GRA(left) and MC-GPB(right).</p>
+<p align="center"><em>Figure 2.</em> The workflow of MC-GRA(left) and MC-GPB(right).</p>
 
 Empirically, we achieve state-of-the-art results on six datasets and three common GNNs (see exemplars below).
 
 <p align="center"><img src="./figs/adj-demo.png"></p>
-<p align="center"><em>Figure 2.</em> Recovered adjacency on Cora. Green dots are correctly predicted edges while red dots are wrong ones.</p>
+<p align="center"><em>Figure 3.</em> Recovered adjacency on Cora. Green dots are correctly predicted edges while red dots are wrong ones.</p>
 
 ## Installation
 We have tested our code on `Python 3.8` with `PyTorch 1.12.1`, `PyG 2.2.0` and `CUDA 11.3`. Please follow the following steps to create a virtual environment and install the required packages.
