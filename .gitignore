@@ -141,3 +141,5 @@ checkpoints/
 .history
 .vscode
 .DS_Store
+
+results

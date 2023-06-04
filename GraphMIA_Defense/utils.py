@@ -7,10 +7,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.sparse as ts
+from MI import MutualInformation
+from MI_constrain import CudaCKA
 from sklearn.model_selection import train_test_split
 from torch_geometric import utils
-
-from MI import MutualInformation
 
 
 def encode_onehot(labels):
@@ -29,6 +29,7 @@ def encode_onehot(labels):
     eye = np.eye(labels.max() + 1)
     onehot_mx = eye[labels]
     return onehot_mx
+
 
 def tensor2onehot(labels):
     """Convert label tensor to label onehot tensor.
@@ -49,7 +50,8 @@ def tensor2onehot(labels):
     onehot_mx = eye[labels]
     return onehot_mx.to(labels.device)
 
-def preprocess(adj, features, labels, preprocess_adj=False, preprocess_feature=False, onehot_feature= False,sparse=False, device='cpu'):
+
+def preprocess(adj, features, labels, preprocess_adj=False, preprocess_feature=False, onehot_feature=False, sparse=False, device='cpu'):
     """Convert adj, features, labels from array or sparse matrix to
     torch Tensor, and normalize the input data.
 
@@ -82,13 +84,14 @@ def preprocess(adj, features, labels, preprocess_adj=False, preprocess_feature=F
         adj = sparse_mx_to_torch_sparse_tensor(adj)
         features = sparse_mx_to_torch_sparse_tensor(features)
     else:
-        if onehot_feature==True:
+        if onehot_feature == True:
             features = torch.eye(features.shape[0])
         else:
             features = torch.FloatTensor(np.array(features.todense()))
         adj = torch.FloatTensor(adj.todense())
 
     return adj.to(device), features.to(device), labels.to(device)
+
 
 def to_tensor(adj, features, labels=None, device='cpu'):
     """Convert adj, features, labels from array or sparse matrix to
@@ -120,6 +123,7 @@ def to_tensor(adj, features, labels=None, device='cpu'):
         labels = torch.LongTensor(labels)
         return adj.to(device), features.to(device), labels.to(device)
 
+
 def normalize_feature(mx):
     """Row-normalize sparse matrix
 
@@ -142,6 +146,7 @@ def normalize_feature(mx):
     mx = r_mat_inv.dot(mx)
     return mx
 
+
 def normalize_adj(mx):
     """Normalize sparse adjacency matrix,
     A' = (D + I)^-1/2 * ( A + I ) * (D + I)^-1/2
@@ -160,7 +165,7 @@ def normalize_adj(mx):
 
     if type(mx) is not sp.lil.lil_matrix:
         mx = mx.tolil()
-    if mx[0, 0] == 0 :
+    if mx[0, 0] == 0:
         mx = mx + sp.eye(mx.shape[0])
     rowsum = np.array(mx.sum(1))
     r_inv = np.power(rowsum, -1/2).flatten()
@@ -170,14 +175,15 @@ def normalize_adj(mx):
     mx = mx.dot(r_mat_inv)
     return mx
 
+
 def normalize_sparse_tensor(adj, fill_value=1):
     """Normalize sparse tensor. Need to import torch_scatter
     """
     edge_index = adj._indices()
     edge_weight = adj._values()
-    num_nodes= adj.size(0)
+    num_nodes = adj.size(0)
     edge_index, edge_weight = add_self_loops(
-	edge_index, edge_weight, fill_value, num_nodes)
+        edge_index, edge_weight, fill_value, num_nodes)
 
     row, col = edge_index
     from torch_scatter import scatter_add
@@ -189,6 +195,7 @@ def normalize_sparse_tensor(adj, fill_value=1):
 
     shape = adj.shape
     return torch.sparse.FloatTensor(edge_index, values, shape)
+
 
 def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
     # num_nodes = maybe_num_nodes(edge_index, num_nodes)
@@ -206,14 +213,12 @@ def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
 
     return edge_index, edge_weight
 
+
 def normalize_adj_tensor(adj, sparse=False):
     """Normalize adjacency tensor matrix.
     """
     # device = torch.device("cuda:2" if adj.is_cuda else "cpu")
     if sparse:
-        # TODO if this is too slow, uncomment the following code,
-        # but you need to install torch_scatter
-        # return normalize_sparse_tensor(adj)
         adj = to_scipy(adj)
         mx = normalize_adj(adj)
         return sparse_mx_to_torch_sparse_tensor(mx).to(adj.deivce)
@@ -227,10 +232,11 @@ def normalize_adj_tensor(adj, sparse=False):
         mx = mx @ r_mat_inv
     return mx
 
+
 def degree_normalize_adj(mx):
     """Row-normalize sparse matrix"""
     mx = mx.tolil()
-    if mx[0, 0] == 0 :
+    if mx[0, 0] == 0:
         mx = mx + sp.eye(mx.shape[0])
     rowsum = np.array(mx.sum(1))
     r_inv = np.power(rowsum, -1).flatten()
@@ -240,15 +246,16 @@ def degree_normalize_adj(mx):
     mx = r_mat_inv.dot(mx)
     return mx
 
+
 def degree_normalize_sparse_tensor(adj, fill_value=1):
     """degree_normalize_sparse_tensor.
     """
     edge_index = adj._indices()
     edge_weight = adj._values()
-    num_nodes= adj.size(0)
+    num_nodes = adj.size(0)
 
     edge_index, edge_weight = add_self_loops(
-	edge_index, edge_weight, fill_value, num_nodes)
+        edge_index, edge_weight, fill_value, num_nodes)
 
     row, col = edge_index
     from torch_scatter import scatter_add
@@ -259,6 +266,7 @@ def degree_normalize_sparse_tensor(adj, fill_value=1):
     values = deg_inv_sqrt[row] * edge_weight
     shape = adj.shape
     return torch.sparse.FloatTensor(edge_index, values, shape)
+
 
 def degree_normalize_adj_tensor(adj, sparse=True):
     """degree_normalize_adj_tensor.
@@ -279,6 +287,7 @@ def degree_normalize_adj_tensor(adj, sparse=True):
         r_mat_inv = torch.diag(r_inv)
         mx = r_mat_inv @ mx
     return mx
+
 
 def accuracy(output, labels):
     """Return accuracy of output compared to labels.
@@ -304,18 +313,21 @@ def accuracy(output, labels):
     correct = correct.sum()
     return correct / len(labels)
 
+
 def loss_acc(output, labels, targets, avg_loss=True):
     if type(labels) is not torch.Tensor:
         labels = torch.LongTensor(labels)
     preds = output.max(1)[1].type_as(labels)
     correct = preds.eq(labels).double()[targets]
-    loss = F.nll_loss(output[targets], labels[targets], reduction='mean' if avg_loss else 'none')
+    loss = F.nll_loss(output[targets], labels[targets],
+                      reduction='mean' if avg_loss else 'none')
 
     if avg_loss:
         return loss, correct.sum() / len(targets)
     return loss, correct
     # correct = correct.sum()
     # return loss, correct / len(labels)
+
 
 def classification_margin(output, true_label):
     """Calculate classification margin for outputs.
@@ -340,6 +352,7 @@ def classification_margin(output, true_label):
     probs_best_second_class = probs[probs.argmax()]
     return (probs_true_label - probs_best_second_class).item()
 
+
 def sparse_mx_to_torch_sparse_tensor(sparse_mx):
     """Convert a scipy sparse matrix to a torch sparse tensor."""
     sparse_mx = sparse_mx.tocoo().astype(np.float32)
@@ -348,6 +361,7 @@ def sparse_mx_to_torch_sparse_tensor(sparse_mx):
     values = torch.from_numpy(sparse_mx.data)
     shape = torch.Size(sparse_mx.shape)
     return torch.sparse.FloatTensor(indices, values, shape)
+
 
 def to_scipy(tensor):
     """Convert a dense/sparse tensor to scipy matrix"""
@@ -359,6 +373,7 @@ def to_scipy(tensor):
         indices = tensor.nonzero().t()
         values = tensor[indices[0], indices[1]]
         return sp.csr_matrix((values.cpu().numpy(), indices.cpu().numpy()), shape=tensor.shape)
+
 
 def is_sparse_tensor(tensor):
     """Check if a tensor is sparse tensor.
@@ -378,6 +393,7 @@ def is_sparse_tensor(tensor):
         return True
     else:
         return False
+
 
 def get_train_val_test(nnodes, val_size=0.1, test_size=0.8, stratify=None, seed=None):
     """This setting follows nettack/mettack, where we split the nodes
@@ -424,11 +440,14 @@ def get_train_val_test(nnodes, val_size=0.1, test_size=0.8, stratify=None, seed=
 
     idx_train, idx_val = train_test_split(idx_train_and_val,
                                           random_state=None,
-                                          train_size=(train_size / (train_size + val_size)),
-                                          test_size=(val_size / (train_size + val_size)),
+                                          train_size=(
+                                              train_size / (train_size + val_size)),
+                                          test_size=(
+                                              val_size / (train_size + val_size)),
                                           stratify=stratify)
 
     return idx_train, idx_val, idx_test
+
 
 def get_train_test(nnodes, test_size=0.8, stratify=None, seed=None):
     """This function returns training and test set without validation.
@@ -460,11 +479,12 @@ def get_train_test(nnodes, test_size=0.8, stratify=None, seed=None):
     idx = np.arange(nnodes)
     train_size = 1 - test_size
     idx_train, idx_test = train_test_split(idx, random_state=None,
-                                                train_size=train_size,
-                                                test_size=test_size,
-                                                stratify=stratify)
+                                           train_size=train_size,
+                                           test_size=test_size,
+                                           stratify=stratify)
 
     return idx_train, idx_test
+
 
 def get_train_val_test_gcn(labels, seed=None):
     """This setting follows gcn, where we randomly sample 20 instances for each class
@@ -496,24 +516,28 @@ def get_train_val_test_gcn(labels, seed=None):
     idx_train = []
     idx_unlabeled = []
     for i in range(nclass):
-        labels_i = idx[labels==i]
+        labels_i = idx[labels == i]
         labels_i = np.random.permutation(labels_i)
         idx_train = np.hstack((idx_train, labels_i[: 20])).astype(np.int)
-        idx_unlabeled = np.hstack((idx_unlabeled, labels_i[20: ])).astype(np.int)
+        idx_unlabeled = np.hstack(
+            (idx_unlabeled, labels_i[20:])).astype(np.int)
 
     idx_unlabeled = np.random.permutation(idx_unlabeled)
     idx_val = idx_unlabeled[: len(idx_unlabeled)//2]
-    idx_test = idx_unlabeled[len(idx_unlabeled)//2: ]
+    idx_test = idx_unlabeled[len(idx_unlabeled)//2:]
     return idx_train, idx_val, idx_test
+
 
 def get_train_test_labelrate(labels, label_rate):
     """Get train test according to given label rate.
     """
     nclass = labels.max() + 1
     train_size = int(round(len(labels) * label_rate / nclass))
-    print("=== train_size = %s ===" % train_size)
-    idx_train, idx_val, idx_test = get_splits_each_class(labels, train_size=train_size)
+    # print("=== train_size = %s ===" % train_size)
+    idx_train, idx_val, idx_test = get_splits_each_class(
+        labels, train_size=train_size)
     return idx_train, idx_test
+
 
 def get_splits_each_class(labels, train_size):
     """We randomly sample n instances for class, where n = train_size.
@@ -524,14 +548,17 @@ def get_splits_each_class(labels, train_size):
     idx_val = []
     idx_test = []
     for i in range(nclass):
-        labels_i = idx[labels==i]
+        labels_i = idx[labels == i]
         labels_i = np.random.permutation(labels_i)
-        idx_train = np.hstack((idx_train, labels_i[: train_size])).astype(np.int)
-        idx_val = np.hstack((idx_val, labels_i[train_size: 2*train_size])).astype(np.int)
-        idx_test = np.hstack((idx_test, labels_i[2*train_size: ])).astype(np.int)
+        idx_train = np.hstack(
+            (idx_train, labels_i[: train_size])).astype(np.int)
+        idx_val = np.hstack(
+            (idx_val, labels_i[train_size: 2*train_size])).astype(np.int)
+        idx_test = np.hstack(
+            (idx_test, labels_i[2*train_size:])).astype(np.int)
 
     return np.random.permutation(idx_train), np.random.permutation(idx_val), \
-           np.random.permutation(idx_test)
+        np.random.permutation(idx_test)
 
 
 def unravel_index(index, array_shape):
@@ -545,6 +572,7 @@ def get_degree_squence(adj):
         return adj.sum(0)
     except:
         return ts.sum(adj, dim=1).to_dense()
+
 
 def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, d_min, threshold=0.004):
     """
@@ -560,13 +588,17 @@ def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, 
     original_degree_sequence = original_adjacency.sum(0)
     current_degree_sequence = modified_adjacency.sum(0)
 
-    concat_degree_sequence = torch.cat((current_degree_sequence, original_degree_sequence))
+    concat_degree_sequence = torch.cat(
+        (current_degree_sequence, original_degree_sequence))
 
     # Compute the log likelihood values of the original, modified, and combined degree sequences.
-    ll_orig, alpha_orig, n_orig, sum_log_degrees_original = degree_sequence_log_likelihood(original_degree_sequence, d_min)
-    ll_current, alpha_current, n_current, sum_log_degrees_current = degree_sequence_log_likelihood(current_degree_sequence, d_min)
+    ll_orig, alpha_orig, n_orig, sum_log_degrees_original = degree_sequence_log_likelihood(
+        original_degree_sequence, d_min)
+    ll_current, alpha_current, n_current, sum_log_degrees_current = degree_sequence_log_likelihood(
+        current_degree_sequence, d_min)
 
-    ll_comb, alpha_comb, n_comb, sum_log_degrees_combined = degree_sequence_log_likelihood(concat_degree_sequence, d_min)
+    ll_comb, alpha_comb, n_comb, sum_log_degrees_combined = degree_sequence_log_likelihood(
+        concat_degree_sequence, d_min)
 
     # Compute the log likelihood ratio
     current_ratio = -2 * ll_comb + 2 * (ll_orig + ll_current)
@@ -578,15 +610,18 @@ def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, 
     # Combination of the original degree distribution with the distributions corresponding to each node pair.
     n_combined = n_orig + new_ns
     new_sum_log_degrees_combined = sum_log_degrees_original + new_sum_log_degrees
-    alpha_combined = compute_alpha(n_combined, new_sum_log_degrees_combined, d_min)
-    new_ll_combined = compute_log_likelihood(n_combined, alpha_combined, new_sum_log_degrees_combined, d_min)
+    alpha_combined = compute_alpha(
+        n_combined, new_sum_log_degrees_combined, d_min)
+    new_ll_combined = compute_log_likelihood(
+        n_combined, alpha_combined, new_sum_log_degrees_combined, d_min)
     new_ratios = -2 * new_ll_combined + 2 * (new_lls + ll_orig)
 
     # Allowed edges are only those for which the resulting likelihood ratio measure is < than the threshold
     allowed_edges = new_ratios < threshold
 
     if allowed_edges.is_cuda:
-        filtered_edges = node_pairs[allowed_edges.cpu().numpy().astype(np.bool)]
+        filtered_edges = node_pairs[allowed_edges.cpu(
+        ).numpy().astype(np.bool)]
     else:
         filtered_edges = node_pairs[allowed_edges.numpy().astype(np.bool)]
 
@@ -613,6 +648,7 @@ def degree_sequence_log_likelihood(degree_sequence, d_min):
     ll = compute_log_likelihood(n, alpha, sum_log_degrees, d_min)
     return ll, alpha, n, sum_log_degrees
 
+
 def updated_log_likelihood_for_edge_changes(node_pairs, adjacency_matrix, d_min):
     # For each node pair find out whether there is an edge or not in the input adjacency matrix.
 
@@ -627,11 +663,13 @@ def updated_log_likelihood_for_edge_changes(node_pairs, adjacency_matrix, d_min)
     d_edges_after = degree_sequence[node_pairs] + deltas[:, None]
 
     # Sum the log of the degrees after the potential changes which are >= d_min
-    sum_log_degrees_after, new_n = update_sum_log_degrees(sum_log_degrees, n, d_edges_before, d_edges_after, d_min)
+    sum_log_degrees_after, new_n = update_sum_log_degrees(
+        sum_log_degrees, n, d_edges_before, d_edges_after, d_min)
     # Updated estimates of the Powerlaw exponents
     new_alpha = compute_alpha(new_n, sum_log_degrees_after, d_min)
     # Updated log likelihood values for the Powerlaw distributions
-    new_ll = compute_log_likelihood(new_n, new_alpha, sum_log_degrees_after, d_min)
+    new_ll = compute_log_likelihood(
+        new_n, new_alpha, sum_log_degrees_after, d_min)
     return new_ll, new_alpha, new_n, sum_log_degrees_after
 
 
@@ -644,29 +682,34 @@ def update_sum_log_degrees(sum_log_degrees_before, n_old, d_old, d_new, d_min):
 
     # Update the sum by subtracting the old values and then adding the updated logs of the degrees.
     sum_log_degrees_after = sum_log_degrees_before - (torch.log(torch.clamp(d_old_in_range, min=1))).sum(1) \
-                                 + (torch.log(torch.clamp(d_new_in_range, min=1))).sum(1)
+        + (torch.log(torch.clamp(d_new_in_range, min=1))).sum(1)
 
     # Update the number of degrees >= d_min
 
-    new_n = n_old - (old_in_range!=0).sum(1) + (new_in_range!=0).sum(1)
+    new_n = n_old - (old_in_range != 0).sum(1) + (new_in_range != 0).sum(1)
     new_n = new_n.float()
     return sum_log_degrees_after, new_n
 
+
 def compute_alpha(n, sum_log_degrees, d_min):
     try:
-        alpha =  1 + n / (sum_log_degrees - n * torch.log(d_min - 0.5))
+        alpha = 1 + n / (sum_log_degrees - n * torch.log(d_min - 0.5))
     except:
-        alpha =  1 + n / (sum_log_degrees - n * np.log(d_min - 0.5))
+        alpha = 1 + n / (sum_log_degrees - n * np.log(d_min - 0.5))
     return alpha
+
 
 def compute_log_likelihood(n, alpha, sum_log_degrees, d_min):
     # Log likelihood under alpha
     try:
-        ll = n * torch.log(alpha) + n * alpha * torch.log(d_min) + (alpha + 1) * sum_log_degrees
+        ll = n * torch.log(alpha) + n * alpha * \
+            torch.log(d_min) + (alpha + 1) * sum_log_degrees
     except:
-        ll = n * np.log(alpha) + n * alpha * np.log(d_min) + (alpha + 1) * sum_log_degrees
+        ll = n * np.log(alpha) + n * alpha * np.log(d_min) + \
+            (alpha + 1) * sum_log_degrees
 
     return ll
+
 
 def ravel_multiple_indices(ixs, shape, reverse=False):
     """
@@ -691,6 +734,7 @@ def ravel_multiple_indices(ixs, shape, reverse=False):
 
     return ixs[:, 0] * shape[1] + ixs[:, 1]
 
+
 def visualize(your_var):
     """visualize computation graph"""
     import torch
@@ -699,32 +743,13 @@ def visualize(your_var):
     from torchviz import make_dot
     make_dot(your_var).view()
 
+
 def reshape_mx(mx, shape):
     indices = mx.nonzero()
     return sp.csr_matrix((mx.data, (indices[0], indices[1])), shape=shape)
 
-# def check_path(file_path):
-#     if not osp.exists(file_path):
-#         os.system(f'mkdir -p {file_path}')
-
-
-
-# TODO: add MI
-# 改为 class, 使得可以修改 MI 计算方式
-# 考虑加一个proj层，使得dim相同
-# A: NxN, A_X: NxN
-# 1. I(X,Z) = I(A_X, A_Z); A_Z = ∂(Z * Z.T)
-# 2. I(A,Z) = I(A, A_Z)
-# 3. min -I(Y,Z) + ß_1*I(A,Z) + ß_2*I(X,Z)
-#        null_loss  MI           MI
 
 def IXZ(X, Z):
-    # X: data.x, (N,C)
-    # Z: node embedding  (N,H)
-
-    # A_Z = torch.sigmoid(Z@Z.T).unsqueeze(0)
-    # A_X = torch.sigmoid(X@X.T).unsqueeze(0)
-
     A_Z = torch.sigmoid(Z@Z.T).unsqueeze(0)
     A_X = torch.sigmoid(X@X.T).unsqueeze(0)
 
@@ -734,37 +759,35 @@ def IXZ(X, Z):
 
     return MI(input1, input2)[0]
 
-def KDE(A, Z):
-    # A: to_dense_adj(edge_index)
-    A_Z = (Z@Z.T).unsqueeze(0)
-    # A_Z = Z.unsqueeze(0)
-    A_A = A.unsqueeze(0)
 
-    # A_Z = F.sigmoid(Z@Z.T).unsqueeze(0)
-    # A_A = F.sigmoid(A).unsqueeze(0)
+def KDE(A, Z):
+    A_Z = (Z@Z.T).unsqueeze(0)
+    A_A = A.unsqueeze(0)
 
     input1 = torch.cat([A_A, A_Z])
     input2 = torch.cat([A_Z, A_Z])
-    MI = MutualInformation(sigma=0.4, num_bins=A_Z.shape[0], normalize=True, device=A_Z.get_device())
+    MI = MutualInformation(
+        sigma=0.4, num_bins=A_Z.shape[0], normalize=True, device=A_Z.get_device())
 
     return MI(input1, input2)[0]
-
-from MI_constrain import CudaCKA
 
 
 def linear_CKA(A, Z,):
     linear_cka = CudaCKA(device=Z.device).linear_CKA
     return linear_cka(A, Z)
 
+
 def linear_HSIC(A, Z,):
     linear_hsic = CudaCKA(device=Z.device).linear_HSIC
     return linear_hsic(A, Z)
 
+
 def DP(A, Z):
     A_Z = (Z@Z.T)
     A_A = A
-    
+
     return torch.norm(torch.matmul(A_Z.t(), A_A))
+
 
 def setup_seed(seed):
     torch.manual_seed(seed)
@@ -774,35 +797,11 @@ def setup_seed(seed):
     torch.backends.cudnn.deterministic = True
 
 
-# def generate_augmentation_operator(n=2):
-#     search_space = [
-#         # (A.Identity, ()),
-#         # (A.FeatureMasking, (0.0, 0.3)),
-#         # (A.FeatureDropout, (0.0, 0.3)),
-#         (A.EdgeRemoving, (0.0, 0.5)),
-#     ]
-    
-#     operator_list = []
-#     index = list(range(len(search_space)))
-#     random.shuffle(index)
-#     sampled_index = index[:n]
-#     for idx in sampled_index:
-#         opt, hp_range = search_space[idx]
-#         if hp_range == ():
-#             operator_list.append(opt())
-#         else:
-#             sampled_hp = random.uniform(hp_range[0], hp_range[1])
-#             operator_list.append(opt(sampled_hp))
-
-#     aug = A.Compose(operator_list)
-#     return aug
-
 def stochastic(feature, adj, pe=0.1):
-    # aug = generate_augmentation_operator()
     aug = A.EdgeRemoving(pe=pe)
     edge_index = utils.dense_to_sparse(adj)[0]
-    new_feature, new_edge_index,_ = aug(feature, edge_index)
- 
+    new_feature, new_edge_index, _ = aug(feature, edge_index)
+
     new_adj = utils.to_dense_adj(new_edge_index, max_num_nodes=adj.shape[0])[0]
     return new_feature, new_adj
 
@@ -814,25 +813,25 @@ class SelfAdversarialClLoss(nn.Module):
     def forward(self, pair_dist, P, margin, alpha=1.0):
         dist_sq = pair_dist * pair_dist
         N = len(P)
-        # loss = P * dist_sq + (1 - P) * torch.clamp(margin - pair_dist, min=0.0)
         loss = P * dist_sq + (1 - P) * (margin - pair_dist)
         pos_index = torch.where(P == 1)
         neg_index = torch.where(P == 0)
         adv_prob = torch.zeros(N).cuda()
-        adv_prob[pos_index] = F.softmax(pair_dist[pos_index] * alpha, dim=0).detach() 
-        adv_prob[neg_index] = F.softmax((1-pair_dist[neg_index]) * alpha, dim=0).detach() 
+        adv_prob[pos_index] = F.softmax(
+            pair_dist[pos_index] * alpha, dim=0).detach()
+        adv_prob[neg_index] = F.softmax(
+            (1-pair_dist[neg_index]) * alpha, dim=0).detach()
         loss = torch.sum(loss * adv_prob)
         return loss
 
-# cl_criterion = SelfAdversarialClLoss()
+
 def stochastic_loss(hidden1, hidden2, cl_criterion, margin=0.5):
     device = hidden1.get_device()
     h1 = torch.cat([hidden1, hidden1], dim=0)
     h2 = torch.cat([hidden2, hidden2.flip([0])], dim=0)
-    cl_label = torch.cat([torch.ones(hidden1.size(0)), torch.zeros(hidden1.size(0))], dim=0).to(device)
+    cl_label = torch.cat([torch.ones(hidden1.size(0)),
+                         torch.zeros(hidden1.size(0))], dim=0).to(device)
     pair_dist = F.pairwise_distance(h1, h2)
 
     cl_loss = cl_criterion(pair_dist, cl_label, margin)
     return cl_loss
-
-

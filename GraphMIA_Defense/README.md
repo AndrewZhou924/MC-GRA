@@ -29,3 +29,8 @@ python main.py --dataset=usair --MI_type=DP --aug_pe=0.89 --layer_MI 6.6 1.0 0.5
 ```bash
 python main.py --dataset=AIDS --aug_pe=0.07 --layer_MI 2.4 3.9 1.3 --layer_inter_MI 1.3 1.3 --device=cuda:0
 ```
+
+## Baseline 
+```bash
+python main.py --dataset=cora --device=cuda:0
+```

@@ -62,8 +62,8 @@ def transfer_state_dict(pretrained_dict, model_dict):
     for k, v in pretrained_dict.items():
         if k in model_dict.keys():
             state_dict[k] = v
-        else:
-            print("Missing key(s) in state_dict :{}".format(k))
+        # else:
+        #     print("Missing key(s) in state_dict :{}".format(k))
     return state_dict
 
 

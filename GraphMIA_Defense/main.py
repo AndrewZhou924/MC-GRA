@@ -19,15 +19,10 @@ warnings.filterwarnings('ignore')
 
 def test(adj, features, labels, idx_test, victim_model):
     adj, features, labels = to_tensor(adj, features, labels, device=device)
-
     victim_model.eval()
     adj_norm = normalize_adj_tensor(adj)
     output = victim_model(features, adj_norm)[0]
-    loss_test = F.nll_loss(output[idx_test], labels[idx_test])
     acc_test = accuracy(output[idx_test], labels[idx_test])
-    print("Test set results:", "loss= {:.4f}".format(
-        loss_test.item()), "accuracy= {:.4f}".format(acc_test.item()))
-
     return acc_test
 
 
@@ -49,7 +44,6 @@ def preprocess_Adj(adj, feature_adj):
             if feature_adj[i][j] > 0.14 and adj[i][j] == 0.0:
                 adj[i][j] = 1.0
                 cnt += 1
-    print(cnt)
     return torch.FloatTensor(adj)
 
 
@@ -58,8 +52,6 @@ def transfer_state_dict(pretrained_dict, model_dict):
     for k, v in pretrained_dict.items():
         if k in model_dict.keys():
             state_dict[k] = v
-        else:
-            print("Missing key(s) in state_dict :{}".format(k))
     return state_dict
 
 
@@ -75,9 +67,6 @@ def metric(ori_adj, inference_adj, idx):
         len(real_edge)-2*np.sum(real_edge)), replace=False)
     real_edge = np.delete(real_edge, index_delete)
     pred_edge = np.delete(pred_edge, index_delete)
-    print("Inference attack AUC: %f AP: %f" %
-          (AUC_adj, average_precision_score(real_edge, pred_edge)))
-
     return AUC_adj
 
 
@@ -139,10 +128,10 @@ parser.add_argument('--nlayer', type=int, default=2)
 parser.add_argument('--MI_type', type=str, default='KDE')
 
 parser.add_argument('--layer_MI', nargs='+',
-                    help='the layer MI constrain', required=True)
+                    help='the layer MI constrain')
 
 parser.add_argument('--layer_inter_MI', nargs='+',
-                    help='the inter-layer MI constrain', required=True)
+                    help='the inter-layer MI constrain')
 
 parser.add_argument('--aug_pe', type=float,
                     default='proability of augmentation')
@@ -269,18 +258,18 @@ def GraphMI(victim_model):
     model.attack(features, init_adj, labels, idx_attack,
                  num_edges, epochs=args.epochs)
     inference_adj = model.modified_adj.cpu()
-    print('=== calculating link inference AUC&AP ===')
+    print('=== calculating link inference AUC ===')
     attack_AUC = metric(adj.numpy(), inference_adj.numpy(), idx_attack)
 
-    homo_auc, homo_ap, hetero_auc, hetero_ap = adj_auc(
-        adj.numpy(),
-        inference_adj.numpy(),
-        labels
-    )
-    print('Homo AUC:{:.3f}, Homo AP:{:.3f}, Hetero AUC:{:.3f}, Hetero AP:{:.3f}'.format(
-        homo_auc, homo_ap, hetero_auc, hetero_ap
-    )
-    )
+    # homo_auc, homo_ap, hetero_auc, hetero_ap = adj_auc(
+    #     adj.numpy(),
+    #     inference_adj.numpy(),
+    #     labels
+    # )
+    # print('Homo AUC:{:.3f}, Homo AP:{:.3f}, Hetero AUC:{:.3f}, Hetero AP:{:.3f}'.format(
+    #     homo_auc, homo_ap, hetero_auc, hetero_ap
+    # )
+    # )
     if args.arch != 'gat':
         embedding.gc = deepcopy(victim_model.gc)
 
@@ -292,9 +281,9 @@ def GraphMI(victim_model):
 
     idx = np.arange(adj.shape[0])
     auc = metric(adj.numpy(), H_A2.numpy(), idx)
-    print("last_gc adj=", round(auc, 3))
+    print("AUC of I(A, HA) =", round(auc, 3))
     auc = metric(adj.numpy(), Y_A2.numpy(), idx)
-    print("out adj=", round(auc, 3))
+    print("AUC of I(A, YA) =", round(auc, 3))
     return attack_AUC, inference_adj.numpy()
 
 
@@ -323,7 +312,9 @@ for i in range(args.nlayer+1):
 ACC, victim_model = objective(param)
 
 attack_AUC, inference_adj = GraphMI(victim_model)
-print('Acc: {}; AUC: {}'.format(round(ACC.item(), 3), round(attack_AUC.item(), 3)))
+
+print(f'AUC of I(A, H1A) = {round(attack_AUC.item(), 3)}')
+print(f'Acc = {round(ACC.item(), 3)}')
 
 path = os.path.join('results/', args.dataset)
 os.makedirs(path, exist_ok=True)
