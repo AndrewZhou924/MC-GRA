@@ -1,4 +1,4 @@
-## Table 4
+## Reproduction Scripts (Table 4 in our paper)
 - Cora
 ```bash
 python main.py --dataset=cora --aug_pe=0.18 --layer_MI 1.3 1.3 1.7 --layer_inter_MI 1.4 1.5 --device=cuda:0
@@ -6,7 +6,6 @@ python main.py --dataset=cora --aug_pe=0.18 --layer_MI 1.3 1.3 1.7 --layer_inter
 
 - Citeseer
 ```bash
-# should comment out line 493 in gcn.py, if you chose gcn.py as backbone; 
 python main.py --dataset=citeseer --aug_pe=0.702 --layer_MI 0.09 0.006 0.01 --layer_inter_MI 5e-10 1e-10 --device=cuda:0
 ```
 
@@ -30,8 +29,5 @@ python main.py --dataset=usair --MI_type=DP --aug_pe=0.89 --layer_MI 6.6 1.0 0.5
 python main.py --dataset=AIDS --aug_pe=0.07 --layer_MI 2.4 3.9 1.3 --layer_inter_MI 1.3 1.3 --device=cuda:0
 ```
 
-## Baseline 
-<!-- ```bash
-python main.py --dataset=cora --device=cuda:0
-``` -->
-TODO
+<!-- ## Baseline 
+TODO -->
