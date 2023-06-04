@@ -34,14 +34,14 @@ def test(adj, features, labels, victim_model):
     return acc_test.item()
 
 
+# def dot_product_decode(Z):
+#     Z = torch.matmul(Z, Z.t())
+#     adj = torch.relu(Z-torch.eye(Z.shape[0]))
+#     adj = torch.sigmoid(adj)
+#     return adj
+
+
 def dot_product_decode(Z):
-    Z = torch.matmul(Z, Z.t())
-    adj = torch.relu(Z-torch.eye(Z.shape[0]))
-    adj = torch.sigmoid(adj)
-    return adj
-
-
-def dot_product_decode2(Z):
     if args.dataset == 'cora' or args.dataset == 'citeseer' or args.dataset == 'AIDS':
         Z = torch.matmul(Z, Z.t())
         adj = torch.relu(Z-torch.eye(Z.shape[0]))
