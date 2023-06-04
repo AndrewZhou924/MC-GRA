@@ -37,7 +37,7 @@ That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must For
 Empirically, we achieve state-of-the-art results on six datasets and three common GNNs (see exemplars below).
 
 <p align="center"><img src="./figs/adj-demo.png"></p>
-<p align="center"><em>Figure 2.</em> Recovered adjacency on Cora dataset.Green dots are correctly predicted edges while red dots are wrong ones.</p>
+<p align="center"><em>Figure 2.</em> Recovered adjacency on Cora. Green dots are correctly predicted edges while red dots are wrong ones.</p>
 
 ## Installation
 We have tested our code on `Python 3.8` with `PyTorch 1.12.1`, `PyG 2.2.0` and `CUDA 11.3`. Please follow the following steps to create a virtual environment and install the required packages.
@@ -73,7 +73,7 @@ unzip saved_data.zip
 
 The full command and hyperparameters for MC-GRA can be found in [MC-GRA commands](GraphMIA_Attack/README.md). 
 
-For example, to train the MC-GRA with given all three prior ($\mathcal{K}=\{H_A, Y_A, Y\}$) on Cora dataset: 
+For example, to train the MC-GRA with given all three prior (i.e., $\mathcal{K}=[H_A, Y_A, Y]$) on Cora dataset: 
   ``` bash
   cd GraphMIA_Attack
   conda activate mc_gra
@@ -120,7 +120,7 @@ If you find our work useful, please kindly cite our paper:
 @inproceedings{zhou2023mcgra,
   title       = {On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation},
   author      = {Zhanke Zhou and Chenyu Zhou and Xuan Li and Jiangchao Yao and Quanming Yao and Bo Han},
-  booktitle   ={International Conference on Machine Learning},
-  year        ={2023}
+  booktitle   = {International Conference on Machine Learning},
+  year        = {2023}
 }
 ```
