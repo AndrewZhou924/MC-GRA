@@ -31,6 +31,7 @@ python main.py --dataset=AIDS --aug_pe=0.07 --layer_MI 2.4 3.9 1.3 --layer_inter
 ```
 
 ## Baseline 
-```bash
+<!-- ```bash
 python main.py --dataset=cora --device=cuda:0
-```
+``` -->
+TODO
