@@ -1,25 +1,11 @@
-import random
-from calendar import c
-from importlib.metadata import requires
-from math import dist, log10
-from random import randint, random
-from random import sample as Sample
-
 import matplotlib.pyplot as plt
-# from types import NoneType
 import numpy as np
 import scipy.sparse as sp
 import torch
 import utils
 from base_attack import BaseAttack
-from hsic import mmd, mmd_pxpy_pxy
-from pyexpat import features
-from sklearn.metrics import auc, average_precision_score, roc_curve
-from torch import optim
-from torch.nn import (CosineSimilarity, KLDivLoss, MarginRankingLoss, MSELoss,
-                      NLLLoss, Softmax)
+from torch.nn import KLDivLoss, MSELoss
 from torch.nn import functional as F
-from torch.nn.functional import normalize
 from torch.nn.parameter import Parameter
 from torchmetrics import AUROC
 from tqdm import tqdm
@@ -30,10 +16,8 @@ def metric(ori_adj, inference_adj, idx, index_delete):
     auroc = AUROC(task='binary')
     real_edge = ori_adj[idx, :][:, idx].reshape(-1).cpu()
     pred_edge = inference_adj[idx, :][:, idx].reshape(-1).cpu()
-    # index_delete = np.random.choice(index, size=int(len(real_edge)-2*np.sum(real_edge)), replace=False)
     real_edge = np.delete(real_edge, index_delete)
     pred_edge = np.delete(pred_edge, index_delete)
-    # print("Inference attack AUC: %f AP: %f" % (auc(fpr, tpr), average_precision_score(real_edge, pred_edge)))
     return auroc(pred_edge, real_edge)
 
 
@@ -92,7 +76,6 @@ class PGDAttack(BaseAttack):
             assert nnodes is not None, 'Please give nnodes='
             self.adj_changes = Parameter(torch.zeros(
                 int(nnodes * (nnodes - 1) / 2), requires_grad=True))
-            # self.adj_changes_after = Parameter(torch.zeros(int(nnodes * (nnodes - 1) / 2), requires_grad=True))
 
         if attack_features:
             assert True, 'Topology Attack does not support attack feature'
@@ -105,7 +88,6 @@ class PGDAttack(BaseAttack):
         adj_norm = normalize_adj_tensor(adj)
         output = victim_model(features, adj_norm)
 
-        loss_test = F.nll_loss(output[idx_test], labels[idx_test])
         acc_test = accuracy(output[idx_test], labels[idx_test])
 
         return acc_test.item()
@@ -136,8 +118,6 @@ class PGDAttack(BaseAttack):
         if args.max_eval == 1:
             lr_ori = 10**args.lr
         self.args = args
-        print(
-            f"current weight_supervised={weight_supervised}, current weight_aux={weight_aux}")
         optimizer = torch.optim.Adam([self.adj_changes], lr=lr_ori)
         plt.cla()
         victim_model = self.surrogate
@@ -168,20 +148,16 @@ class PGDAttack(BaseAttack):
         adj_changes = self.dot_product_decode(em)
 
         feature_adj = feature_adj.to(self.device)
-        w1, w2, w3, w4, w5, w6, w7, w8, w9, w10 = weight_param
+        w1, w2, _, _, _, w6, w7, w8, w9, w10 = weight_param
         if args.max_eval == 1:
             w1 = args.w1
             w2 = args.w2
-            w3 = args.w3
-            w4 = args.w4
-            w5 = args.w5
             w6 = args.w6
             w7 = args.w7
             w7 = args.w8
             w9 = args.w9
             w10 = args.w10
-            # args.measure = args.measure2
-            lr = args.lr
+
         for t in tqdm(range(epochs)):
             optimizer.zero_grad()
             # ! ori_adj only ues it shape info
@@ -192,7 +168,6 @@ class PGDAttack(BaseAttack):
             adj_tmp = torch.eye(adj_norm.shape[0]).to(self.device)
             em = self.embedding(ori_features, adj_tmp)  # * node embs
             adj_changes = self.dot_product_decode(em)
-            # embedd_adj = self.get_modified_adj2(ori_adj, adj_changes).detach()
 
             origin_loss = self._loss(output[idx_attack], labels[idx_attack]) + torch.norm(self.adj_changes,
                                                                                           p=2) * 0.001
@@ -203,7 +178,7 @@ class PGDAttack(BaseAttack):
             H_A1 = self.embedding(ori_features, adj)
             self.embedding.set_layers(2)
             H_A2 = self.embedding(ori_features, adj)
-            # H_A = self.embedding(ori_features, adj)
+
             Y_A = victim_model(ori_features, adj)
 
             # calculating modified_adj after embedding model.
@@ -211,9 +186,7 @@ class PGDAttack(BaseAttack):
             # * difference between out_adj and ori_adj will relfect on node emb adj
             self.adj_changes_after = self.dot_product_decode(em)
             modified_adj1 = self.get_modified_adj_after(ori_adj)
-            # adj_norm2 = utils.normalize_adj_tensor(modified_adj1)
 
-            # calc = KLDivLoss(reduction="batchmean")
             CKA = CudaCKA(device=self.device)
             calc = CKA.linear_HSIC
             calc2 = MSELoss()
@@ -235,7 +208,7 @@ class PGDAttack(BaseAttack):
                 calc = self.dot_product
 
             # 10 constrains area:
-            c1 = c2 = c3 = c4 = c5 = c6 = c7 = c8 = c9 = c10 = 0
+            c1 = c2 = _ = _ = _ = c6 = c7 = c8 = c9 = c10 = 0
             if w1 != 0 and feature_adj.max() != feature_adj.min():
                 c1 = w1 * calc(feature_adj, adj_norm)*1000 * \
                     Align_Parameter_Cora["c1"]
@@ -298,23 +271,12 @@ class PGDAttack(BaseAttack):
                         output2[idx_attack], dim=1))*Align_Parameter_Cora["c10"]
                 loss += c10
 
-            test_acc = utils.accuracy(output[idx_attack], labels[idx_attack])
-            # print("loss= {:.4f}".format(loss.item()),
-            #       "test_accuracy= {:.4f}".format(test_acc.item()))
-            if torch.isnan(loss):
-                print(args.measure)
-                print(weight_param)
-                exit()
-                break
             loss.backward()
 
             if self.loss_type == 'CE':
                 if sample:
                     lr = 200 / np.sqrt(t + 1)
                 optimizer.step()
-            if torch.isnan(self.adj_changes).sum() > 0:
-                print("now at:", t)
-                exit()
 
             self.projection(num_edges)
             self.adj_changes.data.copy_(torch.clamp(
@@ -329,7 +291,7 @@ class PGDAttack(BaseAttack):
             sparsity_list.append(modified_adj.detach().cpu().mean())
             adj_norm2 = utils.normalize_adj_tensor(modified_adj)
             output2 = victim_model(ori_features, adj_norm2)
-            cur_acc = test_acc = utils.accuracy(
+            cur_acc = utils.accuracy(
                 output2[idx_test], labels[idx_test]).item()
             acc_test_list.append(cur_acc)
 
@@ -458,7 +420,6 @@ class PGDAttack(BaseAttack):
 
     def dot_product_decode2(self, Z):
         if self.args.dataset in ['cora', 'citeseer']:
-            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
             _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
             _adj = torch.sigmoid(_adj)
@@ -467,13 +428,10 @@ class PGDAttack(BaseAttack):
             Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t()).to(self.device)
             _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            # adj = torch.sigmoid(adj)
 
         elif self.args.dataset == 'AIDS':
-            # Z = F.normalize(Z, p=2, dim=1)
             Z = torch.matmul(Z, Z.t())
             _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            # adj = torch.sigmoid(adj)
 
         return _adj
 
@@ -481,8 +439,6 @@ class PGDAttack(BaseAttack):
         complementary = torch.ones_like(
             A) - torch.eye(self.nnodes).to(self.device)
         A = A*complementary
-        print(A)
-        print(A.mean())
 
     def adding_noise(self, modified_adj, eps=0):
         noise = torch.randn_like(modified_adj)

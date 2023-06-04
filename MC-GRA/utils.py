@@ -1,6 +1,5 @@
 import math
 
-import networkx as nx
 import numpy as np
 import scipy.sparse as sp
 import torch
@@ -195,8 +194,6 @@ def normalize_sparse_tensor(adj, fill_value=1):
 
 
 def add_self_loops(edge_index, edge_weight=None, fill_value=1, num_nodes=None):
-    # num_nodes = maybe_num_nodes(edge_index, num_nodes)
-
     loop_index = torch.arange(0, num_nodes, dtype=torch.long,
                               device=edge_index.device)
     loop_index = loop_index.unsqueeze(0).repeat(2, 1)
@@ -242,7 +239,6 @@ def degree_normalize_adj(mx):
     r_inv = np.power(rowsum, -1).flatten()
     r_inv[np.isinf(r_inv)] = 0.
     r_mat_inv = sp.diags(r_inv)
-    # mx = mx.dot(r_mat_inv)
     mx = r_mat_inv.dot(mx)
     return mx
 
@@ -274,7 +270,6 @@ def degree_normalize_adj_tensor(adj, sparse=True):
 
     device = torch.device("cuda" if adj.is_cuda else "cpu")
     if sparse:
-        # return  degree_normalize_sparse_tensor(adj)
         adj = to_scipy(adj)
         mx = degree_normalize_adj(adj)
         return sparse_mx_to_torch_sparse_tensor(mx).to(device)
@@ -324,8 +319,6 @@ def loss_acc(output, labels, targets, avg_loss=True):
     if avg_loss:
         return loss, correct.sum() / len(targets)
     return loss, correct
-    # correct = correct.sum()
-    # return loss, correct / len(labels)
 
 
 def classification_margin(output, true_label):
@@ -387,7 +380,6 @@ def is_sparse_tensor(tensor):
     bool
         whether a tensor is sparse tensor
     """
-    # if hasattr(tensor, 'nnz'):
     if tensor.layout == torch.sparse_coo:
         return True
     else:
@@ -581,9 +573,6 @@ def likelihood_ratio_filter(node_pairs, modified_adjacency, original_adjacency, 
     and undirected graphs.
     """
 
-    N = int(modified_adjacency.shape[0])
-    # original_degree_sequence = get_degree_squence(original_adjacency)
-    # current_degree_sequence = get_degree_squence(modified_adjacency)
     original_degree_sequence = original_adjacency.sum(0)
     current_degree_sequence = modified_adjacency.sum(0)
 
@@ -738,10 +727,6 @@ def reshape_mx(mx, shape):
     indices = mx.nonzero()
     return sp.csr_matrix((mx.data, (indices[0], indices[1])), shape=shape)
 
-# def check_path(file_path):
-#     if not osp.exists(file_path):
-#         os.system(f'mkdir -p {file_path}')
-
 
 # HSIC Part.
 def hsic_normalized_cca(x, y, sigma=5.0, ktype='gaussian'):
@@ -795,8 +780,6 @@ def kernelmat(X, sigma, ktype='gaussian'):
             variance = 2. * sigma * sigma * X.size()[1]
             # kernel matrices
             Kx = torch.exp(-Dxx / variance).type(torch.FloatTensor)
-            # print(Kx.device)
-            # print(sigma, torch.mean(Kx), torch.max(Kx), torch.min(Kx))
         else:
             try:
                 sx = sigma_estimation(X, X)
@@ -833,7 +816,6 @@ def HSIC(x, y, s_x=1, s_y=1):
     K = GaussianKernelMatrix(x, s_x)
     L = GaussianKernelMatrix(y, s_y)
     H = torch.eye(m) - 1.0 / m * torch.ones((m, m))
-    # H = H.double().cuda()
     H = H.to(x.device)
     HSIC = torch.trace(torch.mm(L, torch.mm(
         H, torch.mm(K, H)))) / ((m - 1) ** 2)
@@ -985,7 +967,6 @@ class MMD_loss1(nn.Module):
     def forward(self, x, y):
         complete = torch.cat([x, y], dim=0)
         kernel_complete = self.kernel(complete)
-        # print("kernel_complete=", kernel_complete)
         size_x = x.shape[0]
         kernel_x = kernel_complete[:size_x, :size_x]
         kernel_y = kernel_complete[size_x:, size_x:]
@@ -993,7 +974,6 @@ class MMD_loss1(nn.Module):
         kernel_xy = kernel_complete[:size_x, size_x:]
         kernel_yx = kernel_complete[size_x:, :size_x]
 
-        # print(torch.mean(kernel_x) , torch.mean(kernel_y) , torch.mean(kernel_xy) , torch.mean(kernel_yx))
         return torch.mean(kernel_x) + torch.mean(kernel_y) - torch.mean(kernel_xy) - torch.mean(kernel_yx)
 
 

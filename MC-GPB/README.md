@@ -4,7 +4,7 @@
 python main.py --dataset=cora --aug_pe=0.18 --layer_MI 1.3 1.3 1.7 --layer_inter_MI 1.4 1.5 --device=cuda:0
 ```
 
-- Citeseer\
+- Citeseer
   <!-- need comment out line 452 in [gcn.py](GraphMIA_Defense/models/gcn.py) if you choose GCN as backbone. -->
 ```bash
 python main.py --dataset=citeseer --aug_pe=0.702 --layer_MI 0.09 0.006 0.01 --layer_inter_MI 5e-10 1e-10 --device=cuda:0

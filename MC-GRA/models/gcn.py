@@ -1,13 +1,14 @@
+import math
+from copy import deepcopy
+
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import math
-import torch
 import torch.optim as optim
-from torch.nn.parameter import Parameter
-from torch.nn.modules.module import Module
 import utils
-from copy import deepcopy
-from sklearn.metrics import f1_score
+from torch.nn.modules.module import Module
+from torch.nn.parameter import Parameter
+
 
 class GraphConvolution(Module):
     """Simple GCN layer, similar to https://github.com/tkipf/pygcn
@@ -25,9 +26,6 @@ class GraphConvolution(Module):
         self.reset_parameters()
 
     def reset_parameters(self):
-        # self.weight.data.fill_(1)
-        # if self.bias is not None:
-        #     self.bias.data.fill_(1)
 
         stdv = 1. / math.sqrt(self.weight.size(1))
         self.weight.data.uniform_(-stdv, stdv)
@@ -49,8 +47,9 @@ class GraphConvolution(Module):
 
     def __repr__(self):
         return self.__class__.__name__ + ' (' \
-               + str(self.in_features) + ' -> ' \
-               + str(self.out_features) + ')'
+            + str(self.in_features) + ' -> ' \
+            + str(self.out_features) + ')'
+
 
 class embedding_GCN(nn.Module):
     def __init__(self, nfeat, nhid, nlayer=2, with_bias=True, device=None):
@@ -62,46 +61,28 @@ class embedding_GCN(nn.Module):
         self.nfeat = nfeat
         self.nlayer = nlayer
         self.hidden_sizes = [nhid]
-        self.gc1=GraphConvolution(nfeat, nhid, with_bias=with_bias)
-        self.gc=[]
+        self.gc1 = GraphConvolution(nfeat, nhid, with_bias=with_bias)
+        self.gc = []
         self.gc.append(GraphConvolution(nfeat, nhid, with_bias=with_bias))
         for i in range(nlayer-1):
             self.gc.append(GraphConvolution(nhid, nhid, with_bias=with_bias))
-        # self.gc1=self.gc[0]
-        # self.gc2=self.gc[1]
         self.with_bias = with_bias
 
     def forward(self, x, adj):
-        # self.gc[0].to(self.device)
-        # x = F.relu(self.gc1(x, adj)) 
         for i in range(self.nlayer):
-            #print(i)
-            layer=self.gc[i].to(self.device)
+
+            layer = self.gc[i].to(self.device)
             x = F.relu(layer(x, adj))
         return x
-    # def __init__(self, nfeat, nhid,nlayer=2, with_bias=True, device=None):
-
-    #     super(embedding_GCN, self).__init__()
-
-    #     assert device is not None, "Please specify 'device'!"
-    #     self.device = device
-    #     self.nfeat = nfeat
-    #     self.hidden_sizes = [nhid]
-    #     self.gc1 = GraphConvolution(nfeat, nhid, with_bias=with_bias)
-    #     self.with_bias = with_bias
-
-    # def forward(self, x, adj):
-    #     x = F.relu(self.gc1(x, adj))
-    #     return x
 
     def initialize(self):
         self.gc1.reset_parameters()
         for layer in self.gc:
             layer.rset_parameters()
 
-        
     def set_layers(self, nlayer):
         self.nlayer = nlayer
+
 
 class GCN(nn.Module):
     """ 2 Layer Graph Convolutional Network.
@@ -129,7 +110,7 @@ class GCN(nn.Module):
 
     Examples
     --------
-	We can first load dataset and then train GCN.
+        We can first load dataset and then train GCN.
 
     >>> from deeprobust.graph.data import Dataset
     >>> from deeprobust.graph.defense import GCN
@@ -156,17 +137,16 @@ class GCN(nn.Module):
         self.hidden_sizes = [nhid]
         self.nclass = nclass
         self.nlayer = nlayer
-        self.gc=[]
+        self.gc = []
         self.gc.append(GraphConvolution(nfeat, nhid, with_bias=with_bias))
-        size=nhid
-        last=nhid
+        size = nhid
+        last = nhid
         for i in range(nlayer-1):
             size, last = last, size
             self.gc.append(GraphConvolution(last, size, with_bias=with_bias))
-        #self.gc.append(GraphConvolution(size, nclass, with_bias=with_bias))
-        self.gc1=self.gc[0]
-        self.gc2=self.gc[1]
-        self.linear1 = nn.Linear(size ,nclass ,bias=with_bias)
+        self.gc1 = self.gc[0]
+        self.gc2 = self.gc[1]
+        self.linear1 = nn.Linear(size, nclass, bias=with_bias)
         self.dropout = dropout
         self.lr = lr
         if not with_relu:
@@ -182,14 +162,14 @@ class GCN(nn.Module):
         self.features = None
 
     def forward(self, x, adj):
-        for i,layer in enumerate(self.gc):
-            layer=layer.to(self.device)
+        for i, layer in enumerate(self.gc):
+            layer = layer.to(self.device)
             if self.with_relu:
-                x=F.relu(layer(x, adj))
+                x = F.relu(layer(x, adj))
             else:
-                x=layer(x, adj)
-            if i!= len(self.gc)-1:
-                x=F.dropout(x,self.dropout, training=self.training)
+                x = layer(x, adj)
+            if i != len(self.gc)-1:
+                x = F.dropout(x, self.dropout, training=self.training)
         x = self.linear1(x)
         return F.log_softmax(x, dim=1)
 
@@ -231,7 +211,8 @@ class GCN(nn.Module):
             self.initialize()
 
         if type(adj) is not torch.Tensor:
-            features, adj, labels = utils.to_tensor(features, adj, labels, device=self.device)
+            features, adj, labels = utils.to_tensor(
+                features, adj, labels, device=self.device)
         else:
             features = features.to(self.device)
             adj = adj.to(self.device)
@@ -253,13 +234,16 @@ class GCN(nn.Module):
             self._train_without_val(labels, idx_train, train_iters, verbose)
         else:
             if patience < train_iters:
-                self._train_with_early_stopping(labels, idx_train, idx_val, train_iters, patience, verbose)
+                self._train_with_early_stopping(
+                    labels, idx_train, idx_val, train_iters, patience, verbose)
             else:
-                self._train_with_val(labels, idx_train, idx_val, train_iters, verbose)
+                self._train_with_val(
+                    labels, idx_train, idx_val, train_iters, verbose)
 
     def _train_without_val(self, labels, idx_train, train_iters, verbose):
         self.train()
-        optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        optimizer = optim.Adam(self.parameters(), lr=self.lr,
+                               weight_decay=self.weight_decay)
 
         for i in range(train_iters):
             optimizer.zero_grad()
@@ -279,9 +263,11 @@ class GCN(nn.Module):
 
             for tensor_name, tensor in self.named_parameters():
                 if self.device.type == 'cuda':
-                    noise = torch.cuda.FloatTensor(tensor.grad.shape).normal_(0, 0.05)
+                    noise = torch.cuda.FloatTensor(
+                        tensor.grad.shape).normal_(0, 0.05)
                 else:
-                    noise = torch.FloatTensor(tensor.grad.shape).normal_(0, 0.05)
+                    noise = torch.FloatTensor(
+                        tensor.grad.shape).normal_(0, 0.05)
                 saved_var[tensor_name].add_(noise)
                 tensor.grad = saved_var[tensor_name]
 
@@ -297,7 +283,8 @@ class GCN(nn.Module):
     def _train_with_val(self, labels, idx_train, idx_val, train_iters, verbose):
         if verbose:
             print('=== training gcn model ===')
-        optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        optimizer = optim.Adam(self.parameters(), lr=self.lr,
+                               weight_decay=self.weight_decay)
 
         best_loss_val = 100
         best_acc_val = 0
@@ -316,7 +303,8 @@ class GCN(nn.Module):
             acc_val = utils.accuracy(output[idx_val], labels[idx_val])
 
             if verbose and i % 10 == 0:
-                print('Epoch {}, training loss: {}, val acc: {}'.format(i, loss_train.item(), acc_val))
+                print('Epoch {}, training loss: {}, val acc: {}'.format(
+                    i, loss_train.item(), acc_val))
 
             if best_loss_val > loss_val:
                 best_loss_val = loss_val
@@ -329,13 +317,15 @@ class GCN(nn.Module):
                 weights = deepcopy(self.state_dict())
 
         if verbose:
-            print('=== picking the best model according to the performance on validation ===')
+            print(
+                '=== picking the best model according to the performance on validation ===')
         self.load_state_dict(weights)
 
     def _train_with_early_stopping(self, labels, idx_train, idx_val, train_iters, patience, verbose):
         if verbose:
             print('=== training gcn model ===')
-        optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        optimizer = optim.Adam(self.parameters(), lr=self.lr,
+                               weight_decay=self.weight_decay)
 
         early_stopping = patience
         best_loss_val = 100
@@ -354,12 +344,6 @@ class GCN(nn.Module):
             self.eval()
             output = self.forward(self.features, self.adj_norm)
 
-            # def eval_class(output, labels):
-            #     preds = output.max(1)[1].type_as(labels)
-            #     return f1_score(labels.cpu().numpy(), preds.cpu().numpy(), average='micro') + \
-            #         f1_score(labels.cpu().numpy(), preds.cpu().numpy(), average='macro')
-
-            # perf_sum = eval_class(output[idx_val], labels[idx_val])
             loss_val = F.nll_loss(output[idx_val], labels[idx_val])
 
             if best_loss_val > loss_val:
@@ -373,7 +357,8 @@ class GCN(nn.Module):
                 break
 
         if verbose:
-             print('=== early stopping at {0}, loss_val = {1} ==='.format(i, best_loss_val) )
+            print('=== early stopping at {0}, loss_val = {1} ==='.format(
+                i, best_loss_val))
         self.load_state_dict(weights)
 
     def test(self, idx_test):
@@ -386,14 +371,12 @@ class GCN(nn.Module):
         """
         self.eval()
         output = self.predict()
-        # output = self.output
         loss_test = F.nll_loss(output[idx_test], self.labels[idx_test])
         acc_test = utils.accuracy(output[idx_test], self.labels[idx_test])
         print("Test set results:",
               "loss= {:.4f}".format(loss_test.item()),
               "accuracy= {:.4f}".format(acc_test.item()))
         return acc_test
-
 
     def predict(self, features=None, adj=None):
         """By default, the inputs should be unnormalized data
@@ -417,7 +400,8 @@ class GCN(nn.Module):
             return self.forward(self.features, self.adj_norm)
         else:
             if type(adj) is not torch.Tensor:
-                features, adj = utils.to_tensor(features, adj, device=self.device)
+                features, adj = utils.to_tensor(
+                    features, adj, device=self.device)
 
             self.features = features
             if utils.is_sparse_tensor(adj):
@@ -425,4 +409,3 @@ class GCN(nn.Module):
             else:
                 self.adj_norm = utils.normalize_adj_tensor(adj)
             return self.forward(self.features, self.adj_norm)
-

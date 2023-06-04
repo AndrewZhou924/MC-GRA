@@ -1,92 +1,95 @@
-import torch
 import numpy as np
-from torch.autograd import Variable, grad
+import torch
+
 
 def sigma_estimation(X, Y):
     """ sigma from median distance
     """
-    D = distmat(torch.cat([X,Y]))
+    D = distmat(torch.cat([X, Y]))
     D = D.detach().cpu().numpy()
     Itri = np.tril_indices(D.shape[0], -1)
     Tri = D[Itri]
     med = np.median(Tri)
     if med <= 0:
-        med=np.mean(Tri)
-    if med<1E-2:
-        med=1E-2
+        med = np.mean(Tri)
+    if med < 1E-2:
+        med = 1E-2
     return med
+
 
 def distmat(X):
     """ distance matrix
     """
     r = torch.sum(X*X, 1)
     r = r.view([-1, 1])
-    a = torch.mm(X, torch.transpose(X,0,1))
-    D = r.expand_as(a) - 2*a +  torch.transpose(r,0,1).expand_as(a)
+    a = torch.mm(X, torch.transpose(X, 0, 1))
+    D = r.expand_as(a) - 2*a + torch.transpose(r, 0, 1).expand_as(a)
     return D
+
 
 def kernelmat(X, sigma):
     """ kernel matrix baker
     """
     m = int(X.size()[0])
-    H = torch.eye(m) - (1./m) * torch.ones([m,m])
+    H = torch.eye(m) - (1./m) * torch.ones([m, m])
     Dxx = distmat(X)
     if sigma:
-        Kx = torch.exp( -Dxx / (2.*sigma*sigma)).type(torch.FloatTensor)   # kernel matrices
+        Kx = torch.exp(-Dxx / (2.*sigma*sigma)
+                       ).type(torch.FloatTensor)   # kernel matrices
     else:
         try:
-            sx = sigma_estimation(X,X)
-            Kx = torch.exp( -Dxx / (2.*sx*sx)).type(torch.FloatTensor)
+            sx = sigma_estimation(X, X)
+            Kx = torch.exp(-Dxx / (2.*sx*sx)).type(torch.FloatTensor)
         except RuntimeError as e:
             raise RuntimeError("Unstable sigma {} with maximum/minimum input ({},{})".format(
                 sx, torch.max(X), torch.min(X)))
-    Kxc = torch.mm(Kx,H)
+    Kxc = torch.mm(Kx, H)
     return Kxc
+
 
 def distcorr(X, sigma=1.0):
     X = distmat(X)
-    X = torch.exp( -X / (2.*sigma*sigma))
+    X = torch.exp(-X / (2.*sigma*sigma))
     return torch.mean(X)
+
 
 def compute_kernel(x, y):
     x_size = x.size(0)
     y_size = y.size(0)
     dim = x.size(1)
-    x = x.unsqueeze(1) # (x_size, 1, dim)
-    y = y.unsqueeze(0) # (1, y_size, dim)
+    x = x.unsqueeze(1)  # (x_size, 1, dim)
+    y = y.unsqueeze(0)  # (1, y_size, dim)
     tiled_x = x.expand(x_size, y_size, dim)
     tiled_y = y.expand(x_size, y_size, dim)
     kernel_input = (tiled_x - tiled_y).pow(2).mean(2)/float(dim)
-    return torch.exp(-kernel_input) # (x_size, y_size)
+    return torch.exp(-kernel_input)  # (x_size, y_size)
+
 
 def mmd(x, y, sigma=None, use_cuda=True, to_numpy=False):
-    m = int(x.size()[0])
-    H = torch.eye(m) - (1./m) * torch.ones([m,m])
-    # H = Variable(H)
     Dxx = distmat(x)
     Dyy = distmat(y)
 
     if sigma:
-        Kx  = torch.exp( -Dxx / (2.*sigma*sigma))   # kernel matrices
-        Ky  = torch.exp( -Dyy / (2.*sigma*sigma))
+        Kx = torch.exp(-Dxx / (2.*sigma*sigma))   # kernel matrices
+        Ky = torch.exp(-Dyy / (2.*sigma*sigma))
         sxy = sigma
     else:
-        sx = sigma_estimation(x,x)
-        sy = sigma_estimation(y,y)
-        sxy = sigma_estimation(x,y)
-        Kx = torch.exp( -Dxx / (2.*sx*sx))
-        Ky = torch.exp( -Dyy / (2.*sy*sy))
-    # Kxc = torch.mm(Kx,H)            # centered kernel matrices
-    # Kyc = torch.mm(Ky,H)
-    Dxy = distmat(torch.cat([x,y]))
+        sx = sigma_estimation(x, x)
+        sy = sigma_estimation(y, y)
+        sxy = sigma_estimation(x, y)
+        Kx = torch.exp(-Dxx / (2.*sx*sx))
+        Ky = torch.exp(-Dyy / (2.*sy*sy))
+
+    Dxy = distmat(torch.cat([x, y]))
     Dxy = Dxy[:x.size()[0], x.size()[0]:]
-    Kxy = torch.exp( -Dxy / (1.*sxy*sxy))
+    Kxy = torch.exp(-Dxy / (1.*sxy*sxy))
 
     mmdval = torch.mean(Kx) + torch.mean(Ky) - 2*torch.mean(Kxy)
 
     return mmdval
 
-def mmd_pxpy_pxy(x,y,sigma=None,use_cuda=True, to_numpy=False):
+
+def mmd_pxpy_pxy(x, y, sigma=None, use_cuda=True, to_numpy=False):
     """
     """
     if use_cuda:
@@ -97,19 +100,19 @@ def mmd_pxpy_pxy(x,y,sigma=None,use_cuda=True, to_numpy=False):
     Dxx = distmat(x)
     Dyy = distmat(y)
     if sigma:
-        Kx  = torch.exp( -Dxx / (2.*sigma*sigma))   # kernel matrices
-        Ky  = torch.exp( -Dyy / (2.*sigma*sigma))
+        Kx = torch.exp(-Dxx / (2.*sigma*sigma))   # kernel matrices
+        Ky = torch.exp(-Dyy / (2.*sigma*sigma))
     else:
-        sx = sigma_estimation(x,x)
-        sy = sigma_estimation(y,y)
-        sxy = sigma_estimation(x,y)
-        Kx = torch.exp( -Dxx / (2.*sx*sx))
-        Ky = torch.exp( -Dyy / (2.*sy*sy))
+        sx = sigma_estimation(x, x)
+        sy = sigma_estimation(y, y)
+        Kx = torch.exp(-Dxx / (2.*sx*sx))
+        Ky = torch.exp(-Dyy / (2.*sy*sy))
     A = torch.mean(Kx*Ky)
-    B = torch.mean(torch.mean(Kx,dim=0)*torch.mean(Ky, dim=0))
+    B = torch.mean(torch.mean(Kx, dim=0)*torch.mean(Ky, dim=0))
     C = torch.mean(Kx)*torch.mean(Ky)
-    mmd_pxpy_pxy_val = A - 2*B + C 
+    mmd_pxpy_pxy_val = A - 2*B + C
     return mmd_pxpy_pxy_val
+
 
 def hsic_regular(x, y, sigma=None, use_cuda=True, to_numpy=False):
     """
@@ -120,7 +123,8 @@ def hsic_regular(x, y, sigma=None, use_cuda=True, to_numpy=False):
     Pxy = torch.mean(KtK)
     return Pxy
 
-def hsic_normalized(x,y,sigma=None, use_cuda=True, to_numpy=True):
+
+def hsic_normalized(x, y, sigma=None, use_cuda=True, to_numpy=True):
     """
     """
     m = int(x.size()[0])
@@ -130,7 +134,8 @@ def hsic_normalized(x,y,sigma=None, use_cuda=True, to_numpy=True):
     thehsic = Pxy/(Px*Py)
     return thehsic
 
-def hsic_normalized_cca(x,y,sigma=None, use_cuda=True, to_numpy=True):
+
+def hsic_normalized_cca(x, y, sigma=None, use_cuda=True, to_numpy=True):
     """
     """
     m = int(x.size()[0])

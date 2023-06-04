@@ -321,5 +321,5 @@ os.makedirs(path, exist_ok=True)
 
 torch.save(
     victim_model.state_dict(),
-    os.path.join(path, f'{args.dataset}.pt')
+    os.path.join(path, f'{args.dataset}_{args.arch}_{args.nlayer}.pt')
 )

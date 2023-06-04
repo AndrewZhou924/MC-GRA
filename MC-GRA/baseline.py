@@ -69,37 +69,20 @@ class PGDAttack(BaseAttack):
                   "test_accuracy= {:.4f}".format(test_acc.item()))
             loss_list.append(loss.item())
             loss.backward()
-            # adj_grad = -torch.autograd.grad(loss, self.adj_changes)[0]
 
             if self.loss_type == 'CE':
                 if sample:
                     lr = 200 / np.sqrt(t + 1)
-                # self.adj_changes.data.add_(lr * adj_grad)
                 optimizer.step()
 
             self.projection(num_edges)
             self.adj_changes.data.copy_(torch.clamp(
                 self.adj_changes.data, min=0, max=1))
-            # print(self.adj_changes.sum())
-
-        # print('--modify parameters--')
-        # self.random_sample(ori_adj, ori_features, labels, idx_attack)
 
         em = self.embedding(ori_features, adj_norm)
         self.adj_changes.data = self.dot_product_decode(em)
         self.modified_adj = self.get_modified_adj(ori_adj).detach()
 
-        # np.savetxt('loss.txt', loss_list)
-
-        '''
-        m = torch.zeros((self.nnodes, self.nnodes)).to(self.device)
-        tril_indices = torch.tril_indices(row=self.nnodes, col=self.nnodes, offset=-1)
-        mask = self.kmeans()
-        #top_ind = torch.topk(self.adj_changes, select_num)[1]
-        m[tril_indices[0], tril_indices[1]] = mask
-        m = m + m.t()
-        self.edge_select = m
-        '''
         return output.detach()
 
     def kmeans(self):
@@ -123,7 +106,6 @@ class PGDAttack(BaseAttack):
 
         if center[0] > center[1]:
             label = torch.ones_like(label) - label
-        print(center[0], center[1])
         return label
 
     def random_sample(self, ori_adj, ori_features, labels, idx_attack):
@@ -155,7 +137,6 @@ class PGDAttack(BaseAttack):
                     best_s = sampled
 
             self.adj_changes.data.copy_(torch.zeros_like(torch.tensor(s)))
-            # self.adj_changes.data.copy_(torch.tensor(ori_s))
             for k in best_s:
                 self.adj_changes[k] = 1.0
 
@@ -169,7 +150,6 @@ class PGDAttack(BaseAttack):
                 output[np.arange(len(output)), best_second_class]
             k = 0
             loss = -torch.clamp(margin, min=k).mean()
-            # loss = torch.clamp(margin.sum()+50, min=k)
         return loss
 
     def feature_smoothing(self, adj, X):
@@ -182,7 +162,6 @@ class PGDAttack(BaseAttack):
         r_inv = r_inv.pow(-1 / 2).flatten()
         r_inv[torch.isinf(r_inv)] = 0.
         r_mat_inv = torch.diag(r_inv)
-        # L = r_mat_inv @ L @ r_mat_inv
         L = torch.matmul(torch.matmul(r_mat_inv, L), r_mat_inv)
 
         XLXT = torch.matmul(torch.matmul(X.t(), L), X)
@@ -191,7 +170,6 @@ class PGDAttack(BaseAttack):
 
     def projection(self, num_edges):
         if torch.clamp(self.adj_changes, 0, 1).sum() > num_edges:
-            # print('high')
             left = (self.adj_changes - 1).min()
             right = self.adj_changes.max()
             miu = self.bisection(left, right, num_edges, epsilon=1e-5)
@@ -267,7 +245,6 @@ class PGDAttack(BaseAttack):
     def dot_product_decode(self, Z):
         Z = F.normalize(Z, p=2, dim=1)
         A_pred = torch.relu(torch.matmul(Z, Z.t()))
-        # A_pred = torch.matmul(Z, Z.t())
         tril_indices = torch.tril_indices(
             row=self.nnodes, col=self.nnodes, offset=-1)
         return A_pred[tril_indices[0], tril_indices[1]]
