@@ -43,7 +43,7 @@ That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must For
 
 Empirically, we achieve state-of-the-art results on six datasets and three common GNNs (see exemplars below).
 
-<p align="center"><img src="./figs/adj-demo.png"></p>
+<p align="center"><img src="./figs/adj-demo.png" style="zoom: 60%;"></p>
 <p align="center"><em>Figure 3.</em> Recovered adjacency on Cora. Green dots are correctly predicted edges while red dots are wrong ones.</p>
 
 ## Installation
@@ -78,7 +78,7 @@ cd MC-GRA
 unzip saved_data.zip
 ```
 
-The full command and hyperparameters for MC-GRA can be found in [MC-GRA commands](GraphMIA_Attack/README.md). 
+The full command and hyperparameters for MC-GRA can be found in [MC-GRA commands](MC-GRA/README.md). 
 
 For example, to train the MC-GRA with given all three prior (i.e., $\mathcal{K}=[H_A, Y_A, Y]$) on Cora dataset: 
   ``` bash
@@ -89,7 +89,7 @@ For example, to train the MC-GRA with given all three prior (i.e., $\mathcal{K}=
   ```
 
 ### MC-GPB
-The full command and hyperparameters for MC-GRA can be found in [MC-GPB commands](GraphMIA_Defense/README.md). 
+The full command and hyperparameters for MC-GRA can be found in [MC-GPB commands](MC-GPB/README.md). 
 
 For example, to train a general GNN with MC-GPB on Cora dataset: 
   ``` bash
