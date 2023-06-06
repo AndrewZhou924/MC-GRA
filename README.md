@@ -25,9 +25,7 @@ Specially, by taking GNNs as a **Markov chain** and attacking GNNs via a flexibl
 
 (2) MC-GPB: the chain-based defense method that sharply reduces the attack fidelity with moderate accuracy loss. 
 
-Such two objectives disclose a critical belief that to recover better in attack, you must extract more multi-aspect knowledge from the trained GNN, while to learn safer for defense, you must forget more link-sensitive information in training GNNs. 
-
-That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must Forget More.*
+Such two objectives disclose a critical belief that to recover better in attack, you must extract more multi-aspect knowledge from the trained GNN, while to learn safer for defense, you must forget more link-sensitive information in training GNNs. That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must Forget More.*
 
 <table><tr>
 <td><img src="./figs/fig1.png"></td>
@@ -39,7 +37,7 @@ That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must For
 <td><img src="./figs/markov-attack.png"></td>
 <td><img src="./figs/markov-defense.png"></td>
 </tr></table>
-<p align="center"><em>Figure 2.</em> The workflow of MC-GRA(left) and MC-GPB(right).</p>
+<p align="center"><em>Figure 2.</em> The workflow of MC-GRA (left) and MC-GPB (right).</p>
 
 Empirically, we achieve state-of-the-art results on six datasets and three common GNNs (see exemplars below).
 
@@ -89,7 +87,7 @@ For example, to train the MC-GRA with given all three prior (i.e., $\mathcal{K}=
   ```
 
 ### MC-GPB
-The full command and hyperparameters for MC-GRA can be found in [MC-GPB commands](MC-GPB/README.md). 
+The full command and hyperparameters for MC-GPB can be found in [MC-GPB commands](MC-GPB/README.md). 
 
 For example, to train a general GNN with MC-GPB on Cora dataset: 
   ``` bash
@@ -119,7 +117,7 @@ To train a MC-GRA model equipped with MC-GPB.
 
 
 
-## Reference
+## Citation
 
 If you find our work useful, please kindly cite our paper:
 
