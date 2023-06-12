@@ -23,7 +23,7 @@ Specially, by taking GNNs as a **Markov chain** and attacking GNNs via a flexibl
 
 (1) MC-GRA: the chain-based attack method with adaptive designs for extracting more private information; 
 
-(2) MC-GPB: the chain-based defense method that sharply reduces the attack fidelity with moderate accuracy loss. 
+(2) MC-GPB: the chain-based defense method that reduces the attack fidelity with moderate accuracy loss. 
 
 Such two objectives disclose a critical belief that to recover better in attack, you must extract more multi-aspect knowledge from the trained GNN, while to learn safer for defense, you must forget more link-sensitive information in training GNNs. That is, *To Recover Better, You Must Extract More; To Learn Safer, You Must Forget More.*
 
@@ -47,12 +47,6 @@ Empirically, we achieve state-of-the-art results on six datasets and three commo
 ## Installation
 We have tested our code on `Python 3.8` with `PyTorch 1.12.1`, `PyG 2.2.0` and `CUDA 11.3`. Please follow the following steps to create a virtual environment and install the required packages.
 
-Clone the repository:
-```
-git clone https://github.com/AndrewZhou924/MC-GRA
-cd MC-GRA
-```
-
 Create a virtual environment:
 ```
 conda create --name mc_gra python=3.8 -y
@@ -65,7 +59,6 @@ pip install -r requirements.txt
 ```
 
 ## Reprodution
-<!-- We provide the source code to reproduce the results in our paper.  -->
 We provide examples for MC-GRA and MC-GPB to reproduce the results as follows.
 
 ### MC-GRA
@@ -78,44 +71,18 @@ unzip saved_data.zip
 
 The full command and hyperparameters for MC-GRA can be found in [MC-GRA commands](MC-GRA/README.md). 
 
-For example, to train the MC-GRA with given all three prior (i.e., $\mathcal{K}=[H_A, Y_A, Y]$) on Cora dataset: 
+For example, to train the MC-GRA (in `MC-GRA/`) with given all three prior (i.e., $\mathcal{K}=[H_A, Y_A, Y]$) on Cora dataset: 
   ``` bash
-  cd MC-GRA
-  conda activate mc_gra
-
   python main.py --w1=0.01 --w6=10 --w7=10 --w9=10 --w10=1000 --lr=-2 --useH_A --useY_A --useY --measure=MSELoss --dataset=cora
   ```
 
 ### MC-GPB
 The full command and hyperparameters for MC-GPB can be found in [MC-GPB commands](MC-GPB/README.md). 
 
-For example, to train a general GNN with MC-GPB on Cora dataset: 
+For example, to train a general GNN with MC-GPB (in `MC-GPB/`) on Cora dataset: 
   ``` bash
-  cd MC-GPB
-  conda activate mc_gra
-
   python main_table.py --dataset=cora --aug_pe=0.17 --layer_MI=3.2 0.77 0.02 --layer_inter_MI=0.27 0.96 --device=cuda:0
   ```
-
-
-<!-- ### MC-GRA under MC-GPB
-To train a MC-GRA model equipped with MC-GPB.
-
-  ```bash
-  cd ./GraphMIA_Attack
-  conda activate mc_gra
-
-  TODO
-
-  ``` -->
-
-<!-- ## How to use our method in your algorithm 
-
-1. To test your GNN under our MC-GRA:
-
-2. To equipe your GNN with our MC-GPB: -->
-
-
 
 ## Citation
 

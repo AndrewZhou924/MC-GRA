@@ -1,4 +1,4 @@
-# Reproduction Methods
+# Reproduction
 ## Cora
 prior knowledge $\mathcal{K} = \{X, H_A\}$.
 ```
