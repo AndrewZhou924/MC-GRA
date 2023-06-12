@@ -14,11 +14,10 @@
 **[Poster(TODO)](-)** -->
 
 Official code for the paper "On Strengthening and Defending Graph Reconstruction Attack with Markov Chain Approximation" (ICML 2023).
-
-<p align="center">
+<!-- <p align="center"> -->
 <a href="https://openreview.net/pdf?id=Vcl3qckVyh"><img src="https://img.shields.io/badge/OpenReview-MCGRA-blue" alt="Paper"></a>
 <a href="https://github.com/AndrewZhou924/MC-GRA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-</p>
+<!-- </p> -->
 
 ## Introduction
 We perform the first comprehensive study of graph reconstruction attack that aims to reconstruct the adjacency of nodes, and show that a range of factors in GNNs can lead to the surprising leakage of private links. 
