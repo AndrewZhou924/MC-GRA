@@ -419,21 +419,52 @@ class PGDAttack(BaseAttack):
         return A_pred[tril_indices[0], tril_indices[1]]
 
     def dot_product_decode2(self, Z):
-        if self.args.dataset in ['cora', 'citeseer']:
+        if self.args.dataset in ['cora', 'AIDS']:
             Z = torch.matmul(Z, Z.t())
-            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-            _adj = torch.sigmoid(_adj)
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            adj = torch.sigmoid(adj)
 
-        elif self.args.dataset in ['polblogs', 'usair', 'brazil']:
-            Z = F.normalize(Z, p=2, dim=1)
-            Z = torch.matmul(Z, Z.t()).to(self.device)
-            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
-
-        elif self.args.dataset == 'AIDS':
+        elif self.args.dataset == 'citeseer':            
+            Z = F.normalize(Z, p=2, dim=1) 
             Z = torch.matmul(Z, Z.t())
-            _adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+            adj = torch.sigmoid(adj)
 
-        return _adj
+        elif self.args.dataset == 'brazil':
+            Z = torch.matmul(Z, Z.t())
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+
+        elif self.args.dataset in ['polblogs', 'usair']:
+            if self.args.dataset == 'polblogs' and \
+                self.args.useH_A and self.args.useY_A and \
+                self.args.useY:
+                Z = torch.matmul(Z, Z.t())
+                Z = F.normalize(Z, p=2, dim=1) 
+
+            elif self.args.dataset == 'usair' and \
+                self.args.useY and not self.args.useH_A \
+                and not self.args.useY_A:
+                Z = F.normalize(Z, p=3, dim=1)
+                Z = torch.matmul(Z, Z.t())
+
+            elif (self.args.dataset == 'usair' and \
+                not self.args.useY and self.args.useH_A \
+                and self.args.useY_A):
+                Z = F.normalize(Z, p=2, dim=1)
+                Z = torch.matmul(Z, Z.t())
+            elif (self.args.dataset == 'usair' and \
+                self.args.useY and self.args.useH_A \
+                and not self.args.useY_A):
+                Z = F.normalize(Z, p=5, dim=1)
+                Z = torch.matmul(Z, Z.t())
+            else:
+                
+                Z = torch.matmul(Z, Z.t())
+                Z = F.normalize(Z, p=2, dim=1)
+                
+            adj = torch.relu(Z-torch.eye(Z.shape[0]).to(self.device))
+
+        return adj
 
     def delete_eye(self, A):
         complementary = torch.ones_like(

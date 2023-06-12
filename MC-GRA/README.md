@@ -178,7 +178,3 @@ prior knowledge $\mathcal{K} = \{X, H_A ,  \hat{Y}, Y \}$.
 ```
 python main.py --w1=0.0001 --w2=1 --w7=100 --w9=1000 --w10=0.0001 --lr=-3 --measure=KL --useH_A --useY_A --useY --dataset=AIDS 
 ```
-
-## Results
-
-ONGOING

@@ -51,6 +51,7 @@ def dot_product_decode(Z):
         Z = F.normalize(Z, p=2, dim=1)
         Z = torch.matmul(Z, Z.t())
         adj = torch.relu(Z-torch.eye(Z.shape[0]))
+
     return adj
 
 
