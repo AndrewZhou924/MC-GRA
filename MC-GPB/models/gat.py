@@ -5,10 +5,9 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import utils
 from torchmetrics import AUROC
 from tqdm import trange
-
-import utils
 
 
 def accuracy(output, labels):
@@ -16,6 +15,7 @@ def accuracy(output, labels):
     correct = preds.eq(labels).double()
     correct = correct.sum()
     return correct / len(labels)
+
 
 class GraphAttentionLayer(nn.Module):
     """
@@ -41,7 +41,8 @@ class GraphAttentionLayer(nn.Module):
         h = torch.mm(input, self.W)
         N = h.size()[0]
 
-        a_input = torch.cat([h.repeat(1, N).view(N * N, -1), h.repeat(N, 1)], dim=1).view(N, -1, 2 * self.out_features)
+        a_input = torch.cat([h.repeat(1, N).view(
+            N * N, -1), h.repeat(N, 1)], dim=1).view(N, -1, 2 * self.out_features)
         e = self.leakyrelu(torch.matmul(a_input, self.a).squeeze(2))
 
         zero_vec = -9e15 * torch.ones_like(e)
@@ -59,6 +60,7 @@ class GraphAttentionLayer(nn.Module):
     def __repr__(self):
         return self.__class__.__name__ + ' (' + str(self.in_features) + ' -> ' + str(self.out_features) + ')'
 
+
 class embedding_gat(nn.Module):
     def __init__(self, nfeat, nhid, dropout, alpha, nheads, nlayer=2, device='cuda'):
         """Dense version of GAT."""
@@ -73,13 +75,15 @@ class embedding_gat(nn.Module):
 
         self.gat_layers = nn.ModuleList()
         tmp_head = nn.ModuleList(
-            [GraphAttentionLayer(nfeat, self.nhid, dropout=dropout, alpha=alpha, concat=True) for _ in range(nheads)]
+            [GraphAttentionLayer(nfeat, self.nhid, dropout=dropout,
+                                 alpha=alpha, concat=True) for _ in range(nheads)]
         )
         self.gat_layers.append(tmp_head)
 
         for _ in range(self.nlayer-1):
             tmp_layer = nn.ModuleList(
-                [GraphAttentionLayer(self.nhid*self.nheads, self.nhid, dropout=dropout, alpha=alpha, concat=True) for _ in range(nheads)]
+                [GraphAttentionLayer(self.nhid*self.nheads, self.nhid, dropout=dropout,
+                                     alpha=alpha, concat=True) for _ in range(nheads)]
             )
             self.gat_layers.append(tmp_layer)
 
@@ -93,24 +97,25 @@ class embedding_gat(nn.Module):
     def set_layers(self, nlayer):
         self.nlayer = nlayer
 
+
 class GAT(nn.Module):
     def __init__(
-            self, 
-            nfeat=None, 
-            nhid=16, 
-            nclass=None, 
-            dropout=0.5, 
-            alpha=0.1, 
-            nheads=4, 
-            nlayer=2, 
-            lr=0.005,
-            weight_decay=5e-4,
-            device='cuda',
-        ):
+        self,
+        nfeat=None,
+        nhid=16,
+        nclass=None,
+        dropout=0.5,
+        alpha=0.1,
+        nheads=4,
+        nlayer=2,
+        lr=0.005,
+        weight_decay=5e-4,
+        device='cuda',
+    ):
         """Dense version of GAT."""
         super(GAT, self).__init__()
         self.dropout = dropout
-        self.lr = lr 
+        self.lr = lr
         self.weight_decay = weight_decay
 
         self.nfeat = nfeat
@@ -124,13 +129,15 @@ class GAT(nn.Module):
 
         self.gat_layers = nn.ModuleList()
         tmp_head = nn.ModuleList(
-            [GraphAttentionLayer(nfeat, self.nhid, dropout=dropout, alpha=alpha, concat=True) for _ in range(nheads)]
+            [GraphAttentionLayer(nfeat, self.nhid, dropout=dropout,
+                                 alpha=alpha, concat=True) for _ in range(nheads)]
         )
         self.gat_layers.append(tmp_head)
 
         for _ in range(self.nlayer-1):
             tmp_layer = nn.ModuleList(
-                [GraphAttentionLayer(self.nhid*self.nheads, self.nhid, dropout=dropout, alpha=alpha, concat=True) for _ in range(nheads)]
+                [GraphAttentionLayer(self.nhid*self.nheads, self.nhid, dropout=dropout,
+                                     alpha=alpha, concat=True) for _ in range(nheads)]
             )
             self.gat_layers.append(tmp_layer)
 
@@ -148,26 +155,26 @@ class GAT(nn.Module):
         return F.log_softmax(x, dim=1), node_embs
 
     def fit(
-            self, 
-            features, 
-            adj, 
-            labels, 
-            idx_train, 
-            idx_val=None,
-            idx_test=None,
-            train_iters=200, 
-            initialize=True, 
-            verbose=True, 
-            normalize=True, 
-            patience=500, 
-            beta=None,
-            MI_type='KDE',
-            stochastic=0,
-            con=0,
-            aug_pe=0.1,
-            plain_acc=0.7,
-            **kwargs
-        ):
+        self,
+        features,
+        adj,
+        labels,
+        idx_train,
+        idx_val=None,
+        idx_test=None,
+        train_iters=200,
+        initialize=True,
+        verbose=True,
+        normalize=True,
+        patience=500,
+        beta=None,
+        MI_type='KDE',
+        stochastic=0,
+        con=0,
+        aug_pe=0.1,
+        plain_acc=0.7,
+        **kwargs
+    ):
         """Train the gcn model, when idx_val is not None, pick the best model according to the validation loss.
 
         Parameters
@@ -197,7 +204,8 @@ class GAT(nn.Module):
         self.device = self.linear.weight.device
 
         if type(adj) is not torch.Tensor:
-            features, adj, labels = utils.to_tensor(features, adj, labels, device=self.device)
+            features, adj, labels = utils.to_tensor(
+                features, adj, labels, device=self.device)
         else:
             features = features.to(self.device)
             adj = adj.to(self.device)
@@ -219,52 +227,55 @@ class GAT(nn.Module):
         self.features = features
         self.labels = labels
         self.origin_adj = adj
-        
+
         if beta is None and not con:
-            self._train_with_val(labels, idx_train, idx_val, train_iters, verbose)
+            self._train_with_val(
+                labels, idx_train, idx_val, train_iters, verbose)
         elif con:
-            self._train_with_contrastive(labels, idx_train, idx_val, train_iters, verbose)
+            self._train_with_contrastive(
+                labels, idx_train, idx_val, train_iters, verbose)
         else:
             print('train with MI constrain')
             layer_aucs = self._train_with_MI_constrain(
-                labels=labels, 
-                idx_train=idx_train, 
-                idx_val=idx_val, 
+                labels=labels,
+                idx_train=idx_train,
+                idx_val=idx_val,
                 idx_test=idx_test,
-                train_iters=train_iters, 
-                beta=beta, 
-                MI_type=MI_type, 
+                train_iters=train_iters,
+                beta=beta,
+                MI_type=MI_type,
                 verbose=verbose,
                 plain_acc=plain_acc,
             )
             return layer_aucs
-            
+
     def _train_with_MI_constrain(
-            self, 
-            labels, 
-            idx_train, 
-            idx_val, 
-            idx_test,
-            train_iters, 
-            beta, 
-            MI_type='MI', 
-            plain_acc=0.7,
-            verbose=True
-        ):
+        self,
+        labels,
+        idx_train,
+        idx_val,
+        idx_test,
+        train_iters,
+        beta,
+        MI_type='MI',
+        plain_acc=0.7,
+        verbose=True
+    ):
         if verbose:
             print('=== training MI constrain ===')
-        optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        optimizer = optim.Adam(self.parameters(), lr=self.lr,
+                               weight_decay=self.weight_decay)
 
         best_loss_val = 100
         best_acc_val = 0
 
-        IAZ_func = getattr(utils, MI_type) # MI, HSIC, LP, linear_CKA
+        IAZ_func = getattr(utils, MI_type)  # MI, HSIC, LP, linear_CKA
 
         def dot_product_decode(Z,):
             Z = torch.matmul(Z, Z.t())
             adj = torch.relu(Z-torch.eye(Z.shape[0]).to(Z.device))
             return adj
-        
+
         def calculate_AUC(Z, Adj):
             auroc_metric = AUROC(task='binary')
             Z = Z.detach()
@@ -283,13 +294,13 @@ class GAT(nn.Module):
         edge_index = self.origin_adj.nonzero()
 
         if edge_index.size(0) > 1000:
-            sample_size = 1000 
+            sample_size = 1000
         else:
             sample_size = edge_index.size(0)
 
         loss_name = ['loss_IYZ', 'loss_IAZ', 'loss_inter', 'loss_mission']
         best_layer_AUC = 1e10
-        weights = None 
+        weights = None
         final_layer_aucs = 1000
         best_acc_test = 0
 
@@ -297,11 +308,12 @@ class GAT(nn.Module):
             self.train()
             optimizer.zero_grad()
             output, node_embs = self.forward(self.features, self.adj_norm)
-            
-            node_pair_idxs = np.random.choice(edge_index.size(0), size=sample_size, replace=True)
+
+            node_pair_idxs = np.random.choice(
+                edge_index.size(0), size=sample_size, replace=True)
             node_idx_1 = edge_index[node_pair_idxs][:, 0]
             node_idx_2 = edge_index[node_pair_idxs][:, 1]
-            
+
             # node_idx_1 = edge_index[:, 0]
             # node_idx_2 = edge_index[:, 1]
 
@@ -312,45 +324,43 @@ class GAT(nn.Module):
             loss_mission = 0
             layer_aucs = []
 
-
             for idx, node_emb in enumerate(node_embs):
-            #     # 层间约束
+                #     # 层间约束
                 if (idx+1) <= len(node_embs)-1:
                     param_inter = 'layer_inter-{}'.format(idx)
                     beta_inter = beta[param_inter]
                     next_node_emb = node_embs[idx+1]
                     next_node_emb = (next_node_emb@next_node_emb.T)
-                    loss_inter += beta_inter * IAZ_func(next_node_emb, node_emb)
+                    loss_inter += beta_inter * \
+                        IAZ_func(next_node_emb, node_emb)
 
-            #     # MI约束
                 param_name = 'layer-{}'.format(idx)
                 beta_cur = beta[param_name]
 
-            #     # # TODO: 采样到2M边， BCELoss, (gt 取反 0->1)
                 # loss_IAZ += beta_cur * IAZ_func(self.adj_norm, node_emb)
-                
+
                 left_node_embs = node_emb[node_idx_1]
                 right_node_embs = node_emb[node_idx_2]
 
-                # DP 
+                # DP
                 # tmp_MI = torch.sigmoid(left_node_embs * right_node_embs)
                 # tmp_MI = torch.sum(tmp_MI)
                 # loss_IAZ += beta_cur * tmp_MI
 
                 # make it as adj shape [NxN]
                 right_node_embs = right_node_embs @ right_node_embs.T
-                loss_IAZ += beta_cur * IAZ_func(right_node_embs, left_node_embs)
-                
+                loss_IAZ += beta_cur * \
+                    IAZ_func(right_node_embs, left_node_embs)
+
                 layer_AUC = calculate_AUC(node_emb, self.origin_adj).item()
                 layer_aucs.append(layer_AUC)
 
-            #     # 任务约束
-            #     # 排除linear层
                 if idx != len(node_embs)-1:
                     output_layer = self.linear(node_emb)
                     output_layer = F.log_softmax(output_layer, dim=1)
-                    loss_mission += F.nll_loss(output_layer[idx_train], labels[idx_train])
-            
+                    loss_mission += F.nll_loss(
+                        output_layer[idx_train], labels[idx_train])
+
             # # GIP
             # with torch.no_grad():
             #     self.eval()
@@ -360,7 +370,7 @@ class GAT(nn.Module):
             #         if l_idx < len(node_embs)-1:
             #             l_out = self.linear1(l_out)
             #         IYZ[epoch, l_idx] = utils.accuracy(F.log_softmax(l_out, dim=1)[idx_test], labels[idx_test]).item()
-  
+
             output = F.log_softmax(output, dim=1)
             loss_IYZ = F.nll_loss(output[idx_train], labels[idx_train])
 
@@ -369,7 +379,7 @@ class GAT(nn.Module):
             #         eval(loss_name[loss_idx]).item()
             #     )
 
-            loss_train = loss_IYZ + loss_IAZ + loss_inter + loss_mission 
+            loss_train = loss_IYZ + loss_IAZ + loss_inter + loss_mission
             loss_train.backward()
             optimizer.step()
 
@@ -381,10 +391,10 @@ class GAT(nn.Module):
             acc_test = utils.accuracy(output[idx_test], labels[idx_test])
 
             if verbose and epoch % 10 == 0:
- 
-                print('Epoch {}, loss_IYZ: {}, loss_IAZ: {}, val acc: {}'.format( 
-                    epoch, 
-                    round(loss_IYZ.item(), 4), 
+
+                print('Epoch {}, loss_IYZ: {}, loss_IAZ: {}, val acc: {}'.format(
+                    epoch,
+                    round(loss_IYZ.item(), 4),
                     round(loss_IAZ.item(), 4),
                     acc_val
                 ))
@@ -403,7 +413,7 @@ class GAT(nn.Module):
 
             if (sum(layer_aucs) < best_layer_AUC) and \
                     ((plain_acc - acc_test) < 0.05) and \
-                    (acc_test > best_acc_test)  :
+                    (acc_test > best_acc_test):
                 print(acc_test)
                 best_acc_test = acc_test
                 best_layer_AUC = sum(layer_aucs)
@@ -412,8 +422,9 @@ class GAT(nn.Module):
                 final_layer_aucs = layer_aucs
 
         if verbose:
-            print('=== picking the best model according to the performance on validation ===')
-        
+            print(
+                '=== picking the best model according to the performance on validation ===')
+
         if weights:
             self.load_state_dict(weights)
         elif weights2:
@@ -431,7 +442,8 @@ class GAT(nn.Module):
     def _train_with_contrastive(self, labels, idx_train, idx_val, train_iters, verbose):
         if verbose:
             print('=== training contrastive model ===')
-        optimizer = optim.Adam(self.parameters(), lr=self.lr, weight_decay=self.weight_decay)
+        optimizer = optim.Adam(self.parameters(), lr=self.lr,
+                               weight_decay=self.weight_decay)
 
         best_loss_val = 100
         best_acc_val = 0
@@ -452,7 +464,8 @@ class GAT(nn.Module):
             last_gc_1 = F.normalize(node_embs_1[-2], dim=1)
             last_gc_2 = F.normalize(node_embs_2[-2], dim=1)
 
-            loss_cl = utils.stochastic_loss(last_gc_1, last_gc_2, cl_criterion, margin=1e3)
+            loss_cl = utils.stochastic_loss(
+                last_gc_1, last_gc_2, cl_criterion, margin=1e3)
 
             loss_train = F.nll_loss(output[idx_train], labels[idx_train])
 
@@ -460,14 +473,14 @@ class GAT(nn.Module):
             loss_train.backward()
             optimizer.step()
 
-
             self.eval()
             output = self.forward(self.features, self.adj_norm)[0]
             loss_val = F.nll_loss(output[idx_val], labels[idx_val])
             acc_val = utils.accuracy(output[idx_val], labels[idx_val])
 
             if verbose and i % 10 == 0:
-                print('Epoch {}, training loss: {}, val acc: {}'.format(i, loss_train.item(), acc_val))
+                print('Epoch {}, training loss: {}, val acc: {}'.format(
+                    i, loss_train.item(), acc_val))
 
             if best_loss_val > loss_val:
                 best_loss_val = loss_val
@@ -480,5 +493,6 @@ class GAT(nn.Module):
                 weights = deepcopy(self.state_dict())
 
         if verbose:
-            print('=== picking the best model according to the performance on validation ===')
+            print(
+                '=== picking the best model according to the performance on validation ===')
         self.load_state_dict(weights)
