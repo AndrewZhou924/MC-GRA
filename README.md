@@ -6,6 +6,8 @@
     <a href="TODO: arxiv"><img src="https://img.shields.io/badge/-arXiv-grey?logo=gitbook&logoColor=white" alt="arXiv"></a>
     <a href="https://github.com/AndrewZhou924/MC-GRA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
     <a href="TODO: mlr"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=ICML%2723&color=blue"> </a>
+    
+    
 </p> -->
 <!-- *logo created by NewBing -->
 
@@ -20,6 +22,8 @@ Official code for the paper "On Strengthening and Defending Graph Reconstruction
 <a href="https://arxiv.org/abs/2306.09104"><img src="https://img.shields.io/badge/arXiv-2306.09104-b31b1b.svg" alt="Paper"></a>
 <a href="https://openreview.net/pdf?id=Vcl3qckVyh"><img src="https://img.shields.io/badge/OpenReview-MC--GRA-blue" alt="Paper"></a>
 <a href="https://github.com/AndrewZhou924/MC-GRA"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
+<a href="https://slideslive.com/39003755/on-strengthening-and-defending-graph-reconstruction-attack-with-markov-chain-approximation?ref=search-presentations-On+Strengthening+and+Defending+Graph+Reconstruction+Attack+with+Markov+Chain+Approximation"><img src="https://img.shields.io/badge/ICML-video-blue" alt="Github"></a>
+
 <!-- </p> -->
 
 ## Introduction
